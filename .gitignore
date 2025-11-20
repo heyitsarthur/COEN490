@@ -1,0 +1,49 @@
+# KiCad backup/autosave
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.bak
+*.tmp
+*~
+
+# KiCad cache and sym-lib-table history
+*-cache.lib
+fp-info-cache
+sym-lib-table-bak
+fp-lib-table-bak
+
+# Plot / fabrication outputs
+*.gbr
+*.ger
+*.drl
+*.pos
+*.rpt
+*.csv
+*.xml
+*.net
+*.dsn
+*.ses
+*.svg
+*.pdf
+*.step
+*.stp
+
+# Simulation / spice
+*.raw
+*.log
+*.cir
+*.psf*
+
+# Misc
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
