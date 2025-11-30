@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "3d7f6121-faa4-4415-80e1-d29c9c1c9808")
-	(paper "A4")
+	(paper "USLetter")
 	(lib_symbols
 		(symbol "Device:FerriteBead"
 			(pin_numbers
@@ -9102,8 +9102,8 @@
 		)
 	)
 	(sheet
-		(at 16.51 165.1)
-		(size 157.48 27.94)
+		(at 20.32 170.18)
+		(size 124.46 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9118,7 +9118,7 @@
 		)
 		(uuid "4c637875-cef7-4f95-b6c2-15dedcbb74a1")
 		(property "Sheetname" "IC of the Power Module"
-			(at 16.51 164.3884 0)
+			(at 20.32 169.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9127,7 +9127,7 @@
 			)
 		)
 		(property "Sheetfile" "power_ic.kicad_sch"
-			(at 16.51 193.6246 0)
+			(at 20.32 198.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
