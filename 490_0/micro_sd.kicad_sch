@@ -1104,7 +1104,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 85.09) (xy 157.48 85.09)
+			(xy 152.4 85.09) (xy 157.48 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1184,7 +1184,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 118.11 88.9)
+			(xy 121.92 88.9) (xy 118.11 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1224,7 +1224,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 91.44) (xy 127 95.25)
+			(xy 121.92 91.44) (xy 121.92 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1274,7 +1274,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 91.44) (xy 127 91.44)
+			(xy 118.11 91.44) (xy 121.92 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1323,7 +1323,7 @@
 		(uuid "f5b84bdb-5da8-4436-95db-a8f4e20e93af")
 	)
 	(label "SD_PWR"
-		(at 127 88.9 0)
+		(at 121.92 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1333,7 +1333,7 @@
 		(uuid "3f9a67f2-710e-4035-8317-fc752df910eb")
 	)
 	(label "SD_PWR"
-		(at 156.21 85.09 180)
+		(at 152.4 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1906,7 +1906,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 95.25 0)
+		(at 121.92 95.25 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1916,7 +1916,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6d9fac2-5bb6-4964-9750-471978eadfc9")
 		(property "Reference" "#PWR0289"
-			(at 127 101.6 0)
+			(at 121.92 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +1925,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 100.33 0)
+			(at 121.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +1933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 95.25 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +1942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 95.25 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +1951,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 95.25 0)
+			(at 121.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
