@@ -3929,6 +3929,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "CHANGE!!!!(3A output of the chip is not enough)"
+		(exclude_from_sim no)
+		(at 120.904 22.352 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "653ba7c7-dd2c-4eeb-b507-cbaa66485c01")
+	)
 	(text "^For Charge current"
 		(exclude_from_sim no)
 		(at 198.374 109.728 0)
@@ -6007,45 +6017,45 @@
 			"rkJggg=="
 		)
 	)
-	(global_label "USB1_P"
-		(shape bidirectional)
+	(label "USB1_P"
 		(at 137.16 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "0796afd4-c0c6-43e5-a494-3b1dd24b3f62")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		(uuid "06fba3ae-b86f-47e9-9088-6335d3868264")
 	)
-	(global_label "USB1_N"
-		(shape bidirectional)
+	(label "USB1_P"
+		(at 90.17 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "746b5058-534a-4cd2-9df7-38ab0cb0d6b2")
+	)
+	(label "USB1_N"
 		(at 90.17 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "128825bc-2ef0-4a81-9493-0cd59889da23")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "e3b6562e-64f7-4d14-81f6-7ec9b491fe9c")
+	)
+	(label "USB1_N"
+		(at 137.16 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
+		(uuid "f92cba3a-8079-46a3-b08c-b07b82e93eda")
 	)
 	(global_label "USB_P"
 		(shape bidirectional)
@@ -6059,46 +6069,6 @@
 		(uuid "1ec3922c-9d04-45ad-9d63-bbbad2a2751b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.16 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB1_N"
-		(shape bidirectional)
-		(at 137.16 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3dfd5e8c-5e7a-44ef-963e-6f74c8583f6b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB1_P"
-		(shape bidirectional)
-		(at 90.17 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ecfc430c-4bc5-4d3c-935e-5a4d6c8cbd2b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8311,7 +8281,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "22u"
 			(at 124.714 47.244 0)
 			(effects
 				(font
@@ -8939,7 +8909,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "22u"
 			(at 132.334 47.244 0)
 			(effects
 				(font
