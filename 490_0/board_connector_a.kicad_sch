@@ -312,194 +312,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_3_Bridged12"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_3_Bridged12"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_3_Bridged12_0_0"
-				(circle
-					(center -3.302 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.302 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Bridged12_0_1"
-				(arc
-					(start -3.048 0.508)
-					(mid -1.651 0.9912)
-					(end -0.254 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Bridged12_1_1"
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -4916,16 +4728,16 @@
 		(uuid "57cb027b-910f-445a-b8ff-25a764b887ef")
 	)
 	(junction
+		(at 77.47 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "591e8a4d-ef3d-4e79-9d4e-ab97c4920968")
+	)
+	(junction
 		(at 215.9 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d21fefc-9ad2-46f3-8d73-5660143128fa")
-	)
-	(junction
-		(at 77.47 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62130ef0-8bed-4ae9-a5f1-1d3445d1d1a0")
 	)
 	(junction
 		(at 246.38 96.52)
@@ -5232,7 +5044,7 @@
 		(uuid "a1f9839e-f123-4c04-9315-e3f84083dc6e")
 	)
 	(no_connect
-		(at 91.44 162.56)
+		(at 102.87 163.83)
 		(uuid "a7f7a3a5-dd8f-42d7-8b4d-ac58ba8b57a0")
 	)
 	(no_connect
@@ -5763,6 +5575,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 175.26) (xy 87.63 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24458b55-e134-4ef2-9500-271d897e5d0b")
+	)
+	(wire
+		(pts
 			(xy 29.21 88.9) (xy 29.21 102.87)
 		)
 		(stroke
@@ -5973,16 +5795,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 181.61) (xy 77.47 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e659ac7-fb3e-4f9c-a018-aa165fa3bd44")
-	)
-	(wire
-		(pts
 			(xy 248.92 132.08) (xy 243.84 132.08)
 		)
 		(stroke
@@ -6120,6 +5932,16 @@
 			(type default)
 		)
 		(uuid "47d8189a-7a22-4841-967a-de3ab82768cf")
+	)
+	(wire
+		(pts
+			(xy 77.47 182.88) (xy 87.63 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4861940f-1b4b-4ee6-bc58-af79a5d5b9a1")
 	)
 	(wire
 		(pts
@@ -6330,6 +6152,16 @@
 			(type default)
 		)
 		(uuid "58918e15-42b0-4b67-b072-2e24051e68ba")
+	)
+	(wire
+		(pts
+			(xy 87.63 162.56) (xy 77.47 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59d384dd-2b31-41ee-b8c5-0b22f1a012e2")
 	)
 	(wire
 		(pts
@@ -6863,6 +6695,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 162.56) (xy 77.47 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c37fa78-c5c9-4c19-9177-71ac3300dcc7")
+	)
+	(wire
+		(pts
 			(xy 53.34 88.9) (xy 53.34 120.65)
 		)
 		(stroke
@@ -7393,7 +7235,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 146.05) (xy 77.47 163.83)
+			(xy 77.47 146.05) (xy 77.47 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8130,16 +7972,6 @@
 			(type default)
 		)
 		(uuid "ecb0e96b-e49c-4fcf-9bd2-6981c56958de")
-	)
-	(wire
-		(pts
-			(xy 77.47 172.72) (xy 77.47 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed43a82f-fbff-420f-b4ba-d60d4f99257e")
 	)
 	(wire
 		(pts
@@ -9405,7 +9237,7 @@
 	)
 	(global_label "GLOBAL_EN"
 		(shape input)
-		(at 91.44 162.56 180)
+		(at 102.87 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9414,7 +9246,7 @@
 		)
 		(uuid "691956d1-413c-4571-a0ef-fbf8ce07eb6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.44 162.56 0)
+			(at 102.87 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11255,79 +11087,6 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/57a94eab-3ef7-4459-81a7-ccf0f968a3f9"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_3_Bridged12")
-		(at -3.81 158.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06f0275d-0651-4854-aefe-72ca19754f0b")
-		(property "Reference" "JP1"
-			(at -5.08 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Jumper_3_Bridged12"
-			(at -5.08 160.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at -3.81 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at -3.81 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
-			(at -3.81 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "552997f2-939c-4521-876d-53f8c8fd0ae7")
-		)
-		(pin "3"
-			(uuid "011a02fa-23d8-4157-afc7-462328c5f7af")
-		)
-		(pin "2"
-			(uuid "8ddf6813-be62-470b-9e71-d3bc52961ccd")
-		)
-		(instances
-			(project ""
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/57a94eab-3ef7-4459-81a7-ccf0f968a3f9"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -13530,7 +13289,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 177.8 0)
+		(at 87.63 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13539,7 +13298,7 @@
 		(fields_autoplaced yes)
 		(uuid "804271e0-573b-4513-b310-db63d0fbecf7")
 		(property "Reference" "R69"
-			(at 80.01 176.5299 0)
+			(at 90.17 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13548,7 +13307,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 80.01 179.0699 0)
+			(at 90.17 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13557,7 +13316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 75.692 177.8 90)
+			(at 85.852 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13566,7 +13325,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 177.8 0)
+			(at 87.63 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13575,7 +13334,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 177.8 0)
+			(at 87.63 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
