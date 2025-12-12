@@ -4571,6 +4571,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "nRPIBOOT"
+		(exclude_from_sim no)
+		(at 51.054 185.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c5ca234-757a-4cf0-9012-70c7df577c79")
+	)
+	(text "PI_LED_nPWR"
+		(exclude_from_sim no)
+		(at 71.374 194.564 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ca60817-0cbc-4fb5-b929-814c0c5026e8")
+	)
+	(text "WL_nDisable\n"
+		(exclude_from_sim no)
+		(at 34.036 181.102 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7f81cea0-01b8-440b-b5bc-2bfdb46942f3")
+	)
+	(text "BT_nDisable\n"
+		(exclude_from_sim no)
+		(at 16.256 173.736 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d69508f6-1ce1-4cd7-8ab3-71b32e391cc5")
+	)
 	(junction
 		(at 215.9 104.14)
 		(diameter 0)
@@ -8855,26 +8895,6 @@
 			)
 		)
 	)
-	(global_label "WL_nDisable"
-		(shape input)
-		(at 34.29 173.99 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3d98bbaf-ca3e-46cd-9f2f-3b74f2bf2871")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.29 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RUN_PG"
 		(shape bidirectional)
 		(at 129.54 140.97 0)
@@ -9995,27 +10015,6 @@
 			)
 		)
 	)
-	(global_label "BT_nDisable"
-		(shape input)
-		(at 16.51 166.37 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bd113b93-790f-4fd7-bbfd-dd4535a9d146")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.51 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DSI1_C_N"
 		(shape input)
 		(at 213.36 137.16 180)
@@ -10576,26 +10575,6 @@
 			)
 		)
 	)
-	(global_label "nRPIBOOT"
-		(shape input)
-		(at 50.8 179.07 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f13825ff-2ad4-4fc9-8229-947989a7d857")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO7"
 		(shape input)
 		(at 66.04 72.39 180)
@@ -10888,26 +10867,6 @@
 		(uuid "fc1e0764-cb3c-4d5a-90e3-4c4fee3c21ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 93.98 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PI_LED_nPWR"
-		(shape input)
-		(at 71.12 186.69 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fc70411b-af85-44cd-af30-1e7a020b7f85")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
