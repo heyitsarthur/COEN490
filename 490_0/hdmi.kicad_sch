@@ -3435,7 +3435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "014892cd-66a5-443f-a99f-1cea82365718")
-		(property "Reference" "D39"
+		(property "Reference" "D9"
 			(at 104.5211 140.97 0)
 			(effects
 				(font
@@ -3480,6 +3480,87 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" ""
+			(at 102.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 102.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 102.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 102.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer NUMBER" ""
+			(at 102.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 102.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" ""
+			(at 102.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 102.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 102.87 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "ac3aaf71-a9a6-4846-8d82-26e15d453f0f")
 		)
@@ -3501,7 +3582,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "D39")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3516,7 +3597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "090765cf-6dff-4ad8-8019-fc44aa387341")
-		(property "Reference" "U23"
+		(property "Reference" "U5"
 			(at 110.49 35.56 0)
 			(effects
 				(font
@@ -3559,6 +3640,87 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" ""
+			(at 110.49 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 110.49 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 110.49 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 110.49 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer NUMBER" ""
+			(at 110.49 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 110.49 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" ""
+			(at 110.49 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 110.49 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 110.49 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "edd0c39c-0b80-4cd1-be46-bd634558a6c6")
 		)
@@ -3592,7 +3754,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "U23")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3607,7 +3769,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1830451a-886b-484b-ba57-709d56eac6db")
-		(property "Reference" "#PWR0268"
+		(property "Reference" "#PWR072"
 			(at 102.87 170.18 0)
 			(effects
 				(font
@@ -3657,7 +3819,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "#PWR0268")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -3673,7 +3835,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c748f55-4d31-4ec6-b98c-163b90011201")
-		(property "Reference" "#PWR0264"
+		(property "Reference" "#PWR071"
 			(at 73.66 161.29 0)
 			(effects
 				(font
@@ -3723,7 +3885,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "#PWR0264")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -3739,7 +3901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "226f30fb-76b2-4d39-9fae-5d2e86acaf7c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR063"
 			(at 147.32 30.48 0)
 			(effects
 				(font
@@ -3789,7 +3951,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "#PWR020")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3804,7 +3966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3284b4db-0bcb-4f23-8415-eab344fe6917")
-		(property "Reference" "#PWR0270"
+		(property "Reference" "#PWR066"
 			(at 110.49 115.57 0)
 			(effects
 				(font
@@ -3854,7 +4016,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "#PWR0270")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -3869,7 +4031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32bc0020-5575-4e2a-bb2e-e53c7188c236")
-		(property "Reference" "U24"
+		(property "Reference" "U6"
 			(at 110.49 76.2 0)
 			(effects
 				(font
@@ -3912,6 +4074,87 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" ""
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer NUMBER" ""
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" ""
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "f68a03e9-2e0a-4f2d-a25b-93996d718d61")
 		)
@@ -3945,7 +4188,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "U24")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3961,7 +4204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "339bbe6c-1341-4377-bddf-bef3193907c2")
-		(property "Reference" "#PWR0267"
+		(property "Reference" "#PWR070"
 			(at 102.87 146.05 0)
 			(effects
 				(font
@@ -4012,7 +4255,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "#PWR0267")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -4027,7 +4270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "472060ad-5b21-4507-88c9-ab071a7c091f")
-		(property "Reference" "C130"
+		(property "Reference" "C14"
 			(at 175.514 34.544 0)
 			(effects
 				(font
@@ -4091,6 +4334,87 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" ""
+			(at 172.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 172.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 172.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 172.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer NUMBER" ""
+			(at 172.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 172.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" ""
+			(at 172.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 172.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 172.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "897cd0cf-dfa1-4ffc-a2af-37b7efe1d432")
 		)
@@ -4100,7 +4424,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "C130")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -4115,7 +4439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51755e1f-1b4e-465c-a4f2-ee7beca83c8d")
-		(property "Reference" "#PWR0269"
+		(property "Reference" "#PWR065"
 			(at 110.49 74.93 0)
 			(effects
 				(font
@@ -4165,7 +4489,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "#PWR0269")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -4181,7 +4505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bff0bf8-3f68-47eb-99b0-c432985e0534")
-		(property "Reference" "J25"
+		(property "Reference" "J10"
 			(at 158.75 60.9599 0)
 			(effects
 				(font
@@ -4218,6 +4542,87 @@
 			)
 		)
 		(property "Description" "HDMI 1.4+ type D connector"
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer NUMBER" ""
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" ""
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
 			(at 147.32 62.23 0)
 			(effects
 				(font
@@ -4289,7 +4694,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "J25")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -4305,7 +4710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64baeb91-699b-4a7d-8c97-b63b28a4afdd")
-		(property "Reference" "#PWR0263"
+		(property "Reference" "#PWR068"
 			(at 73.66 130.81 0)
 			(effects
 				(font
@@ -4355,7 +4760,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "#PWR0263")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4372,7 +4777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "727598f6-fc83-472a-acb8-330bee534d80")
-		(property "Reference" "C128"
+		(property "Reference" "C15"
 			(at 69.85 116.8399 0)
 			(effects
 				(font
@@ -4436,6 +4841,87 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" ""
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer NUMBER" ""
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" ""
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 73.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "77833f18-9103-471a-a382-9ba0725f7ab7")
 		)
@@ -4445,7 +4931,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "C128")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4461,7 +4947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "753e0664-b9f9-472d-b085-c0831f0ab7b2")
-		(property "Reference" "#PWR0272"
+		(property "Reference" "#PWR064"
 			(at 172.72 48.26 0)
 			(effects
 				(font
@@ -4511,7 +4997,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "#PWR0272")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4527,7 +5013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84863a35-1e23-4278-a897-a85a5ed325ab")
-		(property "Reference" "#PWR0271"
+		(property "Reference" "#PWR073"
 			(at 149.86 184.15 0)
 			(effects
 				(font
@@ -4577,7 +5063,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "#PWR0271")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -4592,7 +5078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9a25e37-e3b9-4cb5-8023-8841dbe35a3a")
-		(property "Reference" "#PWR0266"
+		(property "Reference" "#PWR069"
 			(at 102.87 139.7 0)
 			(effects
 				(font
@@ -4642,7 +5128,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "#PWR0266")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -4658,7 +5144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abb95c87-d918-4b2e-954d-ee25e113d3e5")
-		(property "Reference" "#PWR0265"
+		(property "Reference" "#PWR067"
 			(at 102.87 115.57 0)
 			(effects
 				(font
@@ -4709,7 +5195,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "#PWR0265")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4724,7 +5210,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c66694ef-4be4-4dba-91fe-337c1ceba7ca")
-		(property "Reference" "D38"
+		(property "Reference" "D8"
 			(at 114.046 115.57 0)
 			(effects
 				(font
@@ -4769,6 +5255,87 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" ""
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer NUMBER" ""
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" ""
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "39cf980e-55f1-4478-83a2-ee39113a1bf5")
 		)
@@ -4790,7 +5357,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "D38")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -4807,7 +5374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8683a24-9cd2-4eb3-ac36-1b99f1df85e1")
-		(property "Reference" "C129"
+		(property "Reference" "C16"
 			(at 69.85 147.3199 0)
 			(effects
 				(font
@@ -4871,6 +5438,87 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" ""
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Display" ""
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB ID" ""
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer NUMBER" ""
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" ""
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 73.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "581ab24e-59c4-4f27-994c-cec9d995afde")
 		)
@@ -4880,7 +5528,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/c44da2de-7309-4c48-b0b5-1c312aeb25a1"
-					(reference "C129")
+					(reference "C16")
 					(unit 1)
 				)
 			)
