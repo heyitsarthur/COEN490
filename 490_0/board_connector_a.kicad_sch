@@ -4571,6 +4571,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Host Mode Configuration: \nTo ensure the CM4 acts as \na USB host for your hub, connect \nthe USB_OTG_ID (Pin 101) of the CM4 \ndirectly to GND."
+		(exclude_from_sim no)
+		(at 193.294 24.384 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "0a0ed3ce-1f4c-449c-b163-f17c4c82a759")
+	)
 	(text "nRPIBOOT"
 		(exclude_from_sim no)
 		(at 51.054 185.42 90)
@@ -6139,6 +6150,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 30.48) (xy 193.04 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a991a2-68a9-4dc2-b59a-58649b62c2ff")
+	)
+	(wire
+		(pts
 			(xy 127 77.47) (xy 127 90.17)
 		)
 		(stroke
@@ -7579,6 +7600,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 27.94) (xy 218.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d95f7b-69d5-4c39-8590-d6de87f43e7f")
+	)
+	(wire
+		(pts
 			(xy 215.9 73.66) (xy 218.44 73.66)
 		)
 		(stroke
@@ -7806,16 +7837,6 @@
 			(type default)
 		)
 		(uuid "dde10c79-2e40-4d23-8a2f-bd22c0dba828")
-	)
-	(wire
-		(pts
-			(xy 213.36 27.94) (xy 218.44 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de2a35d4-3644-4ea2-8aec-de56b1b73c6e")
 	)
 	(wire
 		(pts
@@ -8238,7 +8259,7 @@
 		)
 	)
 	(global_label "USB_P"
-		(shape input)
+		(shape bidirectional)
 		(at 213.36 33.02 180)
 		(effects
 			(font
@@ -8358,7 +8379,7 @@
 		)
 	)
 	(global_label "nEXTRST"
-		(shape input)
+		(shape output)
 		(at 129.54 151.13 0)
 		(effects
 			(font
@@ -8551,26 +8572,6 @@
 		(uuid "1f2704d5-328a-4565-82c5-8a81e66124cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_OTG_ID"
-		(shape input)
-		(at 213.36 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f39edf4-6255-4949-b986-a587f62d1311")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.36 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10860,7 +10861,7 @@
 		)
 	)
 	(global_label "USB_N"
-		(shape input)
+		(shape bidirectional)
 		(at 213.36 30.48 180)
 		(effects
 			(font
@@ -13106,6 +13107,72 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/57a94eab-3ef7-4459-81a7-ccf0f968a3f9"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46291dd3-b896-4a55-bdee-e2a907d1baf2")
+		(property "Reference" "#PWR09"
+			(at 193.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08a7dd4d-eac4-4a2e-8218-500807f98891")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/57a94eab-3ef7-4459-81a7-ccf0f968a3f9"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
