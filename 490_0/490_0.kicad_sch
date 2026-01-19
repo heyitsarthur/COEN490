@@ -1584,48 +1584,6 @@
 		)
 	)
 	(sheet
-		(at 295.91 99.06)
-		(size 43.18 27.94)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b06c8e7b-a553-4a68-92c5-5de06afcd44e")
-		(property "Sheetname" "PCI Bridge"
-			(at 295.91 98.3484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pci_bridge.kicad_sch"
-			(at 295.91 127.5846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 237.49 95.25)
 		(size 17.78 8.89)
 		(exclude_from_sim no)
