@@ -906,7 +906,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "capstone_parts:B2B-XH-A"
+		(symbol "capstone_parts:S2B-XH-A"
 			(pin_names
 				(offset 1.016)
 			)
@@ -914,7 +914,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -2.54 6.35 0)
+				(at -5.08 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -922,8 +922,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "B2B-XH-A"
-				(at -2.54 -5.08 0)
+			(property "Value" "S2B-XH-A"
+				(at -10.16 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -931,7 +931,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "B2B-XH-A:JST_B2B-XH-A"
+			(property "Footprint" "S2B-XH-A:JST_S2B-XH-A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -959,7 +959,7 @@
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "N/A"
+			(property "MANUFACTURER" "JST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -969,133 +969,20 @@
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "7 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "JST Sales America Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "B2B-XH-A_0_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "S2B-XH-A_0_0"
 				(rectangle
-					(start -3.175 2.2225)
-					(end -1.5875 2.8575)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 -0.3175)
-					(end -1.5875 0.3175)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 3.81 -2.54)
-					)
+					(start -7.62 5.08)
+					(end -1.27 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at -7.62 2.54 0)
+					(at -12.7 2.54 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -1113,7 +1000,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
+					(at -12.7 0 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -1372,7 +1259,7 @@
 	)
 	(text "PCM_CLK"
 		(exclude_from_sim no)
-		(at 127 99.06 0)
+		(at 126.238 98.298 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1382,7 +1269,7 @@
 	)
 	(text "PCM_DIN"
 		(exclude_from_sim no)
-		(at 127 95.25 0)
+		(at 126.238 95.758 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1392,7 +1279,7 @@
 	)
 	(text "PCM_FS"
 		(exclude_from_sim no)
-		(at 127 100.33 0)
+		(at 125.984 100.838 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1846,6 +1733,186 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
 					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capstone_parts:S2B-XH-A")
+		(at 172.72 96.52 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a6fef85-603f-4aae-a2a7-975a1dd7f16b")
+		(property "Reference" "J20"
+			(at 163.322 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-XH-A"
+			(at 163.322 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "S2B-XH-A:JST_S2B-XH-A"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://B2B-XH-A 2 pin connector.pdf"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER R/A 2POS 2.5MM"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Current - Load" "3A"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/S2B-XH-A/1651055"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "S2B-XH-A"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Bulk"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.12"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "455-S2B-XH-A-ND"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Through Hole, Right Angle"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage - Load" "250V"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8614d3ac-df44-476d-ab5c-8a3d3a0ffa8d")
+		)
+		(pin "2"
+			(uuid "e942aadd-3055-46b9-b4e2-6f84cfdded27")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -2759,215 +2826,6 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
 					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "capstone_parts:B2B-XH-A")
-		(at 167.64 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d794beb-b69a-4959-ac88-4283ace8123e")
-		(property "Reference" "J15"
-			(at 164.084 103.378 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B2B-XH-A"
-			(at 164.084 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "B2B-XH-A:JST_B2B-XH-A"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://B2B-XH-A 2 pin connector.pdf"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER VERT 2POS 2.5MM"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7 mm"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Current - Load" "3A"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B2B-XH-A/1651045"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "B2B-XH-A"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "Bulk"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.10"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "DigiKey"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier P/N" "455-B2B-XH-A-ND"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Through Hole"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "pcs"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage - Load" "250V"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "37b6d6c8-78f7-4e99-8b53-e8481fc8e79a")
-		)
-		(pin "1"
-			(uuid "88ec1ef1-560c-4f6e-b07b-d088b277e167")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "J15")
 					(unit 1)
 				)
 			)
