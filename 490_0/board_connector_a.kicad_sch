@@ -5690,7 +5690,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 118.11) (xy 99.06 118.11)
+			(xy 85.09 118.11) (xy 99.06 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6940,7 +6940,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 118.11) (xy 69.85 118.11)
+			(xy 74.93 118.11) (xy 77.47 118.11)
 		)
 		(stroke
 			(width 0)
@@ -9202,7 +9202,7 @@
 	)
 	(global_label "SD_VDD_Override"
 		(shape input)
-		(at 67.31 118.11 180)
+		(at 74.93 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9211,7 +9211,7 @@
 		)
 		(uuid "5711c3c1-eb63-48e5-bca3-0e9463b5e220")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.31 118.11 0)
+			(at 74.93 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16960,7 +16960,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 73.66 118.11 180)
+		(at 81.28 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16969,7 +16969,7 @@
 		(fields_autoplaced yes)
 		(uuid "8402c3b3-8cfd-4377-b450-864306b873c7")
 		(property "Reference" "JP2"
-			(at 73.66 111.76 0)
+			(at 81.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16977,7 +16977,7 @@
 			)
 		)
 		(property "Value" "SolderJumper"
-			(at 73.66 114.3 0)
+			(at 81.28 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16985,7 +16985,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16994,7 +16994,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17003,7 +17003,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17012,7 +17012,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17021,7 +17021,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17030,7 +17030,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17039,7 +17039,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17048,7 +17048,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17057,7 +17057,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17066,7 +17066,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17075,7 +17075,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17084,7 +17084,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17093,7 +17093,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17102,7 +17102,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17111,7 +17111,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17120,7 +17120,7 @@
 			)
 		)
 		(property "Supplier P/N" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17129,7 +17129,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17138,7 +17138,7 @@
 			)
 		)
 		(property "Unit" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17147,7 +17147,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17156,7 +17156,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17165,7 +17165,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17174,7 +17174,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17183,7 +17183,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17192,7 +17192,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 73.66 118.11 0)
+			(at 81.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -129,6 +129,334 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_4ms_Connector:Conn_01x08"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08"
+				(at -1.27 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "4ms_Connector:Pins_1x08_2.54mm_TH"
+				(at 0 12.065 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "HEADER 1x8 MALE PINS 0.100” 180deg"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "HEADER 1x8 MALE PINS 0.100” 180deg"
+				(at -4.445 -20.955 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Conn_01x08"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_??x*mm* Connector*:*1x??x*mm* Pin?Header?Straight?1X* Pin?Header?Angled?1X* Socket?Strip?Straight?1X* Socket?Strip?Angled?1X*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x08_0_0"
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Conn_01x08_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Elektuur:C"
 			(pin_numbers
 				(hide yes)
@@ -490,233 +818,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "capstone_parts:B2B-XH-A"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "B2B-XH-A"
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "B2B-XH-A:JST_B2B-XH-A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "N/A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "7 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "JST Sales America Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "B2B-XH-A_0_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.27) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.175 2.2225)
-					(end -1.5875 2.8575)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.175 -0.3175)
-					(end -1.5875 0.3175)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -944,20 +1045,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "To Turn ON: When the Pi is OFF/halted - shorting GPIO3 to Ground wakes it up.\n\nTo Turn OFF: When the Pi is ON - run a script that listens for a button press \non GPIO3 and issues the command sudo shutdown -h now"
-		(exclude_from_sim no)
-		(at 220.98 149.86 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "044e47d9-7a5b-43c0-9ef4-b4a046fd2095")
-	)
 	(text "Choose any other available GPIO pin (e.g., GPIO25) \nand configure your system software (using a device \ntree overlay like gpio-shutdown in /boot/config.txt) \nto use that specific pin for a safe shutdown sequence. \nThis avoids conflicts with the dedicated I²C pin\n"
 		(exclude_from_sim no)
-		(at 201.168 75.438 0)
+		(at 205.232 74.422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -977,12 +1067,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "197d3db1-ac78-4167-8b34-278f380e0de9")
-	)
-	(junction
-		(at 43.18 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2282d9b2-54aa-46c1-9bca-1801fedd777e")
 	)
 	(junction
 		(at 152.4 93.98)
@@ -1051,6 +1135,12 @@
 		(uuid "97ca7189-bb8e-4315-923b-0baf195e7f04")
 	)
 	(junction
+		(at 43.18 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd64baab-7dd1-4e5f-b5e9-7e5d9b3d26ab")
+	)
+	(junction
 		(at 78.74 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1098,23 +1188,43 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 101.6) (xy 43.18 139.7)
+			(xy 190.5 134.62) (xy 190.5 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01347b63-f54b-4011-bad9-10fc1444c35e")
+	)
+	(wire
+		(pts
+			(xy 81.28 60.96) (xy 101.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02248e5d-7aa4-443c-9f02-611ffc7180d7")
+	)
+	(wire
+		(pts
+			(xy 146.05 48.26) (xy 142.24 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0312ceb5-a664-4dfd-a60c-8487e7dfbf4d")
+	)
+	(wire
+		(pts
+			(xy 43.18 134.62) (xy 43.18 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "07c7e7e9-0a31-44ea-8cc8-0c74fb5c13f8")
-	)
-	(wire
-		(pts
-			(xy 228.6 93.98) (xy 228.6 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1044423c-6f7f-4587-ac0b-eee9334462f8")
 	)
 	(wire
 		(pts
@@ -1178,6 +1288,26 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 93.98) (xy 190.5 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "267272a7-ca86-4b97-92d3-dd347ecd8ed4")
+	)
+	(wire
+		(pts
+			(xy 81.28 60.96) (xy 81.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c863e8d-e5f2-483f-99de-8f5c47e637fc")
+	)
+	(wire
+		(pts
 			(xy 218.44 93.98) (xy 215.9 93.98)
 		)
 		(stroke
@@ -1198,6 +1328,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 58.42) (xy 142.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3624c35f-bc7a-43b6-8757-34c752ad8503")
+	)
+	(wire
+		(pts
 			(xy 180.34 109.22) (xy 180.34 106.68)
 		)
 		(stroke
@@ -1205,6 +1345,36 @@
 			(type default)
 		)
 		(uuid "38f4b12c-e6c5-4a43-ad5c-9caa41796859")
+	)
+	(wire
+		(pts
+			(xy 96.52 55.88) (xy 101.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b08d46d-bdf0-4882-a28a-5611164fa25d")
+	)
+	(wire
+		(pts
+			(xy 81.28 58.42) (xy 101.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3f2b5a-db61-4405-b9ed-b234f7bccf84")
+	)
+	(wire
+		(pts
+			(xy 116.84 134.62) (xy 116.84 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3b225c-481d-49f4-9881-ec19e61285c3")
 	)
 	(wire
 		(pts
@@ -1218,7 +1388,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 93.98) (xy 78.74 101.6)
+			(xy 78.74 93.98) (xy 78.74 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1248,7 +1418,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 130.81) (xy 228.6 139.7)
+			(xy 228.6 93.98) (xy 228.6 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1258,13 +1428,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 93.98) (xy 190.5 121.92)
+			(xy 146.05 53.34) (xy 142.24 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "501143e4-0545-44e1-b515-ffdc5792f05b")
+		(uuid "475324b1-ecab-446b-a570-0f071f10b54b")
 	)
 	(wire
 		(pts
@@ -1298,6 +1468,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 55.88) (xy 142.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ddbb2c-d7b2-4f7a-9f77-9b1728b89016")
+	)
+	(wire
+		(pts
 			(xy 190.5 139.7) (xy 228.6 139.7)
 		)
 		(stroke
@@ -1305,6 +1485,36 @@
 			(type default)
 		)
 		(uuid "5bc18f43-69c7-4e56-b06d-88f05d9a4cd7")
+	)
+	(wire
+		(pts
+			(xy 96.52 45.72) (xy 101.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ebc8da4-fa68-419d-86d2-20356bb8d8eb")
+	)
+	(wire
+		(pts
+			(xy 96.52 50.8) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aefdf98-a7be-45e9-9caf-1f3e621b65be")
+	)
+	(wire
+		(pts
+			(xy 78.74 134.62) (xy 78.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c245650-1bf4-4fb4-88c1-2b212d70b902")
 	)
 	(wire
 		(pts
@@ -1318,6 +1528,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 134.62) (xy 228.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e30383f-0a61-4f6d-9994-7d8e66d8df53")
+	)
+	(wire
+		(pts
 			(xy 226.06 93.98) (xy 228.6 93.98)
 		)
 		(stroke
@@ -1325,6 +1545,16 @@
 			(type default)
 		)
 		(uuid "7554e8fb-5a01-496f-ada1-7bf49b7ece26")
+	)
+	(wire
+		(pts
+			(xy 152.4 134.62) (xy 152.4 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c2f264-29fe-4bc7-986a-a45125d3e29b")
 	)
 	(wire
 		(pts
@@ -1338,13 +1568,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 104.14) (xy 78.74 139.7)
+			(xy 146.05 43.18) (xy 142.24 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ce249dc-d6ba-4bf8-a44a-753279731a07")
+		(uuid "83f77806-c279-41ca-9bf0-a32313af060a")
 	)
 	(wire
 		(pts
@@ -1378,6 +1608,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 124.46) (xy 43.18 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905ff362-51c2-480a-a6b2-dd7a449dae3b")
+	)
+	(wire
+		(pts
 			(xy 190.5 81.28) (xy 190.5 86.36)
 		)
 		(stroke
@@ -1388,7 +1628,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 93.98) (xy 104.14 93.98)
+			(xy 97.79 93.98) (xy 104.14 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1398,7 +1638,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 116.84) (xy 152.4 139.7)
+			(xy 146.05 50.8) (xy 142.24 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f68cea-7a39-441b-8cf2-fb0f312ce230")
+	)
+	(wire
+		(pts
+			(xy 152.4 93.98) (xy 152.4 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1408,17 +1658,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 124.46) (xy 190.5 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a794bc18-2723-4996-b826-d21d18e51305")
-	)
-	(wire
-		(pts
-			(xy 116.84 93.98) (xy 116.84 106.68)
+			(xy 116.84 93.98) (xy 116.84 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1448,6 +1688,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 60.96) (xy 160.02 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d0fd4f-bfd0-42f3-9c2c-7b2eda0cd1f7")
+	)
+	(wire
+		(pts
 			(xy 27.94 93.98) (xy 27.94 91.44)
 		)
 		(stroke
@@ -1455,16 +1705,6 @@
 			(type default)
 		)
 		(uuid "b9e38fe5-c558-4bdd-af2a-92165fcdd4b8")
-	)
-	(wire
-		(pts
-			(xy 43.18 91.44) (xy 43.18 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcb0c975-5c42-410f-814f-af8bc5d70371")
 	)
 	(wire
 		(pts
@@ -1488,26 +1728,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 93.98) (xy 152.4 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f0a3fb-2efb-48ed-b4f1-5b396b3b3562")
-	)
-	(wire
-		(pts
-			(xy 116.84 109.22) (xy 116.84 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1470ecc-1fa6-43e8-9086-7ed61c12766b")
-	)
-	(wire
-		(pts
 			(xy 43.18 83.82) (xy 43.18 81.28)
 		)
 		(stroke
@@ -1515,6 +1735,16 @@
 			(type default)
 		)
 		(uuid "c278cd31-170b-45c1-a242-53591487901d")
+	)
+	(wire
+		(pts
+			(xy 146.05 45.72) (xy 142.24 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f095c1-bf71-4ee0-a751-45ebf6a33688")
 	)
 	(wire
 		(pts
@@ -1588,6 +1818,26 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 53.34) (xy 101.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f4f378-e6c7-4ea3-bc41-60e9aa33243a")
+	)
+	(wire
+		(pts
+			(xy 160.02 60.96) (xy 160.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fe1dfb-d98e-454c-9230-b7226d5a6be5")
+	)
+	(wire
+		(pts
 			(xy 137.16 93.98) (xy 142.24 93.98)
 		)
 		(stroke
@@ -1598,6 +1848,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 43.18) (xy 101.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de04bbd4-d63e-4141-876f-295bb72a8e86")
+	)
+	(wire
+		(pts
 			(xy 144.78 93.98) (xy 142.24 93.98)
 		)
 		(stroke
@@ -1605,6 +1865,16 @@
 			(type default)
 		)
 		(uuid "de74ad0a-f309-4f0e-8e36-f0f48761c5d3")
+	)
+	(wire
+		(pts
+			(xy 96.52 48.26) (xy 101.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6884db-1ea9-402a-8e7b-72d112c4c5ac")
 	)
 	(wire
 		(pts
@@ -3058,18 +3328,138 @@
 			"QRBalUhABUEQBEEQhFYlElBBEARBEAShVf1/2htmZCAUAJUAAAAASUVORK5CYII="
 		)
 	)
+	(label "Button_6"
+		(at 146.05 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ffc33cd-f755-45f0-a6c4-3df2a8b07f43")
+	)
+	(label "Button_5"
+		(at 146.05 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a26f2b9-4b35-4a92-a41f-276ab98546da")
+	)
+	(label "Button_6"
+		(at 205.74 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4098f416-f591-40e7-abeb-aad95747c68c")
+	)
+	(label "Button_1"
+		(at 146.05 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46e80d9f-f093-44c2-9a49-74901b18dfd8")
+	)
+	(label "Button_2"
+		(at 146.05 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52f3889c-e60d-44f8-bba8-415c399f7e8f")
+	)
+	(label "Button_2"
+		(at 58.42 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ad9d729-9c23-4b77-8139-789736615bf1")
+	)
+	(label "Button_3"
+		(at 97.79 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "653ea968-4ace-404d-91a9-705d8996be87")
+	)
+	(label "Button_3"
+		(at 146.05 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ab33b0f-3fa3-4067-ad04-d34526bcbecd")
+	)
+	(label "Button_4"
+		(at 146.05 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c10fe9c5-5efd-4e85-83e4-85cffe2231a0")
+	)
+	(label "Button_5"
+		(at 172.72 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8b852cf-86d7-497e-bf20-939f1fe97686")
+	)
+	(label "Button_4"
+		(at 137.16 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e86a49a9-614a-4ec3-8c87-331987b7fc1b")
+	)
+	(label "Button_1"
+		(at 22.86 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f73aeb77-8d45-4375-af6b-c037bf0ff9c0")
+	)
 	(global_label "GPIO23"
-		(shape output)
-		(at 99.06 93.98 180)
+		(shape input)
+		(at 96.52 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "32c6f1f5-e2bd-42dd-bcdc-5cf5302b2d76")
+		(uuid "06c6db37-8f38-4b34-b3a2-bcb77376b21b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 93.98 0)
+			(at 96.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,17 +3469,38 @@
 		)
 	)
 	(global_label "GPIO10"
-		(shape output)
-		(at 172.72 93.98 180)
+		(shape input)
+		(at 96.52 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "34ee39dd-d028-4ec0-b580-f29071a0dbee")
+		(uuid "225a2231-08aa-48cb-8710-f6707e02730e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.72 93.98 0)
+			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO24"
+		(shape input)
+		(at 96.52 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2bacb1c3-540e-4a54-8530-553a9a073d19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,58 +3511,17 @@
 		)
 	)
 	(global_label "GPIO22"
-		(shape output)
-		(at 58.42 93.98 180)
+		(shape input)
+		(at 96.52 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "7edaf9f4-cef0-48e5-815a-9bc072193597")
+		(uuid "348b8485-ea58-4b4c-bc15-c2a973329df4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO24"
-		(shape output)
-		(at 137.16 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "85930474-4500-4bcc-b1b7-a8d0cf0b846e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO17"
-		(shape output)
-		(at 22.86 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cc1001be-1598-453b-a69a-31edcb13172b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.86 91.44 0)
+			(at 96.52 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,22 +3531,42 @@
 		)
 	)
 	(global_label "GPIO25"
-		(shape output)
-		(at 205.74 93.98 180)
+		(shape input)
+		(at 96.52 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ebe4a7c6-3260-44e9-907c-f345ba61d991")
+		(uuid "54d1d719-8dad-4ff9-8d9f-e323cdc79ed2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.74 93.98 0)
+			(at 96.52 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO17"
+		(shape input)
+		(at 96.52 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61bb73c3-c8be-4ff2-8463-7d554dd541fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3506,16 +3896,17 @@
 		)
 	)
 	(symbol
-		(lib_id "capstone_parts:B2B-XH-A")
-		(at 124.46 109.22 0)
+		(lib_id "PCM_4ms_Connector:Conn_01x08")
+		(at 106.68 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0e803545-0eba-4dba-8685-a14e0a854a26")
-		(property "Reference" "J2"
-			(at 120.904 113.538 0)
+		(fields_autoplaced yes)
+		(uuid "0a6effeb-a03a-4c86-a000-f07d723771e6")
+		(property "Reference" "J6"
+			(at 109.22 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,8 +3914,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B2B-XH-A"
-			(at 120.904 116.078 0)
+		(property "Value" "Conn_01x08"
+			(at 109.22 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,18 +3923,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "B2B-XH-A:JST_B2B-XH-A"
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://B2B-XH-A 2 pin connector.pdf"
-			(at 124.46 109.22 0)
+		(property "Footprint" "4ms_Connector:Pins_1x08_2.54mm_TH"
+			(at 106.68 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,8 +3932,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 2POS 2.5MM"
-			(at 124.46 109.22 0)
+		(property "Datasheet" ""
+			(at 106.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,48 +3941,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "N/A"
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7 mm"
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Current - Load" "3A"
-			(at 124.46 109.22 0)
+		(property "Description" "HEADER 1x8 MALE PINS 0.100” 180deg"
+			(at 106.68 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3609,106 +3950,44 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B2B-XH-A/1651045"
-			(at 124.46 109.22 0)
+		(property "Specifications" "HEADER 1x8 MALE PINS 0.100” 180deg"
+			(at 102.235 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "6"
+			(uuid "64e93b9c-3703-42ab-9957-23732c4736cd")
 		)
-		(property "Manufacturer Part" "B2B-XH-A"
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "8"
+			(uuid "4a6fd05c-54c5-4211-895e-1fa86a2f4378")
 		)
-		(property "Package" "Bulk"
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.10"
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "DigiKey"
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier P/N" "455-B2B-XH-A-ND"
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Through Hole"
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "pcs"
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage - Load" "250V"
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "7"
+			(uuid "7dbca476-d12d-4f39-b93f-53b348ac6ac7")
 		)
 		(pin "2"
-			(uuid "da8fbce9-99ec-42aa-a9ce-fd5a45f1923a")
+			(uuid "4f5006a8-d277-4486-98d5-089108864226")
+		)
+		(pin "4"
+			(uuid "33f108b8-0c89-4409-8a4f-1701b29899c4")
+		)
+		(pin "5"
+			(uuid "ed620550-e557-4ae9-b03d-5f8c71b6e157")
 		)
 		(pin "1"
-			(uuid "d30ef972-71f3-41da-a2a9-6168a7b8cb28")
+			(uuid "729dde61-551d-451c-9c3e-1be5ea15b0cc")
+		)
+		(pin "3"
+			(uuid "cb80cbcd-91a2-4716-989e-f06cd18e0ec3")
 		)
 		(instances
-			(project "490_0"
+			(project ""
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "J2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3781,44 +4060,34 @@
 		)
 	)
 	(symbol
-		(lib_id "capstone_parts:B2B-XH-A")
-		(at 160.02 116.84 0)
+		(lib_id "Switch:SW_Push")
+		(at 228.6 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "12b1de7f-ef6a-4793-91f8-4c07369724ee")
-		(property "Reference" "J17"
-			(at 156.464 121.158 0)
+		(uuid "199cbd91-19e8-479c-9f88-e09c0f202e0c")
+		(property "Reference" "SW9"
+			(at 229.87 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "B2B-XH-A"
-			(at 156.464 123.698 0)
+		(property "Value" "SW_Push0"
+			(at 229.87 130.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "B2B-XH-A:JST_B2B-XH-A"
-			(at 160.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://B2B-XH-A 2 pin connector.pdf"
-			(at 160.02 116.84 0)
+		(property "Footprint" ""
+			(at 223.52 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,8 +4095,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN HEADER VERT 2POS 2.5MM"
-			(at 160.02 116.84 0)
+		(property "Datasheet" "~"
+			(at 223.52 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,48 +4104,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "N/A"
-			(at 160.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 160.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7 mm"
-			(at 160.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 160.02 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Current - Load" "3A"
-			(at 160.02 116.84 0)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 228.6 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,8 +4113,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B2B-XH-A/1651045"
-			(at 160.02 116.84 0)
+		(property "Digikey Link" ""
+			(at 228.6 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,8 +4122,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 160.02 116.84 0)
+		(property "Display" ""
+			(at 228.6 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,8 +4131,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "B2B-XH-A"
-			(at 160.02 116.84 0)
+		(property "JLCPCB ID" ""
+			(at 228.6 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,8 +4140,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "Bulk"
-			(at 160.02 116.84 0)
+		(property "Manufacturer" ""
+			(at 228.6 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,8 +4149,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.10"
-			(at 160.02 116.84 0)
+		(property "Manufacturer NUMBER" ""
+			(at 228.6 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,8 +4158,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "DigiKey"
-			(at 160.02 116.84 0)
+		(property "Part Number" ""
+			(at 228.6 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,8 +4167,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "455-B2B-XH-A-ND"
-			(at 160.02 116.84 0)
+		(property "Specifications" ""
+			(at 228.6 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,8 +4176,8 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "Through Hole"
-			(at 160.02 116.84 0)
+		(property "Tolerance" ""
+			(at 228.6 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3956,8 +4185,8 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" "pcs"
-			(at 160.02 116.84 0)
+		(property "Voltage" ""
+			(at 228.6 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,8 +4194,107 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage - Load" "250V"
-			(at 160.02 116.84 0)
+		(property "Manufacturer Part" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current - Load" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current - Supply" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage - Load" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage - Supply" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Load Capacitance" ""
+			(at 228.6 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Shunt Capacitance" ""
+			(at 228.6 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,15 +4303,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "da99aad6-3784-42c2-9517-756a50debdf2")
+			(uuid "ef26470f-3035-440c-9fb1-1aaeb457e876")
 		)
 		(pin "1"
-			(uuid "f1c79730-aa9f-4ba0-b959-b99cefbb4919")
+			(uuid "940973ba-35be-4586-af0c-97b62ef521f0")
 		)
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "J17")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -4764,72 +5092,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 152.4 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d0926c1-fa5b-4264-a048-43720dfbd33c")
-		(property "Reference" "#PWR0114"
-			(at 152.4 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 152.4 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 152.4 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44a78c37-1087-415b-ae45-d503c73b34cc")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 43.18 87.63 180)
 		(unit 1)
@@ -5082,215 +5344,6 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
 					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "capstone_parts:B2B-XH-A")
-		(at 86.36 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3116fb47-2af1-4b36-b5f3-d41cf389fbd8")
-		(property "Reference" "J1"
-			(at 82.804 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B2B-XH-A"
-			(at 82.804 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "B2B-XH-A:JST_B2B-XH-A"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://B2B-XH-A 2 pin connector.pdf"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER VERT 2POS 2.5MM"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7 mm"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Current - Load" "3A"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B2B-XH-A/1651045"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "B2B-XH-A"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "Bulk"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.10"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "DigiKey"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier P/N" "455-B2B-XH-A-ND"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Through Hole"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "pcs"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage - Load" "250V"
-			(at 86.36 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "190dac35-20c4-4521-802b-40c2432d91ac")
-		)
-		(pin "1"
-			(uuid "09082566-332a-4e54-a86b-875a0581985a")
-		)
-		(instances
-			(project ""
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5576,7 +5629,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 190.5 162.56 90)
+		(at 152.4 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5585,7 +5638,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ab1a5e9-b862-4597-be16-84da14bbcd5d")
 		(property "Reference" "SW7"
-			(at 191.77 161.2899 90)
+			(at 153.67 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5647,7 @@
 			)
 		)
 		(property "Value" "SW_Push0"
-			(at 191.77 163.8299 90)
+			(at 153.67 130.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +5656,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 162.56 0)
+			(at 147.32 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +5665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 162.56 0)
+			(at 147.32 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,7 +5674,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 190.5 162.56 0)
+			(at 152.4 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,7 +5683,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,7 +5692,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5648,7 +5701,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +5710,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +5719,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +5728,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +5737,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,7 +5746,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,7 +5755,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,7 +5764,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,7 +5773,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +5782,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,7 +5791,7 @@
 			)
 		)
 		(property "Supplier P/N" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +5800,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5756,7 +5809,7 @@
 			)
 		)
 		(property "Unit" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5765,7 +5818,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,7 +5827,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +5836,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,7 +5845,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,7 +5854,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +5863,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 190.5 162.56 90)
+			(at 152.4 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,215 +5947,6 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
 					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "capstone_parts:B2B-XH-A")
-		(at 198.12 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f6b4d31-3d3d-4f25-9198-fc7c7ad17df4")
-		(property "Reference" "J18"
-			(at 194.564 128.778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B2B-XH-A"
-			(at 194.564 131.318 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "B2B-XH-A:JST_B2B-XH-A"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://B2B-XH-A 2 pin connector.pdf"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER VERT 2POS 2.5MM"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7 mm"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Current - Load" "3A"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B2B-XH-A/1651045"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "B2B-XH-A"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "Bulk"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.10"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "DigiKey"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier P/N" "455-B2B-XH-A-ND"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Through Hole"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "pcs"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage - Load" "250V"
-			(at 198.12 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "51e7d4f6-2b79-4366-83ea-62b286203e28")
-		)
-		(pin "1"
-			(uuid "10bc5da7-f8a8-4935-ba33-562e86a85803")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -6970,6 +6814,140 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 81.28 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "712056ca-c68a-4a32-84cf-1a4a08002157")
+		(property "Reference" "#PWR060"
+			(at 81.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64597f7c-0dc3-4847-978f-751bf4a17ccc")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 81.28 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7816e735-7ac6-4858-b70e-0e087a89d1c6")
+		(property "Reference" "#PWR055"
+			(at 81.28 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff108678-84f7-4c83-b731-42eb8845dd55")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 27.94 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7029,215 +7007,6 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "capstone_parts:B2B-XH-A")
-		(at 236.22 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "804547b4-553f-4548-bd58-164185454831")
-		(property "Reference" "J19"
-			(at 232.664 135.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B2B-XH-A"
-			(at 232.664 137.668 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "B2B-XH-A:JST_B2B-XH-A"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://B2B-XH-A 2 pin connector.pdf"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER VERT 2POS 2.5MM"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7 mm"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Current - Load" "3A"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B2B-XH-A/1651045"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "B2B-XH-A"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "Bulk"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.10"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "DigiKey"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier P/N" "455-B2B-XH-A-ND"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Through Hole"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "pcs"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage - Load" "250V"
-			(at 236.22 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dab6e293-f8e2-4b5c-acf9-4f0123fb89d2")
-		)
-		(pin "1"
-			(uuid "743580d0-3b33-4272-b99e-e28d9c744d63")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -7503,7 +7272,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 160.02 162.56 90)
+		(at 78.74 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7512,7 +7281,7 @@
 		(fields_autoplaced yes)
 		(uuid "8702f0f7-f6c0-438a-8f5f-754aed0d2ac1")
 		(property "Reference" "SW5"
-			(at 161.29 161.2899 90)
+			(at 80.01 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7521,7 +7290,7 @@
 			)
 		)
 		(property "Value" "SW_Push0"
-			(at 161.29 163.8299 90)
+			(at 80.01 130.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7530,7 +7299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 162.56 0)
+			(at 73.66 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7539,7 +7308,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 162.56 0)
+			(at 73.66 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7548,7 +7317,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 160.02 162.56 0)
+			(at 78.74 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7557,7 +7326,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +7335,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7575,7 +7344,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,7 +7353,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7593,7 +7362,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7602,7 +7371,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,7 +7380,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7620,7 +7389,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7629,7 +7398,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +7407,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +7416,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,7 +7425,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +7434,7 @@
 			)
 		)
 		(property "Supplier P/N" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,7 +7443,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,7 +7452,7 @@
 			)
 		)
 		(property "Unit" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,7 +7461,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,7 +7470,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7710,7 +7479,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7719,7 +7488,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7728,7 +7497,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7737,7 +7506,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 160.02 162.56 90)
+			(at 78.74 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,217 +8046,8 @@
 		)
 	)
 	(symbol
-		(lib_id "capstone_parts:B2B-XH-A")
-		(at 50.8 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab0d037b-9abc-4f0e-b853-5675097d4a19")
-		(property "Reference" "J15"
-			(at 47.244 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B2B-XH-A"
-			(at 47.244 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "B2B-XH-A:JST_B2B-XH-A"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://B2B-XH-A 2 pin connector.pdf"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER VERT 2POS 2.5MM"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "7 mm"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Current - Load" "3A"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B2B-XH-A/1651045"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "B2B-XH-A"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "Bulk"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.10"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "DigiKey"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier P/N" "455-B2B-XH-A-ND"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Through Hole"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "pcs"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage - Load" "250V"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bcbf28a4-071b-442b-9bb6-e9e670c8de68")
-		)
-		(pin "1"
-			(uuid "c15cd9fb-ebcb-4aac-a695-bfec7df3e671")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 175.26 162.56 90)
+		(at 116.84 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8496,7 +8056,7 @@
 		(fields_autoplaced yes)
 		(uuid "b865e190-8d3a-4beb-973e-ef7afce45dc2")
 		(property "Reference" "SW6"
-			(at 176.53 161.2899 90)
+			(at 118.11 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8505,7 +8065,7 @@
 			)
 		)
 		(property "Value" "SW_Push0"
-			(at 176.53 163.8299 90)
+			(at 118.11 130.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8514,7 +8074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 162.56 0)
+			(at 111.76 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,7 +8083,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 162.56 0)
+			(at 111.76 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,7 +8092,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 175.26 162.56 0)
+			(at 116.84 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8541,7 +8101,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +8110,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8559,7 +8119,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8568,7 +8128,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8577,7 +8137,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,7 +8146,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8595,7 +8155,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8604,7 +8164,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8613,7 +8173,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,7 +8182,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,7 +8191,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,7 +8200,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +8209,7 @@
 			)
 		)
 		(property "Supplier P/N" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,7 +8218,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,7 +8227,7 @@
 			)
 		)
 		(property "Unit" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,7 +8236,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8685,7 +8245,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8694,7 +8254,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8703,7 +8263,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8712,7 +8272,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8721,7 +8281,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 175.26 162.56 90)
+			(at 116.84 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9327,6 +8887,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 162.56 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfcb9f95-f439-4555-8aee-8fe3263a5101")
+		(property "Reference" "#PWR038"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUTTON"
+			(at 162.56 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a29fd8c-3cc6-4f95-9d01-b23162e95b48")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 152.4 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cad016a3-7a42-43df-8349-7172313d2195")
+		(property "Reference" "#PWR071"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUTTON"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 152.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2dc97ed-7a58-47c8-9acd-ce0761c5e891")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 152.4 144.78 0)
 		(unit 1)
@@ -9335,8 +9027,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bcd9e787-dea7-4681-802d-0df08f6d27ff")
-		(property "Reference" "#PWR0120"
+		(uuid "d6c5ec34-5a0f-416c-84bd-6c329775eca7")
+		(property "Reference" "#PWR040"
 			(at 152.4 151.13 0)
 			(effects
 				(font
@@ -9381,12 +9073,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b1c07461-4ebf-4ede-b39b-4b1c1411af62")
+			(uuid "299e078f-c346-4bc1-9a4f-4475f8152336")
 		)
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "#PWR0120")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9665,6 +9357,104 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
 					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:Conn_01x08")
+		(at 137.16 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9c309f5-0343-4737-826a-b06c60436915")
+		(property "Reference" "J1"
+			(at 134.62 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 134.62 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "4ms_Connector:Pins_1x08_2.54mm_TH"
+			(at 137.16 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HEADER 1x8 MALE PINS 0.100” 180deg"
+			(at 137.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "HEADER 1x8 MALE PINS 0.100” 180deg"
+			(at 141.605 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6bf4b0e8-1483-4f8e-b858-a8cee76fc990")
+		)
+		(pin "8"
+			(uuid "bb55dd36-e929-45be-916a-49232d928d6e")
+		)
+		(pin "7"
+			(uuid "1f8f22ed-2e01-44f1-bd15-4044b5f29e14")
+		)
+		(pin "2"
+			(uuid "4225433d-82cb-43ad-b0e5-386262ff3333")
+		)
+		(pin "4"
+			(uuid "25ecb76f-0c91-4200-be3f-df86667a30d1")
+		)
+		(pin "5"
+			(uuid "2100db49-f9a2-474d-a2e5-1d418ac1a266")
+		)
+		(pin "1"
+			(uuid "6c6db26b-f4c0-4669-a5f9-6f9aa387b235")
+		)
+		(pin "3"
+			(uuid "9b1b2337-5d3a-4c21-b158-e054b2147b82")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9950,7 +9740,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 205.74 162.56 90)
+		(at 190.5 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9958,7 +9748,7 @@
 		(dnp no)
 		(uuid "dfea1fc5-65e7-4c50-ab2c-b97045362763")
 		(property "Reference" "SW8"
-			(at 207.01 161.2899 90)
+			(at 191.77 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,7 +9757,7 @@
 			)
 		)
 		(property "Value" "SW_Push0"
-			(at 207.01 163.8299 90)
+			(at 191.77 130.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9976,7 +9766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 162.56 0)
+			(at 185.42 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9985,7 +9775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 162.56 0)
+			(at 185.42 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9994,7 +9784,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 205.74 162.56 0)
+			(at 190.5 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10003,7 +9793,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10012,7 +9802,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10021,7 +9811,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10030,7 +9820,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10039,7 +9829,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10048,7 +9838,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10057,7 +9847,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10066,7 +9856,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10075,7 +9865,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10084,7 +9874,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10093,7 +9883,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10102,7 +9892,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10111,7 +9901,7 @@
 			)
 		)
 		(property "Supplier P/N" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10120,7 +9910,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10129,7 +9919,7 @@
 			)
 		)
 		(property "Unit" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,7 +9928,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,7 +9937,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10156,7 +9946,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10165,7 +9955,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10174,7 +9964,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10183,7 +9973,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 205.74 162.56 90)
+			(at 190.5 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10201,6 +9991,72 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
 					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e49f14f4-4f21-4761-9d01-bc39d96ce2b3")
+		(property "Reference" "#PWR039"
+			(at 160.02 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1587f5c1-82db-44be-920c-fe2e0f1afe56")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10764,16 +10620,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 144.78 162.56 90)
+		(at 43.18 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f7223e9d-741b-48e4-9284-e47a0dceac98")
 		(property "Reference" "SW4"
-			(at 146.05 161.2899 90)
+			(at 44.45 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10782,7 +10637,7 @@
 			)
 		)
 		(property "Value" "SW_Push0"
-			(at 146.05 163.8299 90)
+			(at 44.45 130.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10791,7 +10646,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 162.56 0)
+			(at 38.1 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,7 +10655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 162.56 0)
+			(at 38.1 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,7 +10664,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 144.78 162.56 0)
+			(at 43.18 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,7 +10673,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10827,7 +10682,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10836,7 +10691,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10845,7 +10700,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10854,7 +10709,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10863,7 +10718,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10872,7 +10727,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10881,7 +10736,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10890,7 +10745,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10899,7 +10754,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10908,7 +10763,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10917,7 +10772,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10926,7 +10781,7 @@
 			)
 		)
 		(property "Supplier P/N" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10935,7 +10790,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10944,7 +10799,7 @@
 			)
 		)
 		(property "Unit" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10953,7 +10808,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10962,7 +10817,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10971,7 +10826,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10980,7 +10835,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10989,7 +10844,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10998,7 +10853,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 144.78 162.56 90)
+			(at 43.18 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
