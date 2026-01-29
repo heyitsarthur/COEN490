@@ -413,7 +413,7 @@
       "extra_units": "error",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -437,7 +437,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -1227,6 +1227,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -1245,56 +1253,40 @@
       "Root"
     ],
     [
-      "57a94eab-3ef7-4459-81a7-ccf0f968a3f9",
-      "PCB1-Board Connector A"
-    ],
-    [
-      "e426b06d-1e95-42a7-9a40-36031eed6283",
-      "PCB1-Camera CSI Connector"
-    ],
-    [
-      "c628b453-d163-4aee-96ce-67ec86c4997f",
-      "PCB1-Charging and Power"
-    ],
-    [
-      "c44da2de-7309-4c48-b0b5-1c312aeb25a1",
-      "PCB1-HDMI"
-    ],
-    [
-      "493ea17f-c559-4231-8bc6-3d2095052f63",
-      "PCB1-Button Connector"
-    ],
-    [
-      "8a2b3d52-a280-4930-b662-813ac18bd754",
-      "PCB1-10 Pin Connector"
-    ],
-    [
       "5522739b-0c93-41e1-a548-71dbce007147",
       "PCB2-Speakers and Connectors"
     ],
     [
-      "483eed7a-96eb-4109-95ec-14a5af83cc7b",
-      "PCB3-ToFConnectorBridge"
-    ],
-    [
-      "19b4b04e-1b4a-4f6b-b2e1-552fc3298e35",
+      "068f11fb-720d-48b0-8797-6d8a5a01cc51",
       "PCB3-USB 2.0 Bridge"
     ],
     [
-      "79deaf4a-f804-4ff9-8b34-bdb0933b38c3",
+      "41ec0f0a-1edf-4b7c-bea5-5c05662ec081",
       "PCB3-PWM and Motors"
     ],
     [
       "948e7232-901f-45ac-9739-05de18e1c97c",
-      "PCB4-Push Button Circuits"
+      "PCB4"
     ],
     [
-      "f970a79f-12c4-4788-a7b9-572f83ae9510",
-      "PCB4-CSI Bridge"
+      "f9f22bb2-829e-4ff5-89be-c4b5e2122135",
+      "PCB1"
     ],
     [
-      "69521be5-3f18-42b4-b911-397fa7513c42",
-      "PCB3-7 Pin Connector"
+      "a8971e06-9d2b-4df6-83ab-783791bb1c3f",
+      "PCB3"
+    ],
+    [
+      "9b56d3ca-82a9-4c6a-8125-2948d5100470",
+      "PCB1-Charging and Power"
+    ],
+    [
+      "21f47d4d-822c-4388-926e-42acdc952f53",
+      "PCB1-Board Connector A"
+    ],
+    [
+      "a65b36cc-1b6d-4844-884d-70a990694635",
+      "PCB1-HDMI"
     ]
   ],
   "text_variables": {}
