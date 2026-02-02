@@ -8995,8 +8995,8 @@
 		)
 		(symbol "MP2639AGR-Z_1_1"
 			(rectangle
-				(start -10.16 -2.54)
-				(end 45.72 -86.36)
+				(start 2.54 -2.54)
+				(end 33.02 -86.36)
 				(stroke
 					(width 0)
 					(type solid)
@@ -9006,7 +9006,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -12.7 0)
+				(at 0 -10.16 0)
 				(length 2.54)
 				(name "VL"
 					(effects
@@ -9024,7 +9024,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -15.24 0)
+				(at 0 -15.24 0)
 				(length 2.54)
 				(name "LX"
 					(effects
@@ -9042,7 +9042,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -17.78 0)
+				(at 0 -17.78 0)
 				(length 2.54)
 				(name "VH"
 					(effects
@@ -9060,7 +9060,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -20.32 0)
+				(at 0 -20.32 0)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -9078,7 +9078,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -25.4 0)
+				(at 0 -25.4 0)
 				(length 2.54)
 				(name "BST"
 					(effects
@@ -9096,7 +9096,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -27.94 0)
+				(at 0 -27.94 0)
 				(length 2.54)
 				(name "PB"
 					(effects
@@ -9114,7 +9114,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -30.48 0)
+				(at 0 -30.48 0)
 				(length 2.54)
 				(name "MODE"
 					(effects
@@ -9132,7 +9132,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -35.56 0)
+				(at 0 -35.56 0)
 				(length 2.54)
 				(name "MID"
 					(effects
@@ -9150,7 +9150,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -40.64 0)
+				(at 0 -40.64 0)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -9168,7 +9168,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -45.72 0)
+				(at 0 -45.72 0)
 				(length 2.54)
 				(name "VLIM"
 					(effects
@@ -9186,7 +9186,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -50.8 0)
+				(at 0 -50.8 0)
 				(length 2.54)
 				(name "VNTC"
 					(effects
@@ -9204,7 +9204,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -55.88 0)
+				(at 0 -55.88 0)
 				(length 2.54)
 				(name "NTC"
 					(effects
@@ -9222,7 +9222,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -60.96 0)
+				(at 0 -60.96 0)
 				(length 2.54)
 				(name "IB"
 					(effects
@@ -9240,7 +9240,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -66.04 0)
+				(at 0 -66.04 0)
 				(length 2.54)
 				(name "ACOK"
 					(effects
@@ -9258,7 +9258,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -71.12 0)
+				(at 0 -71.12 0)
 				(length 2.54)
 				(name "CHG"
 					(effects
@@ -9312,7 +9312,7 @@
 				)
 			)
 			(pin output line
-				(at 48.26 -30.48 180)
+				(at 35.56 -30.48 180)
 				(length 2.54)
 				(name "LED1"
 					(effects
@@ -9330,7 +9330,7 @@
 				)
 			)
 			(pin output line
-				(at 48.26 -35.56 180)
+				(at 35.56 -35.56 180)
 				(length 2.54)
 				(name "LED2"
 					(effects
@@ -9348,7 +9348,7 @@
 				)
 			)
 			(pin output line
-				(at 48.26 -40.64 180)
+				(at 35.56 -40.64 180)
 				(length 2.54)
 				(name "LED3"
 					(effects
@@ -9366,7 +9366,7 @@
 				)
 			)
 			(pin output line
-				(at 48.26 -45.72 180)
+				(at 35.56 -45.72 180)
 				(length 2.54)
 				(name "LED4"
 					(effects
@@ -9384,7 +9384,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 48.26 -53.34 180)
+				(at 35.56 -53.34 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -9402,7 +9402,7 @@
 				)
 			)
 			(pin input line
-				(at 48.26 -58.42 180)
+				(at 35.56 -58.42 180)
 				(length 2.54)
 				(name "OLIM"
 					(effects
@@ -9420,7 +9420,7 @@
 				)
 			)
 			(pin input line
-				(at 48.26 -63.5 180)
+				(at 35.56 -63.5 180)
 				(length 2.54)
 				(name "ILIM"
 					(effects
@@ -9438,7 +9438,7 @@
 				)
 			)
 			(pin input line
-				(at 48.26 -68.58 180)
+				(at 35.56 -68.58 180)
 				(length 2.54)
 				(name "ISET"
 					(effects
@@ -9456,7 +9456,7 @@
 				)
 			)
 			(pin input line
-				(at 48.26 -73.66 180)
+				(at 35.56 -73.66 180)
 				(length 2.54)
 				(name "TMR"
 					(effects
