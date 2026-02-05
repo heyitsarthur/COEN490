@@ -834,7 +834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21c823e9-dee8-4851-a6cd-2b1d99bb3c7a")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0105"
 			(at 185.42 72.39 0)
 			(effects
 				(font
@@ -884,7 +884,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f"
-					(reference "#PWR016")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -899,7 +899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "273ce64b-9fd3-4d83-b0df-4ea0d46c2f5f")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0104"
 			(at 177.8 72.39 0)
 			(effects
 				(font
@@ -949,7 +949,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f"
-					(reference "#PWR0144")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -965,7 +965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6be1364a-6491-4513-943a-7c511398400b")
-		(property "Reference" "J6"
+		(property "Reference" "J18"
 			(at 200.66 78.7399 0)
 			(effects
 				(font
@@ -983,7 +983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "4ms_Connector:Pins_1x08_2.54mm_TH"
+		(property "Footprint" ""
 			(at 198.12 66.675 0)
 			(effects
 				(font
@@ -1047,7 +1047,7 @@
 		(instances
 			(project ""
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f"
-					(reference "J6")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -1063,7 +1063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78ea643f-8c2d-46a6-8383-9c05dd65b0f5")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0106"
 			(at 190.5 102.87 0)
 			(effects
 				(font
@@ -1113,7 +1113,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f"
-					(reference "#PWR0143")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)

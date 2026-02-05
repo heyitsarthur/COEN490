@@ -547,157 +547,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at 1.905 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FerriteBead_Small"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.889) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1545,98 +1394,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_4ms_Power-symbol:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "capstone_parts:S2B-XH-A"
 			(pin_names
 				(offset 1.016)
@@ -2103,12 +1860,6 @@
 		(color 0 0 0 0)
 		(uuid "e3ed2806-f842-4228-91de-637484ef259b")
 	)
-	(junction
-		(at 124.46 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e49d8784-a7ed-419b-bcd4-26a0873cbe1b")
-	)
 	(wire
 		(pts
 			(xy 139.7 88.9) (xy 137.16 88.9)
@@ -2128,16 +1879,6 @@
 			(type default)
 		)
 		(uuid "090ee57a-4bcc-4a43-9d8d-dcb19fd53ec3")
-	)
-	(wire
-		(pts
-			(xy 124.46 73.66) (xy 124.46 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dd20293-949b-404f-9fbb-02eff5b75017")
 	)
 	(wire
 		(pts
@@ -2271,7 +2012,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 60.96) (xy 124.46 64.77)
+			(xy 124.46 60.96) (xy 124.46 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2328,16 +2069,6 @@
 			(type default)
 		)
 		(uuid "74918b64-9606-461a-9247-b74063b45a69")
-	)
-	(wire
-		(pts
-			(xy 124.46 73.66) (xy 144.78 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7db55200-147b-4abc-acb1-155c19d94342")
 	)
 	(wire
 		(pts
@@ -2491,16 +2222,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 69.85) (xy 124.46 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9c202f5-4b8b-462c-9f4b-3ba521058ccd")
-	)
-	(wire
-		(pts
 			(xy 111.76 99.06) (xy 110.49 99.06)
 		)
 		(stroke
@@ -2599,7 +2320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "052d1123-fc27-49eb-a7b7-b2c4b27a3f4b")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR02"
 			(at 205.74 72.39 0)
 			(effects
 				(font
@@ -2649,7 +2370,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "#PWR019")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2665,7 +2386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0964335c-6fbc-4948-9e47-ffebbee6b3b8")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR09"
 			(at 121.92 115.57 0)
 			(effects
 				(font
@@ -2715,7 +2436,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "#PWR0130")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2731,7 +2452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a6fef85-603f-4aae-a2a7-975a1dd7f16b")
-		(property "Reference" "J20"
+		(property "Reference" "J2"
 			(at 143.002 95.25 0)
 			(effects
 				(font
@@ -2922,7 +2643,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "J20")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3231,7 +2952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "238eb85d-623c-42e4-8206-6a28d8b96a16")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR01"
 			(at 124.46 63.5 0)
 			(effects
 				(font
@@ -3281,7 +3002,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "#PWR0121")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3297,7 +3018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26599712-abb4-49b8-81f9-ef7676dfb98e")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR010"
 			(at 127 115.57 0)
 			(effects
 				(font
@@ -3347,7 +3068,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "#PWR0131")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3363,7 +3084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a7d2976-c35b-416a-aaea-4a4f64c28fa6")
-		(property "Reference" "J8"
+		(property "Reference" "J3"
 			(at 223.52 85.0899 0)
 			(effects
 				(font
@@ -3444,293 +3165,7 @@
 		(instances
 			(project ""
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 124.46 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ea74d89-b668-4e58-8ca0-d36760d00dae")
-		(property "Reference" "FB2"
-			(at 127 66.0018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 127 68.5418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 122.682 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Link" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Display" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB ID" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer NUMBER" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier P/N" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Current - Load" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Current - Supply" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage - Load" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage - Supply" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Load Capacitance" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Shunt Capacitance" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 124.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9353df57-ae62-44db-8327-5207ca541fb2")
-		)
-		(pin "1"
-			(uuid "d24c9eda-7175-451e-bb14-db195cc7701f")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "FB2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3745,7 +3180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4086ea5e-679a-4368-b280-2fb2e6cfc46f")
-		(property "Reference" "R48"
+		(property "Reference" "R1"
 			(at 86.614 91.694 90)
 			(effects
 				(font
@@ -4013,7 +3448,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "R48")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4029,7 +3464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48b2bdb3-2a0c-4229-bb58-ae323bf6f31d")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR03"
 			(at 213.36 72.39 0)
 			(effects
 				(font
@@ -4079,7 +3514,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "#PWR017")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4095,7 +3530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "604d540a-8fb0-4a09-9798-acf36f7de5db")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR06"
 			(at 88.9 90.17 0)
 			(effects
 				(font
@@ -4145,72 +3580,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Power-symbol:PWR_FLAG")
-		(at 144.78 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6da262df-4b7f-407c-ac5c-f769719fc6d5")
-		(property "Reference" "#FLG03"
-			(at 144.78 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 148.844 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5183c85-2c19-4edd-b5e0-ef43f1427534")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "#FLG03")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4226,7 +3596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "972b18f3-f0a3-436d-95aa-77f5667d2720")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR07"
 			(at 203.2 107.95 0)
 			(effects
 				(font
@@ -4276,7 +3646,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "#PWR018")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4292,7 +3662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b5db156-cfcd-4847-a851-117492117bad")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR05"
 			(at 107.95 77.47 0)
 			(effects
 				(font
@@ -4342,7 +3712,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "#PWR0124")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4652,7 +4022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1689ef5-d54c-499e-bcde-d0e25533046b")
-		(property "Reference" "U9"
+		(property "Reference" "U1"
 			(at 127.762 77.724 0)
 			(effects
 				(font
@@ -4985,7 +4355,7 @@
 		(instances
 			(project ""
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "U9")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5001,7 +4371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d597b66b-a391-4405-96c2-31295659a549")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR04"
 			(at 101.6 77.47 0)
 			(effects
 				(font
@@ -5051,7 +4421,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "#PWR0123")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5067,7 +4437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc9afd74-fc82-4ae4-baa7-5dcfbd50d44a")
-		(property "Reference" "J7"
+		(property "Reference" "J1"
 			(at 186.69 81.2799 0)
 			(effects
 				(font
@@ -5149,7 +4519,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "J7")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5165,7 +4535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd67d90f-81fd-459c-ab97-fb864f3727ae")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR08"
 			(at 110.49 115.57 0)
 			(effects
 				(font
@@ -5215,7 +4585,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "#PWR0129")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5230,7 +4600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe3ae2c0-d2a9-4758-ba69-080a688771bd")
-		(property "Reference" "R49"
+		(property "Reference" "R2"
 			(at 108.204 104.394 90)
 			(effects
 				(font
@@ -5498,7 +4868,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/5522739b-0c93-41e1-a548-71dbce007147"
-					(reference "R49")
+					(reference "R2")
 					(unit 1)
 				)
 			)

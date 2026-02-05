@@ -226,7 +226,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "four_way_junction|1574800|1422400|ec351548-2415-48f1-a2db-6723930654d7|77c2f264-29fe-4bc7-986a-a45125d3e29b|/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c||",
+        "Ok"
+      ],
+      [
+        "four_way_junction|1574800|838200|6d76aaa6-47cd-4040-9029-1babd60a22e8|7c7b0ab7-1b9e-49ab-9541-81a42a432824|/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c||",
+        "Ok"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -430,7 +439,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -955,7 +964,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1190,11 +1199,17 @@
           "label": "MAXIMUM_PACKAGE_HIEGHT",
           "name": "MAXIMUM_PACKAGE_HIEGHT",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OPTION",
+          "name": "OPTION",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": false,
       "sort_field": "Unit"
@@ -1259,6 +1274,10 @@
     [
       "068f11fb-720d-48b0-8797-6d8a5a01cc51",
       "PCB3-USB 2.0 Bridge"
+    ],
+    [
+      "d28f2748-3083-434f-ab92-5f07809e59a3",
+      "PCB1-Charging and Power Port + USB switch"
     ],
     [
       "41ec0f0a-1edf-4b7c-bea5-5c05662ec081",
