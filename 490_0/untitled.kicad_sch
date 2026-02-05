@@ -11726,7 +11726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120 uF"
+		(property "Value" "100u"
 			(at 214.63 77.8509 0)
 			(effects
 				(font
@@ -11744,7 +11744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://293d.pdf"
 			(at 210.82 77.47 0)
 			(effects
 				(font
@@ -11753,7 +11753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "CAP TANT 100UF 10% 6.3V 2312"
 			(at 210.82 77.47 0)
 			(effects
 				(font
@@ -11762,7 +11762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "293D107X96R3C2TE3"
 			(at 210.82 77.47 0)
 			(effects
 				(font
@@ -11780,7 +11780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 210.82 77.47 0)
 			(effects
 				(font
@@ -11789,7 +11789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "718-1058-1-ND"
 			(at 210.82 77.47 0)
 			(effects
 				(font
@@ -11798,7 +11798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD"
 			(at 210.82 77.47 0)
 			(effects
 				(font
@@ -11807,7 +11807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 210.82 77.47 0)
 			(effects
 				(font
@@ -11889,6 +11889,60 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 210.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-sprague/293D107X96R3C2TE3/1559552"
+			(at 210.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Sprague"
+			(at 210.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2312 (6032 Metric)"
+			(at 210.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.74"
+			(at 210.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 210.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 210.82 77.47 0)
 			(effects
 				(font
@@ -12338,6 +12392,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Raing" ""
+			(at 189.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 189.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cbabe53c-bf51-4870-a21d-4b7dbf9a47e4")
 		)
@@ -12527,6 +12599,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Raing" ""
+			(at 20.32 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 20.32 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "deab7000-ecbb-44c3-a48d-cc2ec3989188")
 		)
@@ -12587,7 +12677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
 			(at 251.46 76.2 0)
 			(effects
 				(font
@@ -12596,7 +12686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 10UF 16V X7R 1206"
 			(at 251.46 76.2 0)
 			(effects
 				(font
@@ -12624,7 +12714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c106k4ractu/789657"
 			(at 251.46 76.2 0)
 			(effects
 				(font
@@ -12651,7 +12741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 251.46 76.2 0)
 			(effects
 				(font
@@ -12705,7 +12795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "C1206C106K4RACTU"
 			(at 251.46 76.2 0)
 			(effects
 				(font
@@ -12723,7 +12813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 251.46 76.2 0)
 			(effects
 				(font
@@ -12732,7 +12822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "399-C1206C106K4RACTUCT-ND"
 			(at 251.46 76.2 0)
 			(effects
 				(font
@@ -12741,7 +12831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD, MLCC"
 			(at 251.46 76.2 0)
 			(effects
 				(font
@@ -12750,7 +12840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 251.46 76.2 0)
 			(effects
 				(font
@@ -12832,6 +12922,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 251.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 251.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.31"
+			(at 251.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 251.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 251.46 76.2 0)
 			(effects
 				(font
@@ -13022,7 +13148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -13031,7 +13157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 10UF 16V X7R 1206"
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -13059,7 +13185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c106k4ractu/789657"
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -13086,7 +13212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -13140,7 +13266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "C1206C106K4RACTU"
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -13158,7 +13284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -13167,7 +13293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "399-C1206C106K4RACTUCT-ND"
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -13176,7 +13302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD, MLCC"
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -13185,7 +13311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -13267,6 +13393,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 236.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 236.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.31"
+			(at 236.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 236.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -13374,7 +13536,7 @@
 				)
 			)
 		)
-		(property "Value" "59k 1%"
+		(property "Value" "59k"
 			(at 196.85 75.946 90)
 			(effects
 				(font
@@ -13391,7 +13553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L (YAGEO resistors).pdf"
 			(at 196.85 73.66 0)
 			(effects
 				(font
@@ -13400,7 +13562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 59K OHM 1% 1/4W 1206"
 			(at 196.85 73.66 0)
 			(effects
 				(font
@@ -13409,7 +13571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0759KL/729006"
 			(at 196.85 73.66 90)
 			(effects
 				(font
@@ -13436,7 +13598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 196.85 73.66 90)
 			(effects
 				(font
@@ -13490,7 +13652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "RC1206FR-0759KL"
 			(at 196.85 73.66 90)
 			(effects
 				(font
@@ -13508,7 +13670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 196.85 73.66 90)
 			(effects
 				(font
@@ -13517,7 +13679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "311-59.0KFRCT-ND"
 			(at 196.85 73.66 90)
 			(effects
 				(font
@@ -13526,7 +13688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD"
 			(at 196.85 73.66 90)
 			(effects
 				(font
@@ -13535,7 +13697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 196.85 73.66 90)
 			(effects
 				(font
@@ -13617,6 +13779,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 196.85 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 196.85 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
+			(at 196.85 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 196.85 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 196.85 73.66 90)
 			(effects
 				(font
@@ -13657,7 +13855,7 @@
 				)
 			)
 		)
-		(property "Value" "36k 1%"
+		(property "Value" "36k"
 			(at 68.326 173.99 90)
 			(effects
 				(font
@@ -13674,7 +13872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L (YAGEO resistors).pdf"
 			(at 66.04 173.99 0)
 			(effects
 				(font
@@ -13683,7 +13881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 36K OHM 1% 1/4W 1206"
 			(at 66.04 173.99 0)
 			(effects
 				(font
@@ -13692,7 +13890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0736KL/728839"
 			(at 66.04 173.99 90)
 			(effects
 				(font
@@ -13719,7 +13917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 66.04 173.99 90)
 			(effects
 				(font
@@ -13773,7 +13971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "RC1206FR-0736KL"
 			(at 66.04 173.99 90)
 			(effects
 				(font
@@ -13791,7 +13989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 66.04 173.99 90)
 			(effects
 				(font
@@ -13800,7 +13998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "311-36.0KFRCT-ND"
 			(at 66.04 173.99 90)
 			(effects
 				(font
@@ -13809,7 +14007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD"
 			(at 66.04 173.99 90)
 			(effects
 				(font
@@ -13818,7 +14016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 66.04 173.99 90)
 			(effects
 				(font
@@ -13900,6 +14098,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 66.04 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 66.04 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
+			(at 66.04 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 66.04 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 66.04 173.99 90)
 			(effects
 				(font
@@ -13940,7 +14174,7 @@
 				)
 			)
 		)
-		(property "Value" "36k 1%"
+		(property "Value" "36k"
 			(at 60.706 173.99 90)
 			(effects
 				(font
@@ -13957,7 +14191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L (YAGEO resistors).pdf"
 			(at 58.42 173.99 0)
 			(effects
 				(font
@@ -13966,7 +14200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 36K OHM 1% 1/4W 1206"
 			(at 58.42 173.99 0)
 			(effects
 				(font
@@ -13975,7 +14209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0736KL/728839"
 			(at 58.42 173.99 90)
 			(effects
 				(font
@@ -14002,7 +14236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 58.42 173.99 90)
 			(effects
 				(font
@@ -14056,7 +14290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "RC1206FR-0736KL"
 			(at 58.42 173.99 90)
 			(effects
 				(font
@@ -14074,7 +14308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 58.42 173.99 90)
 			(effects
 				(font
@@ -14083,7 +14317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "311-36.0KFRCT-ND"
 			(at 58.42 173.99 90)
 			(effects
 				(font
@@ -14092,7 +14326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD"
 			(at 58.42 173.99 90)
 			(effects
 				(font
@@ -14101,7 +14335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 58.42 173.99 90)
 			(effects
 				(font
@@ -14183,6 +14417,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 58.42 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 58.42 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
+			(at 58.42 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 58.42 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 58.42 173.99 90)
 			(effects
 				(font
@@ -14372,6 +14642,24 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 63.5 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 63.5 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 63.5 60.96 90)
 			(effects
 				(font
@@ -14629,7 +14917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Connector:1x04_P2.54mm"
+		(property "Footprint" ""
 			(at 210.82 167.64 0)
 			(effects
 				(font
@@ -14638,7 +14926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://B3B-XH-A.pdf"
 			(at 210.82 170.18 0)
 			(effects
 				(font
@@ -14647,7 +14935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Basic 0.1\" PTH"
+		(property "Description" "CONN HEADER R/A 4POS 2.5MM"
 			(at 210.82 172.72 0)
 			(effects
 				(font
@@ -14675,6 +14963,96 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 210.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/S4B-XH-A/1651041"
+			(at 210.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 210.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "S4B-XH-A"
+			(at 210.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
+			(at 210.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 210.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "455-2243-ND"
+			(at 210.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Through Hole"
+			(at 210.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 210.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 210.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 210.82 157.48 0)
 			(effects
 				(font
@@ -14806,7 +15184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -14815,7 +15193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 10UF 16V X7R 1206"
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -14843,7 +15221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c106k4ractu/789657"
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -14870,7 +15248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -14924,7 +15302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "C1206C106K4RACTU"
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -14942,7 +15320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -14951,7 +15329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "399-C1206C106K4RACTUCT-ND"
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -14960,7 +15338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD, MLCC"
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -14969,7 +15347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -15051,6 +15429,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 228.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 228.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.31"
+			(at 228.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 228.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -15110,7 +15524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
 			(at 236.22 35.56 0)
 			(effects
 				(font
@@ -15119,7 +15533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 10UF 16V X7R 1206"
 			(at 236.22 35.56 0)
 			(effects
 				(font
@@ -15147,7 +15561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c106k4ractu/789657"
 			(at 236.22 35.56 0)
 			(effects
 				(font
@@ -15174,7 +15588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 236.22 35.56 0)
 			(effects
 				(font
@@ -15228,7 +15642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "C1206C106K4RACTU"
 			(at 236.22 35.56 0)
 			(effects
 				(font
@@ -15246,7 +15660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 236.22 35.56 0)
 			(effects
 				(font
@@ -15255,7 +15669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "399-C1206C106K4RACTUCT-ND"
 			(at 236.22 35.56 0)
 			(effects
 				(font
@@ -15264,7 +15678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD, MLCC"
 			(at 236.22 35.56 0)
 			(effects
 				(font
@@ -15273,7 +15687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 236.22 35.56 0)
 			(effects
 				(font
@@ -15355,6 +15769,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 236.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 236.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.31"
+			(at 236.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 236.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 236.22 35.56 0)
 			(effects
 				(font
@@ -15548,7 +15998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://CL31B104KBCNNNC_Spec.pdf"
 			(at 38.1 66.04 0)
 			(effects
 				(font
@@ -15557,7 +16007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
 			(at 38.1 66.04 0)
 			(effects
 				(font
@@ -15585,7 +16035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/cl31b104kbcnnnc/3886675"
 			(at 38.1 66.04 0)
 			(effects
 				(font
@@ -15612,7 +16062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 38.1 66.04 0)
 			(effects
 				(font
@@ -15666,7 +16116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL31B104KBCNNNC"
 			(at 38.1 66.04 0)
 			(effects
 				(font
@@ -15684,7 +16134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 38.1 66.04 0)
 			(effects
 				(font
@@ -15693,7 +16143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "1276-1017-1-ND"
 			(at 38.1 66.04 0)
 			(effects
 				(font
@@ -15702,7 +16152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD, MLCC"
 			(at 38.1 66.04 0)
 			(effects
 				(font
@@ -15711,7 +16161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 38.1 66.04 0)
 			(effects
 				(font
@@ -15793,6 +16243,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 38.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 38.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 38.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 38.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 38.1 66.04 0)
 			(effects
 				(font
@@ -15833,7 +16319,7 @@
 				)
 			)
 		)
-		(property "Value" "36k 1%"
+		(property "Value" "36k"
 			(at 45.466 173.99 90)
 			(effects
 				(font
@@ -15850,7 +16336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L (YAGEO resistors).pdf"
 			(at 43.18 173.99 0)
 			(effects
 				(font
@@ -15859,7 +16345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 36K OHM 1% 1/4W 1206"
 			(at 43.18 173.99 0)
 			(effects
 				(font
@@ -15868,7 +16354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0736KL/728839"
 			(at 43.18 173.99 90)
 			(effects
 				(font
@@ -15895,7 +16381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 43.18 173.99 90)
 			(effects
 				(font
@@ -15949,7 +16435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "RC1206FR-0736KL"
 			(at 43.18 173.99 90)
 			(effects
 				(font
@@ -15967,7 +16453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 43.18 173.99 90)
 			(effects
 				(font
@@ -15976,7 +16462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "311-36.0KFRCT-ND"
 			(at 43.18 173.99 90)
 			(effects
 				(font
@@ -15985,7 +16471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD"
 			(at 43.18 173.99 90)
 			(effects
 				(font
@@ -15994,7 +16480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 43.18 173.99 90)
 			(effects
 				(font
@@ -16076,6 +16562,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 43.18 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 43.18 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
+			(at 43.18 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 43.18 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 43.18 173.99 90)
 			(effects
 				(font
@@ -16201,7 +16723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
 			(at 243.84 76.2 0)
 			(effects
 				(font
@@ -16210,7 +16732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 10UF 16V X7R 1206"
 			(at 243.84 76.2 0)
 			(effects
 				(font
@@ -16238,7 +16760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c106k4ractu/789657"
 			(at 243.84 76.2 0)
 			(effects
 				(font
@@ -16265,7 +16787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 243.84 76.2 0)
 			(effects
 				(font
@@ -16319,7 +16841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "C1206C106K4RACTU"
 			(at 243.84 76.2 0)
 			(effects
 				(font
@@ -16337,7 +16859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 243.84 76.2 0)
 			(effects
 				(font
@@ -16346,7 +16868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "399-C1206C106K4RACTUCT-ND"
 			(at 243.84 76.2 0)
 			(effects
 				(font
@@ -16355,7 +16877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD, MLCC"
 			(at 243.84 76.2 0)
 			(effects
 				(font
@@ -16364,7 +16886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 243.84 76.2 0)
 			(effects
 				(font
@@ -16446,6 +16968,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 243.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 243.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.31"
+			(at 243.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 243.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 243.84 76.2 0)
 			(effects
 				(font
@@ -16697,6 +17255,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Raing" ""
+			(at 187.96 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 187.96 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c953051c-b2cb-4f2b-b6ca-eed06923d705")
 		)
@@ -16881,7 +17457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://CL31B104KBCNNNC_Spec.pdf"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -16890,7 +17466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -16918,7 +17494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/cl31b104kbcnnnc/3886675"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -16945,7 +17521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -16999,7 +17575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL31B104KBCNNNC"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -17017,7 +17593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -17026,7 +17602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "1276-1017-1-ND"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -17035,7 +17611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD, MLCC"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -17044,7 +17620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -17126,6 +17702,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -17366,6 +17978,24 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 162.56 78.74 0)
 			(effects
 				(font
@@ -17757,6 +18387,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Raing" ""
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f69c4755-075b-46c0-bfae-8a906d9b22df")
 		)
@@ -17913,7 +18561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
 			(at 132.08 76.2 0)
 			(effects
 				(font
@@ -17922,7 +18570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 10UF 16V X7R 1206"
 			(at 132.08 76.2 0)
 			(effects
 				(font
@@ -17950,7 +18598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c106k4ractu/789657"
 			(at 132.08 76.2 0)
 			(effects
 				(font
@@ -17977,7 +18625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 132.08 76.2 0)
 			(effects
 				(font
@@ -18031,7 +18679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "C1206C106K4RACTU"
 			(at 132.08 76.2 0)
 			(effects
 				(font
@@ -18049,7 +18697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 132.08 76.2 0)
 			(effects
 				(font
@@ -18058,7 +18706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "399-C1206C106K4RACTUCT-ND"
 			(at 132.08 76.2 0)
 			(effects
 				(font
@@ -18067,7 +18715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD, MLCC"
 			(at 132.08 76.2 0)
 			(effects
 				(font
@@ -18076,7 +18724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 132.08 76.2 0)
 			(effects
 				(font
@@ -18166,6 +18814,42 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.31"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b35d2a80-55a4-403e-a073-45c32f812eb8")
 		)
@@ -18209,7 +18893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Connector:1x04_P2.54mm"
+		(property "Footprint" ""
 			(at 210.82 137.16 0)
 			(effects
 				(font
@@ -18218,7 +18902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://B3B-XH-A.pdf"
 			(at 210.82 139.7 0)
 			(effects
 				(font
@@ -18227,7 +18911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Basic 0.1\" PTH"
+		(property "Description" "CONN HEADER R/A 4POS 2.5MM"
 			(at 210.82 142.24 0)
 			(effects
 				(font
@@ -18255,6 +18939,96 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/S4B-XH-A/1651041"
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "S4B-XH-A"
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.18"
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "455-2243-ND"
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Through Hole"
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 210.82 127 0)
 			(effects
 				(font
@@ -18649,6 +19423,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Raing" ""
+			(at 27.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 27.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "081a7b4f-88d0-4564-ba1b-eba919a22764")
 		)
@@ -18889,6 +19681,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Raing" ""
+			(at 162.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 162.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "68df92bb-f556-4129-9cb8-cff87db92b33")
 		)
@@ -18951,7 +19761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L (YAGEO resistors).pdf"
 			(at 199.39 60.96 0)
 			(effects
 				(font
@@ -18960,7 +19770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1K OHM 1% 1/4W 1206"
 			(at 199.39 60.96 0)
 			(effects
 				(font
@@ -18969,7 +19779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-071KL/728387"
 			(at 199.39 60.96 90)
 			(effects
 				(font
@@ -18996,7 +19806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 199.39 60.96 90)
 			(effects
 				(font
@@ -19050,7 +19860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "RC1206FR-071KL"
 			(at 199.39 60.96 90)
 			(effects
 				(font
@@ -19068,7 +19878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 199.39 60.96 90)
 			(effects
 				(font
@@ -19077,7 +19887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "311-1.00KFRCT-ND"
 			(at 199.39 60.96 90)
 			(effects
 				(font
@@ -19086,7 +19896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD"
 			(at 199.39 60.96 90)
 			(effects
 				(font
@@ -19095,7 +19905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 199.39 60.96 90)
 			(effects
 				(font
@@ -19177,6 +19987,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 199.39 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 199.39 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 199.39 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 199.39 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 199.39 60.96 90)
 			(effects
 				(font
@@ -19367,7 +20213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
 			(at 132.08 35.56 0)
 			(effects
 				(font
@@ -19376,7 +20222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 10UF 16V X7R 1206"
 			(at 132.08 35.56 0)
 			(effects
 				(font
@@ -19404,7 +20250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c106k4ractu/789657"
 			(at 132.08 35.56 0)
 			(effects
 				(font
@@ -19431,7 +20277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 132.08 35.56 0)
 			(effects
 				(font
@@ -19485,7 +20331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "C1206C106K4RACTU"
 			(at 132.08 35.56 0)
 			(effects
 				(font
@@ -19503,7 +20349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 132.08 35.56 0)
 			(effects
 				(font
@@ -19512,7 +20358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "399-C1206C106K4RACTUCT-ND"
 			(at 132.08 35.56 0)
 			(effects
 				(font
@@ -19521,7 +20367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD, MLCC"
 			(at 132.08 35.56 0)
 			(effects
 				(font
@@ -19530,7 +20376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 132.08 35.56 0)
 			(effects
 				(font
@@ -19612,6 +20458,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 132.08 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 132.08 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.31"
+			(at 132.08 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 132.08 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 132.08 35.56 0)
 			(effects
 				(font
@@ -19652,7 +20534,7 @@
 				)
 			)
 		)
-		(property "Value" "36k 1%"
+		(property "Value" "36k"
 			(at 53.086 173.99 90)
 			(effects
 				(font
@@ -19669,7 +20551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L (YAGEO resistors).pdf"
 			(at 50.8 173.99 0)
 			(effects
 				(font
@@ -19678,7 +20560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 36K OHM 1% 1/4W 1206"
 			(at 50.8 173.99 0)
 			(effects
 				(font
@@ -19687,7 +20569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0736KL/728839"
 			(at 50.8 173.99 90)
 			(effects
 				(font
@@ -19714,7 +20596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 50.8 173.99 90)
 			(effects
 				(font
@@ -19768,7 +20650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "RC1206FR-0736KL"
 			(at 50.8 173.99 90)
 			(effects
 				(font
@@ -19786,7 +20668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 50.8 173.99 90)
 			(effects
 				(font
@@ -19795,7 +20677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "311-36.0KFRCT-ND"
 			(at 50.8 173.99 90)
 			(effects
 				(font
@@ -19804,7 +20686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD"
 			(at 50.8 173.99 90)
 			(effects
 				(font
@@ -19813,7 +20695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 50.8 173.99 90)
 			(effects
 				(font
@@ -19895,6 +20777,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 50.8 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 50.8 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
+			(at 50.8 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 50.8 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 50.8 173.99 90)
 			(effects
 				(font
@@ -20147,6 +21065,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Raing" ""
+			(at 187.96 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 187.96 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "41999466-7e79-44a3-84d0-df0d25177bd0")
 		)
@@ -20330,7 +21266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20339,7 +21275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 10UF 16V X7R 1206"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20367,7 +21303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c106k4ractu/789657"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20394,7 +21330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20448,7 +21384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "C1206C106K4RACTU"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20466,7 +21402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20475,7 +21411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "399-C1206C106K4RACTUCT-ND"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20484,7 +21420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD, MLCC"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20493,7 +21429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20575,6 +21511,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 243.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 243.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.31"
+			(at 243.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 243.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20683,7 +21655,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120 uF"
+		(property "Value" "100u"
 			(at 214.63 37.2109 0)
 			(effects
 				(font
@@ -20701,7 +21673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://293d.pdf"
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -20710,7 +21682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "CAP TANT 100UF 10% 6.3V 2312"
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -20719,7 +21691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "293D107X96R3C2TE3"
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -20737,7 +21709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -20746,7 +21718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "718-1058-1-ND"
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -20755,7 +21727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD"
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -20764,7 +21736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -20846,6 +21818,60 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-sprague/293D107X96R3C2TE3/1559552"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Sprague"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2312 (6032 Metric)"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.74"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -20970,7 +21996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L (YAGEO resistors).pdf"
 			(at 199.39 20.32 0)
 			(effects
 				(font
@@ -20979,7 +22005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1K OHM 1% 1/4W 1206"
 			(at 199.39 20.32 0)
 			(effects
 				(font
@@ -20988,7 +22014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-071KL/728387"
 			(at 199.39 20.32 90)
 			(effects
 				(font
@@ -21015,7 +22041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 199.39 20.32 90)
 			(effects
 				(font
@@ -21069,7 +22095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "RC1206FR-071KL"
 			(at 199.39 20.32 90)
 			(effects
 				(font
@@ -21087,7 +22113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 199.39 20.32 90)
 			(effects
 				(font
@@ -21096,7 +22122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "311-1.00KFRCT-ND"
 			(at 199.39 20.32 90)
 			(effects
 				(font
@@ -21105,7 +22131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD"
 			(at 199.39 20.32 90)
 			(effects
 				(font
@@ -21114,7 +22140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 199.39 20.32 90)
 			(effects
 				(font
@@ -21196,6 +22222,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 199.39 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 199.39 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 199.39 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 199.39 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 199.39 20.32 90)
 			(effects
 				(font
@@ -21567,7 +22629,7 @@
 				)
 			)
 		)
-		(property "Value" "59k 1%"
+		(property "Value" "59k"
 			(at 196.85 35.306 90)
 			(effects
 				(font
@@ -21584,7 +22646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L (YAGEO resistors).pdf"
 			(at 196.85 33.02 0)
 			(effects
 				(font
@@ -21593,7 +22655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 59K OHM 1% 1/4W 1206"
 			(at 196.85 33.02 0)
 			(effects
 				(font
@@ -21602,7 +22664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0759KL/729006"
 			(at 196.85 33.02 90)
 			(effects
 				(font
@@ -21629,7 +22691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 196.85 33.02 90)
 			(effects
 				(font
@@ -21683,7 +22745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "RC1206FR-0759KL"
 			(at 196.85 33.02 90)
 			(effects
 				(font
@@ -21701,7 +22763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 196.85 33.02 90)
 			(effects
 				(font
@@ -21710,7 +22772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "311-59.0KFRCT-ND"
 			(at 196.85 33.02 90)
 			(effects
 				(font
@@ -21719,7 +22781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD"
 			(at 196.85 33.02 90)
 			(effects
 				(font
@@ -21728,7 +22790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 196.85 33.02 90)
 			(effects
 				(font
@@ -21810,6 +22872,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 196.85 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 196.85 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
+			(at 196.85 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 196.85 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 196.85 33.02 90)
 			(effects
 				(font
@@ -21869,7 +22967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://KEM_C1003_C0G_SMD.pdf"
 			(at 35.56 165.1 0)
 			(effects
 				(font
@@ -21878,7 +22976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 1206"
 			(at 35.56 165.1 0)
 			(effects
 				(font
@@ -21906,7 +23004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c330j5gactu/411198"
 			(at 35.56 165.1 0)
 			(effects
 				(font
@@ -21933,7 +23031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 35.56 165.1 0)
 			(effects
 				(font
@@ -21987,7 +23085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "C1206C330J5GACTU"
 			(at 35.56 165.1 0)
 			(effects
 				(font
@@ -22005,7 +23103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 35.56 165.1 0)
 			(effects
 				(font
@@ -22014,7 +23112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "399-C1206C330J5GACTUCT-ND"
 			(at 35.56 165.1 0)
 			(effects
 				(font
@@ -22023,7 +23121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD, MLCC"
 			(at 35.56 165.1 0)
 			(effects
 				(font
@@ -22032,7 +23130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 35.56 165.1 0)
 			(effects
 				(font
@@ -22114,6 +23212,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 35.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 35.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.19"
+			(at 35.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 35.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 35.56 165.1 0)
 			(effects
 				(font
@@ -22432,6 +23566,24 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Raing" ""
+			(at 191.77 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 191.77 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9987cb24-65bb-4830-b77e-d0821871de1b")
 		)
@@ -22483,7 +23635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
 			(at 251.46 35.56 0)
 			(effects
 				(font
@@ -22492,7 +23644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 10UF 16V X7R 1206"
 			(at 251.46 35.56 0)
 			(effects
 				(font
@@ -22520,7 +23672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c106k4ractu/789657"
 			(at 251.46 35.56 0)
 			(effects
 				(font
@@ -22547,7 +23699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 251.46 35.56 0)
 			(effects
 				(font
@@ -22601,7 +23753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "C1206C106K4RACTU"
 			(at 251.46 35.56 0)
 			(effects
 				(font
@@ -22619,7 +23771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 251.46 35.56 0)
 			(effects
 				(font
@@ -22628,7 +23780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "399-C1206C106K4RACTUCT-ND"
 			(at 251.46 35.56 0)
 			(effects
 				(font
@@ -22637,7 +23789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD, MLCC"
 			(at 251.46 35.56 0)
 			(effects
 				(font
@@ -22646,7 +23798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 251.46 35.56 0)
 			(effects
 				(font
@@ -22728,6 +23880,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.31"
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 251.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 251.46 35.56 0)
 			(effects
 				(font
@@ -22787,7 +23975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -22796,7 +23984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 10UF 16V X7R 1206"
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -22824,7 +24012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c106k4ractu/789657"
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -22851,7 +24039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -22905,7 +24093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "C1206C106K4RACTU"
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -22923,7 +24111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -22932,7 +24120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "399-C1206C106K4RACTUCT-ND"
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -22941,7 +24129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD, MLCC"
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -22950,7 +24138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -23032,6 +24220,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 228.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 228.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.31"
+			(at 228.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 228.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -23072,7 +24296,7 @@
 				)
 			)
 		)
-		(property "Value" "12k 1%"
+		(property "Value" "12k"
 			(at 62.23 137.414 90)
 			(effects
 				(font
@@ -23089,7 +24313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L (YAGEO resistors).pdf"
 			(at 62.23 139.7 0)
 			(effects
 				(font
@@ -23098,7 +24322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 12K OHM 1% 1/4W 1206"
 			(at 62.23 139.7 0)
 			(effects
 				(font
@@ -23107,7 +24331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0712KL/728516"
 			(at 62.23 139.7 90)
 			(effects
 				(font
@@ -23134,7 +24358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 62.23 139.7 90)
 			(effects
 				(font
@@ -23188,7 +24412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "RC1206FR-0712KL"
 			(at 62.23 139.7 90)
 			(effects
 				(font
@@ -23206,7 +24430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 62.23 139.7 90)
 			(effects
 				(font
@@ -23215,7 +24439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "311-12.0KFRCT-ND"
 			(at 62.23 139.7 90)
 			(effects
 				(font
@@ -23224,7 +24448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD"
 			(at 62.23 139.7 90)
 			(effects
 				(font
@@ -23233,7 +24457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 62.23 139.7 90)
 			(effects
 				(font
@@ -23315,6 +24539,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 62.23 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 62.23 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
+			(at 62.23 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 62.23 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 62.23 139.7 90)
 			(effects
 				(font
@@ -23574,7 +24834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://KEM_C1003_C0G_SMD.pdf"
 			(at 20.32 165.1 0)
 			(effects
 				(font
@@ -23583,7 +24843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 1206"
 			(at 20.32 165.1 0)
 			(effects
 				(font
@@ -23611,7 +24871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c330j5gactu/411198"
 			(at 20.32 165.1 0)
 			(effects
 				(font
@@ -23638,7 +24898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 20.32 165.1 0)
 			(effects
 				(font
@@ -23692,7 +24952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "C1206C330J5GACTU"
 			(at 20.32 165.1 0)
 			(effects
 				(font
@@ -23710,7 +24970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 20.32 165.1 0)
 			(effects
 				(font
@@ -23719,7 +24979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" ""
+		(property "Supplier P/N" "399-C1206C330J5GACTUCT-ND"
 			(at 20.32 165.1 0)
 			(effects
 				(font
@@ -23728,7 +24988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" ""
+		(property "Type" "SMD, MLCC"
 			(at 20.32 165.1 0)
 			(effects
 				(font
@@ -23737,7 +24997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 20.32 165.1 0)
 			(effects
 				(font
@@ -23819,6 +25079,42 @@
 			)
 		)
 		(property "PRICE" ""
+			(at 20.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 (3216 Metric)"
+			(at 20.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.19"
+			(at 20.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Raing" ""
+			(at 20.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
 			(at 20.32 165.1 0)
 			(effects
 				(font
