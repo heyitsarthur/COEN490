@@ -663,38 +663,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "capstone_parts:S2B-XH-A"
+		(symbol "PCM_4ms_Connector:Conn_01x02"
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -5.08 10.16 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "S2B-XH-A"
-				(at -10.16 7.62 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "S2B-XH-A:JST_S2B-XH-A"
-				(at 0 0 0)
+			(property "Footprint" "4ms_Connector:Pins_1x02_2.54mm_TH"
+				(at -0.635 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -707,7 +705,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "HEADER 1x2 MALE PINS 0.100” 180deg"
 				(at 0 0 0)
 				(effects
 					(font
@@ -716,20 +714,58 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "JST"
+			(property "Specifications" "Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"
+				(at -2.54 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TAD"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "1-0201FBV0T"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Conn_01x02"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "S2B-XH-A_0_0"
+			(property "ki_fp_filters" "Connector*:*_??x*mm* Connector*:*1x??x*mm* Pin?Header?Straight?1X* Pin?Header?Angled?1X* Socket?Strip?Straight?1X* Socket?Strip?Angled?1X*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -7.62 5.08)
-					(end -1.27 -2.54)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -738,38 +774,60 @@
 						(type background)
 					)
 				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "1"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "2"
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1016,7 +1074,7 @@
 	)
 	(text "10V"
 		(exclude_from_sim no)
-		(at 112.776 69.596 0)
+		(at 96.774 69.596 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1046,7 +1104,7 @@
 	)
 	(text "10V"
 		(exclude_from_sim no)
-		(at 96.012 69.596 0)
+		(at 113.538 69.596 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1218,7 +1276,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 69.85) (xy 107.95 71.12)
+			(xy 101.6 69.85) (xy 101.6 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1268,7 +1326,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 69.85) (xy 101.6 71.12)
+			(xy 107.95 69.85) (xy 107.95 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1329,7 +1387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0964335c-6fbc-4948-9e47-ffebbee6b3b8")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR06"
 			(at 121.92 115.57 0)
 			(effects
 				(font
@@ -1379,232 +1437,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/53573971-fb61-48df-903f-f9c3fbfa6843"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "capstone_parts:S2B-XH-A")
-		(at 152.4 86.36 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a6fef85-603f-4aae-a2a7-975a1dd7f16b")
-		(property "Reference" "J25"
-			(at 143.002 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S2B-XH-A"
-			(at 143.002 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "S2B-XH-A:JST_S2B-XH-A"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://B2B-XH-A 2 pin connector.pdf"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER R/A 2POS 2.5MM"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Current - Load" "3A"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/S2B-XH-A/1651055"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "S2B-XH-A"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "Bulk"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.12"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "DigiKey"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier P/N" "455-S2B-XH-A-ND"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Through Hole, Right Angle"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "pcs"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage - Load" "250V"
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Raing" ""
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 152.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70c2375e-edd6-4586-8e91-c50e44f8d555")
-		)
-		(pin "2"
-			(uuid "a7ca83e7-0a1b-408b-84b2-4182f3161e87")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/53573971-fb61-48df-903f-f9c3fbfa6843"
-					(reference "J25")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1620,7 +1453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "238eb85d-623c-42e4-8206-6a28d8b96a16")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR01"
 			(at 124.46 63.5 0)
 			(effects
 				(font
@@ -1670,7 +1503,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/53573971-fb61-48df-903f-f9c3fbfa6843"
-					(reference "#PWR0107")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1686,7 +1519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26599712-abb4-49b8-81f9-ef7676dfb98e")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR07"
 			(at 127 115.57 0)
 			(effects
 				(font
@@ -1736,7 +1569,195 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/53573971-fb61-48df-903f-f9c3fbfa6843"
-					(reference "#PWR0128")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:Conn_01x02")
+		(at 144.78 88.9 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36b15001-c1a8-4894-8e11-8f30829c0acc")
+		(property "Reference" "J13"
+			(at 146.05 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S2B-XH-A"
+			(at 146.558 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "S2B-XH-A:JST_S2B-XH-A"
+			(at 144.145 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://B2B-XH-A 2 pin connector.pdf"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER R/A 2POS 2.5MM"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"
+			(at 142.24 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 142.24 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1-0201FBV0T"
+			(at 142.24 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current - Load" "3A"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/S2B-XH-A/1651055"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "S2B-XH-A"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Bulk"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.12"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "455-S2B-XH-A-ND"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Through Hole, Right Angle"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage - Load" "250V"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fd8cd3d-0806-4206-9934-499a79900511")
+		)
+		(pin "2"
+			(uuid "63c8ec15-1979-4670-9185-0185eab72683")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/53573971-fb61-48df-903f-f9c3fbfa6843"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -1751,7 +1772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4086ea5e-679a-4368-b280-2fb2e6cfc46f")
-		(property "Reference" "R37"
+		(property "Reference" "R1"
 			(at 84.074 91.694 90)
 			(effects
 				(font
@@ -2055,7 +2076,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/53573971-fb61-48df-903f-f9c3fbfa6843"
-					(reference "R37")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2071,7 +2092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "604d540a-8fb0-4a09-9798-acf36f7de5db")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR04"
 			(at 86.36 90.17 0)
 			(effects
 				(font
@@ -2121,7 +2142,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/53573971-fb61-48df-903f-f9c3fbfa6843"
-					(reference "#PWR0112")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2129,16 +2150,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 101.6 66.04 0)
-		(mirror y)
+		(at 107.95 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "868c24a8-82db-481b-bc8d-714f32f2dd56")
-		(property "Reference" "C35"
-			(at 98.552 64.77 0)
+		(property "Reference" "C1"
+			(at 110.998 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2147,7 +2167,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 98.552 67.31 0)
+			(at 110.998 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,7 +2176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.6348 69.85 0)
+			(at 108.9152 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +2185,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://CL31B104KBCNNNC_Spec.pdf"
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +2194,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2203,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/cl31b104kbcnnnc/3886675"
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,7 +2212,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2221,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,7 +2230,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,7 +2239,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,7 +2248,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +2257,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2266,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2275,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,7 +2284,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL31B104KBCNNNC"
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2273,7 +2293,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +2302,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +2311,7 @@
 			)
 		)
 		(property "Supplier P/N" "1276-1017-1-ND"
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,7 +2320,7 @@
 			)
 		)
 		(property "Type" "SMD, MLCC"
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2329,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2338,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2347,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2356,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2365,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +2374,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,7 +2383,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +2392,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2401,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2410,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,7 +2419,7 @@
 			)
 		)
 		(property "Package" "1206 (3216 Metric)"
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2428,7 @@
 			)
 		)
 		(property "Price" "0.11"
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +2437,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,7 +2446,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 101.6 66.04 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2463,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/53573971-fb61-48df-903f-f9c3fbfa6843"
-					(reference "C35")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2451,7 +2471,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 71.12 0)
+		(at 101.6 71.12 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2459,8 +2480,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b5db156-cfcd-4847-a851-117492117bad")
-		(property "Reference" "#PWR0111"
-			(at 107.95 77.47 0)
+		(property "Reference" "#PWR03"
+			(at 101.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +2490,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 76.2 0)
+			(at 101.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 71.12 0)
+			(at 101.6 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 71.12 0)
+			(at 101.6 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +2516,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 71.12 0)
+			(at 101.6 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2530,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/53573971-fb61-48df-903f-f9c3fbfa6843"
-					(reference "#PWR0111")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2525,7 +2546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1689ef5-d54c-499e-bcde-d0e25533046b")
-		(property "Reference" "U7"
+		(property "Reference" "U1"
 			(at 127.762 77.724 0)
 			(effects
 				(font
@@ -2876,7 +2897,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/53573971-fb61-48df-903f-f9c3fbfa6843"
-					(reference "U7")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2884,7 +2905,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 71.12 0)
+		(at 107.95 71.12 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2892,8 +2914,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d597b66b-a391-4405-96c2-31295659a549")
-		(property "Reference" "#PWR0110"
-			(at 101.6 77.47 0)
+		(property "Reference" "#PWR02"
+			(at 107.95 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2902,7 +2924,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 76.2 0)
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +2932,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 71.12 0)
+			(at 107.95 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +2941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 71.12 0)
+			(at 107.95 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,7 +2950,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 71.12 0)
+			(at 107.95 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2942,7 +2964,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/53573971-fb61-48df-903f-f9c3fbfa6843"
-					(reference "#PWR0110")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2950,15 +2972,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 107.95 66.04 0)
+		(at 101.6 66.04 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d7cdc9e8-cca8-4f59-83fa-cf0881e2cdbd")
-		(property "Reference" "C36"
-			(at 110.998 64.77 0)
+		(property "Reference" "C2"
+			(at 98.552 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,7 +2990,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 110.998 67.31 0)
+			(at 98.552 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +2999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.9152 69.85 0)
+			(at 100.6348 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,7 +3008,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +3017,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 16V X7R 1206"
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,7 +3026,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c106k4ractu/789657"
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,7 +3035,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3021,7 +3044,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +3053,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,7 +3062,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +3071,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +3080,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3066,7 +3089,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +3098,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +3107,7 @@
 			)
 		)
 		(property "Manufacturer Part" "C1206C106K4RACTU"
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +3116,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3125,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3134,7 @@
 			)
 		)
 		(property "Supplier P/N" "399-C1206C106K4RACTUCT-ND"
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3143,7 @@
 			)
 		)
 		(property "Type" "SMD, MLCC"
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +3152,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3161,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3170,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3179,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3188,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,7 +3197,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,7 +3206,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3192,7 +3215,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +3224,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3233,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3242,7 @@
 			)
 		)
 		(property "Package" "1206 (3216 Metric)"
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3251,7 @@
 			)
 		)
 		(property "Price" "0.31"
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3260,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3269,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 107.95 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3286,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/53573971-fb61-48df-903f-f9c3fbfa6843"
-					(reference "C36")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3279,7 +3302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd67d90f-81fd-459c-ab97-fb864f3727ae")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR05"
 			(at 110.49 115.57 0)
 			(effects
 				(font
@@ -3329,7 +3352,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/53573971-fb61-48df-903f-f9c3fbfa6843"
-					(reference "#PWR0114")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3344,7 +3367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe3ae2c0-d2a9-4758-ba69-080a688771bd")
-		(property "Reference" "R38"
+		(property "Reference" "R2"
 			(at 108.204 104.394 90)
 			(effects
 				(font
@@ -3648,7 +3671,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/53573971-fb61-48df-903f-f9c3fbfa6843"
-					(reference "R38")
+					(reference "R2")
 					(unit 1)
 				)
 			)
