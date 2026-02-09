@@ -129,426 +129,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_4ms_Connector:Conn_01x08"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x08"
-				(at -1.27 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "4ms_Connector:Pins_1x08_2.54mm_TH"
-				(at 0 12.065 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "HEADER 1x8 MALE PINS 0.100” 180deg"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Specifications" "HEADER 1x8 MALE PINS 0.100” 180deg"
-				(at -4.445 -20.955 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Conn_01x08"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_??x*mm* Connector*:*1x??x*mm* Pin?Header?Straight?1X* Pin?Header?Angled?1X* Socket?Strip?Straight?1X* Socket?Strip?Angled?1X*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x08_0_0"
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Conn_01x08_1_1"
-				(rectangle
-					(start -1.27 8.89)
-					(end 1.27 -11.43)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_4ms_Power-symbol:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_Elektuur:C"
 			(pin_numbers
 				(hide yes)
@@ -1263,12 +843,6 @@
 		(uuid "de684142-18e6-42c2-b6bb-62566e173d98")
 	)
 	(junction
-		(at 144.78 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f77d7b85-f34e-4dc0-9d1e-80f9ab11bfb5")
-	)
-	(junction
 		(at 121.92 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1293,16 +867,6 @@
 			(type default)
 		)
 		(uuid "01347b63-f54b-4011-bad9-10fc1444c35e")
-	)
-	(wire
-		(pts
-			(xy 144.78 35.56) (xy 139.7 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0312ceb5-a664-4dfd-a60c-8487e7dfbf4d")
 	)
 	(wire
 		(pts
@@ -1476,26 +1040,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 40.64) (xy 139.7 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "475324b1-ecab-446b-a570-0f071f10b54b")
-	)
-	(wire
-		(pts
-			(xy 154.94 27.94) (xy 144.78 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ced1dcf-0a90-43f2-8e2b-fedde31d649c")
-	)
-	(wire
-		(pts
 			(xy 157.48 83.82) (xy 157.48 81.28)
 		)
 		(stroke
@@ -1523,16 +1067,6 @@
 			(type default)
 		)
 		(uuid "58aab86f-851e-42ab-af9d-c66d4463c9b8")
-	)
-	(wire
-		(pts
-			(xy 144.78 43.18) (xy 139.7 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58ddbb2c-d7b2-4f7a-9f77-9b1728b89016")
 	)
 	(wire
 		(pts
@@ -1606,16 +1140,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 30.48) (xy 139.7 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83f77806-c279-41ca-9bf0-a32313af060a")
-	)
-	(wire
-		(pts
 			(xy 83.82 88.9) (xy 83.82 83.82)
 		)
 		(stroke
@@ -1656,16 +1180,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 27.94) (xy 144.78 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "967c9657-a80c-4764-b53e-58c9a2893fc1")
-	)
-	(wire
-		(pts
 			(xy 195.58 83.82) (xy 195.58 88.9)
 		)
 		(stroke
@@ -1683,16 +1197,6 @@
 			(type default)
 		)
 		(uuid "a176775c-894e-4fd7-8bc8-2dd370cbe712")
-	)
-	(wire
-		(pts
-			(xy 144.78 38.1) (xy 139.7 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1f68cea-7a39-441b-8cf2-fb0f312ce230")
 	)
 	(wire
 		(pts
@@ -1736,16 +1240,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 45.72) (xy 144.78 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7d0fd4f-bfd0-42f3-9c2c-7b2eda0cd1f7")
-	)
-	(wire
-		(pts
 			(xy 33.02 96.52) (xy 33.02 93.98)
 		)
 		(stroke
@@ -1753,16 +1247,6 @@
 			(type default)
 		)
 		(uuid "b9e38fe5-c558-4bdd-af2a-92165fcdd4b8")
-	)
-	(wire
-		(pts
-			(xy 139.7 27.94) (xy 144.78 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bee89c1d-cfce-4988-aa4a-bb939b780418")
 	)
 	(wire
 		(pts
@@ -1793,16 +1277,6 @@
 			(type default)
 		)
 		(uuid "c278cd31-170b-45c1-a242-53591487901d")
-	)
-	(wire
-		(pts
-			(xy 144.78 33.02) (xy 139.7 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4f095c1-bf71-4ee0-a751-45ebf6a33688")
 	)
 	(wire
 		(pts
@@ -1876,16 +1350,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 45.72) (xy 144.78 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7fe1dfb-d98e-454c-9230-b7226d5a6be5")
-	)
-	(wire
-		(pts
 			(xy 142.24 96.52) (xy 147.32 96.52)
 		)
 		(stroke
@@ -1923,16 +1387,6 @@
 			(type default)
 		)
 		(uuid "e7bc4aac-01d8-49fd-808e-61525e5990a9")
-	)
-	(wire
-		(pts
-			(xy 154.94 25.4) (xy 154.94 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e954586a-ade5-4e5e-a66e-ebf20166f409")
 	)
 	(wire
 		(pts
@@ -3366,125 +2820,71 @@
 			"QRBalUhABUEQBEEQhFYlElBBEARBEAShVf1/2htmZCAUAJUAAAAASUVORK5CYII="
 		)
 	)
-	(label "Button_6"
-		(at 144.78 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ffc33cd-f755-45f0-a6c4-3df2a8b07f43")
-	)
-	(label "Button_5"
-		(at 144.78 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a26f2b9-4b35-4a92-a41f-276ab98546da")
-	)
-	(label "Button_6"
-		(at 210.82 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4098f416-f591-40e7-abeb-aad95747c68c")
-	)
-	(label "Button_1"
-		(at 144.78 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "46e80d9f-f093-44c2-9a49-74901b18dfd8")
-	)
-	(label "Button_2"
-		(at 144.78 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "52f3889c-e60d-44f8-bba8-415c399f7e8f")
-	)
-	(label "Button_2"
-		(at 63.5 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5ad9d729-9c23-4b77-8139-789736615bf1")
-	)
-	(label "Button_3"
+	(hierarchical_label "GPIO24"
+		(shape output)
 		(at 104.14 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "653ea968-4ace-404d-91a9-705d8996be87")
+		(uuid "4e61e16e-bfb4-4bd9-9e8e-4ea5432a8deb")
 	)
-	(label "Button_3"
-		(at 144.78 35.56 0)
+	(hierarchical_label "GPIO17"
+		(shape output)
+		(at 210.82 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "8ab33b0f-3fa3-4067-ad04-d34526bcbecd")
+		(uuid "61287b41-f67f-42c0-939e-d44a13bf2684")
 	)
-	(label "Button_4"
-		(at 144.78 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c10fe9c5-5efd-4e85-83e4-85cffe2231a0")
-	)
-	(label "Button_5"
-		(at 177.8 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d8b852cf-86d7-497e-bf20-939f1fe97686")
-	)
-	(label "Button_4"
+	(hierarchical_label "GPIO25"
+		(shape output)
 		(at 142.24 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "e86a49a9-614a-4ec3-8c87-331987b7fc1b")
+		(uuid "61549da0-2765-42bd-9e0b-658cf00dce7b")
 	)
-	(label "Button_1"
+	(hierarchical_label "GPIO10"
+		(shape output)
+		(at 177.8 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "623a09bf-9f5b-4959-8752-e9722688735d")
+	)
+	(hierarchical_label "GPIO23"
+		(shape output)
+		(at 63.5 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1a6d2b4-56c4-4acb-9f71-ada4a339851d")
+	)
+	(hierarchical_label "GPIO22"
+		(shape output)
 		(at 27.94 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "f73aeb77-8d45-4375-af6b-c037bf0ff9c0")
+		(uuid "f5829d6a-664e-40d2-8932-c1d0789c7288")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3495,7 +2895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "071833db-45c9-43a6-b3d1-115e73559cc7")
-		(property "Reference" "R36"
+		(property "Reference" "R14"
 			(at 229.108 98.806 90)
 			(effects
 				(font
@@ -3793,15 +3193,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c59b5d9c-6c62-4881-83fc-fccb75e48e58")
+			(uuid "9268ac59-9ac3-4095-9d6b-e938b04d0839")
 		)
 		(pin "1"
-			(uuid "d2e5fa40-e73c-4177-9e28-fbce46f618e4")
+			(uuid "4025712f-f82a-4fc6-bf10-4ea1bbeda8d8")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "R36")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3817,7 +3217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0810fdee-9f18-4bbf-bcc5-2e32b77d6acf")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR011"
 			(at 109.22 118.11 0)
 			(effects
 				(font
@@ -3862,12 +3262,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "92d5d2d9-5ec6-4ac4-8c74-8158663e8644")
+			(uuid "f1218406-00ba-4038-bdc2-e1a2e1bbdd17")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "#PWR090")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3883,7 +3283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1011aebb-91f7-4e03-aaca-db7d1466daaa")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR012"
 			(at 147.32 118.11 0)
 			(effects
 				(font
@@ -3928,12 +3328,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b8e7bad-6570-4641-9318-a3cfd57c5fa4")
+			(uuid "4e6ad098-af9b-4a08-a01f-2eb00bfedf40")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "#PWR091")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3957,7 +3357,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL1105RF160Q"
+		(property "Value" "TL1105LF160Q"
 			(at 234.95 133.3499 90)
 			(effects
 				(font
@@ -3984,7 +3384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
 			(at 233.68 132.08 0)
 			(effects
 				(font
@@ -3993,7 +3393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/TL1105RF160Q/13531"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/tl1105lf160q/378971"
 			(at 233.68 132.08 90)
 			(effects
 				(font
@@ -4074,7 +3474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "TL1105RF160Q"
+		(property "Manufacturer Part" "TL1105LF160Q"
 			(at 233.68 132.08 90)
 			(effects
 				(font
@@ -4101,7 +3501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "EG1837-ND"
+		(property "Supplier P/N" "EG2505-ND"
 			(at 233.68 132.08 90)
 			(effects
 				(font
@@ -4209,7 +3609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.37"
+		(property "Price" "0.33"
 			(at 233.68 132.08 90)
 			(effects
 				(font
@@ -4237,14 +3637,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "ef26470f-3035-440c-9fb1-1aaeb457e876")
+			(uuid "f2aadaf8-fd78-4f56-8040-16acf96c5bb3")
 		)
 		(pin "1"
-			(uuid "940973ba-35be-4586-af0c-97b62ef521f0")
+			(uuid "40e5b1d2-377d-4b07-9898-6a8ac0b0c624")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
 					(reference "SW6")
 					(unit 1)
 				)
@@ -4260,7 +3660,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c11e8e7-3924-4a03-b159-0b7daee3a075")
-		(property "Reference" "R26"
+		(property "Reference" "R4"
 			(at 81.534 94.488 90)
 			(effects
 				(font
@@ -4558,15 +3958,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8b6d68d2-1e10-427d-a863-549cbb9558fe")
+			(uuid "0be6c9c5-50c4-40c9-b7cf-b72bcc377af2")
 		)
 		(pin "1"
-			(uuid "2bc60be4-27cf-46f1-9dff-1bd16bbb0fd4")
+			(uuid "03e8de1d-c842-4fce-a222-df88905caf97")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "R26")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4581,7 +3981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f39fd84-d1ee-4d8d-95b9-58762f9d32eb")
-		(property "Reference" "R34"
+		(property "Reference" "R12"
 			(at 155.448 98.806 90)
 			(effects
 				(font
@@ -4879,15 +4279,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5bae4b7f-7096-4a43-8975-03aab550125a")
+			(uuid "7aa91456-0452-4315-84d8-f1f03859638d")
 		)
 		(pin "1"
-			(uuid "8a1b1682-20a4-4392-bc0c-b363a6f9fa79")
+			(uuid "aa0317ac-10e1-4bbd-8e83-5a15e800706b")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "R34")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4902,7 +4302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bf68b00-0173-499d-92ee-4b92c7fa9932")
-		(property "Reference" "R32"
+		(property "Reference" "R10"
 			(at 76.708 98.806 90)
 			(effects
 				(font
@@ -5200,15 +4600,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ec556e3f-1f2d-4cff-ad6f-fb64b166ad4b")
+			(uuid "85788c67-6534-46c6-ad44-a4077b8a2ea3")
 		)
 		(pin "1"
-			(uuid "1d548d42-2f98-45e9-bbcd-6df2bce094d5")
+			(uuid "92e1e173-32c5-4d4a-a075-3740823ea58a")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "R32")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5223,7 +4623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ea33983-eefc-4979-a743-74ec21e3a955")
-		(property "Reference" "R25"
+		(property "Reference" "R3"
 			(at 45.974 91.948 90)
 			(effects
 				(font
@@ -5521,15 +4921,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c99279b1-9287-4977-b23a-e4b7f4c55b36")
+			(uuid "530566a5-baf6-44af-aead-42090b408ca3")
 		)
 		(pin "1"
-			(uuid "937fa100-f52b-40a8-8fcf-f9989ff51c57")
+			(uuid "c8088a5c-d355-4ebb-8117-b7084bd24b2e")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "R25")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5545,7 +4945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33fd1f11-e846-4165-b1b4-ac1291b1e075")
-		(property "Reference" "C32"
+		(property "Reference" "C6"
 			(at 151.638 107.442 0)
 			(effects
 				(font
@@ -5862,15 +5262,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d538bf67-24d9-4e4c-a771-2ccb39af667c")
+			(uuid "f8cc7138-000f-4fa8-8fe4-079814e6e315")
 		)
 		(pin "1"
-			(uuid "b7880215-23c5-4af2-8489-434f5eebe40d")
+			(uuid "2e02536a-2c9f-42f0-97c4-7d366a4bbd27")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "C32")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5895,7 +5295,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL1105RF160Q"
+		(property "Value" "TL1105LF160Q"
 			(at 158.75 133.3499 90)
 			(effects
 				(font
@@ -5922,7 +5322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
 			(at 157.48 132.08 0)
 			(effects
 				(font
@@ -5931,7 +5331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/TL1105RF160Q/13531"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/tl1105lf160q/378971"
 			(at 157.48 132.08 90)
 			(effects
 				(font
@@ -6012,7 +5412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "TL1105RF160Q"
+		(property "Manufacturer Part" "TL1105LF160Q"
 			(at 157.48 132.08 90)
 			(effects
 				(font
@@ -6039,7 +5439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "EG1837-ND"
+		(property "Supplier P/N" "EG2505-ND"
 			(at 157.48 132.08 90)
 			(effects
 				(font
@@ -6147,7 +5547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.37"
+		(property "Price" "0.33"
 			(at 157.48 132.08 90)
 			(effects
 				(font
@@ -6175,14 +5575,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "35ba657b-5e70-4aa9-aad5-cfcf77576e6f")
+			(uuid "3f753817-1836-4d8e-ac41-510c325241aa")
 		)
 		(pin "1"
-			(uuid "6f76a945-83f9-44f5-a38d-83cb6e27ca43")
+			(uuid "bf7337af-a46b-4b58-ba1f-8fb4deef01b2")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
 					(reference "SW4")
 					(unit 1)
 				)
@@ -6199,7 +5599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ca58132-b8a7-4b60-8eaa-acc961819839")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR010"
 			(at 68.58 118.11 0)
 			(effects
 				(font
@@ -6244,12 +5644,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "11ec2625-4463-414c-97d6-72f9d09da300")
+			(uuid "a330c3e4-5d90-4b9e-a3a7-75f8a8cfc066")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "#PWR089")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6265,7 +5665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56ed6a1a-3634-49fe-bc95-0d51254b8219")
-		(property "Reference" "C29"
+		(property "Reference" "C3"
 			(at 37.338 104.902 0)
 			(effects
 				(font
@@ -6582,15 +5982,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0297b584-82ae-43d3-80eb-64da56ef7fe2")
+			(uuid "83781f2a-6740-44c2-a586-09aa1fd0b0f5")
 		)
 		(pin "1"
-			(uuid "8f1884fd-e412-4127-989b-8ce3f2d52928")
+			(uuid "914056e7-028d-4f51-b245-9911755f1e36")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "C29")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6605,7 +6005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5eb93d8d-3601-429a-bc44-b0de8d8c0b2c")
-		(property "Reference" "R28"
+		(property "Reference" "R6"
 			(at 155.194 94.488 90)
 			(effects
 				(font
@@ -6903,15 +6303,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1d8ec14f-43ca-42a7-8190-543a723d2729")
+			(uuid "fb22e720-cf3b-466d-8d0d-ef079c95d610")
 		)
 		(pin "1"
-			(uuid "3480cd59-a64e-4d2c-8668-fd669ad13033")
+			(uuid "ea2e86ec-f007-432b-aac5-5080b42ea8d6")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "R28")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6927,7 +6327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61d89864-37ec-4fbb-944b-68f7b0115915")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR013"
 			(at 185.42 118.11 0)
 			(effects
 				(font
@@ -6972,12 +6372,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "48baf704-dae2-4b2c-a471-be0a0b13387f")
+			(uuid "22917d3d-c04a-4e95-ad72-682f9c0f8307")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "#PWR092")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6992,7 +6392,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64647835-d315-4877-8636-c1063c058b9f")
-		(property "Reference" "R29"
+		(property "Reference" "R7"
 			(at 193.294 94.488 90)
 			(effects
 				(font
@@ -7290,81 +6690,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d3daf24a-40f3-4aae-8583-686a34053293")
+			(uuid "f9718def-1c57-4695-bc8a-ae7bbfe32c6b")
 		)
 		(pin "1"
-			(uuid "22b0ef7a-cc94-41eb-bf32-bb1adebef648")
+			(uuid "9abbe83d-b8c9-45e6-a9b7-017e46c3c434")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Power-symbol:PWR_FLAG")
-		(at 154.94 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "689202c5-a7ea-4dc1-bde3-a4bcaafb40c8")
-		(property "Reference" "#FLG03"
-			(at 154.94 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 154.94 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a69eeba5-49ba-49a1-ac6f-8ed89fcc64c2")
-		)
-		(instances
-			(project ""
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "#FLG03")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7380,7 +6714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7888e4cd-658b-44c4-be43-1dc0e47adaae")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR09"
 			(at 33.02 115.57 0)
 			(effects
 				(font
@@ -7425,12 +6759,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e1cfbcc-f6bb-47d2-bd55-b69c4e2f3e8e")
+			(uuid "902149d3-34f1-45ae-a0ba-fa86231ad1ce")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "#PWR088")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7445,7 +6779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85ed37d8-8fb9-4c12-a593-3ff8ddb878e1")
-		(property "Reference" "R33"
+		(property "Reference" "R11"
 			(at 117.348 98.806 90)
 			(effects
 				(font
@@ -7743,15 +7077,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b8dc790a-1eee-48f2-9979-f808f4f6afe3")
+			(uuid "29282109-2395-4243-b7d5-f2b510731790")
 		)
 		(pin "1"
-			(uuid "f7abf653-2f7c-4ab7-b7d9-3ffa3f4d6a95")
+			(uuid "50bdd780-a2cd-460b-a8c4-e3b72d054a88")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "R33")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7776,7 +7110,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL1105RF160Q"
+		(property "Value" "TL1105LF160Q"
 			(at 85.09 133.3499 90)
 			(effects
 				(font
@@ -7803,7 +7137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
 			(at 83.82 132.08 0)
 			(effects
 				(font
@@ -7812,7 +7146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/TL1105RF160Q/13531"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/tl1105lf160q/378971"
 			(at 83.82 132.08 90)
 			(effects
 				(font
@@ -7893,7 +7227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "TL1105RF160Q"
+		(property "Manufacturer Part" "TL1105LF160Q"
 			(at 83.82 132.08 90)
 			(effects
 				(font
@@ -7920,7 +7254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "EG1837-ND"
+		(property "Supplier P/N" "EG2505-ND"
 			(at 83.82 132.08 90)
 			(effects
 				(font
@@ -8028,7 +7362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.37"
+		(property "Price" "0.33"
 			(at 83.82 132.08 90)
 			(effects
 				(font
@@ -8056,14 +7390,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "3d9e5bb2-b2ec-46fe-973b-4d6d20084cde")
+			(uuid "babffb92-808f-4d1e-9c85-b39589af3fbd")
 		)
 		(pin "1"
-			(uuid "c36a642d-1204-4090-a0c3-cab7568fb6f8")
+			(uuid "27209e2c-05af-472c-ab20-7a47fbeab19b")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
 					(reference "SW2")
 					(unit 1)
 				)
@@ -8079,7 +7413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ad566a0-3c63-4e1c-8017-08b022035c98")
-		(property "Reference" "R31"
+		(property "Reference" "R9"
 			(at 41.148 96.266 90)
 			(effects
 				(font
@@ -8377,15 +7711,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fe7a4f9d-987e-487b-aa6e-f795471c4fe3")
+			(uuid "b2396eb3-89e6-47a2-ac2a-4a6e877acb3e")
 		)
 		(pin "1"
-			(uuid "101770f0-7474-4f45-adf4-1bcaeb04b652")
+			(uuid "a2a715f4-0769-4f11-9b26-d9fee09eb723")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "R31")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8400,7 +7734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6860fd9-ed9a-4a5d-bce2-0a7ac5d5fd44")
-		(property "Reference" "R35"
+		(property "Reference" "R13"
 			(at 193.548 98.806 90)
 			(effects
 				(font
@@ -8698,15 +8032,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "105b68a0-d889-4b98-bfa7-b4e8745193d7")
+			(uuid "30ddb140-ebb9-4c88-98a1-5fc20b51d1a1")
 		)
 		(pin "1"
-			(uuid "31078a85-b3fe-48a9-8c7e-7f5e48199a92")
+			(uuid "7200e0e5-7296-4238-881a-d29f6efb0d5f")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "R35")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8731,7 +8065,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL1105RF160Q"
+		(property "Value" "TL1105LF160Q"
 			(at 123.19 133.3499 90)
 			(effects
 				(font
@@ -8758,7 +8092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
 			(at 121.92 132.08 0)
 			(effects
 				(font
@@ -8767,7 +8101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/TL1105RF160Q/13531"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/tl1105lf160q/378971"
 			(at 121.92 132.08 90)
 			(effects
 				(font
@@ -8848,7 +8182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "TL1105RF160Q"
+		(property "Manufacturer Part" "TL1105LF160Q"
 			(at 121.92 132.08 90)
 			(effects
 				(font
@@ -8875,7 +8209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "EG1837-ND"
+		(property "Supplier P/N" "EG2505-ND"
 			(at 121.92 132.08 90)
 			(effects
 				(font
@@ -8983,7 +8317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.37"
+		(property "Price" "0.33"
 			(at 121.92 132.08 90)
 			(effects
 				(font
@@ -9011,14 +8345,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "fa6a4e0b-3cf4-4aee-976b-88be5cf5ca13")
+			(uuid "19877bd4-2b4d-41e3-9632-2f115c57d94f")
 		)
 		(pin "1"
-			(uuid "300b7653-e534-4238-abb8-15c2c285ed97")
+			(uuid "30dc588f-905d-4c5c-884a-1683c4ef1d57")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
 					(reference "SW3")
 					(unit 1)
 				)
@@ -9035,7 +8369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b96194eb-c7b4-4059-b301-4cedd432e754")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR014"
 			(at 220.98 118.11 0)
 			(effects
 				(font
@@ -9080,12 +8414,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "746f5ecd-ff11-4052-8eee-91029d4925cc")
+			(uuid "dd1931ff-4772-41fc-8d61-810b25a6a240")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "#PWR093")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9100,7 +8434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baa6ecc0-f71a-4b37-b181-f961087f0ba7")
-		(property "Reference" "R27"
+		(property "Reference" "R5"
 			(at 119.634 94.488 90)
 			(effects
 				(font
@@ -9398,15 +8732,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fd1fc9cd-e6b9-42b5-bf06-5b571e007d0e")
+			(uuid "b4c17206-b426-4737-9c13-ea8485b0bc91")
 		)
 		(pin "1"
-			(uuid "e067e3e2-f2df-4365-adba-6fef8091590a")
+			(uuid "0001a0c0-d195-476c-9415-6e6b5cac88aa")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "R27")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9421,7 +8755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc2628ef-92d7-416b-a51f-e3df0368802d")
-		(property "Reference" "R30"
+		(property "Reference" "R8"
 			(at 231.394 94.488 90)
 			(effects
 				(font
@@ -9719,81 +9053,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "89fa55e4-dad4-47c0-801a-657a82f1cfd4")
+			(uuid "34a43b99-819f-48ad-9c41-bacb5aeabffa")
 		)
 		(pin "1"
-			(uuid "65e9dcb9-0fd6-420b-8a05-62da41778ae3")
+			(uuid "3219a81c-0d4f-43a2-921d-7fefa83f0c86")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 144.78 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfcb9f95-f439-4555-8aee-8fe3263a5101")
-		(property "Reference" "#PWR085"
-			(at 144.78 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUTTON"
-			(at 144.78 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 144.78 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a29fd8c-3cc6-4f95-9d01-b23162e95b48")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "#PWR085")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9809,7 +9077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cad016a3-7a42-43df-8349-7172313d2195")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR08"
 			(at 157.48 85.09 0)
 			(effects
 				(font
@@ -9818,7 +9086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUTTON"
+		(property "Value" "+3.3V"
 			(at 157.48 76.2 0)
 			(effects
 				(font
@@ -9854,12 +9122,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b2dc97ed-7a58-47c8-9acd-ce0761c5e891")
+			(uuid "21c33761-a001-4f62-ad9d-4bd829b56aa9")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "#PWR087")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9875,7 +9143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6c5ec34-5a0f-416c-84bd-6c329775eca7")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR015"
 			(at 157.48 153.67 0)
 			(effects
 				(font
@@ -9920,12 +9188,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "299e078f-c346-4bc1-9a4f-4475f8152336")
+			(uuid "07be3c09-7221-423e-98bf-09bcb8d4620b")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "#PWR094")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9941,7 +9209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9735bbf-ea02-4473-b3f7-894a740ace83")
-		(property "Reference" "C33"
+		(property "Reference" "C7"
 			(at 189.738 107.442 0)
 			(effects
 				(font
@@ -10258,230 +9526,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1e63bf3a-3c7e-4016-b453-aa9b74e163d9")
+			(uuid "43043543-5d4c-4733-b699-026bcbd94394")
 		)
 		(pin "1"
-			(uuid "9c9797e6-5b52-4fe7-b1d1-b406af26b1af")
+			(uuid "b1f09db1-5b17-4aa7-a28b-7d43da47e373")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Connector:Conn_01x08")
-		(at 134.62 35.56 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9c309f5-0343-4737-826a-b06c60436915")
-		(property "Reference" "J13"
-			(at 132.08 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x08"
-			(at 132.08 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://B3B-XH-A.pdf"
-			(at 134.62 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER R/A 8POS 2.5MM"
-			(at 134.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "HEADER 1x8 MALE PINS 0.100” 180deg"
-			(at 139.065 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 134.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 134.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 134.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/S8B-XH-A/1651023"
-			(at 134.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JST Sales America Inc."
-			(at 134.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "S8B-XH-A"
-			(at 134.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.33"
-			(at 134.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "DigiKey"
-			(at 134.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier P/N" "455-S8B-XH-A-ND"
-			(at 134.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Through Hole"
-			(at 134.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "pcs"
-			(at 134.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Raing" ""
-			(at 134.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 134.62 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "6bf4b0e8-1483-4f8e-b858-a8cee76fc990")
-		)
-		(pin "8"
-			(uuid "bb55dd36-e929-45be-916a-49232d928d6e")
-		)
-		(pin "7"
-			(uuid "1f8f22ed-2e01-44f1-bd15-4044b5f29e14")
-		)
-		(pin "2"
-			(uuid "4225433d-82cb-43ad-b0e5-386262ff3333")
-		)
-		(pin "4"
-			(uuid "25ecb76f-0c91-4200-be3f-df86667a30d1")
-		)
-		(pin "5"
-			(uuid "2100db49-f9a2-474d-a2e5-1d418ac1a266")
-		)
-		(pin "1"
-			(uuid "6c6db26b-f4c0-4669-a5f9-6f9aa387b235")
-		)
-		(pin "3"
-			(uuid "9b1b2337-5d3a-4c21-b158-e054b2147b82")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "J13")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -10497,7 +9550,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd1e09a3-4b56-46f9-9c22-e74b71ba9c26")
-		(property "Reference" "C34"
+		(property "Reference" "C8"
 			(at 225.298 107.442 0)
 			(effects
 				(font
@@ -10814,15 +9867,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "706f1d8f-8195-4383-8ce1-dc5090a28c89")
+			(uuid "ed343cd3-64ca-4385-9d11-c8ab0448fc1a")
 		)
 		(pin "1"
-			(uuid "cdb7eca3-f43b-4a92-b106-753668ac2511")
+			(uuid "4ebc564a-b2d2-4964-8049-2e26ebdc6b92")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "C34")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10846,7 +9899,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL1105RF160Q"
+		(property "Value" "TL1105LF160Q"
 			(at 196.85 133.3499 90)
 			(effects
 				(font
@@ -10873,7 +9926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
 			(at 195.58 132.08 0)
 			(effects
 				(font
@@ -10882,7 +9935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/TL1105RF160Q/13531"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/tl1105lf160q/378971"
 			(at 195.58 132.08 90)
 			(effects
 				(font
@@ -10963,7 +10016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "TL1105RF160Q"
+		(property "Manufacturer Part" "TL1105LF160Q"
 			(at 195.58 132.08 90)
 			(effects
 				(font
@@ -10990,7 +10043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "EG1837-ND"
+		(property "Supplier P/N" "EG2505-ND"
 			(at 195.58 132.08 90)
 			(effects
 				(font
@@ -11098,7 +10151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.37"
+		(property "Price" "0.33"
 			(at 195.58 132.08 90)
 			(effects
 				(font
@@ -11126,81 +10179,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "480f5d84-8d10-4a61-88c3-e0108cef7171")
+			(uuid "d497e9fa-93c4-44f9-94d0-5d3f9c92a34f")
 		)
 		(pin "1"
-			(uuid "967acc77-7ba2-4a1d-aa45-2ed6d3de7c62")
+			(uuid "b00f7156-21d4-4a70-a7b5-9977c7eb3447")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
 					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e49f14f4-4f21-4761-9d01-bc39d96ce2b3")
-		(property "Reference" "#PWR086"
-			(at 144.78 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1587f5c1-82db-44be-920c-fe2e0f1afe56")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -11216,7 +10203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e681b6e1-c345-4a50-b06e-a55aca0ff0ce")
-		(property "Reference" "C31"
+		(property "Reference" "C5"
 			(at 113.538 107.442 0)
 			(effects
 				(font
@@ -11533,15 +10520,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fc8ea260-87f8-407f-bb3e-5975b546cfcc")
+			(uuid "c5c07259-d8fb-424c-900f-a7d9c2a47c15")
 		)
 		(pin "1"
-			(uuid "0b3ade54-4758-4c94-a78a-692e2da7b70f")
+			(uuid "18c75587-ae24-49b2-8ec8-dfd806101f23")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "C31")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11557,7 +10544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9ea0c3a-a54d-43ce-8806-16e448ab27f2")
-		(property "Reference" "C30"
+		(property "Reference" "C4"
 			(at 72.898 107.442 0)
 			(effects
 				(font
@@ -11874,15 +10861,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "84644e6d-bf78-4f77-83d7-ae24a10356c4")
+			(uuid "3e79249a-5dc4-4e82-98bc-1f3069cc9128")
 		)
 		(pin "1"
-			(uuid "2283fd03-a938-46d9-83bf-45a5bb88f667")
+			(uuid "9b6cceb8-d749-445d-8786-3f97c9a63378")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
-					(reference "C30")
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11906,7 +10893,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TL1105RF160Q"
+		(property "Value" "TL1105LF160Q"
 			(at 49.53 133.3499 90)
 			(effects
 				(font
@@ -11933,7 +10920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
 			(at 48.26 132.08 0)
 			(effects
 				(font
@@ -11942,7 +10929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/TL1105RF160Q/13531"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/tl1105lf160q/378971"
 			(at 48.26 132.08 90)
 			(effects
 				(font
@@ -12023,7 +11010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "TL1105RF160Q"
+		(property "Manufacturer Part" "TL1105LF160Q"
 			(at 48.26 132.08 90)
 			(effects
 				(font
@@ -12050,7 +11037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "EG1837-ND"
+		(property "Supplier P/N" "EG2505-ND"
 			(at 48.26 132.08 90)
 			(effects
 				(font
@@ -12158,7 +11145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.37"
+		(property "Price" "0.33"
 			(at 48.26 132.08 90)
 			(effects
 				(font
@@ -12186,14 +11173,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "dc8a7020-6645-4cd0-9ce9-2dcb9bcc15ee")
+			(uuid "8687ae1b-4639-45a0-bd9c-9ae060d74760")
 		)
 		(pin "1"
-			(uuid "0975cd98-473e-41eb-af83-9af537974f72")
+			(uuid "ef071528-8224-42e8-8622-98b7a15ea630")
 		)
 		(instances
 			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/948e7232-901f-45ac-9739-05de18e1c97c"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/08162b02-3de6-4611-aa3c-cc4e0615f33f"
 					(reference "SW1")
 					(unit 1)
 				)
