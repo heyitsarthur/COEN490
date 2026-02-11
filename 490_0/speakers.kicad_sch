@@ -1462,7 +1462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 124.46 54.61 0)
 			(effects
 				(font
@@ -1581,9 +1581,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "36b15001-c1a8-4894-8e11-8f30829c0acc")
 		(property "Reference" "J1"
 			(at 146.05 80.772 0)

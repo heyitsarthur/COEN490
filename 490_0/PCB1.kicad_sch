@@ -1262,6 +1262,17 @@
 		)
 		(uuid "0f580df3-e3fc-4916-aeaf-1e2fc92915e8")
 	)
+	(text "in config.txt:\ndtoverlay=arducam-pivariety,i2c_bus=1\n- i2c_bus=1: Don't look at the camera port (I2C0), look at the user header pins (I2C1)."
+		(exclude_from_sim no)
+		(at 66.802 118.872 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "162e14b9-12cf-4a51-a06b-caf0b506f228")
+	)
 	(text "ToF Camera Power\n"
 		(exclude_from_sim no)
 		(at 64.516 133.096 0)
@@ -3111,7 +3122,7 @@
 				)
 			)
 		)
-		(property "Value" "S2B-XH-A"
+		(property "Value" "S2B-ZR"
 			(at 65.278 144.272 0)
 			(effects
 				(font
@@ -3128,7 +3139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://B2B-XH-A 2 pin connector.pdf"
+		(property "Datasheet" "kicad-embed://eZH.pdf"
 			(at 68.58 139.7 0)
 			(effects
 				(font
@@ -3137,7 +3148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN HEADER R/A 2POS 2.5MM"
+		(property "Description" "CONN HEADER R/A 2POS 1.5MM"
 			(at 68.58 139.7 0)
 			(effects
 				(font
@@ -3185,7 +3196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/S2B-XH-A/1651055"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/s2b-zr/926576"
 			(at 68.58 139.7 0)
 			(effects
 				(font
@@ -3194,7 +3205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "S2B-XH-A"
+		(property "Manufacturer Part" "S2B-ZR"
 			(at 68.58 139.7 0)
 			(effects
 				(font
@@ -3212,7 +3223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.12"
+		(property "Price" "0.11"
 			(at 68.58 139.7 0)
 			(effects
 				(font
@@ -3230,7 +3241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "455-S2B-XH-A-ND"
+		(property "Supplier P/N" "455-1669-ND"
 			(at 68.58 139.7 0)
 			(effects
 				(font
