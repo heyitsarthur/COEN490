@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "464289d0-bc63-4fcd-bd2f-ec18b285e1a5")
+	(uuid "632d26b9-21ba-4573-88ab-eb6bf04525fe")
 	(paper "USLetter")
 	(lib_symbols
 		(symbol "Device:C_Polarized"
@@ -2493,7 +2493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -2502,7 +2502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 0.1UF 16V X7R 0805"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -2527,6 +2527,87 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805JRX7R7BB104/5884101"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0805JRX7R7BB104"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "311-4266-1-ND"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD, MLCC"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3367,7 +3448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
 			(at 106.68 129.54 0)
 			(effects
 				(font
@@ -3376,7 +3457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 0.1UF 16V X7R 0805"
 			(at 106.68 129.54 0)
 			(effects
 				(font
@@ -3401,6 +3482,87 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805JRX7R7BB104/5884101"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0805JRX7R7BB104"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "311-4266-1-ND"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD, MLCC"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 106.68 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3935,7 +4097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP TANT 100UF 10% 6.3V 2312"
+		(property "Description" "CAP TANT 120UF 10% 6.3V 2917"
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -3944,7 +4106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "293D107X96R3C2TE3"
+		(property "Manufacturer Part" "293D127X96R3D2TE3"
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -3971,7 +4133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "718-1058-1-ND"
+		(property "Supplier P/N" "718-1745-1-ND"
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -3989,7 +4151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -4079,7 +4241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-sprague/293D107X96R3C2TE3/1559552"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-sprague/293D127X96R3D2TE3/2259902"
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -4097,7 +4259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "2312 (6032 Metric)"
+		(property "Package" "2917 (7343 Metric)"
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -4106,7 +4268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.74"
+		(property "Price" "0.99"
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -4510,7 +4672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 161.798 116.84 0)
 			(effects
 				(font
@@ -4519,7 +4681,88 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/4W Resistor"
+		(property "Description" "RES 20K OHM 1% 1/4W 0805"
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-7W20KL/17021842"
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RC0805FR-7W20KL"
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "13-RC0805FR-7W20KLCT-ND"
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
 			(at 161.29 116.84 0)
 			(effects
 				(font
@@ -4577,7 +4820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L.pdf"
 			(at 161.798 73.66 0)
 			(effects
 				(font
@@ -4586,7 +4829,88 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/4W Resistor"
+		(property "Description" "RES 20K OHM 1% 1/4W 0805"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-7W20KL/17021842"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RC0805FR-7W20KL"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "13-RC0805FR-7W20KLCT-ND"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
 			(at 161.29 73.66 0)
 			(effects
 				(font
@@ -4982,7 +5306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
 			(at 106.68 86.36 0)
 			(effects
 				(font
@@ -4991,7 +5315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 0.1UF 16V X7R 0805"
 			(at 106.68 86.36 0)
 			(effects
 				(font
@@ -5016,6 +5340,87 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805JRX7R7BB104/5884101"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0805JRX7R7BB104"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "311-4266-1-ND"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD, MLCC"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 106.68 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5813,7 +6218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP TANT 100UF 10% 6.3V 2312"
+		(property "Description" "CAP TANT 120UF 10% 6.3V 2917"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -5822,7 +6227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "293D107X96R3C2TE3"
+		(property "Manufacturer Part" "293D127X96R3D2TE3"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -5849,7 +6254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "718-1058-1-ND"
+		(property "Supplier P/N" "718-1745-1-ND"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -5867,7 +6272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Unit" ""
+		(property "Unit" "pcs"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -5957,7 +6362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-sprague/293D107X96R3C2TE3/1559552"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-sprague/293D127X96R3D2TE3/2259902"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -5975,7 +6380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "2312 (6032 Metric)"
+		(property "Package" "2917 (7343 Metric)"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -5984,7 +6389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.74"
+		(property "Price" "0.99"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -7677,7 +8082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
 			(at 78.74 119.38 0)
 			(effects
 				(font
@@ -7686,7 +8091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 0.1UF 16V X7R 0805"
 			(at 78.74 119.38 0)
 			(effects
 				(font
@@ -7711,6 +8116,87 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805JRX7R7BB104/5884101"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0805JRX7R7BB104"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "311-4266-1-ND"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD, MLCC"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 78.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

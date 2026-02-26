@@ -1551,12 +1551,12 @@
           "show": false
         }
       ],
-      "filter_string": "C",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -1630,6 +1630,10 @@
     [
       "41ec0f0a-1edf-4b7c-bea5-5c05662ec081",
       "PCB2-PWM and Motors"
+    ],
+    [
+      "a0c8e7b0-f2bd-4dbc-92d9-c214cdc6de2b",
+      "PCB1-ToF HDMI Connector"
     ],
     [
       "f9f22bb2-829e-4ff5-89be-c4b5e2122135",

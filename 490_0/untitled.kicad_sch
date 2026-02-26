@@ -3617,6 +3617,12 @@
 		(uuid "bae9e078-593c-4308-9919-0edd8e53bdb1")
 	)
 	(junction
+		(at 88.9 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "099680f4-1333-4dd5-a767-447df1b2a536")
+	)
+	(junction
 		(at 208.28 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3635,40 +3641,16 @@
 		(uuid "1fb99cb4-11a0-4772-b4aa-a0004256f086")
 	)
 	(junction
-		(at 81.28 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2967cdf3-3f28-4c17-bcf1-ccc3d0d73b65")
-	)
-	(junction
-		(at 73.66 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b9636b5-7162-44f0-9e55-b416b537841c")
-	)
-	(junction
 		(at 81.28 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "313eadb1-c78a-4375-841c-cc3383d2a2d8")
 	)
 	(junction
-		(at 66.04 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36b31738-2aca-4e5c-ba04-c893c33ebf71")
-	)
-	(junction
 		(at 48.26 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a2343bf-fa03-4e2b-828a-f4e421fd00a0")
-	)
-	(junction
-		(at 86.36 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bfc238a-7336-4b51-9f7f-9937fc54a992")
 	)
 	(junction
 		(at 73.66 71.12)
@@ -3725,22 +3707,40 @@
 		(uuid "bfd228b6-1175-465a-9499-8524feae6304")
 	)
 	(junction
+		(at 66.04 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1f5689b-0607-4a9a-9b6d-a4aee63b1f93")
+	)
+	(junction
 		(at 53.34 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6a71c2c-b21d-4f9f-b0a1-3834ad357039")
 	)
 	(junction
+		(at 73.66 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc938320-f657-43a7-b6f1-c420c469b38b")
+	)
+	(junction
 		(at 71.12 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d5b09c58-b77e-4f52-93e8-46af496b2245")
+		(uuid "da0a696b-1e88-47e9-91a7-7b4af67ba2d3")
 	)
 	(junction
 		(at 91.44 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da961f26-26ab-40e1-b5c8-d84d5c370328")
+	)
+	(junction
+		(at 81.28 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e34473d0-ac54-441f-90d3-2edd318dcc13")
 	)
 	(junction
 		(at 55.88 193.04)
@@ -3829,26 +3829,6 @@
 			(type default)
 		)
 		(uuid "00d0b946-7473-4c12-bbe2-ebd4003cf31e")
-	)
-	(wire
-		(pts
-			(xy 53.34 93.98) (xy 53.34 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "010b0ada-35d0-4ae0-bbd8-060e9f300873")
-	)
-	(wire
-		(pts
-			(xy 53.34 101.6) (xy 66.04 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0147807b-f87a-4186-aa97-4f64783d518f")
 	)
 	(wire
 		(pts
@@ -3982,16 +3962,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 71.12) (xy 91.44 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1033e03a-6f58-4b11-bc70-f1e771152ce9")
-	)
-	(wire
-		(pts
 			(xy 25.4 48.26) (xy 25.4 50.8)
 		)
 		(stroke
@@ -3999,6 +3969,16 @@
 			(type default)
 		)
 		(uuid "10514da9-3d56-47e9-a7ab-227787163981")
+	)
+	(wire
+		(pts
+			(xy 73.66 96.52) (xy 81.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14117a62-d0e8-4849-a1da-678978de22b7")
 	)
 	(wire
 		(pts
@@ -4079,6 +4059,26 @@
 			(type default)
 		)
 		(uuid "245accac-7b70-470d-a082-7c29b98e4258")
+	)
+	(wire
+		(pts
+			(xy 88.9 71.12) (xy 91.44 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2472fa52-aec8-48a3-a36a-204e29c928ad")
+	)
+	(wire
+		(pts
+			(xy 81.28 83.82) (xy 81.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a28efa-8b19-413a-96fa-53bed867f1de")
 	)
 	(wire
 		(pts
@@ -4252,13 +4252,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.98) (xy 81.28 101.6)
+			(xy 73.66 93.98) (xy 73.66 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f6667e1-de91-41b4-8914-c56e3707e7f2")
+		(uuid "3d89cabb-8206-401a-a70b-d08eb64fac92")
 	)
 	(wire
 		(pts
@@ -4289,16 +4289,6 @@
 			(type default)
 		)
 		(uuid "44a7a7a3-c3bb-4840-a482-e092ff479c2a")
-	)
-	(wire
-		(pts
-			(xy 66.04 101.6) (xy 66.04 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47984195-286a-4825-8625-8c40077114b8")
 	)
 	(wire
 		(pts
@@ -4339,16 +4329,6 @@
 			(type default)
 		)
 		(uuid "4c7e1c43-0b1f-4d5c-8264-0917b61f0970")
-	)
-	(wire
-		(pts
-			(xy 81.28 101.6) (xy 86.36 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d70ff90-6842-4121-a96d-e1f2cfa4839b")
 	)
 	(wire
 		(pts
@@ -4402,23 +4382,33 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 101.6) (xy 73.66 101.6)
+			(xy 66.04 96.52) (xy 73.66 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b4cb162-1c2b-40e2-9887-132364d3be53")
+		(uuid "580f56b2-02d9-4470-b0c9-7c8607c66fab")
 	)
 	(wire
 		(pts
-			(xy 86.36 71.12) (xy 86.36 73.66)
+			(xy 88.9 71.12) (xy 88.9 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5c51c817-682d-4c03-bd2a-bfd6d0c41ad6")
+	)
+	(wire
+		(pts
+			(xy 53.34 96.52) (xy 66.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f03922a-5f1d-4d2c-baee-e652e5ae6908")
 	)
 	(wire
 		(pts
@@ -4449,16 +4439,6 @@
 			(type default)
 		)
 		(uuid "645077a1-15f6-4f68-b0f2-29502e8412ef")
-	)
-	(wire
-		(pts
-			(xy 86.36 101.6) (xy 86.36 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6450a779-805f-4570-a360-244c3c4014f2")
 	)
 	(wire
 		(pts
@@ -4602,16 +4582,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 101.6) (xy 81.28 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82da8b39-1aab-444e-a0f8-dc145e8fe38d")
-	)
-	(wire
-		(pts
 			(xy 76.2 137.16) (xy 71.12 137.16)
 		)
 		(stroke
@@ -4649,6 +4619,16 @@
 			(type default)
 		)
 		(uuid "84a6ad84-fb8f-41a9-8cd3-2ff4065aeb3a")
+	)
+	(wire
+		(pts
+			(xy 63.5 195.58) (xy 63.5 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869c4b3c-749a-46eb-b086-6ff4a8f62651")
 	)
 	(wire
 		(pts
@@ -4812,6 +4792,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 93.98) (xy 53.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e48e60a-4a42-44e6-9518-3e06a1c6d44f")
+	)
+	(wire
+		(pts
 			(xy 63.5 175.26) (xy 63.5 148.59)
 		)
 		(stroke
@@ -4882,16 +4872,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 83.82) (xy 66.04 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adf7d3a0-4d17-4412-af2f-d17ff4190ad6")
-	)
-	(wire
-		(pts
 			(xy 68.58 48.26) (xy 68.58 50.8)
 		)
 		(stroke
@@ -4909,6 +4889,16 @@
 			(type default)
 		)
 		(uuid "b0a1c224-ba5d-4f77-add4-42d242c49e2e")
+	)
+	(wire
+		(pts
+			(xy 68.58 142.24) (xy 71.12 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4283254-8c98-4b98-af0e-49fffc8215f9")
 	)
 	(wire
 		(pts
@@ -4952,6 +4942,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 83.82) (xy 66.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe402e6-2ff9-445f-8364-a58e5666e11b")
+	)
+	(wire
+		(pts
 			(xy 93.98 139.7) (xy 91.44 139.7)
 		)
 		(stroke
@@ -4962,7 +4962,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 71.12) (xy 73.66 78.74)
+			(xy 73.66 71.12) (xy 73.66 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4992,7 +4992,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 71.12) (xy 81.28 83.82)
+			(xy 81.28 71.12) (xy 81.28 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5022,7 +5022,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 71.12) (xy 86.36 71.12)
+			(xy 81.28 71.12) (xy 88.9 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5092,6 +5092,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 96.52) (xy 88.9 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c589ea-6591-41e8-aaea-9bd22b5bc538")
+	)
+	(wire
+		(pts
 			(xy 76.2 154.94) (xy 93.98 154.94)
 		)
 		(stroke
@@ -5152,6 +5162,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 96.52) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ddfaac-38a0-417e-967e-959a19733146")
+	)
+	(wire
+		(pts
 			(xy 63.5 134.62) (xy 63.5 142.24)
 		)
 		(stroke
@@ -5179,6 +5199,16 @@
 			(type default)
 		)
 		(uuid "ef9400e2-1352-41d4-9d2d-c6d3a85825b3")
+	)
+	(wire
+		(pts
+			(xy 73.66 96.52) (xy 73.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36e2f14-e43f-4fd4-bcbc-89055b28ef9b")
 	)
 	(wire
 		(pts
@@ -5239,16 +5269,6 @@
 			(type default)
 		)
 		(uuid "fb86dcc0-4db1-4a0f-aa6a-5c5fafc691f7")
-	)
-	(wire
-		(pts
-			(xy 73.66 88.9) (xy 73.66 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdbf9630-82cd-4be0-8a62-39a547328cf7")
 	)
 	(wire
 		(pts
@@ -12246,8 +12266,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u, SMD_0603"
-			(at 162.052 91.948 0)
+		(property "Value" "0.1u"
+			(at 170.942 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12264,7 +12284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -12273,7 +12293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 0.1UF 16V X7R 0805"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -12301,6 +12321,87 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805JRX7R7BB104/5884101"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0805JRX7R7BB104"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "311-4266-1-ND"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD, MLCC"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16a99461-2842-4887-a6d4-9ebe7621bee9")
 		)
@@ -12318,7 +12419,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 86.36 78.74 180)
+		(at 88.9 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12326,7 +12427,7 @@
 		(dnp no)
 		(uuid "22114964-c6a0-4781-bfa4-e09cecfbee9d")
 		(property "Reference" "C59"
-			(at 79.502 78.994 0)
+			(at 82.296 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12334,8 +12435,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u, SMD_0603"
-			(at 70.612 81.788 0)
+		(property "Value" "0.1u"
+			(at 82.296 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12344,7 +12445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 78.74 0)
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12352,8 +12453,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 86.36 78.74 0)
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12361,8 +12462,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
-			(at 86.36 78.74 0)
+		(property "Description" "CAP CER 0.1UF 16V X7R 0805"
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12371,7 +12472,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 87.63 81.915 0)
+			(at 90.17 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12380,12 +12481,93 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 86.995 75.565 0)
+			(at 89.535 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805JRX7R7BB104/5884101"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0805JRX7R7BB104"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "311-4266-1-ND"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD, MLCC"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12414,7 +12596,7 @@
 		(dnp no)
 		(uuid "22b31a84-8fe6-4ab5-b46d-0bce71daadc3")
 		(property "Reference" "C62"
-			(at 46.482 89.154 0)
+			(at 56.642 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12422,8 +12604,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u, SMD_0805"
-			(at 37.592 91.948 0)
+		(property "Value" "1u"
+			(at 56.896 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12440,7 +12622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
 			(at 53.34 88.9 0)
 			(effects
 				(font
@@ -12449,7 +12631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 1UF 25V X7R 0805"
 			(at 53.34 88.9 0)
 			(effects
 				(font
@@ -12474,6 +12656,87 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805JKX7R8BB105/16797938"
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0805JKX7R8BB105"
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.13"
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "13-CC0805JKX7R8BB105CT-ND"
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD, MLCC"
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 53.34 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13327,7 +13590,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 87.884 145.288 90)
 			(effects
 				(font
@@ -13650,72 +13913,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 71.12 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e2811e7-ba1c-4794-a20a-a5ebc49dfa8d")
-		(property "Reference" "#PWR0128"
-			(at 71.12 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.564 144.018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ae2f8e8-d8a4-4ec5-b9f4-ecccea690059")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/068f11fb-720d-48b0-8797-6d8a5a01cc51"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Elektuur:C")
 		(at 66.04 78.74 180)
 		(unit 1)
@@ -13733,8 +13930,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u, SMD_0805"
-			(at 50.292 81.788 0)
+		(property "Value" "0.1u"
+			(at 59.436 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13751,7 +13948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
 			(at 66.04 78.74 0)
 			(effects
 				(font
@@ -13760,7 +13957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 0.1UF 16V X7R 0805"
 			(at 66.04 78.74 0)
 			(effects
 				(font
@@ -13785,6 +13982,87 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805JRX7R7BB104/5884101"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0805JRX7R7BB104"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "311-4266-1-ND"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD, MLCC"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13863,6 +14141,71 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/068f11fb-720d-48b0-8797-6d8a5a01cc51"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b9cbdfc-b416-44f1-9c98-e398f00bebdd")
+		(property "Reference" "#PWR059"
+			(at 68.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.326 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f1e71d7-acfc-4588-accc-6d6b6f0cb9ee")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/068f11fb-720d-48b0-8797-6d8a5a01cc51"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -14287,7 +14630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L (YAGEO resistors).pdf"
 			(at 83.82 173.482 0)
 			(effects
 				(font
@@ -14296,7 +14639,88 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/4W Resistor"
+		(property "Description" "RES 10K OHM 1% 1/4W 1206"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0710KL/728483"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RC1206FR-0710KL"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "311-10.0KFRCT-ND"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
 			(at 83.82 173.99 0)
 			(effects
 				(font
@@ -15094,7 +15518,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 79.756 138.43 90)
 			(effects
 				(font
@@ -15418,7 +15842,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 104.14 0)
+		(at 73.66 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15426,7 +15850,7 @@
 		(dnp no)
 		(uuid "7a9709b7-d98a-4707-ba04-c1ace15967c3")
 		(property "Reference" "#PWR098"
-			(at 66.04 110.49 0)
+			(at 73.66 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15435,7 +15859,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 107.95 0)
+			(at 73.66 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15443,7 +15867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 104.14 0)
+			(at 73.66 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15452,7 +15876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 104.14 0)
+			(at 73.66 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15461,7 +15885,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 104.14 0)
+			(at 73.66 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16433,7 +16857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L (YAGEO resistors).pdf"
 			(at 40.64 160.782 0)
 			(effects
 				(font
@@ -16442,7 +16866,88 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/4W Resistor"
+		(property "Description" "RES 10K OHM 1% 1/4W 1206"
+			(at 40.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0710KL/728483"
+			(at 40.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 40.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RC1206FR-0710KL"
+			(at 40.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 40.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
+			(at 40.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 40.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "311-10.0KFRCT-ND"
+			(at 40.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 40.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
 			(at 40.64 161.29 0)
 			(effects
 				(font
@@ -17181,7 +17686,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 73.66 83.82 180)
+		(at 73.66 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17189,7 +17694,7 @@
 		(dnp no)
 		(uuid "b3af6fdc-ce13-4d18-b0d1-31b541a3e9a5")
 		(property "Reference" "C57"
-			(at 66.802 84.074 0)
+			(at 66.802 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17197,8 +17702,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u, SMD_0603"
-			(at 57.912 86.868 0)
+		(property "Value" "0.1u"
+			(at 67.056 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17207,7 +17712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 83.82 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17215,8 +17720,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 73.66 83.82 0)
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17224,8 +17729,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
-			(at 73.66 83.82 0)
+		(property "Description" "CAP CER 0.1UF 16V X7R 0805"
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17234,7 +17739,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 74.93 86.995 0)
+			(at 74.93 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17243,12 +17748,93 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 74.295 80.645 0)
+			(at 74.295 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805JRX7R7BB104/5884101"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0805JRX7R7BB104"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "311-4266-1-ND"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD, MLCC"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 73.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -17424,8 +18010,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u, SMD_0603"
-			(at 201.168 81.788 0)
+		(property "Value" "0.1u"
+			(at 192.532 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17442,7 +18028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
 			(at 185.42 78.74 0)
 			(effects
 				(font
@@ -17451,7 +18037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
+		(property "Description" "CAP CER 0.1UF 16V X7R 0805"
 			(at 185.42 78.74 0)
 			(effects
 				(font
@@ -17476,6 +18062,87 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805JRX7R7BB104/5884101"
+			(at 185.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 185.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0805JRX7R7BB104"
+			(at 185.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 185.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 185.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 185.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "311-4266-1-ND"
+			(at 185.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD, MLCC"
+			(at 185.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 185.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -18065,7 +18732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L (YAGEO resistors).pdf"
 			(at 55.88 160.782 0)
 			(effects
 				(font
@@ -18074,7 +18741,88 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/4W Resistor"
+		(property "Description" "RES 10K OHM 1% 1/4W 1206"
+			(at 55.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0710KL/728483"
+			(at 55.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 55.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RC1206FR-0710KL"
+			(at 55.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 55.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
+			(at 55.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 55.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "311-10.0KFRCT-ND"
+			(at 55.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 55.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
 			(at 55.88 161.29 0)
 			(effects
 				(font
@@ -18100,7 +18848,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 81.28 88.9 180)
+		(at 81.28 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18108,7 +18856,7 @@
 		(dnp no)
 		(uuid "e7921f46-8358-4606-9b02-97b6e09bf55a")
 		(property "Reference" "C58"
-			(at 74.422 89.154 0)
+			(at 74.422 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18116,8 +18864,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u, SMD_0603"
-			(at 65.532 91.948 0)
+		(property "Value" "0.1u"
+			(at 74.676 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18126,7 +18874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 88.9 0)
+			(at 81.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18134,8 +18882,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 81.28 88.9 0)
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
+			(at 81.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18143,8 +18891,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "capacitor, non-polarized/bipolar"
-			(at 81.28 88.9 0)
+		(property "Description" "CAP CER 0.1UF 16V X7R 0805"
+			(at 81.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18153,7 +18901,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 82.55 92.075 0)
+			(at 82.55 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18162,12 +18910,93 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 81.915 85.725 0)
+			(at 81.915 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805JRX7R7BB104/5884101"
+			(at 81.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 81.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0805JRX7R7BB104"
+			(at 81.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 81.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.11"
+			(at 81.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 81.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "311-4266-1-ND"
+			(at 81.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD, MLCC"
+			(at 81.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 81.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -18572,16 +19401,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 193.04 0)
+		(at 63.5 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f1030d6c-015d-4af9-9807-23f5e3e10176")
 		(property "Reference" "#PWR016"
-			(at 63.5 199.39 0)
+			(at 63.5 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18590,7 +19418,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 198.12 0)
+			(at 63.5 199.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18598,7 +19426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 193.04 0)
+			(at 63.5 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18607,7 +19435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 193.04 0)
+			(at 63.5 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18616,7 +19444,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 193.04 0)
+			(at 63.5 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -724,256 +724,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Diode_TVS_AKL:SMF5.0A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMF5.0A"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123F"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/95faf1e5e821ed1b438500c66c7b0bd9/smf50a.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SOD-123F Unidirectional TVS diode, 5V, 200W, Alternate KiCAD Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode unidirectional TVS SMF-A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMF5.0A_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMF5.0A_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy -0.381 1.397)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMF5.0A_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SMF5.0A_1_2"
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_Elektuur:C"
 			(pin_numbers
 				(hide yes)
@@ -2442,22 +2192,10 @@
 		(uuid "706c6396-7975-4b26-a1bb-6804b95cf98d")
 	)
 	(junction
-		(at 104.14 53.34)
+		(at 147.32 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "052e4189-e530-4fe0-a7a8-a129705af3d2")
-	)
-	(junction
-		(at 104.14 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a0185be-c6dc-4271-af7a-0d46591760cd")
-	)
-	(junction
-		(at 127 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82fdc009-a456-4b9d-b540-0ae0afac8de6")
+		(uuid "3c3599e8-1e68-400b-8735-737368b09a9f")
 	)
 	(junction
 		(at 147.32 86.36)
@@ -2472,16 +2210,22 @@
 		(uuid "8b1f275b-a746-42f3-a19a-83053cf20f4b")
 	)
 	(junction
-		(at 124.46 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e33ec5f3-32e9-479c-bcb6-a0b4f181dfc6")
-	)
-	(junction
 		(at 137.16 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e764e0e1-aa8c-45b2-83a1-9fbf291b03b5")
+	)
+	(junction
+		(at 104.14 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed62f288-f47d-4877-bb27-047f89cdfdb2")
+	)
+	(junction
+		(at 154.94 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f001ce75-3a7d-42ac-8024-d1fc9340b3d6")
 	)
 	(no_connect
 		(at 137.16 119.38)
@@ -2493,33 +2237,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 53.34) (xy 104.14 53.34)
+			(xy 104.14 66.04) (xy 104.14 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01040276-f836-4648-be3d-3837dd2be787")
+		(uuid "0c70160f-58f3-40b8-b826-950422458f70")
 	)
 	(wire
 		(pts
-			(xy 104.14 78.74) (xy 99.06 78.74)
+			(xy 104.14 66.04) (xy 81.28 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10d0d8af-f741-4ac0-8807-a9dee286dd14")
-	)
-	(wire
-		(pts
-			(xy 124.46 68.58) (xy 127 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2169cabc-8188-43bf-8577-f3262d4feeb3")
+		(uuid "1d34e2a1-006d-4da3-b2a3-6f9dabb4dc4d")
 	)
 	(wire
 		(pts
@@ -2533,16 +2267,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 58.42) (xy 124.46 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35738fb1-a663-4ca0-8209-5ea4df386976")
-	)
-	(wire
-		(pts
 			(xy 236.22 88.9) (xy 241.3 88.9)
 		)
 		(stroke
@@ -2550,6 +2274,16 @@
 			(type default)
 		)
 		(uuid "4634f463-1f7c-4443-aa63-b1678c5c8c6a")
+	)
+	(wire
+		(pts
+			(xy 160.02 116.84) (xy 160.02 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b33667-4195-4aa8-9895-f17f1372d21f")
 	)
 	(wire
 		(pts
@@ -2573,7 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 66.04) (xy 129.54 68.58)
+			(xy 109.22 76.2) (xy 109.22 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2603,23 +2337,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 53.34) (xy 104.14 55.88)
+			(xy 160.02 119.38) (xy 154.94 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "747fef04-13f3-49e5-9e83-fed66b495cc0")
+		(uuid "6f255ec7-fc19-4a5a-9361-948691c29f07")
 	)
 	(wire
 		(pts
-			(xy 104.14 55.88) (xy 104.14 78.74)
+			(xy 81.28 66.04) (xy 81.28 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d8587b2-69f8-4061-8b37-64361cb9ea4f")
+		(uuid "7adeffcc-d451-49a2-8ed7-8349077a37f1")
 	)
 	(wire
 		(pts
@@ -2643,16 +2377,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 55.88) (xy 129.54 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80ad4cce-cd50-415c-9ac1-de8b8bad1d35")
-	)
-	(wire
-		(pts
 			(xy 142.24 121.92) (xy 142.24 119.38)
 		)
 		(stroke
@@ -2660,16 +2384,6 @@
 			(type default)
 		)
 		(uuid "81d6d05d-1d2d-4413-a986-d90a3ed3dc9a")
-	)
-	(wire
-		(pts
-			(xy 127 68.58) (xy 129.54 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "894c4e84-cc0a-41db-ad78-ed785d44e321")
 	)
 	(wire
 		(pts
@@ -2693,13 +2407,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 50.8) (xy 104.14 53.34)
+			(xy 99.06 78.74) (xy 104.14 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "987e0860-4048-441a-82c5-7be48e9b05d3")
+		(uuid "9555468f-2bad-4628-9b1c-839d287891da")
 	)
 	(wire
 		(pts
@@ -2723,6 +2437,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 127) (xy 147.32 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e11d20d-6441-4e01-b680-26c64abc1fc9")
+	)
+	(wire
+		(pts
 			(xy 236.22 91.44) (xy 236.22 88.9)
 		)
 		(stroke
@@ -2743,16 +2467,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 68.58) (xy 124.46 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace22472-df8f-4aa0-bae0-1c703ebde810")
-	)
-	(wire
-		(pts
 			(xy 147.32 86.36) (xy 165.1 86.36)
 		)
 		(stroke
@@ -2760,6 +2474,16 @@
 			(type default)
 		)
 		(uuid "b031bdc5-a4b9-49d6-b8b5-41ceed2970fa")
+	)
+	(wire
+		(pts
+			(xy 147.32 127) (xy 147.32 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6dcfea2-b785-43dc-986a-2454f0b265cb")
 	)
 	(wire
 		(pts
@@ -2773,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 55.88) (xy 124.46 55.88)
+			(xy 104.14 66.04) (xy 109.22 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2810,16 +2534,6 @@
 			(type default)
 		)
 		(uuid "dc066b20-843a-4aca-a0c6-704887ee5711")
-	)
-	(wire
-		(pts
-			(xy 127 68.58) (xy 127 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8aa822a-d80a-41b3-926b-8de32f7cb339")
 	)
 	(wire
 		(pts
@@ -2990,7 +2704,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 145.034 124.968 0)
+			(at 142.24 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,73 +2745,6 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/d28f2748-3083-434f-ab92-5f07809e59a3"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 104.14 50.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25ab5be1-d8a6-4e98-aa8d-29f53e493378")
-		(property "Reference" "#PWR059"
-			(at 104.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS_5V"
-			(at 104.14 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 104.14 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d27655a-0ddb-4a0a-981c-5c232c4be8bb")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/d28f2748-3083-434f-ab92-5f07809e59a3"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3271,16 +2918,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 71.12 0)
+		(at 109.22 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3470c9ee-e229-4396-ba7b-9e28b34e602c")
 		(property "Reference" "#PWR031"
-			(at 127 77.47 0)
+			(at 109.22 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +2935,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 77.47 0)
+			(at 112.014 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +2943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 71.12 0)
+			(at 109.22 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +2952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 71.12 0)
+			(at 109.22 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,7 +2961,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 71.12 0)
+			(at 109.22 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,204 +3400,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_TVS_AKL:SMF5.0A")
-		(at 124.46 62.23 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a445fbce-c74c-452c-9391-3aa5120371c7")
-		(property "Reference" "D20"
-			(at 121.92 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMF5.0A"
-			(at 121.92 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123F"
-			(at 124.46 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://SMF5.0A SOD-123FL.pdf"
-			(at 124.46 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "21.7A 9.2V 6.4V 5V SOD-123FL"
-			(at 124.46 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 124.46 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SMF5-0A/26601083"
-			(at 124.46 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Shenzhen Slkormicro Semicon Co., Ltd."
-			(at 124.46 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "SMF5.0A"
-			(at 124.46 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 124.46 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 124.46 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOD-123FL"
-			(at 124.46 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.12"
-			(at 124.46 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "DigiKey"
-			(at 124.46 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier P/N" "5399-SMF5.0ACT-ND"
-			(at 124.46 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 124.46 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "pcs"
-			(at 124.46 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Raing" ""
-			(at 124.46 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 124.46 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "57e5bca8-52ea-4401-85fe-ede9bf8e621a")
-		)
-		(pin "1"
-			(uuid "cfe8bd67-959f-4f8d-be1a-f37d1558e78f")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/d28f2748-3083-434f-ab92-5f07809e59a3"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_4ms_Power-symbol:PWR_FLAG")
-		(at 109.22 53.34 0)
+		(at 160.02 116.84 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3960,7 +3410,7 @@
 		(dnp no)
 		(uuid "b12c2f2f-bf79-4a3d-a6d1-39dd02d94792")
 		(property "Reference" "#FLG01"
-			(at 109.22 51.435 0)
+			(at 160.02 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3419,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 115.57 52.07 0)
+			(at 166.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +3427,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 53.34 0)
+			(at 160.02 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +3436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 53.34 0)
+			(at 160.02 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +3445,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 53.34 0)
+			(at 160.02 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,7 +3726,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 129.54 60.96 0)
+		(at 109.22 71.12 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4285,7 +3735,7 @@
 		(dnp no)
 		(uuid "f2a54e3b-a095-4446-93c8-167bfb13a73a")
 		(property "Reference" "C6"
-			(at 135.382 64.516 0)
+			(at 115.824 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +3744,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 134.874 66.294 0)
+			(at 115.316 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,7 +3753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,7 +3762,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +3771,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 16V X7R 1206"
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,7 +3780,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 130.81 57.785 0)
+			(at 110.49 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +3789,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 130.175 64.135 0)
+			(at 109.855 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +3799,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c106k4ractu/789657"
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +3808,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +3817,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +3826,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +3835,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +3844,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +3853,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +3862,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +3871,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +3880,7 @@
 			)
 		)
 		(property "Manufacturer Part" "C1206C106K4RACTU"
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +3889,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,7 +3898,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +3907,7 @@
 			)
 		)
 		(property "Supplier P/N" "399-C1206C106K4RACTUCT-ND"
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +3916,7 @@
 			)
 		)
 		(property "Type" "SMD, MLCC"
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +3925,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +3934,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +3943,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +3952,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +3961,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +3970,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +3979,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +3988,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +3997,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4006,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +4015,7 @@
 			)
 		)
 		(property "Package" "1206 (3216 Metric)"
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4024,7 @@
 			)
 		)
 		(property "Price" "0.31"
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +4033,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4592,7 +4042,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 129.54 60.96 0)
+			(at 109.22 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
