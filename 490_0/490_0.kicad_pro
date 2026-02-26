@@ -1551,12 +1551,12 @@
           "show": false
         }
       ],
-      "filter_string": "j20",
+      "filter_string": "C",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Description"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -1617,15 +1617,23 @@
     ],
     [
       "068f11fb-720d-48b0-8797-6d8a5a01cc51",
-      "PCB3-USB 2.0 Bridge"
+      "PCB2-USB 2.0 Bridge"
     ],
     [
       "d28f2748-3083-434f-ab92-5f07809e59a3",
       "PCB1-Charging and Power Port + USB switch"
     ],
     [
+      "8851ec1e-bcf7-4038-87f9-51a1e0ebfc15",
+      "PCB2-USB Current Limiter Switches"
+    ],
+    [
       "41ec0f0a-1edf-4b7c-bea5-5c05662ec081",
-      "PCB3-PWM and Motors"
+      "PCB2-PWM and Motors"
+    ],
+    [
+      "a0c8e7b0-f2bd-4dbc-92d9-c214cdc6de2b",
+      "PCB1-ToF HDMI Connector"
     ],
     [
       "f9f22bb2-829e-4ff5-89be-c4b5e2122135",
@@ -1633,7 +1641,7 @@
     ],
     [
       "a8971e06-9d2b-4df6-83ab-783791bb1c3f",
-      "PCB3"
+      "PCB2"
     ],
     [
       "9b56d3ca-82a9-4c6a-8125-2948d5100470",
