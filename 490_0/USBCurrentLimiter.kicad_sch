@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "035f574f-f5c3-41fc-b502-acab419ba96e")
+	(uuid "35a72976-7457-4fca-9032-8355439279ff")
 	(paper "USLetter")
 	(lib_symbols
 		(symbol "Device:C_Polarized"
@@ -2475,7 +2475,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 71.882 79.248 0)
 			(effects
 				(font
@@ -2502,7 +2502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7R 0805"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -2530,7 +2530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805JRX7R7BB104/5884101"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805KRX7R9BB104/302874?s=N4IgTCBcDaIMJwAwA5EFYDSAlAGgdiwE4AhYgRkQBYQBdAXyA"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -2548,7 +2548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CC0805JRX7R7BB104"
+		(property "Manufacturer Part" "CC0805KRX7R9BB104"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -2557,7 +2557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0805"
+		(property "Package" "0805 (2012 Metric)"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -2566,7 +2566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.11"
+		(property "Price" "0.08"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -2584,7 +2584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-4266-1-ND"
+		(property "Supplier P/N" "311-1140-1-ND"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -3430,7 +3430,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 99.822 132.588 0)
 			(effects
 				(font
@@ -3457,7 +3457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7R 0805"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
 			(at 106.68 129.54 0)
 			(effects
 				(font
@@ -3485,7 +3485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805JRX7R7BB104/5884101"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805KRX7R9BB104/302874?s=N4IgTCBcDaIMJwAwA5EFYDSAlAGgdiwE4AhYgRkQBYQBdAXyA"
 			(at 106.68 129.54 0)
 			(effects
 				(font
@@ -3503,7 +3503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CC0805JRX7R7BB104"
+		(property "Manufacturer Part" "CC0805KRX7R9BB104"
 			(at 106.68 129.54 0)
 			(effects
 				(font
@@ -3512,7 +3512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0805"
+		(property "Package" "0805 (2012 Metric)"
 			(at 106.68 129.54 0)
 			(effects
 				(font
@@ -3521,7 +3521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.11"
+		(property "Price" "0.08"
 			(at 106.68 129.54 0)
 			(effects
 				(font
@@ -3539,7 +3539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-4266-1-ND"
+		(property "Supplier P/N" "311-1140-1-ND"
 			(at 106.68 129.54 0)
 			(effects
 				(font
@@ -4088,7 +4088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://293d.pdf"
+		(property "Datasheet" "kicad-embed://594d.pdf"
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -4097,7 +4097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP TANT 120UF 10% 6.3V 2917"
+		(property "Description" "CAP TANT 120UF 10% 20V 2824"
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -4106,7 +4106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "293D127X96R3D2TE3"
+		(property "Manufacturer Part" "594D127X9020R2T"
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -4133,7 +4133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "718-1745-1-ND"
+		(property "Supplier P/N" "718-594D127X9020R2TCT-ND"
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -4241,7 +4241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-sprague/293D127X96R3D2TE3/2259902"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-sprague/594D127X9020R2T/1577743"
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -4259,7 +4259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "2917 (7343 Metric)"
+		(property "Package" "2824 (7260 Metric)"
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -4268,7 +4268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.99"
+		(property "Price" "6.97"
 			(at 175.26 120.65 0)
 			(effects
 				(font
@@ -5288,7 +5288,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 99.822 89.408 0)
 			(effects
 				(font
@@ -5315,7 +5315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7R 0805"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
 			(at 106.68 86.36 0)
 			(effects
 				(font
@@ -5343,7 +5343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805JRX7R7BB104/5884101"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805KRX7R9BB104/302874?s=N4IgTCBcDaIMJwAwA5EFYDSAlAGgdiwE4AhYgRkQBYQBdAXyA"
 			(at 106.68 86.36 0)
 			(effects
 				(font
@@ -5361,7 +5361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CC0805JRX7R7BB104"
+		(property "Manufacturer Part" "CC0805KRX7R9BB104"
 			(at 106.68 86.36 0)
 			(effects
 				(font
@@ -5370,7 +5370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0805"
+		(property "Package" "0805 (2012 Metric)"
 			(at 106.68 86.36 0)
 			(effects
 				(font
@@ -5379,7 +5379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.11"
+		(property "Price" "0.08"
 			(at 106.68 86.36 0)
 			(effects
 				(font
@@ -5397,7 +5397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-4266-1-ND"
+		(property "Supplier P/N" "311-1140-1-ND"
 			(at 106.68 86.36 0)
 			(effects
 				(font
@@ -6209,7 +6209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://293d.pdf"
+		(property "Datasheet" "kicad-embed://594d.pdf"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -6218,7 +6218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP TANT 120UF 10% 6.3V 2917"
+		(property "Description" "CAP TANT 120UF 10% 20V 2824"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -6227,7 +6227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "293D127X96R3D2TE3"
+		(property "Manufacturer Part" "594D127X9020R2T"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -6254,7 +6254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "718-1745-1-ND"
+		(property "Supplier P/N" "718-594D127X9020R2TCT-ND"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -6362,7 +6362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-sprague/293D127X96R3D2TE3/2259902"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-sprague/594D127X9020R2T/1577743"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -6380,7 +6380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "2917 (7343 Metric)"
+		(property "Package" "2824 (7260 Metric)"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -6389,7 +6389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.99"
+		(property "Price" "6.97"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -8064,7 +8064,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 71.882 122.428 0)
 			(effects
 				(font
@@ -8091,7 +8091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 16V X7R 0805"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
 			(at 78.74 119.38 0)
 			(effects
 				(font
@@ -8119,7 +8119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805JRX7R7BB104/5884101"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805KRX7R9BB104/302874?s=N4IgTCBcDaIMJwAwA5EFYDSAlAGgdiwE4AhYgRkQBYQBdAXyA"
 			(at 78.74 119.38 0)
 			(effects
 				(font
@@ -8137,7 +8137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CC0805JRX7R7BB104"
+		(property "Manufacturer Part" "CC0805KRX7R9BB104"
 			(at 78.74 119.38 0)
 			(effects
 				(font
@@ -8146,7 +8146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0805"
+		(property "Package" "0805 (2012 Metric)"
 			(at 78.74 119.38 0)
 			(effects
 				(font
@@ -8155,7 +8155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.11"
+		(property "Price" "0.08"
 			(at 78.74 119.38 0)
 			(effects
 				(font
@@ -8173,7 +8173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-4266-1-ND"
+		(property "Supplier P/N" "311-1140-1-ND"
 			(at 78.74 119.38 0)
 			(effects
 				(font
