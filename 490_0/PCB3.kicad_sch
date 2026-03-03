@@ -4396,7 +4396,7 @@
 		)
 		(uuid "24989196-30b4-4c3a-baa8-cd518f5315c9")
 	)
-	(text "Camera CSI Connector \n0.5mm pitch, 15-pin FFC\n"
+	(text "Camera CSI Connector \n1mm pitch, 15-pin FFC\n"
 		(exclude_from_sim no)
 		(at 33.782 74.168 0)
 		(effects
@@ -5953,7 +5953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "S2B-XH-A:JST_S2B-XH-A"
+		(property "Footprint" "*CapStone*:CONN_S2B-ZR_JST"
 			(at 33.655 57.785 0)
 			(effects
 				(font
@@ -6543,7 +6543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "*CapStone*:CONN_S8B-XH-A_JST"
+		(property "Footprint" "*CapStone*:CONN_S08B-XASK-1_JST"
 			(at 198.12 28.575 0)
 			(effects
 				(font
@@ -6552,7 +6552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://B3B-XH-A.pdf"
+		(property "Datasheet" "kicad-embed://eXA-WB-new.pdf"
 			(at 198.12 35.56 0)
 			(effects
 				(font
@@ -6580,7 +6580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/S8B-XH-A/1651023"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/s08b-xask-1/2621356"
 			(at 198.12 40.64 0)
 			(effects
 				(font
@@ -6598,7 +6598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "S8B-XH-A"
+		(property "Manufacturer Part" "S08B-XASK-1"
 			(at 198.12 40.64 0)
 			(effects
 				(font
@@ -6607,7 +6607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.33"
+		(property "Price" "0.81"
 			(at 198.12 40.64 0)
 			(effects
 				(font
@@ -6625,7 +6625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "455-S8B-XH-A-ND"
+		(property "Supplier P/N" "455-S08B-XASK-1-ND"
 			(at 198.12 40.64 0)
 			(effects
 				(font
@@ -6634,7 +6634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "Through Hole"
+		(property "Type" "Through Hole, Right Angle"
 			(at 198.12 40.64 0)
 			(effects
 				(font
@@ -6662,6 +6662,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 198.12 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Bulk"
 			(at 198.12 40.64 0)
 			(effects
 				(font

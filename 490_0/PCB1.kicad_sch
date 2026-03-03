@@ -2246,7 +2246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "*CapStone*:CONN_S8B-XH-A_JST"
+		(property "Footprint" "*CapStone*:CONN_S08B-XASK-1_JST"
 			(at 256.54 23.495 0)
 			(effects
 				(font
@@ -2255,7 +2255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://B3B-XH-A.pdf"
+		(property "Datasheet" "kicad-embed://eXA-WB-new.pdf"
 			(at 256.54 30.48 0)
 			(effects
 				(font
@@ -2283,7 +2283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/S8B-XH-A/1651023"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/s08b-xask-1/2621356"
 			(at 256.54 35.56 0)
 			(effects
 				(font
@@ -2301,7 +2301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "S8B-XH-A"
+		(property "Manufacturer Part" "S08B-XASK-1"
 			(at 256.54 35.56 0)
 			(effects
 				(font
@@ -2310,7 +2310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.33"
+		(property "Price" "0.81"
 			(at 256.54 35.56 0)
 			(effects
 				(font
@@ -2328,7 +2328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "455-S8B-XH-A-ND"
+		(property "Supplier P/N" "455-S08B-XASK-1-ND"
 			(at 256.54 35.56 0)
 			(effects
 				(font
@@ -2337,7 +2337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "Through Hole"
+		(property "Type" "Through Hole, Right Angle"
 			(at 256.54 35.56 0)
 			(effects
 				(font
@@ -2365,6 +2365,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Bulk"
 			(at 256.54 35.56 0)
 			(effects
 				(font
