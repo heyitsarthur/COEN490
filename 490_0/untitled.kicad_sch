@@ -11911,7 +11911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1488514c-888f-4a92-a947-fb41af49a9e0")
-		(property "Reference" "CR1"
+		(property "Reference" "U16"
 			(at 34.29 31.7499 90)
 			(effects
 				(font
@@ -12111,7 +12111,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/068f11fb-720d-48b0-8797-6d8a5a01cc51"
-					(reference "CR1")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -12830,7 +12830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b0f677d-5401-4b6f-9e9c-0f1ed0142a63")
-		(property "Reference" "CR2"
+		(property "Reference" "U17"
 			(at 77.47 31.7499 90)
 			(effects
 				(font
@@ -13030,7 +13030,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/068f11fb-720d-48b0-8797-6d8a5a01cc51"
-					(reference "CR2")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -15923,8 +15923,8 @@
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 73.914 167.64 0)
+		(property "Value" "LTST-C170GKT"
+			(at 67.564 171.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5,256 +5,6 @@
 	(uuid "5e25ecc4-cb6c-42d0-9157-75bfde7d639c")
 	(paper "USLetter")
 	(lib_symbols
-		(symbol "PCM_Diode_TVS_AKL:SMF5.0A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMF5.0A"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123F"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/95faf1e5e821ed1b438500c66c7b0bd9/smf50a.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SOD-123F Unidirectional TVS diode, 5V, 200W, Alternate KiCAD Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode unidirectional TVS SMF-A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMF5.0A_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMF5.0A_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy -0.381 1.397)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMF5.0A_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SMF5.0A_1_2"
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_Elektuur:C"
 			(pin_numbers
 				(hide yes)
@@ -2141,131 +1891,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2369,116 +1994,110 @@
 		)
 	)
 	(junction
-		(at 86.36 104.14)
+		(at 83.82 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c794d67-b904-4ff3-a609-65e0291ed24c")
 	)
 	(junction
-		(at 132.08 177.8)
+		(at 129.54 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12ecf534-14ea-46c5-8add-6281bd2d1412")
 	)
 	(junction
-		(at 104.14 114.3)
+		(at 101.6 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18e44884-44f3-4a12-a044-eca121e3ceb8")
 	)
 	(junction
-		(at 86.36 60.96)
+		(at 83.82 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bf2ca82-76d5-4d53-9f76-82049d6fc699")
 	)
 	(junction
-		(at 142.24 177.8)
+		(at 139.7 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34384948-d46f-43b7-aa95-57153f5813a8")
 	)
 	(junction
-		(at 147.32 177.8)
+		(at 144.78 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c2acb60-5d7a-4278-a25b-c6aa3f4be628")
 	)
 	(junction
-		(at 160.02 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e7eeba3-f96a-474f-9232-a37f26ba5410")
-	)
-	(junction
-		(at 144.78 177.8)
+		(at 142.24 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6466c520-45af-4b07-8153-741a4ea580b8")
 	)
 	(junction
-		(at 139.7 177.8)
+		(at 137.16 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6582cd92-cca1-4193-b28d-da7ace9b0c5c")
 	)
 	(junction
-		(at 104.14 147.32)
+		(at 101.6 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6882eab2-73fe-4dcc-aa90-c0ee468dbfa5")
 	)
 	(junction
-		(at 134.62 177.8)
+		(at 132.08 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8be9bc6d-fafe-43ed-9125-d177f53f5baf")
 	)
 	(junction
-		(at 139.7 22.86)
+		(at 154.94 15.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "96a68c17-b19a-4999-aa68-8fe763c1ae95")
+		(uuid "9f843862-79cd-46dd-9c3e-2cf316c42620")
 	)
 	(junction
-		(at 109.22 116.84)
+		(at 106.68 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a10efe1e-bead-4351-809d-14fecde29de4")
 	)
 	(junction
-		(at 137.16 177.8)
+		(at 134.62 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b03bf2fb-4242-4bae-9f7b-9279acac301a")
 	)
 	(junction
-		(at 93.98 144.78)
+		(at 101.6 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b244d8dd-7443-4e79-bab7-6a530ce949eb")
+	)
+	(junction
+		(at 91.44 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca35b9fe-640b-4ef4-bbdb-11dd6380c2e6")
 	)
-	(junction
-		(at 162.56 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7e12a1f-320b-4a7b-a429-2e24535cf471")
-	)
 	(no_connect
-		(at 93.98 182.88)
+		(at 91.44 175.26)
 		(uuid "63117eaa-4ed3-4377-8338-bff02b8c7480")
 	)
 	(no_connect
-		(at 20.32 157.48)
+		(at 17.78 149.86)
 		(uuid "64a64156-001e-4756-902a-413534dc66f1")
 	)
 	(no_connect
-		(at 116.84 149.86)
+		(at 114.3 142.24)
 		(uuid "80b66887-3a45-44ff-8750-a1703030b062")
 	)
 	(wire
 		(pts
-			(xy 104.14 45.72) (xy 116.84 45.72)
+			(xy 101.6 38.1) (xy 114.3 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2488,7 +2107,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 144.78) (xy 116.84 144.78)
+			(xy 91.44 137.16) (xy 114.3 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2498,7 +2117,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 177.8) (xy 147.32 177.8)
+			(xy 147.32 170.18) (xy 144.78 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2508,7 +2127,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 177.8) (xy 134.62 177.8)
+			(xy 129.54 170.18) (xy 132.08 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2518,7 +2137,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 45.72) (xy 73.66 45.72)
+			(xy 68.58 38.1) (xy 71.12 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2528,7 +2147,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 127) (xy 109.22 116.84)
+			(xy 106.68 119.38) (xy 106.68 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2538,17 +2157,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 35.56) (xy 162.56 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10dbd14d-69af-48f5-8615-d55e93546a4c")
-	)
-	(wire
-		(pts
-			(xy 30.48 127) (xy 109.22 127)
+			(xy 27.94 119.38) (xy 106.68 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2558,7 +2167,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 101.6) (xy 86.36 104.14)
+			(xy 83.82 93.98) (xy 83.82 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2568,7 +2177,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 22.86) (xy 139.7 27.94)
+			(xy 137.16 15.24) (xy 137.16 20.32)
 		)
 		(stroke
 			(width 0)
@@ -2578,17 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 35.56) (xy 162.56 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1535076a-3327-47cd-8a2f-7e32e8fdfd46")
-	)
-	(wire
-		(pts
-			(xy 71.12 35.56) (xy 73.66 35.56)
+			(xy 68.58 27.94) (xy 71.12 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2598,17 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 33.02) (xy 165.1 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ad56eb4-98f4-41f1-a8ae-647bc59863f9")
-	)
-	(wire
-		(pts
-			(xy 71.12 86.36) (xy 73.66 86.36)
+			(xy 68.58 78.74) (xy 71.12 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2618,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 175.26) (xy 132.08 177.8)
+			(xy 129.54 167.64) (xy 129.54 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2628,7 +2217,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 175.26) (xy 144.78 177.8)
+			(xy 142.24 167.64) (xy 142.24 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2638,7 +2227,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 114.3) (xy 104.14 114.3)
+			(xy 68.58 106.68) (xy 101.6 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2648,7 +2237,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 177.8) (xy 137.16 177.8)
+			(xy 132.08 170.18) (xy 134.62 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2658,7 +2247,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 101.6) (xy 88.9 104.14)
+			(xy 101.6 185.42) (xy 101.6 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "351352cf-255a-416c-b77f-fadcead3a416")
+	)
+	(wire
+		(pts
+			(xy 86.36 93.98) (xy 86.36 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2668,7 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 83.82) (xy 116.84 83.82)
+			(xy 101.6 76.2) (xy 114.3 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2678,7 +2277,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 76.2) (xy 116.84 76.2)
+			(xy 101.6 68.58) (xy 114.3 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2688,7 +2287,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 144.78) (xy 93.98 144.78)
+			(xy 162.56 27.94) (xy 162.56 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba54ffb-effc-418a-922c-891cbadcbf6e")
+	)
+	(wire
+		(pts
+			(xy 68.58 137.16) (xy 91.44 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2698,17 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 35.56) (xy 165.1 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50cf4057-66c3-42b4-a297-1b13850641ed")
-	)
-	(wire
-		(pts
-			(xy 147.32 177.8) (xy 144.78 177.8)
+			(xy 144.78 170.18) (xy 142.24 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2718,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 38.1) (xy 116.84 38.1)
+			(xy 101.6 30.48) (xy 114.3 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2728,37 +2327,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 20.32) (xy 139.7 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b293d88-1b35-4a3c-9234-efc4e46acf8c")
-	)
-	(wire
-		(pts
-			(xy 160.02 22.86) (xy 165.1 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d2fd992-0cf8-4880-8f8c-22af5d4dbbbb")
-	)
-	(wire
-		(pts
-			(xy 160.02 25.4) (xy 160.02 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6033d677-6cd9-499d-85a9-5d9a78455bed")
-	)
-	(wire
-		(pts
-			(xy 104.14 43.18) (xy 116.84 43.18)
+			(xy 101.6 35.56) (xy 114.3 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2768,7 +2337,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 60.96) (xy 88.9 60.96)
+			(xy 83.82 53.34) (xy 86.36 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2778,7 +2347,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 60.96) (xy 86.36 66.04)
+			(xy 83.82 53.34) (xy 83.82 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2788,7 +2357,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 177.8) (xy 139.7 177.8)
+			(xy 134.62 170.18) (xy 137.16 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2798,7 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 177.8) (xy 139.7 180.34)
+			(xy 137.16 170.18) (xy 137.16 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2808,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 175.26) (xy 134.62 177.8)
+			(xy 132.08 167.64) (xy 132.08 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2818,7 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 104.14) (xy 88.9 104.14)
+			(xy 83.82 96.52) (xy 86.36 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2828,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 144.78) (xy 93.98 152.4)
+			(xy 91.44 137.16) (xy 91.44 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2838,7 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 147.32) (xy 116.84 147.32)
+			(xy 101.6 139.7) (xy 114.3 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2848,7 +2417,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 35.56) (xy 116.84 35.56)
+			(xy 137.16 15.24) (xy 154.94 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81cfe776-0a66-4cbd-a094-fa3dee57811a")
+	)
+	(wire
+		(pts
+			(xy 101.6 27.94) (xy 114.3 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2858,7 +2437,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 175.26) (xy 129.54 177.8)
+			(xy 127 167.64) (xy 127 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2868,7 +2447,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 116.84) (xy 109.22 116.84)
+			(xy 68.58 109.22) (xy 106.68 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2878,7 +2457,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 175.26) (xy 147.32 177.8)
+			(xy 144.78 167.64) (xy 144.78 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2888,7 +2467,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 147.32) (xy 104.14 152.4)
+			(xy 101.6 139.7) (xy 101.6 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2898,7 +2477,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 175.26) (xy 149.86 177.8)
+			(xy 147.32 167.64) (xy 147.32 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2908,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 157.48) (xy 38.1 157.48)
+			(xy 27.94 149.86) (xy 35.56 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2918,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 177.8) (xy 132.08 177.8)
+			(xy 127 170.18) (xy 129.54 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2928,17 +2507,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 22.86) (xy 160.02 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94e1750c-b1bb-426d-a6ad-306a7fe1e5ee")
-	)
-	(wire
-		(pts
-			(xy 71.12 43.18) (xy 73.66 43.18)
+			(xy 68.58 35.56) (xy 71.12 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2948,7 +2517,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 185.42) (xy 111.76 182.88)
+			(xy 109.22 177.8) (xy 109.22 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2958,17 +2527,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 35.56) (xy 160.02 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9a1c53c-555a-467f-9243-487fcc57e056")
-	)
-	(wire
-		(pts
-			(xy 104.14 86.36) (xy 116.84 86.36)
+			(xy 101.6 78.74) (xy 114.3 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2978,7 +2537,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 83.82) (xy 73.66 83.82)
+			(xy 68.58 76.2) (xy 71.12 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2988,7 +2547,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 160.02) (xy 25.4 157.48)
+			(xy 22.86 152.4) (xy 22.86 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2998,7 +2557,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 114.3) (xy 116.84 114.3)
+			(xy 101.6 106.68) (xy 114.3 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3008,7 +2567,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 78.74) (xy 73.66 78.74)
+			(xy 68.58 71.12) (xy 71.12 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3018,7 +2577,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 147.32) (xy 104.14 147.32)
+			(xy 68.58 139.7) (xy 101.6 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3028,7 +2587,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 78.74) (xy 116.84 78.74)
+			(xy 101.6 71.12) (xy 114.3 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3038,7 +2597,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 76.2) (xy 73.66 76.2)
+			(xy 68.58 68.58) (xy 71.12 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3048,7 +2607,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 177.8) (xy 142.24 177.8)
+			(xy 142.24 170.18) (xy 139.7 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3058,7 +2617,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 182.88) (xy 104.14 185.42)
+			(xy 101.6 175.26) (xy 101.6 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3068,7 +2627,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 175.26) (xy 139.7 177.8)
+			(xy 137.16 167.64) (xy 137.16 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3078,7 +2637,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 106.68) (xy 86.36 104.14)
+			(xy 83.82 99.06) (xy 83.82 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3088,7 +2647,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 185.42) (xy 111.76 185.42)
+			(xy 101.6 177.8) (xy 109.22 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3098,7 +2657,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 175.26) (xy 137.16 177.8)
+			(xy 154.94 15.24) (xy 154.94 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d285f5c6-fe18-4ef0-bcd6-b08c23d9dd36")
+	)
+	(wire
+		(pts
+			(xy 134.62 167.64) (xy 134.62 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3108,7 +2677,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 124.46) (xy 104.14 124.46)
+			(xy 17.78 116.84) (xy 101.6 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3118,7 +2687,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 116.84) (xy 116.84 116.84)
+			(xy 154.94 185.42) (xy 101.6 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3ba890-04b3-4a8e-ad81-728b3d326af0")
+	)
+	(wire
+		(pts
+			(xy 106.68 109.22) (xy 114.3 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3128,7 +2707,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 177.8) (xy 139.7 177.8)
+			(xy 154.94 15.24) (xy 162.56 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37cf538-d3c4-40a7-9b2d-e0978c2f6fae")
+	)
+	(wire
+		(pts
+			(xy 139.7 170.18) (xy 137.16 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3138,7 +2727,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 127) (xy 20.32 124.46)
+			(xy 17.78 119.38) (xy 17.78 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3148,7 +2737,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 175.26) (xy 142.24 177.8)
+			(xy 139.7 167.64) (xy 139.7 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3158,7 +2747,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 185.42) (xy 99.06 182.88)
+			(xy 96.52 177.8) (xy 96.52 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3168,7 +2757,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 124.46) (xy 104.14 114.3)
+			(xy 101.6 116.84) (xy 101.6 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3178,7 +2767,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 38.1) (xy 73.66 38.1)
+			(xy 162.56 17.78) (xy 162.56 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b1ce6f-5f36-456c-8a1c-e92959629682")
+	)
+	(wire
+		(pts
+			(xy 68.58 30.48) (xy 71.12 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3188,7 +2787,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 157.48) (xy 38.1 154.94)
+			(xy 35.56 149.86) (xy 35.56 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3198,7 +2797,7 @@
 	)
 	(hierarchical_label "HDMI0_HOTPLUG"
 		(shape input)
-		(at 71.12 147.32 180)
+		(at 68.58 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3209,7 +2808,7 @@
 	)
 	(hierarchical_label "HDMI0_CLK_N"
 		(shape input)
-		(at 71.12 86.36 180)
+		(at 68.58 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3220,7 +2819,7 @@
 	)
 	(hierarchical_label "HDMI0_TX2_N"
 		(shape input)
-		(at 71.12 38.1 180)
+		(at 68.58 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3231,7 +2830,7 @@
 	)
 	(hierarchical_label "HDMI0_SCL"
 		(shape input)
-		(at 71.12 116.84 180)
+		(at 68.58 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3242,7 +2841,7 @@
 	)
 	(hierarchical_label "HDMI0_TX2_P"
 		(shape input)
-		(at 71.12 35.56 180)
+		(at 68.58 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3253,7 +2852,7 @@
 	)
 	(hierarchical_label "HDMI0_CLK_P"
 		(shape input)
-		(at 71.12 83.82 180)
+		(at 68.58 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3264,7 +2863,7 @@
 	)
 	(hierarchical_label "HDMI0_CEC"
 		(shape input)
-		(at 71.12 144.78 180)
+		(at 68.58 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3275,7 +2874,7 @@
 	)
 	(hierarchical_label "HDMI0_TX1_N"
 		(shape input)
-		(at 71.12 45.72 180)
+		(at 68.58 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3286,7 +2885,7 @@
 	)
 	(hierarchical_label "HDMI0_TX1_P"
 		(shape input)
-		(at 71.12 43.18 180)
+		(at 68.58 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3297,7 +2896,7 @@
 	)
 	(hierarchical_label "HDMI0_TX0_P"
 		(shape input)
-		(at 71.12 76.2 180)
+		(at 68.58 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3308,7 +2907,7 @@
 	)
 	(hierarchical_label "HDMI0_SDA"
 		(shape input)
-		(at 71.12 114.3 180)
+		(at 68.58 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3319,7 +2918,7 @@
 	)
 	(hierarchical_label "HDMI0_TX0_N"
 		(shape input)
-		(at 71.12 78.74 180)
+		(at 68.58 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3330,7 +2929,7 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:SP3003-02XTG")
-		(at 20.32 157.48 90)
+		(at 17.78 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3338,8 +2937,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0965c354-7048-4987-9948-26a54cc536a9")
-		(property "Reference" "CR4"
-			(at 34.29 140.9699 90)
+		(property "Reference" "U13"
+			(at 31.75 133.3499 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3348,7 +2947,7 @@
 			)
 		)
 		(property "Value" "SP3003-02XTG"
-			(at 34.29 143.5099 90)
+			(at 31.75 135.8899 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3357,7 +2956,7 @@
 			)
 		)
 		(property "Footprint" "*CapStone*:SOT553_LTF_SP3003_02XTG"
-			(at 20.32 157.48 0)
+			(at 17.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +2966,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://SP3003.pdf"
-			(at 20.32 157.48 0)
+			(at 17.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,7 +2976,7 @@
 			)
 		)
 		(property "Description" "15V Clamp 2.5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-553"
-			(at 20.32 157.48 0)
+			(at 17.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,7 +2985,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/littelfuse-inc/SP3003-02XTG/2060912"
-			(at 20.32 157.48 90)
+			(at 17.78 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3395,7 +2994,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse Inc."
-			(at 20.32 157.48 90)
+			(at 17.78 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3003,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SP3003-02XTG"
-			(at 20.32 157.48 90)
+			(at 17.78 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3012,7 @@
 			)
 		)
 		(property "Package" "SOT-553"
-			(at 20.32 157.48 90)
+			(at 17.78 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3021,7 @@
 			)
 		)
 		(property "Price" "0.70"
-			(at 20.32 157.48 90)
+			(at 17.78 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3030,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 20.32 157.48 90)
+			(at 17.78 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3039,7 @@
 			)
 		)
 		(property "Supplier P/N" "F3302CT-ND"
-			(at 20.32 157.48 90)
+			(at 17.78 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3048,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 20.32 157.48 90)
+			(at 17.78 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +3057,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 20.32 157.48 90)
+			(at 17.78 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,7 +3066,7 @@
 			)
 		)
 		(property "Voltage - Supply" "6V (Max)"
-			(at 20.32 157.48 90)
+			(at 17.78 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3075,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 20.32 157.48 90)
+			(at 17.78 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3485,7 +3084,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 20.32 157.48 90)
+			(at 17.78 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,7 +3093,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 20.32 157.48 90)
+			(at 17.78 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,7 +3102,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 20.32 157.48 90)
+			(at 17.78 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +3111,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 20.32 157.48 90)
+			(at 17.78 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3137,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/a65b36cc-1b6d-4844-884d-70a990694635"
-					(reference "CR4")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -3546,7 +3145,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 160.02 0)
+		(at 22.86 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3554,7 +3153,7 @@
 		(dnp no)
 		(uuid "142bb8a5-90d1-452f-8f6f-4b115c6317c0")
 		(property "Reference" "#PWR0122"
-			(at 25.4 166.37 0)
+			(at 22.86 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +3162,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 164.084 0)
+			(at 22.86 156.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +3170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 160.02 0)
+			(at 22.86 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,7 +3179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 160.02 0)
+			(at 22.86 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,7 +3188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 160.02 0)
+			(at 22.86 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,74 +3209,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 139.7 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "226f30fb-76b2-4d39-9fae-5d2e86acaf7c")
-		(property "Reference" "#PWR0117"
-			(at 139.7 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 139.7 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 139.7 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9487283-4777-48a3-8841-7b9ca4cbd144")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/a65b36cc-1b6d-4844-884d-70a990694635"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 86.36 106.68 0)
+		(at 83.82 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3685,7 +3218,7 @@
 		(dnp no)
 		(uuid "3284b4db-0bcb-4f23-8415-eab344fe6917")
 		(property "Reference" "#PWR0120"
-			(at 86.36 113.03 0)
+			(at 83.82 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,7 +3227,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 89.662 107.442 0)
+			(at 87.122 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,7 +3235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 106.68 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +3244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 106.68 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +3253,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 106.68 0)
+			(at 83.82 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +3275,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 38.1 154.94 0)
+		(at 35.56 147.32 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3751,7 +3284,7 @@
 		(dnp no)
 		(uuid "33bb1ace-5a52-4f3b-a96f-5b214ffe1070")
 		(property "Reference" "#PWR0121"
-			(at 38.1 158.75 0)
+			(at 35.56 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,7 +3293,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 37.592 151.384 0)
+			(at 35.052 143.764 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3769,7 +3302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 154.94 0)
+			(at 35.56 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 154.94 0)
+			(at 35.56 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +3320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 38.1 161.29 0)
+			(at 35.56 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +3342,8 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 165.1 27.94 0)
+		(at 162.56 22.86 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3817,7 +3351,7 @@
 		(dnp no)
 		(uuid "472060ad-5b21-4507-88c9-ab071a7c091f")
 		(property "Reference" "C50"
-			(at 167.894 26.924 0)
+			(at 169.418 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +3360,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 167.894 29.464 0)
+			(at 169.418 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,7 +3369,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,7 +3378,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +3387,7 @@
 			)
 		)
 		(property "Description" "CAP CER 4.7UF 10V X7R 1206"
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,7 +3396,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 163.83 24.765 0)
+			(at 163.83 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +3405,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 164.465 31.115 0)
+			(at 163.195 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +3415,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c475k8ractu/1090855"
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +3424,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +3433,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +3442,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +3451,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +3460,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,7 +3469,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +3478,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +3487,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,7 +3496,7 @@
 			)
 		)
 		(property "Manufacturer Part" "C1206C475K8RACTU"
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +3505,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +3514,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +3523,7 @@
 			)
 		)
 		(property "Supplier P/N" "399-C1206C475K8RACTUCT-ND"
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +3532,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +3541,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,7 +3550,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,7 +3559,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +3568,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +3577,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,7 +3586,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4061,7 +3595,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4070,7 +3604,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,7 +3613,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,7 +3622,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,7 +3631,7 @@
 			)
 		)
 		(property "Package" "1206 (3216 Metric)"
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +3640,7 @@
 			)
 		)
 		(property "Price" "0.51"
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +3649,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,7 +3658,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 165.1 27.94 0)
+			(at 162.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +3683,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 66.04 0)
+		(at 83.82 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4157,7 +3691,7 @@
 		(dnp no)
 		(uuid "51755e1f-1b4e-465c-a4f2-ee7beca83c8d")
 		(property "Reference" "#PWR0119"
-			(at 86.36 72.39 0)
+			(at 83.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +3700,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.804 66.802 0)
+			(at 80.264 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +3708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 66.04 0)
+			(at 83.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +3717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 66.04 0)
+			(at 83.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +3726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 66.04 0)
+			(at 83.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +3748,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:5V")
-		(at 111.76 182.88 0)
+		(at 109.22 175.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4223,7 +3757,7 @@
 		(dnp no)
 		(uuid "5cbfb24e-e605-4b7e-8f9a-a7b328568f86")
 		(property "Reference" "#PWR0125"
-			(at 111.76 186.69 0)
+			(at 109.22 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +3766,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 111.252 179.07 0)
+			(at 108.712 171.45 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4241,7 +3775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 182.88 0)
+			(at 109.22 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4250,7 +3784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 182.88 0)
+			(at 109.22 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +3793,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"5V\""
-			(at 111.76 189.23 0)
+			(at 109.22 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,16 +3815,15 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:467650301")
-		(at 149.86 55.88 0)
+		(at 147.32 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6c47cee1-1c47-454f-ba6c-a74a399e521a")
 		(property "Reference" "J19"
-			(at 153.67 78.7399 0)
+			(at 132.08 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +3832,7 @@
 			)
 		)
 		(property "Value" "467650301"
-			(at 153.67 81.2799 0)
+			(at 132.08 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +3841,7 @@
 			)
 		)
 		(property "Footprint" "*CapStone*:MOLEX_467650301"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +3851,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://0467650301 (HDMI-D PORT).pdf"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +3860,7 @@
 			)
 		)
 		(property "Description" "CONN RCP MICRO HDMI 19POS SMD RA"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +3869,7 @@
 			)
 		)
 		(property "PARTREV" "D1"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,7 +3879,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,7 +3889,7 @@
 			)
 		)
 		(property "OPTION" "MOLEX_CONFIG"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,7 +3899,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.9 mm"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +3909,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,7 +3919,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/molex/0467650301/4092898?s=N4IgTCBcDaICwDYDsCCsBaADAZkwRhAF0BfIA"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +3928,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +3937,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0467650301"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +3946,7 @@
 			)
 		)
 		(property "Price" "2.03"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +3955,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,7 +3964,7 @@
 			)
 		)
 		(property "Supplier P/N" "WM11254CT-ND"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +3973,7 @@
 			)
 		)
 		(property "Type" "Surface Mount, Right Angle"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +3982,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4458,7 +3991,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4467,7 +4000,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 149.86 55.88 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,15 +4088,15 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:SP3003-02XTG")
-		(at 93.98 182.88 90)
+		(at 91.44 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "709c1fa9-bde5-43b1-bc04-a5cdbaa556f3")
-		(property "Reference" "CR5"
-			(at 72.898 165.608 90)
+		(property "Reference" "U14"
+			(at 70.358 157.988 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4572,7 +4105,7 @@
 			)
 		)
 		(property "Value" "SP3003-02XTG"
-			(at 72.898 168.148 90)
+			(at 70.358 160.528 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4581,7 +4114,7 @@
 			)
 		)
 		(property "Footprint" "*CapStone*:SOT553_LTF_SP3003_02XTG"
-			(at 93.98 182.88 0)
+			(at 91.44 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,7 +4124,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://SP3003.pdf"
-			(at 93.98 182.88 0)
+			(at 91.44 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +4134,7 @@
 			)
 		)
 		(property "Description" "15V Clamp 2.5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-553"
-			(at 93.98 182.88 0)
+			(at 91.44 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +4143,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/littelfuse-inc/SP3003-02XTG/2060912"
-			(at 93.98 182.88 90)
+			(at 91.44 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +4152,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse Inc."
-			(at 93.98 182.88 90)
+			(at 91.44 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,7 +4161,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SP3003-02XTG"
-			(at 93.98 182.88 90)
+			(at 91.44 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +4170,7 @@
 			)
 		)
 		(property "Package" "SOT-553"
-			(at 93.98 182.88 90)
+			(at 91.44 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4179,7 @@
 			)
 		)
 		(property "Price" "0.70"
-			(at 93.98 182.88 90)
+			(at 91.44 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4188,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 93.98 182.88 90)
+			(at 91.44 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +4197,7 @@
 			)
 		)
 		(property "Supplier P/N" "F3302CT-ND"
-			(at 93.98 182.88 90)
+			(at 91.44 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +4206,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 93.98 182.88 90)
+			(at 91.44 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +4215,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 93.98 182.88 90)
+			(at 91.44 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +4224,7 @@
 			)
 		)
 		(property "Voltage - Supply" "6V (Max)"
-			(at 93.98 182.88 90)
+			(at 91.44 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4233,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 93.98 182.88 90)
+			(at 91.44 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +4242,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 93.98 182.88 90)
+			(at 91.44 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +4251,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 93.98 182.88 90)
+			(at 91.44 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +4260,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 93.98 182.88 90)
+			(at 91.44 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +4269,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 93.98 182.88 90)
+			(at 91.44 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4295,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/a65b36cc-1b6d-4844-884d-70a990694635"
-					(reference "CR5")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -4770,7 +4303,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 38.1 0)
+		(at 162.56 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4779,7 +4312,7 @@
 		(fields_autoplaced yes)
 		(uuid "753e0664-b9f9-472d-b085-c0831f0ab7b2")
 		(property "Reference" "#PWR0118"
-			(at 162.56 44.45 0)
+			(at 162.56 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +4321,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 44.45 0)
+			(at 162.56 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,7 +4329,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 38.1 0)
+			(at 162.56 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,7 +4338,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 38.1 0)
+			(at 162.56 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4814,7 +4347,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 38.1 0)
+			(at 162.56 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +4369,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 180.34 0)
+		(at 137.16 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4845,7 +4378,7 @@
 		(fields_autoplaced yes)
 		(uuid "84863a35-1e23-4278-a897-a85a5ed325ab")
 		(property "Reference" "#PWR0124"
-			(at 139.7 186.69 0)
+			(at 137.16 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +4387,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 186.69 0)
+			(at 137.16 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +4395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 180.34 0)
+			(at 137.16 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +4404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 180.34 0)
+			(at 137.16 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +4413,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 180.34 0)
+			(at 137.16 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4902,7 +4435,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 185.42 0)
+		(at 96.52 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4910,7 +4443,7 @@
 		(dnp no)
 		(uuid "b0fc4078-4a47-40d0-a55a-bf9fc8badef4")
 		(property "Reference" "#PWR0126"
-			(at 99.06 191.77 0)
+			(at 96.52 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4919,7 +4452,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 189.738 0)
+			(at 96.52 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +4460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 185.42 0)
+			(at 96.52 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4936,7 +4469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 185.42 0)
+			(at 96.52 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4945,7 +4478,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 185.42 0)
+			(at 96.52 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,7 +4500,7 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:EMI8142MUTAG")
-		(at 88.9 45.72 0)
+		(at 86.36 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4975,7 +4508,7 @@
 		(dnp no)
 		(uuid "c6ea4f1a-42cb-49e7-a359-dbc2d256c7ea")
 		(property "Reference" "U9"
-			(at 79.756 28.194 0)
+			(at 77.216 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,7 +4516,7 @@
 			)
 		)
 		(property "Value" "EMI8142MUTAG"
-			(at 79.756 30.734 0)
+			(at 77.216 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +4524,7 @@
 			)
 		)
 		(property "Footprint" "*CapStone*:SON40P220X135X50-10N_EMI8142MUTAG"
-			(at 88.9 43.18 0)
+			(at 86.36 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +4534,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://EMI8141-D.pdf"
-			(at 88.9 43.18 0)
+			(at 86.36 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5010,7 +4543,7 @@
 			)
 		)
 		(property "Description" "CMC 100MA 4LN SMD ESD"
-			(at 88.9 43.18 0)
+			(at 86.36 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5019,7 +4552,7 @@
 			)
 		)
 		(property "PARTREV" "0"
-			(at 88.9 43.18 0)
+			(at 86.36 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +4562,7 @@
 			)
 		)
 		(property "MANUFACTURER" "On Semiconductor"
-			(at 88.9 43.18 0)
+			(at 86.36 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,7 +4572,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" "0.5mm"
-			(at 88.9 43.18 0)
+			(at 86.36 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +4582,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 88.9 43.18 0)
+			(at 86.36 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +4592,7 @@
 			)
 		)
 		(property "Current - Load" "100mA"
-			(at 88.9 45.72 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,7 +4601,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/onsemi/EMI8142MUTAG/5257557"
-			(at 88.9 45.72 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +4610,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 88.9 45.72 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,7 +4619,7 @@
 			)
 		)
 		(property "Manufacturer Part" "EMI8142MUTAG"
-			(at 88.9 45.72 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,7 +4628,7 @@
 			)
 		)
 		(property "Package" "10-XFDFN"
-			(at 88.9 45.72 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5104,7 +4637,7 @@
 			)
 		)
 		(property "Price" "0.97"
-			(at 88.9 45.72 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5113,7 +4646,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 88.9 45.72 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +4655,7 @@
 			)
 		)
 		(property "Supplier P/N" "EMI8142MUTAGOSCT-ND"
-			(at 88.9 45.72 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +4664,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 88.9 45.72 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +4673,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 88.9 45.72 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +4682,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 88.9 45.72 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +4691,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 88.9 45.72 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +4700,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 88.9 45.72 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +4709,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 88.9 45.72 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +4718,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 88.9 45.72 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,204 +4766,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_TVS_AKL:SMF5.0A")
-		(at 160.02 29.21 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf9acee2-883a-4f07-90c8-6287a72ed449")
-		(property "Reference" "D19"
-			(at 157.48 27.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMF5.0A"
-			(at 157.48 30.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 160.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://SMF5.0A SOD-123FL.pdf"
-			(at 160.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "21.7A 9.2V 6.4V 5V SOD-123FL"
-			(at 160.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 160.02 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SMF5-0A/26601083"
-			(at 160.02 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Shenzhen Slkormicro Semicon Co., Ltd."
-			(at 160.02 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "SMF5.0A"
-			(at 160.02 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 160.02 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 160.02 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOD-123FL"
-			(at 160.02 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.12"
-			(at 160.02 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "DigiKey"
-			(at 160.02 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier P/N" "5399-SMF5.0ACT-ND"
-			(at 160.02 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 160.02 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "pcs"
-			(at 160.02 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Raing" ""
-			(at 160.02 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 160.02 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dd4c6740-b9e8-446b-ae58-676553fe3df1")
-		)
-		(pin "1"
-			(uuid "ca521652-083e-46db-b82d-06e754b200a6")
-		)
-		(instances
-			(project "490_0"
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/a65b36cc-1b6d-4844-884d-70a990694635"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "capstone_parts:EMI8142MUTAG")
-		(at 88.9 86.36 0)
+		(at 86.36 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5438,7 +4775,7 @@
 		(dnp no)
 		(uuid "d6a5ab8c-547d-4dbc-ad20-43bba253e00b")
 		(property "Reference" "U10"
-			(at 80.264 69.342 0)
+			(at 77.724 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5446,7 +4783,7 @@
 			)
 		)
 		(property "Value" "EMI8142MUTAG"
-			(at 80.264 71.882 0)
+			(at 77.724 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +4791,7 @@
 			)
 		)
 		(property "Footprint" "*CapStone*:SON40P220X135X50-10N_EMI8142MUTAG"
-			(at 88.9 83.82 0)
+			(at 86.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,7 +4801,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://EMI8141-D.pdf"
-			(at 88.9 83.82 0)
+			(at 86.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5473,7 +4810,7 @@
 			)
 		)
 		(property "Description" "CMC 100MA 4LN SMD ESD"
-			(at 88.9 83.82 0)
+			(at 86.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +4819,7 @@
 			)
 		)
 		(property "PARTREV" "0"
-			(at 88.9 83.82 0)
+			(at 86.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +4829,7 @@
 			)
 		)
 		(property "MANUFACTURER" "On Semiconductor"
-			(at 88.9 83.82 0)
+			(at 86.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +4839,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" "0.5mm"
-			(at 88.9 83.82 0)
+			(at 86.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +4849,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 88.9 83.82 0)
+			(at 86.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +4859,7 @@
 			)
 		)
 		(property "Current - Load" "100mA"
-			(at 88.9 86.36 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +4868,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/onsemi/EMI8142MUTAG/5257557"
-			(at 88.9 86.36 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +4877,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 88.9 86.36 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +4886,7 @@
 			)
 		)
 		(property "Manufacturer Part" "EMI8142MUTAG"
-			(at 88.9 86.36 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5558,7 +4895,7 @@
 			)
 		)
 		(property "Package" "10-XFDFN"
-			(at 88.9 86.36 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +4904,7 @@
 			)
 		)
 		(property "Price" "0.97"
-			(at 88.9 86.36 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +4913,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 88.9 86.36 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +4922,7 @@
 			)
 		)
 		(property "Supplier P/N" "EMI8142MUTAGOSCT-ND"
-			(at 88.9 86.36 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +4931,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 88.9 86.36 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +4940,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 88.9 86.36 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +4949,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 88.9 86.36 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,7 +4958,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 88.9 86.36 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,7 +4967,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 88.9 86.36 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,7 +4976,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 88.9 86.36 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5648,7 +4985,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 88.9 86.36 0)
+			(at 86.36 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
