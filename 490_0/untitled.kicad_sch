@@ -3695,10 +3695,22 @@
 		(uuid "8f71ddb8-3b91-45a7-acb9-cabded3543f4")
 	)
 	(junction
+		(at 76.2 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abbe9494-6989-4f0f-b491-6a2836350292")
+	)
+	(junction
 		(at 177.8 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b25f5991-cbcd-4981-82fb-8c4643c698f4")
+	)
+	(junction
+		(at 76.2 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5e84220-1721-4f13-962c-d017d1f0112a")
 	)
 	(junction
 		(at 48.26 71.12)
@@ -3999,6 +4011,16 @@
 			(type default)
 		)
 		(uuid "17af23f5-323e-40cc-8abf-4b8b24b1ce9a")
+	)
+	(wire
+		(pts
+			(xy 76.2 193.04) (xy 71.12 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1936690e-c1cf-4d38-a946-cbf730c5ddcd")
 	)
 	(wire
 		(pts
@@ -4309,6 +4331,16 @@
 			(type default)
 		)
 		(uuid "49f76f98-9779-4606-a31e-5eed75c6737a")
+	)
+	(wire
+		(pts
+			(xy 76.2 190.5) (xy 76.2 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c33c1e9-26cf-4867-abf2-d2f2eb083572")
 	)
 	(wire
 		(pts
@@ -5232,7 +5264,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 193.04) (xy 71.12 193.04)
+			(xy 83.82 193.04) (xy 76.2 193.04)
 		)
 		(stroke
 			(width 0)
@@ -13202,7 +13234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "*CapStone*:CONN_BM04B-PASS-1-TFTLFSN_JST"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
 			(at 231.14 154.94 0)
 			(effects
 				(font
@@ -16262,7 +16294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "*CapStone*:CONN_BM04B-PASS-1-TFTLFSN_JST"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
 			(at 231.14 124.46 0)
 			(effects
 				(font
@@ -17848,6 +17880,154 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/068f11fb-720d-48b0-8797-6d8a5a01cc51"
 					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 76.2 186.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b618bc04-0251-4775-9465-5aa6f0dbd90a")
+		(property "Reference" "R11"
+			(at 71.882 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 74.422 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 80.518 185.801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L (YAGEO resistors).pdf"
+			(at 76.2 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/4W 1206"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0710KL/728483"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RC1206FR-0710KL"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.1"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "311-10.0KFRCT-ND"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d7c9b0c-1063-47b1-a1c4-dfb216b9e2d5")
+		)
+		(pin "2"
+			(uuid "8cfd4047-6ee1-466f-ad1a-be3d0af3a5d2")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/068f11fb-720d-48b0-8797-6d8a5a01cc51"
+					(reference "R11")
 					(unit 1)
 				)
 			)

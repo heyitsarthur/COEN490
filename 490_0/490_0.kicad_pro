@@ -491,7 +491,16 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3V": "rgb(255, 255, 0)",
+      "+5V": "rgb(255, 120, 0)",
+      "+VBATT_7V4": "rgb(255, 0, 1)",
+      "GND": "rgb(132, 132, 132)",
+      "GNDA": "rgb(194, 194, 194)",
+      "VBUS1": "rgb(0, 254, 255)",
+      "VBUS2": "rgb(0, 155, 255)",
+      "VBUS_5V": "rgb(0, 0, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
