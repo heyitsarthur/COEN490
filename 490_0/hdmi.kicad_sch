@@ -2829,7 +2829,7 @@
 		(uuid "38b6b224-0554-4c8e-9305-9debfc7b8c18")
 	)
 	(hierarchical_label "HDMI0_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 68.58 109.22 180)
 		(effects
 			(font
@@ -2906,7 +2906,7 @@
 		(uuid "c40c459e-a29b-44e9-8d6d-aae327799dc2")
 	)
 	(hierarchical_label "HDMI0_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 68.58 106.68 180)
 		(effects
 			(font

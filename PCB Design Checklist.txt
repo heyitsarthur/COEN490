@@ -1,0 +1,79 @@
+PCB mid-design checklist:
+
+1 - Incorrect PCB traces:
+	No sharp turns
+	Traces carrying large currents should be wider than regular traces
+
+2- Decoupling capacitors
+	Bulk capacitoyrs must be next to the power pins
+	
+3- No length equalization of high-speed PCB traces
+	All clock signal pins must be of the same length
+	Trace Length Equalization
+	Use delay lines to compensate for cases such as vias or constricted spacing
+
+4- Improperly designed antenna feed lines
+	Impedance matching: PCB trace with controlled impedance matching the antenna's
+	Antennas must be clear of any ground planes (nothing paced around them)
+
+5- Non-optimzed component placement
+	Inductors shold not placed close to each other
+	Inductors should not be placed closed to metallic objects
+	Heat dissipation effects to consider for nearby components44
+
+6- Incorrect design of grounds and ground planes
+	Separate analog and digital ground planes
+
+
+
+Personal checklist:
+
+1- Dmitry: Minimum trace width
+	   Screw hole diameter: maximize before there is interference, check the min. size
+
+2- No tracks on internal layers to avoid diagnostic disasters
+
+3- Have absolutely nothing underneath the CM4 surrounding the Wi-Fi antenna zone to ensure no interference.
+	Emulate the spacing of the CM4 I/O board + take part number
+	BUY the I/O board
+
+	https://www.flashpcb.com/blog/KiCad-DRC-Design-Rule-Check
+
+4- Verify the debouncing circuit portion for the pushbuttons.
+
+5- For non-mounted LEDs, make sure to use a connector for the schematics, instead of a physical LED component.
+
+
+
+SilkScreen layer checklist:
+
+	1- Polarity of parts
+	2- Location of parts through reference designators
+	3- Identify test points
+	4- Identification numbers unique to each board
+	5- Warning symbols
+
+
+Users.Drawings layer checklist:
+
+	1- Custom annotations
+ 	2- Graphical elements
+	3- Dimensions and Measurements
+	4- Masking and Overlay
+
+
+User Comments layer:	documentation purposes -or- additional side information
+
+
+Edge Cuts layer:	defining board outline, 
+			mechanical dimensions, 
+			keep-out areas to prevent interference
+			panelization defining the boundaries between individual PCBs
+			manufacturing constraints to guide the manufacturer on where to cut
+
+
+Margin layer:	edge clearance, component clearance, keep-out areas, panelization margins
+			ensuring enough space between adjacent PCBs
+
+
+Courtyard layer:	area around a physical component

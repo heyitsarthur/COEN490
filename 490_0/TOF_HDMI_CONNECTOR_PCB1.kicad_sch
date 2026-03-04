@@ -9,7 +9,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J22"
+			(property "Reference" "J12"
 				(at 11.43 1.2701 0)
 				(effects
 					(font
@@ -18,7 +18,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "HDMI_A"
+			(property "Value" "2000-1-1-20-00-BK"
 				(at 11.43 -1.2699 0)
 				(effects
 					(font
@@ -27,7 +27,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "*CapStone*:CNCTECH_2000-1-1-20-00-BK"
 				(at 0.635 0 0)
 				(effects
 					(font
@@ -36,7 +36,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://en.wikipedia.org/wiki/HDMI"
+			(property "Datasheet" "kicad-embed://2000-1-1-20-00-BK.pdf"
 				(at 0.635 0 0)
 				(effects
 					(font
@@ -45,7 +45,88 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "HDMI type A connector"
+			(property "Description" "HDMI Receptacle Connector 19 Position Through Hole, Right Angle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey Link" "https://www.digikey.ca/en/products/detail/cnc-tech/2000-1-1-20-00-BK/4867009"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "CNC Tech"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "2000-1-1-20-00-BK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "Tray"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "1.99"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "DigiKey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier P/N" "1175-1700-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Through Hole, Right Angle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "pcs"
 				(at 0 0 0)
 				(effects
 					(font
@@ -507,16 +588,70 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -40.64 90)
-					(length 2.54)
-					(name "SH"
+					(at 1.27 -43.18 90)
+					(length 5.08)
+					(name "SH1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "SH"
+					(number "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -43.18 90)
+					(length 5.08)
+					(name "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -43.18 90)
+					(length 5.08)
+					(name "SH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -43.18 90)
+					(length 5.08)
+					(name "SH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1392,6 +1527,12 @@
 		(uuid "14b9dcd9-149a-445d-a7a6-3857581db22d")
 	)
 	(junction
+		(at 74.93 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18ce47b6-8795-40ae-9f6d-5a2c9cfc7b45")
+	)
+	(junction
 		(at 228.6 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1452,6 +1593,12 @@
 		(uuid "764e26fd-572d-4696-a391-34217f84cb42")
 	)
 	(junction
+		(at 77.47 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c5d478b-7426-4a29-8446-53424549024f")
+	)
+	(junction
 		(at 149.86 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1462,6 +1609,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5843d3c-78e2-43bf-a99d-0e35b3873eb3")
+	)
+	(junction
+		(at 76.2 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcc95863-56cf-4311-87c6-c432c9831851")
 	)
 	(junction
 		(at 228.6 66.04)
@@ -1559,6 +1712,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 124.46) (xy 72.39 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10eb777d-1ba1-4608-b53a-abe33d0bb03b")
+	)
+	(wire
+		(pts
 			(xy 119.38 83.82) (xy 119.38 99.06)
 		)
 		(stroke
@@ -1636,6 +1799,16 @@
 			(type default)
 		)
 		(uuid "2556b6eb-d53d-4056-8682-df68106cd7f5")
+	)
+	(wire
+		(pts
+			(xy 74.93 124.46) (xy 74.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25aeff2a-62d3-4d7c-9af3-cf968491fb2a")
 	)
 	(wire
 		(pts
@@ -1736,6 +1909,16 @@
 			(type default)
 		)
 		(uuid "4363d6d0-d403-4941-9276-7e2e801b120d")
+	)
+	(wire
+		(pts
+			(xy 72.39 127) (xy 74.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d5873d-7dd3-49b3-b4ef-c67fff32f339")
 	)
 	(wire
 		(pts
@@ -1856,16 +2039,6 @@
 			(type default)
 		)
 		(uuid "609b39e0-67c9-4871-adf2-bfb8db01bac9")
-	)
-	(wire
-		(pts
-			(xy 73.66 124.46) (xy 73.66 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "644def4b-7084-474e-bcf9-4730873c7ff5")
 	)
 	(wire
 		(pts
@@ -2079,6 +2252,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 127) (xy 76.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a2eeab-1a37-4c57-b32e-20f670f55028")
+	)
+	(wire
+		(pts
 			(xy 170.18 129.54) (xy 170.18 66.04)
 		)
 		(stroke
@@ -2106,6 +2289,16 @@
 			(type default)
 		)
 		(uuid "ab275639-7b7a-4cf3-a07c-452d160d5b4b")
+	)
+	(wire
+		(pts
+			(xy 77.47 124.46) (xy 77.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1a156f-ea0f-40f3-b362-7883d1d5d9e2")
 	)
 	(wire
 		(pts
@@ -2146,6 +2339,26 @@
 			(type default)
 		)
 		(uuid "b9a14b25-0cee-4d47-a496-13d7014ecffe")
+	)
+	(wire
+		(pts
+			(xy 76.2 127) (xy 76.2 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab82bb6-c06a-44f9-8168-e5863962a340")
+	)
+	(wire
+		(pts
+			(xy 80.01 124.46) (xy 80.01 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb4db60-baf5-4262-8b30-1ee281d8348a")
 	)
 	(wire
 		(pts
@@ -2256,6 +2469,16 @@
 			(type default)
 		)
 		(uuid "cf3e5bbd-d29a-486f-b8d5-229b73553c89")
+	)
+	(wire
+		(pts
+			(xy 77.47 127) (xy 76.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0cad388-38ac-4c59-af46-26281b87ef44")
 	)
 	(wire
 		(pts
@@ -2436,6 +2659,16 @@
 			(type default)
 		)
 		(uuid "fabda3ee-ec83-4d35-8f1a-ea49b467a00c")
+	)
+	(wire
+		(pts
+			(xy 80.01 127) (xy 77.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff776660-47a7-4830-ba4c-fb4322cb052c")
 	)
 	(hierarchical_label "CamIO"
 		(shape input)
@@ -2730,8 +2963,17 @@
 		(pin "8"
 			(uuid "efb518c8-5b1e-4a9d-9aac-b6c693017c5d")
 		)
-		(pin "SH"
+		(pin "SH1"
 			(uuid "95cfcf43-a77d-4912-be6b-8e78d2c028d5")
+		)
+		(pin "SH2"
+			(uuid "aa9b9727-e28d-409d-9796-882b50c2dd26")
+		)
+		(pin "SH3"
+			(uuid "2cec7d37-52d4-45ce-a566-0fff72b984b6")
+		)
+		(pin "SH4"
+			(uuid "a93ac3b1-53ca-4e7b-bf38-1a88c3900162")
 		)
 		(instances
 			(project "490_0"
@@ -3634,7 +3876,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 124.46 0)
+		(at 76.2 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3642,7 +3884,7 @@
 		(dnp no)
 		(uuid "d9a7c7e9-838f-468d-9c77-80554200333a")
 		(property "Reference" "#PWR0148"
-			(at 73.66 130.81 0)
+			(at 76.2 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +3893,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.406 128.016 0)
+			(at 75.946 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,7 +3901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 124.46 0)
+			(at 76.2 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,7 +3910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 124.46 0)
+			(at 76.2 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3919,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 124.46 0)
+			(at 76.2 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)

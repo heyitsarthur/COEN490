@@ -1612,7 +1612,7 @@
 		)
 	)
 	(hierarchical_label "I2S_DIN"
-		(shape input)
+		(shape bidirectional)
 		(at 101.6 86.36 180)
 		(effects
 			(font
@@ -1623,7 +1623,7 @@
 		(uuid "3abd5c92-4675-47e7-9f26-3241d3dfae8e")
 	)
 	(hierarchical_label "I2S_BCLK"
-		(shape input)
+		(shape bidirectional)
 		(at 101.6 88.9 180)
 		(effects
 			(font
@@ -1634,7 +1634,7 @@
 		(uuid "a24cb309-2a1e-459d-893a-d7ede0e7b5c8")
 	)
 	(hierarchical_label "I2S_LRCLK"
-		(shape input)
+		(shape bidirectional)
 		(at 101.6 91.44 180)
 		(effects
 			(font
