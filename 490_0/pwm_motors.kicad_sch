@@ -4558,7 +4558,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 40.64) (xy 35.56 38.1)
+			(xy 33.02 40.64) (xy 33.02 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4618,7 +4618,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 83.82) (xy 35.56 81.28)
+			(xy 33.02 83.82) (xy 33.02 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4828,7 +4828,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 78.74) (xy 111.76 78.74)
+			(xy 104.14 78.74) (xy 111.76 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4878,7 +4878,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 40.64) (xy 106.68 38.1)
+			(xy 104.14 40.64) (xy 104.14 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5238,7 +5238,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 25.4) (xy 111.76 25.4)
+			(xy 104.14 25.4) (xy 111.76 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5258,7 +5258,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 27.94) (xy 35.56 25.4)
+			(xy 33.02 27.94) (xy 33.02 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5318,7 +5318,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 81.28) (xy 106.68 78.74)
+			(xy 104.14 81.28) (xy 104.14 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5328,7 +5328,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 96.52) (xy 35.56 93.98)
+			(xy 33.02 96.52) (xy 33.02 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5488,7 +5488,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 27.94) (xy 106.68 25.4)
+			(xy 104.14 27.94) (xy 104.14 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5498,7 +5498,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 81.28) (xy 40.64 81.28)
+			(xy 33.02 81.28) (xy 40.64 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5528,7 +5528,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 25.4) (xy 175.26 22.86)
+			(xy 172.72 25.4) (xy 172.72 22.86)
 		)
 		(stroke
 			(width 0)
@@ -5668,7 +5668,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 25.4) (xy 40.64 25.4)
+			(xy 33.02 25.4) (xy 40.64 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5738,7 +5738,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 38.1) (xy 175.26 35.56)
+			(xy 172.72 38.1) (xy 172.72 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5798,7 +5798,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 22.86) (xy 180.34 22.86)
+			(xy 172.72 22.86) (xy 180.34 22.86)
 		)
 		(stroke
 			(width 0)
@@ -5828,7 +5828,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 93.98) (xy 106.68 91.44)
+			(xy 104.14 91.44) (xy 104.14 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7170,6 +7170,336 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 33.02 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c2c585d-edc7-49b8-b5f1-dac44d415879")
+		(property "Reference" "#PWR050"
+			(at 33.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 33.02 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2e4c59b-22b4-4ac6-95ba-c152542fa5b6")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 114.3 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22f2c4b5-66d7-4f32-892f-0fa1aa8dc079")
+		(property "Reference" "#PWR071"
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 114.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 114.3 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "901d0247-5376-4ddb-8f3b-3ba57d9209c7")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 182.88 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "262b823a-c0d7-4376-9992-f5c038084cad")
+		(property "Reference" "#PWR064"
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 182.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9b48966-95e1-4015-9776-78f37ba6cb78")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 104.14 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f7f9034-6697-40e1-8885-d4366275ee6c")
+		(property "Reference" "#PWR073"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f7cc9aa-d4d3-4f3d-9fff-1d38b8068a1c")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 43.18 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "316bb9f9-7420-40ec-935a-e685f41bcd98")
+		(property "Reference" "#PWR049"
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 43.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 43.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "487d9b19-7d5e-4473-9c13-cb59e0e018df")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_4ms_Connector:Conn_01x02")
 		(at 63.5 93.98 180)
 		(unit 1)
@@ -7768,6 +8098,72 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 33.02 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e627a5d-8e04-49f2-b988-fe954e7d7005")
+		(property "Reference" "#PWR053"
+			(at 33.02 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 33.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb4c5516-7693-481e-b7d9-e935212823ec")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8548,6 +8944,72 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 43.18 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53cad826-8d20-4028-833a-5a93997d513b")
+		(property "Reference" "#PWR052"
+			(at 43.18 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 43.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 43.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fa7e808-4a91-47ed-88e6-64410dc6d781")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -9951,7 +10413,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 35.56 88.9 0)
+		(at 33.02 88.9 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9960,7 +10422,7 @@
 		(dnp no)
 		(uuid "64ea0b20-bb85-402c-ab9d-cbd617b83eff")
 		(property "Reference" "C19"
-			(at 29.21 88.646 0)
+			(at 26.67 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9969,7 +10431,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 28.956 91.44 0)
+			(at 26.416 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9978,7 +10440,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9987,7 +10449,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9996,7 +10458,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10005,7 +10467,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 34.29 92.075 0)
+			(at 31.75 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10014,7 +10476,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 34.925 85.725 0)
+			(at 32.385 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10024,7 +10486,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805KRX7R9BB104/302874?s=N4IgTCBcDaIMJwAwA5EFYDSAlAGgdiwE4AhYgRkQBYQBdAXyA"
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10033,7 +10495,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10042,7 +10504,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10051,7 +10513,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10060,7 +10522,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10069,7 +10531,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10078,7 +10540,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10087,7 +10549,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,7 +10558,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10105,7 +10567,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CC0805KRX7R9BB104"
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10114,7 +10576,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10123,7 +10585,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10132,7 +10594,7 @@
 			)
 		)
 		(property "Supplier P/N" "311-1140-1-ND"
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10141,7 +10603,7 @@
 			)
 		)
 		(property "Type" "SMD, MLCC"
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10150,7 +10612,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10159,7 +10621,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10168,7 +10630,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10177,7 +10639,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10186,7 +10648,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10195,7 +10657,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10204,7 +10666,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10213,7 +10675,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10222,7 +10684,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10231,7 +10693,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10240,7 +10702,7 @@
 			)
 		)
 		(property "Package" "0805 (2012 Metric)"
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10249,7 +10711,7 @@
 			)
 		)
 		(property "Price" "0.08"
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10258,7 +10720,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10267,7 +10729,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 35.56 88.9 0)
+			(at 33.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10676,8 +11138,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 104.14 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7662aecb-1eaf-4895-a1fb-0eb87a517213")
+		(property "Reference" "#PWR055"
+			(at 104.14 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 104.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c184ed1c-08f1-4e76-bf09-03d1671eed52")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 172.72 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76ae4fae-4454-4d70-ad37-6c1ccbd44bed")
+		(property "Reference" "#PWR057"
+			(at 172.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 172.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 172.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7da2aa02-54ed-479d-86ba-058f81863104")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 175.26 30.48 0)
+		(at 172.72 30.48 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10686,7 +11280,7 @@
 		(dnp no)
 		(uuid "79f38afd-f652-467a-b6fa-6a90cf882832")
 		(property "Reference" "C14"
-			(at 168.91 30.226 0)
+			(at 166.37 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10695,7 +11289,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 168.656 33.02 0)
+			(at 166.116 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10704,7 +11298,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10713,7 +11307,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10722,7 +11316,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10731,7 +11325,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 173.99 33.655 0)
+			(at 171.45 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10740,7 +11334,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 174.625 27.305 0)
+			(at 172.085 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10750,7 +11344,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805KRX7R9BB104/302874?s=N4IgTCBcDaIMJwAwA5EFYDSAlAGgdiwE4AhYgRkQBYQBdAXyA"
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,7 +11353,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10768,7 +11362,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10777,7 +11371,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10786,7 +11380,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10795,7 +11389,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10804,7 +11398,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10813,7 +11407,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10822,7 +11416,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10831,7 +11425,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CC0805KRX7R9BB104"
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10840,7 +11434,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10849,7 +11443,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10858,7 +11452,7 @@
 			)
 		)
 		(property "Supplier P/N" "311-1140-1-ND"
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10867,7 +11461,7 @@
 			)
 		)
 		(property "Type" "SMD, MLCC"
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10876,7 +11470,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10885,7 +11479,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10894,7 +11488,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10903,7 +11497,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10912,7 +11506,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10921,7 +11515,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10930,7 +11524,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10939,7 +11533,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10948,7 +11542,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10957,7 +11551,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10966,7 +11560,7 @@
 			)
 		)
 		(property "Package" "0805 (2012 Metric)"
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10975,7 +11569,7 @@
 			)
 		)
 		(property "Price" "0.08"
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10984,7 +11578,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10993,7 +11587,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 175.26 30.48 0)
+			(at 172.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12435,6 +13029,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 180.34 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86c6042f-36c3-4321-8693-a9dd0efa471d")
+		(property "Reference" "#PWR063"
+			(at 180.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 180.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 180.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa51a5e9-1f70-44fc-a3ba-5032499521f0")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 43.18 113.03 0)
 		(unit 1)
@@ -13787,8 +14447,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 40.64 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b9d69d0-2068-4e9c-99d4-443e7cea28fa")
+		(property "Reference" "#PWR051"
+			(at 40.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 40.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 40.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b506063-c370-45b6-a5da-fcec8b0892ad")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 35.56 33.02 0)
+		(at 33.02 33.02 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13797,7 +14523,7 @@
 		(dnp no)
 		(uuid "9d076f92-b971-4b07-b27f-68a4049e55e6")
 		(property "Reference" "C9"
-			(at 29.21 32.766 0)
+			(at 26.67 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13806,7 +14532,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 28.956 35.56 0)
+			(at 26.416 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13815,7 +14541,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13824,7 +14550,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13833,7 +14559,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13842,7 +14568,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 34.29 36.195 0)
+			(at 31.75 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13851,7 +14577,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 34.925 29.845 0)
+			(at 32.385 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13861,7 +14587,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805KRX7R9BB104/302874?s=N4IgTCBcDaIMJwAwA5EFYDSAlAGgdiwE4AhYgRkQBYQBdAXyA"
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13870,7 +14596,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13879,7 +14605,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13888,7 +14614,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13897,7 +14623,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13906,7 +14632,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13915,7 +14641,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13924,7 +14650,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13933,7 +14659,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13942,7 +14668,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CC0805KRX7R9BB104"
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13951,7 +14677,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13960,7 +14686,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13969,7 +14695,7 @@
 			)
 		)
 		(property "Supplier P/N" "311-1140-1-ND"
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13978,7 +14704,7 @@
 			)
 		)
 		(property "Type" "SMD, MLCC"
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13987,7 +14713,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13996,7 +14722,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14005,7 +14731,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14014,7 +14740,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14023,7 +14749,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14032,7 +14758,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14041,7 +14767,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14050,7 +14776,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14059,7 +14785,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14068,7 +14794,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14077,7 +14803,7 @@
 			)
 		)
 		(property "Package" "0805 (2012 Metric)"
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14086,7 +14812,7 @@
 			)
 		)
 		(property "Price" "0.08"
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14095,7 +14821,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14104,7 +14830,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 35.56 33.02 0)
+			(at 33.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14122,6 +14848,72 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 40.64 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0ba5973-ad38-44f5-8713-9a9786034080")
+		(property "Reference" "#PWR054"
+			(at 40.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 40.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d04e79ac-afa9-4508-90e9-80cb7f55187a")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -14188,6 +14980,72 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 111.76 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa08d6c6-1a3e-4324-b527-21fb37acb7fc")
+		(property "Reference" "#PWR078"
+			(at 111.76 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 111.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "614ee37e-976f-45ef-97e2-492c4e266e53")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -15921,7 +16779,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 106.68 33.02 0)
+		(at 104.14 33.02 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15930,7 +16788,7 @@
 		(dnp no)
 		(uuid "d8b7f326-d146-46de-a661-c23d4effa211")
 		(property "Reference" "C10"
-			(at 100.33 32.766 0)
+			(at 97.79 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15939,7 +16797,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 100.076 35.56 0)
+			(at 97.536 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15948,7 +16806,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15957,7 +16815,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15966,7 +16824,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15975,7 +16833,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 105.41 36.195 0)
+			(at 102.87 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15984,7 +16842,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 106.045 29.845 0)
+			(at 103.505 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15994,7 +16852,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805KRX7R9BB104/302874?s=N4IgTCBcDaIMJwAwA5EFYDSAlAGgdiwE4AhYgRkQBYQBdAXyA"
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16003,7 +16861,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16012,7 +16870,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16021,7 +16879,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16030,7 +16888,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16039,7 +16897,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16048,7 +16906,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16057,7 +16915,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16066,7 +16924,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16075,7 +16933,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CC0805KRX7R9BB104"
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16084,7 +16942,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16093,7 +16951,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16102,7 +16960,7 @@
 			)
 		)
 		(property "Supplier P/N" "311-1140-1-ND"
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16111,7 +16969,7 @@
 			)
 		)
 		(property "Type" "SMD, MLCC"
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16120,7 +16978,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16129,7 +16987,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16138,7 +16996,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16147,7 +17005,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16156,7 +17014,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16165,7 +17023,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16174,7 +17032,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16183,7 +17041,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16192,7 +17050,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16201,7 +17059,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16210,7 +17068,7 @@
 			)
 		)
 		(property "Package" "0805 (2012 Metric)"
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16219,7 +17077,7 @@
 			)
 		)
 		(property "Price" "0.08"
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16228,7 +17086,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16237,7 +17095,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 106.68 33.02 0)
+			(at 104.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18373,7 +19231,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:C")
-		(at 106.68 86.36 0)
+		(at 104.14 86.36 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18382,7 +19240,7 @@
 		(dnp no)
 		(uuid "f5e8e1dc-7951-426f-ac41-b9e52a64c51b")
 		(property "Reference" "C21"
-			(at 100.33 86.106 0)
+			(at 97.79 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18391,7 +19249,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 100.076 88.9 0)
+			(at 97.536 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18400,7 +19258,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18409,7 +19267,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18418,7 +19276,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18427,7 +19285,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 105.41 89.535 0)
+			(at 102.87 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18436,7 +19294,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 106.045 83.185 0)
+			(at 103.505 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18446,7 +19304,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805KRX7R9BB104/302874?s=N4IgTCBcDaIMJwAwA5EFYDSAlAGgdiwE4AhYgRkQBYQBdAXyA"
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18455,7 +19313,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18464,7 +19322,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18473,7 +19331,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18482,7 +19340,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18491,7 +19349,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18500,7 +19358,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18509,7 +19367,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18518,7 +19376,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18527,7 +19385,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CC0805KRX7R9BB104"
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18536,7 +19394,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18545,7 +19403,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18554,7 +19412,7 @@
 			)
 		)
 		(property "Supplier P/N" "311-1140-1-ND"
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18563,7 +19421,7 @@
 			)
 		)
 		(property "Type" "SMD, MLCC"
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18572,7 +19430,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18581,7 +19439,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18590,7 +19448,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18599,7 +19457,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18608,7 +19466,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18617,7 +19475,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18626,7 +19484,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18635,7 +19493,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18644,7 +19502,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18653,7 +19511,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18662,7 +19520,7 @@
 			)
 		)
 		(property "Package" "0805 (2012 Metric)"
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18671,7 +19529,7 @@
 			)
 		)
 		(property "Price" "0.08"
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18680,7 +19538,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18689,7 +19547,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 106.68 86.36 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19048,6 +19906,72 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 111.76 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd12187e-c35c-4650-b5e8-09e08c316583")
+		(property "Reference" "#PWR056"
+			(at 111.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 111.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 111.76 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7362c75b-f5fb-4bf5-8eb0-b5ef250b72bc")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/41ec0f0a-1edf-4b7c-bea5-5c05662ec081"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
