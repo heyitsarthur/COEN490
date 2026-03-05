@@ -29006,7 +29006,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U9"
+		(property "Reference" "U7"
 			(at 20.32 10.16 0)
 			(effects
 				(font
@@ -29022,7 +29022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-5X3-6_DRL_TEX"
+		(property "Footprint" "*CapStone*:SOT-5X3-6_DRL_TEX"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29032,7 +29032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TPS566247DRLR"
+		(property "Datasheet" "kicad-embed://tps566247.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29042,7 +29042,88 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC REG BUCK ADJ 6A SOT563"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/texas-instruments/TPS566247DRLR/16553859?s=N4IgTCBcDaICoAUDKBWAbGsAWA7AEQCUAZAkAXQF8g"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TPS566247DRLR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-563"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.77"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "296-TPS566247DRLRCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
 			(at 0 0 0)
 			(effects
 				(font
@@ -29132,7 +29213,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 20.32 -17.78 90)
 				(length 7.62)
 				(name "AGND"
