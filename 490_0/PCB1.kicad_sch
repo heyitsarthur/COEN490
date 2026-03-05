@@ -5,7 +5,7 @@
 	(uuid "f5712436-e3d2-4c3f-8a83-fc48d8d37e2b")
 	(paper "USLetter")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x10"
+		(symbol "capstone_parts:Conn_01x10"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2184,7 +2184,7 @@
 		(uuid "fbe0728f-b022-442d-9977-c170f1530efa")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x10")
+		(lib_id "capstone_parts:Conn_01x10")
 		(at 256.54 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)

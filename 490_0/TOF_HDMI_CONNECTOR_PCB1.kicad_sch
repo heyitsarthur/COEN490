@@ -5,7 +5,7 @@
 	(uuid "a256c89b-fcab-4835-ae61-5e997ec7ee48")
 	(paper "USLetter")
 	(lib_symbols
-		(symbol "Connector:HDMI_A"
+		(symbol "capstone_parts:HDMI_A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -662,7 +662,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Diode_TVS_AKL:SMF5.0A"
+		(symbol "capstone_parts:SMF5.0A"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2770,7 +2770,7 @@
 		(uuid "ee9b96b9-a494-4eff-9091-fb3bad45ea2b")
 	)
 	(symbol
-		(lib_id "Connector:HDMI_A")
+		(lib_id "capstone_parts:HDMI_A")
 		(at 81.28 81.28 0)
 		(mirror y)
 		(unit 1)
@@ -3440,7 +3440,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_TVS_AKL:SMF5.0A")
+		(lib_id "capstone_parts:SMF5.0A")
 		(at 132.08 101.6 270)
 		(mirror x)
 		(unit 1)
@@ -3724,7 +3724,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_TVS_AKL:SMF5.0A")
+		(lib_id "capstone_parts:SMF5.0A")
 		(at 200.66 100.33 270)
 		(mirror x)
 		(unit 1)
