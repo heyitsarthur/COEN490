@@ -2576,7 +2576,7 @@
 		(uuid "fb5bf903-6455-4dbc-a50a-4baddfb5b910")
 	)
 	(hierarchical_label "USBhub_P"
-		(shape input)
+		(shape bidirectional)
 		(at 165.1 88.9 180)
 		(effects
 			(font
@@ -2587,7 +2587,7 @@
 		(uuid "062e0e73-c216-4fa7-990e-2d65fb01315e")
 	)
 	(hierarchical_label "USB_N"
-		(shape output)
+		(shape bidirectional)
 		(at 226.06 91.44 0)
 		(effects
 			(font
@@ -2598,7 +2598,7 @@
 		(uuid "2d6672bc-8115-4102-938c-db06d04f98b2")
 	)
 	(hierarchical_label "USB_P"
-		(shape output)
+		(shape bidirectional)
 		(at 226.06 88.9 0)
 		(effects
 			(font
@@ -2609,7 +2609,7 @@
 		(uuid "bf47407d-a6ed-4984-b515-f60e31e5c102")
 	)
 	(hierarchical_label "USBhub_N"
-		(shape input)
+		(shape bidirectional)
 		(at 165.1 91.44 180)
 		(effects
 			(font
@@ -3752,7 +3752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 109.22 71.12 0)
 			(effects
 				(font
@@ -3761,7 +3761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "kicad-embed://CL_Series_MLCC_ds.pdf"
 			(at 109.22 71.12 0)
 			(effects
 				(font
@@ -3770,7 +3770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 10UF 16V X7R 1206"
+		(property "Description" "CAP CER 10UF 16V X7R 0805"
 			(at 109.22 71.12 0)
 			(effects
 				(font
@@ -3798,7 +3798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c106k4ractu/789657"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21B106KOQNNNE/3888530"
 			(at 109.22 71.12 0)
 			(effects
 				(font
@@ -3825,7 +3825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 109.22 71.12 0)
 			(effects
 				(font
@@ -3879,7 +3879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "C1206C106K4RACTU"
+		(property "Manufacturer Part" "CL21B106KOQNNNE"
 			(at 109.22 71.12 0)
 			(effects
 				(font
@@ -3906,7 +3906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "399-C1206C106K4RACTUCT-ND"
+		(property "Supplier P/N" "1276-2872-1-ND"
 			(at 109.22 71.12 0)
 			(effects
 				(font
@@ -4014,7 +4014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 (3216 Metric)"
+		(property "Package" "0805"
 			(at 109.22 71.12 0)
 			(effects
 				(font
@@ -4023,7 +4023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.31"
+		(property "Price" "0.22"
 			(at 109.22 71.12 0)
 			(effects
 				(font
@@ -4075,7 +4075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f510eec1-7827-4596-a6d7-f32c5810e83f")
-		(property "Reference" "CR3"
+		(property "Reference" "U11"
 			(at 151.13 102.8699 90)
 			(effects
 				(font
@@ -4275,7 +4275,7 @@
 		(instances
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/d28f2748-3083-434f-ab92-5f07809e59a3"
-					(reference "CR3")
+					(reference "U11")
 					(unit 1)
 				)
 			)

@@ -2182,7 +2182,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "*CapStone*:IC26_MP2632BGR-Z_MNP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2446,7 +2446,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at 25.4 -99.06 90)
 					(length 2.54)
 					(name "AGND"
@@ -12130,7 +12130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 77.724 176.022 0)
 			(effects
 				(font
@@ -12139,7 +12139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 71.12 175.26 0)
 			(effects
 				(font
@@ -12148,7 +12148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://CL31B104KBCNNNC_Spec.pdf"
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
 			(at 71.12 175.26 0)
 			(effects
 				(font
@@ -12157,7 +12157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 71.12 175.26 0)
 			(effects
 				(font
@@ -12185,7 +12185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/cl31b104kbcnnnc/3886675"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
 			(at 71.12 175.26 0)
 			(effects
 				(font
@@ -12212,7 +12212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 71.12 175.26 0)
 			(effects
 				(font
@@ -12266,7 +12266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL31B104KBCNNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 71.12 175.26 0)
 			(effects
 				(font
@@ -12293,7 +12293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "1276-1017-1-ND"
+		(property "Supplier P/N" "311-1344-1-ND"
 			(at 71.12 175.26 0)
 			(effects
 				(font
@@ -12401,7 +12401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 (3216 Metric)"
+		(property "Package" "0603 (1608 Metric)"
 			(at 71.12 175.26 90)
 			(effects
 				(font
@@ -12410,7 +12410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.11"
+		(property "Price" "0.08"
 			(at 71.12 175.26 90)
 			(effects
 				(font
@@ -12477,7 +12477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.73 173.482 90)
 			(effects
 				(font
@@ -13078,7 +13078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.5 106.68 0)
 			(effects
 				(font
@@ -13087,7 +13087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "kicad-embed://GRM188Z71A475KE15-01.pdf"
 			(at 63.5 106.68 0)
 			(effects
 				(font
@@ -13096,7 +13096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7UF 10V X7R 1206"
+		(property "Description" "CAP CER 4.7UF 10V X7R 0603"
 			(at 63.5 106.68 0)
 			(effects
 				(font
@@ -13124,7 +13124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c475k8ractu/1090855"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM188Z71A475KE15D/13904882"
 			(at 63.5 106.68 0)
 			(effects
 				(font
@@ -13151,7 +13151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata Electronics"
 			(at 63.5 106.68 0)
 			(effects
 				(font
@@ -13205,7 +13205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "C1206C475K8RACTU"
+		(property "Manufacturer Part" "GRM188Z71A475KE15D"
 			(at 63.5 106.68 0)
 			(effects
 				(font
@@ -13232,7 +13232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "399-C1206C475K8RACTUCT-ND"
+		(property "Supplier P/N" "490-GRM188Z71A475KE15DCT-ND"
 			(at 63.5 106.68 0)
 			(effects
 				(font
@@ -13241,7 +13241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMD"
+		(property "Type" "SMD, MLCC"
 			(at 63.5 106.68 0)
 			(effects
 				(font
@@ -13340,7 +13340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 (3216 Metric)"
+		(property "Package" "0603 (1608 Metric)"
 			(at 63.5 106.68 0)
 			(effects
 				(font
@@ -13349,7 +13349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.51"
+		(property "Price" "0.22"
 			(at 63.5 106.68 0)
 			(effects
 				(font
@@ -13416,7 +13416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 166.878 31.75 90)
 			(effects
 				(font
@@ -13434,7 +13434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 220K OHM 1% 1/4W 1206"
+		(property "Description" "RES 220K OHM 1% 1/8W 0805"
 			(at 165.1 31.75 0)
 			(effects
 				(font
@@ -13443,7 +13443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-07220KL/728694"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-07220KL/727742"
 			(at 165.1 31.75 90)
 			(effects
 				(font
@@ -13524,7 +13524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC1206FR-07220KL"
+		(property "Manufacturer Part" "RC0805FR-07220KL"
 			(at 165.1 31.75 90)
 			(effects
 				(font
@@ -13551,7 +13551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-220KFRCT-ND"
+		(property "Supplier P/N" "311-220KCRCT-ND"
 			(at 165.1 31.75 90)
 			(effects
 				(font
@@ -13659,7 +13659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 165.1 31.75 0)
 			(effects
 				(font
@@ -13941,7 +13941,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LTST-C170GKT"
 			(at 139.446 129.286 0)
 			(effects
 				(font
@@ -14280,7 +14280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -14298,7 +14298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 33PF 50V C0G/NP0 0805"
+		(property "Description" "CAP CER 33PF 50V C0G/NP0 0603"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -14326,7 +14326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0805C330J5GACTU/411114?s=N4IgTCBcDaIMwE4EFoDCAGAHOgrKuc6AUjgOICCqAKgKrXIByAIiALoC%2BQA"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c0603c330j5gactu/411057"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -14407,7 +14407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "C0805C330J5GACTU"
+		(property "Manufacturer Part" "399-C0603C330J5GACTUCT-ND"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -14434,7 +14434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "399-C0805C330J5GACTUCT-ND"
+		(property "Supplier P/N" "399-C0603C330J5GACTUCT-ND"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -14542,7 +14542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0805"
+		(property "Package" "0603"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -14551,7 +14551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.1"
+		(property "Price" "0.12"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -14610,7 +14610,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LTST-C170GKT"
 			(at 134.366 124.206 0)
 			(effects
 				(font
@@ -15015,7 +15015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 180.34 43.18 0)
 			(effects
 				(font
@@ -15024,7 +15024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://CL31A226KAHNNNE_Spec.pdf"
+		(property "Datasheet" "kicad-embed://DataSheet_CL05Y105KP6VPN_20260228.pdf"
 			(at 180.34 43.18 0)
 			(effects
 				(font
@@ -15033,7 +15033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 25V X5R 1206"
+		(property "Description" "CAP CER 22UF 16V X7R 1210"
 			(at 180.34 43.18 0)
 			(effects
 				(font
@@ -15061,7 +15061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/cl31a226kahnnne/3888705"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL32B226MOJNNNE/3889053"
 			(at 180.34 43.18 0)
 			(effects
 				(font
@@ -15142,7 +15142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL31A226KAHNNNE"
+		(property "Manufacturer Part" "CL32B226MOJNNNE"
 			(at 180.34 43.18 0)
 			(effects
 				(font
@@ -15169,7 +15169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "1276-3047-1-ND"
+		(property "Supplier P/N" "1276-3395-1-ND"
 			(at 180.34 43.18 0)
 			(effects
 				(font
@@ -15178,7 +15178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMD"
+		(property "Type" "SMD, MLCC"
 			(at 180.34 43.18 0)
 			(effects
 				(font
@@ -15277,7 +15277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 (3216 Metric)"
+		(property "Package" "1210 (3225 Metric)"
 			(at 180.34 43.18 0)
 			(effects
 				(font
@@ -15286,7 +15286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.08"
+		(property "Price" "0.41"
 			(at 180.34 43.18 0)
 			(effects
 				(font
@@ -15952,7 +15952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 218.44 43.18 0)
 			(effects
 				(font
@@ -15961,7 +15961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://CL31A226KAHNNNE_Spec.pdf"
+		(property "Datasheet" "kicad-embed://DataSheet_CL05Y105KP6VPN_20260228.pdf"
 			(at 218.44 43.18 0)
 			(effects
 				(font
@@ -15970,7 +15970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 25V X5R 1206"
+		(property "Description" "CAP CER 22UF 16V X7R 1210"
 			(at 218.44 43.18 0)
 			(effects
 				(font
@@ -15998,7 +15998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/cl31a226kahnnne/3888705"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL32B226MOJNNNE/3889053"
 			(at 218.44 43.18 0)
 			(effects
 				(font
@@ -16079,7 +16079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL31A226KAHNNNE"
+		(property "Manufacturer Part" "CL32B226MOJNNNE"
 			(at 218.44 43.18 0)
 			(effects
 				(font
@@ -16106,7 +16106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "1276-3047-1-ND"
+		(property "Supplier P/N" "1276-3395-1-ND"
 			(at 218.44 43.18 0)
 			(effects
 				(font
@@ -16115,7 +16115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMD"
+		(property "Type" "SMD, MLCC"
 			(at 218.44 43.18 0)
 			(effects
 				(font
@@ -16214,7 +16214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 (3216 Metric)"
+		(property "Package" "1210 (3225 Metric)"
 			(at 218.44 43.18 0)
 			(effects
 				(font
@@ -16223,7 +16223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.08"
+		(property "Price" "0.41"
 			(at 218.44 43.18 0)
 			(effects
 				(font
@@ -16284,7 +16284,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 127 185.42 90)
 			(effects
 				(font
@@ -16293,7 +16293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.73 180.34 0)
 			(effects
 				(font
@@ -16302,7 +16302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://CL31B104KBCNNNC_Spec.pdf"
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
 			(at 125.73 180.34 0)
 			(effects
 				(font
@@ -16311,7 +16311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 125.73 180.34 0)
 			(effects
 				(font
@@ -16339,7 +16339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/cl31b104kbcnnnc/3886675"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
 			(at 125.73 180.34 0)
 			(effects
 				(font
@@ -16366,7 +16366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 125.73 180.34 0)
 			(effects
 				(font
@@ -16420,7 +16420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL31B104KBCNNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 125.73 180.34 0)
 			(effects
 				(font
@@ -16447,7 +16447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "1276-1017-1-ND"
+		(property "Supplier P/N" "311-1344-1-ND"
 			(at 125.73 180.34 0)
 			(effects
 				(font
@@ -16555,7 +16555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 (3216 Metric)"
+		(property "Package" "0603 (1608 Metric)"
 			(at 125.73 180.34 90)
 			(effects
 				(font
@@ -16564,7 +16564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.11"
+		(property "Price" "0.08"
 			(at 125.73 180.34 90)
 			(effects
 				(font
@@ -16689,7 +16689,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LTST-C170GKT"
 			(at 127 119.126 0)
 			(effects
 				(font
@@ -17159,7 +17159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 30.48 33.02 0)
 			(effects
 				(font
@@ -17498,7 +17498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 64.77 164.338 90)
 			(effects
 				(font
@@ -17516,7 +17516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10K OHM 1% 1/4W 1206"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 64.77 162.56 0)
 			(effects
 				(font
@@ -17525,7 +17525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0710KL/728483"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-0710KL/727535"
 			(at 64.77 162.56 90)
 			(effects
 				(font
@@ -17606,7 +17606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC1206FR-0710KL"
+		(property "Manufacturer Part" "RC0805FR-0710KL"
 			(at 64.77 162.56 90)
 			(effects
 				(font
@@ -17633,7 +17633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-10.0KFRCT-ND"
+		(property "Supplier P/N" "311-10.0KCRCT-ND"
 			(at 64.77 162.56 90)
 			(effects
 				(font
@@ -17741,7 +17741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 64.77 162.56 90)
 			(effects
 				(font
@@ -17750,7 +17750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.1"
+		(property "Price" "0.14"
 			(at 64.77 162.56 90)
 			(effects
 				(font
@@ -17817,7 +17817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 187.198 125.73 90)
 			(effects
 				(font
@@ -17835,7 +17835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 15K OHM 1% 1/4W 1206"
+		(property "Description" "RES SMD 15K OHM 1% 1/8W 0805"
 			(at 185.42 125.73 0)
 			(effects
 				(font
@@ -17844,7 +17844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/AC1206FR-0715KL/5897268"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/AC0805FR-0715KL/5896576"
 			(at 185.42 125.73 90)
 			(effects
 				(font
@@ -17925,7 +17925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "AC1206FR-0715KL"
+		(property "Manufacturer Part" "AC0805FR-0715KL"
 			(at 185.42 125.73 90)
 			(effects
 				(font
@@ -17952,7 +17952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "YAG3815CT-ND"
+		(property "Supplier P/N" "YAG3695CT-ND"
 			(at 185.42 125.73 90)
 			(effects
 				(font
@@ -18060,7 +18060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 185.42 125.73 90)
 			(effects
 				(font
@@ -18130,7 +18130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 126.492 84.074 90)
 			(effects
 				(font
@@ -18139,7 +18139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 124.46 78.74 0)
 			(effects
 				(font
@@ -18148,7 +18148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://CL31B104KBCNNNC_Spec.pdf"
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
 			(at 124.46 78.74 0)
 			(effects
 				(font
@@ -18157,7 +18157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 124.46 78.74 0)
 			(effects
 				(font
@@ -18185,7 +18185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/cl31b104kbcnnnc/3886675"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
 			(at 124.46 78.74 0)
 			(effects
 				(font
@@ -18212,7 +18212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 124.46 78.74 0)
 			(effects
 				(font
@@ -18266,7 +18266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL31B104KBCNNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 124.46 78.74 0)
 			(effects
 				(font
@@ -18293,7 +18293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "1276-1017-1-ND"
+		(property "Supplier P/N" "311-1344-1-ND"
 			(at 124.46 78.74 0)
 			(effects
 				(font
@@ -18401,7 +18401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 (3216 Metric)"
+		(property "Package" "0603 (1608 Metric)"
 			(at 124.46 78.74 90)
 			(effects
 				(font
@@ -18410,7 +18410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.11"
+		(property "Price" "0.08"
 			(at 124.46 78.74 90)
 			(effects
 				(font
@@ -18477,7 +18477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 153.67 130.302 90)
 			(effects
 				(font
@@ -18495,7 +18495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1.5K OHM 1% 1/4W 1206"
+		(property "Description" "RES 1.5K OHM 1% 1/8W 0805"
 			(at 153.67 132.08 0)
 			(effects
 				(font
@@ -18504,7 +18504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-071K5L/728441"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-071K5L/727496"
 			(at 153.67 132.08 90)
 			(effects
 				(font
@@ -18585,7 +18585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC1206FR-071K5L"
+		(property "Manufacturer Part" "RC0805FR-071K5L"
 			(at 153.67 132.08 90)
 			(effects
 				(font
@@ -18612,7 +18612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-1.50KFRCT-ND"
+		(property "Supplier P/N" "311-1.50KCRCT-ND"
 			(at 153.67 132.08 90)
 			(effects
 				(font
@@ -18720,7 +18720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 153.67 132.08 90)
 			(effects
 				(font
@@ -18799,7 +18799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.34 33.02 0)
 			(effects
 				(font
@@ -18817,7 +18817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 53.34 33.02 0)
 			(effects
 				(font
@@ -18845,7 +18845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0805KRX7R9BB104/302874?s=N4IgTCBcDaIMJwAwA5EFYDSAlAGgdiwE4AhYgRkQBYQBdAXyA"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
 			(at 53.34 33.02 0)
 			(effects
 				(font
@@ -18926,7 +18926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CC0805KRX7R9BB104"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 53.34 33.02 0)
 			(effects
 				(font
@@ -18953,7 +18953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-1140-1-ND"
+		(property "Supplier P/N" "311-1344-1-ND"
 			(at 53.34 33.02 0)
 			(effects
 				(font
@@ -19061,7 +19061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0805 (2012 Metric)"
+		(property "Package" "0603 (1608 Metric)"
 			(at 53.34 33.02 0)
 			(effects
 				(font
@@ -19158,7 +19158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "HEADER 1x2 MALE PINS 0.100” 180deg"
+		(property "Description" "TERM BLK 2POS SIDE ENT 3.5MM PCB"
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -19630,7 +19630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 161.29 135.382 90)
 			(effects
 				(font
@@ -19648,7 +19648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1.5K OHM 1% 1/4W 1206"
+		(property "Description" "RES 1.5K OHM 1% 1/8W 0805"
 			(at 161.29 137.16 0)
 			(effects
 				(font
@@ -19657,7 +19657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-071K5L/728441"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-071K5L/727496"
 			(at 161.29 137.16 90)
 			(effects
 				(font
@@ -19738,7 +19738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC1206FR-071K5L"
+		(property "Manufacturer Part" "RC0805FR-071K5L"
 			(at 161.29 137.16 90)
 			(effects
 				(font
@@ -19765,7 +19765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-1.50KFRCT-ND"
+		(property "Supplier P/N" "311-1.50KCRCT-ND"
 			(at 161.29 137.16 90)
 			(effects
 				(font
@@ -19873,7 +19873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 161.29 137.16 90)
 			(effects
 				(font
@@ -20014,7 +20014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 138.43 120.142 90)
 			(effects
 				(font
@@ -20032,7 +20032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1.5K OHM 1% 1/4W 1206"
+		(property "Description" "RES 1.5K OHM 1% 1/8W 0805"
 			(at 138.43 121.92 0)
 			(effects
 				(font
@@ -20041,7 +20041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-071K5L/728441"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-071K5L/727496"
 			(at 138.43 121.92 90)
 			(effects
 				(font
@@ -20122,7 +20122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC1206FR-071K5L"
+		(property "Manufacturer Part" "RC0805FR-071K5L"
 			(at 138.43 121.92 90)
 			(effects
 				(font
@@ -20149,7 +20149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-1.50KFRCT-ND"
+		(property "Supplier P/N" "311-1.50KCRCT-ND"
 			(at 138.43 121.92 90)
 			(effects
 				(font
@@ -20257,7 +20257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 138.43 121.92 90)
 			(effects
 				(font
@@ -20776,7 +20776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 24.13 136.398 90)
 			(effects
 				(font
@@ -20794,7 +20794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10K OHM 1% 1/4W 1206"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 24.13 134.62 0)
 			(effects
 				(font
@@ -20803,7 +20803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0710KL/728483"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-0710KL/727535"
 			(at 24.13 134.62 90)
 			(effects
 				(font
@@ -20884,7 +20884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC1206FR-0710KL"
+		(property "Manufacturer Part" "RC0805FR-0710KL"
 			(at 24.13 134.62 90)
 			(effects
 				(font
@@ -20911,7 +20911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-10.0KFRCT-ND"
+		(property "Supplier P/N" "311-10.0KCRCT-ND"
 			(at 24.13 134.62 90)
 			(effects
 				(font
@@ -21019,7 +21019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 24.13 134.62 90)
 			(effects
 				(font
@@ -21028,7 +21028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.1"
+		(property "Price" "0.14"
 			(at 24.13 134.62 90)
 			(effects
 				(font
@@ -21325,7 +21325,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 77.978 122.301 0)
 			(effects
 				(font
@@ -21343,7 +21343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 24.3K OHM 1% 1/4W 1206"
+		(property "Description" "RES 24.3K OHM 1% 1/8W 0805"
 			(at 73.66 123.19 0)
 			(effects
 				(font
@@ -21352,7 +21352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0724K3L/728710"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-0724K3L/727758"
 			(at 73.66 123.19 90)
 			(effects
 				(font
@@ -21370,7 +21370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC1206FR-0724K3L"
+		(property "Manufacturer Part" "RC0805FR-0724K3L"
 			(at 73.66 123.19 90)
 			(effects
 				(font
@@ -21379,7 +21379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 (3216 Metric)"
+		(property "Package" "0805"
 			(at 73.66 123.19 90)
 			(effects
 				(font
@@ -21406,7 +21406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-24.3KFRCT-ND"
+		(property "Supplier P/N" "311-24.3KCRCT-ND"
 			(at 73.66 123.19 90)
 			(effects
 				(font
@@ -21465,8 +21465,8 @@
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 155.956 139.446 0)
+		(property "Value" "LTST-C170YKT"
+			(at 153.162 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21804,7 +21804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 20.32 33.02 0)
 			(effects
 				(font
@@ -22406,7 +22406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 193.04 43.18 0)
 			(effects
 				(font
@@ -22415,7 +22415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://CL31A226KAHNNNE_Spec.pdf"
+		(property "Datasheet" "kicad-embed://DataSheet_CL05Y105KP6VPN_20260228.pdf"
 			(at 193.04 43.18 0)
 			(effects
 				(font
@@ -22424,7 +22424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 25V X5R 1206"
+		(property "Description" "CAP CER 22UF 16V X7R 1210"
 			(at 193.04 43.18 0)
 			(effects
 				(font
@@ -22452,7 +22452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/cl31a226kahnnne/3888705"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL32B226MOJNNNE/3889053"
 			(at 193.04 43.18 0)
 			(effects
 				(font
@@ -22533,7 +22533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL31A226KAHNNNE"
+		(property "Manufacturer Part" "CL32B226MOJNNNE"
 			(at 193.04 43.18 0)
 			(effects
 				(font
@@ -22560,7 +22560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "1276-3047-1-ND"
+		(property "Supplier P/N" "1276-3395-1-ND"
 			(at 193.04 43.18 0)
 			(effects
 				(font
@@ -22569,7 +22569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMD"
+		(property "Type" "SMD, MLCC"
 			(at 193.04 43.18 0)
 			(effects
 				(font
@@ -22668,7 +22668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 (3216 Metric)"
+		(property "Package" "1210 (3225 Metric)"
 			(at 193.04 43.18 0)
 			(effects
 				(font
@@ -22677,7 +22677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.08"
+		(property "Price" "0.41"
 			(at 193.04 43.18 0)
 			(effects
 				(font
@@ -22885,7 +22885,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "af2f9371-662d-4e05-b6eb-d6c6e1875074")
@@ -23049,7 +23049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 38.1 171.196 0)
 			(effects
 				(font
@@ -23058,7 +23058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 35.56 170.18 0)
 			(effects
 				(font
@@ -23067,7 +23067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://CL31B104KBCNNNC_Spec.pdf"
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
 			(at 35.56 170.18 0)
 			(effects
 				(font
@@ -23076,7 +23076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 35.56 170.18 0)
 			(effects
 				(font
@@ -23104,7 +23104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/cl31b104kbcnnnc/3886675"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
 			(at 35.56 170.18 0)
 			(effects
 				(font
@@ -23131,7 +23131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 35.56 170.18 0)
 			(effects
 				(font
@@ -23185,7 +23185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL31B104KBCNNNC"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 35.56 170.18 0)
 			(effects
 				(font
@@ -23212,7 +23212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "1276-1017-1-ND"
+		(property "Supplier P/N" "311-1344-1-ND"
 			(at 35.56 170.18 0)
 			(effects
 				(font
@@ -23320,7 +23320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 (3216 Metric)"
+		(property "Package" "0603 (1608 Metric)"
 			(at 35.56 170.18 90)
 			(effects
 				(font
@@ -23329,7 +23329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.11"
+		(property "Price" "0.08"
 			(at 35.56 170.18 90)
 			(effects
 				(font
@@ -23397,7 +23397,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 74.422 49.53 90)
 			(effects
 				(font
@@ -23415,7 +23415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 30.1K OHM 1% 1/4W 1206"
+		(property "Description" "RES 30.1K OHM 1% 1/8W 0805"
 			(at 76.2 49.53 0)
 			(effects
 				(font
@@ -23424,7 +23424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0730K1L/728801"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-0730K1L/727845"
 			(at 76.2 49.53 90)
 			(effects
 				(font
@@ -23505,7 +23505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC1206FR-0730K1L"
+		(property "Manufacturer Part" "RC0805FR-0730K1L"
 			(at 76.2 49.53 90)
 			(effects
 				(font
@@ -23532,7 +23532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-30.1KFRCT-ND"
+		(property "Supplier P/N" "311-30.1KCRCT-ND"
 			(at 76.2 49.53 90)
 			(effects
 				(font
@@ -23640,7 +23640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 76.2 49.53 0)
 			(effects
 				(font
@@ -23718,7 +23718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 40.64 106.68 0)
 			(effects
 				(font
@@ -23727,7 +23727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "kicad-embed://GRM188Z71A475KE15-01.pdf"
 			(at 40.64 106.68 0)
 			(effects
 				(font
@@ -23736,7 +23736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7UF 10V X7R 1206"
+		(property "Description" "CAP CER 4.7UF 10V X7R 0603"
 			(at 40.64 106.68 0)
 			(effects
 				(font
@@ -23764,7 +23764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/c1206c475k8ractu/1090855"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM188Z71A475KE15D/13904882"
 			(at 40.64 106.68 0)
 			(effects
 				(font
@@ -23791,7 +23791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata Electronics"
 			(at 40.64 106.68 0)
 			(effects
 				(font
@@ -23845,7 +23845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "C1206C475K8RACTU"
+		(property "Manufacturer Part" "GRM188Z71A475KE15D"
 			(at 40.64 106.68 0)
 			(effects
 				(font
@@ -23872,7 +23872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "399-C1206C475K8RACTUCT-ND"
+		(property "Supplier P/N" "490-GRM188Z71A475KE15DCT-ND"
 			(at 40.64 106.68 0)
 			(effects
 				(font
@@ -23881,7 +23881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMD"
+		(property "Type" "SMD, MLCC"
 			(at 40.64 106.68 0)
 			(effects
 				(font
@@ -23980,7 +23980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 (3216 Metric)"
+		(property "Package" "0603 (1608 Metric)"
 			(at 40.64 106.68 0)
 			(effects
 				(font
@@ -23989,7 +23989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.51"
+		(property "Price" "0.22"
 			(at 40.64 106.68 0)
 			(effects
 				(font
@@ -24048,7 +24048,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LTST-C170GKT"
 			(at 147.066 134.366 0)
 			(effects
 				(font
@@ -24387,7 +24387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 231.14 43.18 0)
 			(effects
 				(font
@@ -24396,7 +24396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://KEM_C1002_X7R_SMD.pdf"
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
 			(at 231.14 43.18 0)
 			(effects
 				(font
@@ -24405,7 +24405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0805"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 231.14 43.18 0)
 			(effects
 				(font
@@ -24433,7 +24433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0805C104K5RACTU/411169"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
 			(at 231.14 43.18 0)
 			(effects
 				(font
@@ -24460,7 +24460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "YAGEO"
 			(at 231.14 43.18 0)
 			(effects
 				(font
@@ -24514,7 +24514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "C0805C104K5RACTU"
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 231.14 43.18 0)
 			(effects
 				(font
@@ -24541,7 +24541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "399-C0805C104K5RACTUCT-ND"
+		(property "Supplier P/N" "311-1344-1-ND"
 			(at 231.14 43.18 0)
 			(effects
 				(font
@@ -24649,7 +24649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0805"
+		(property "Package" "0603 (1608 Metric)"
 			(at 231.14 43.18 0)
 			(effects
 				(font
@@ -24725,7 +24725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.73 168.402 90)
 			(effects
 				(font
@@ -24743,7 +24743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 120K OHM 1% 1/4W 1206"
+		(property "Description" "RES 120K OHM 1% 1/8W 0805"
 			(at 125.73 170.18 0)
 			(effects
 				(font
@@ -24752,7 +24752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-07120KL/728524"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-07120KL/727576"
 			(at 125.73 170.18 90)
 			(effects
 				(font
@@ -24833,7 +24833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC1206FR-07120KL"
+		(property "Manufacturer Part" "RC0805FR-07120KL"
 			(at 125.73 170.18 90)
 			(effects
 				(font
@@ -24860,7 +24860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-120KFRCT-ND"
+		(property "Supplier P/N" "311-120KCRCT-ND"
 			(at 125.73 170.18 90)
 			(effects
 				(font
@@ -24968,7 +24968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 125.73 170.18 90)
 			(effects
 				(font
@@ -25046,7 +25046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -25055,7 +25055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://CL31A226KAHNNNE_Spec.pdf"
+		(property "Datasheet" "kicad-embed://mlcc02_e-1307760.pdf"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -25064,7 +25064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 25V X5R 1206"
+		(property "Description" "CAP CER 22UF 25V X7R 1210"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -25092,7 +25092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/cl31a226kahnnne/3888705"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/taiyo-yuden/TMK325B7226KM-PR/7067065"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -25119,7 +25119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Taiyo Yuden"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -25173,7 +25173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL31A226KAHNNNE"
+		(property "Manufacturer Part" "TMK325B7226KM-PR"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -25200,7 +25200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "1276-3047-1-ND"
+		(property "Supplier P/N" "587-5480-1-ND"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -25209,7 +25209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMD"
+		(property "Type" "SMD, MLCC"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -25308,7 +25308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 (3216 Metric)"
+		(property "Package" "1210 (3225 Metric)"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -25317,7 +25317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.08"
+		(property "Price" "0.58"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -25384,7 +25384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 187.198 113.03 90)
 			(effects
 				(font
@@ -25402,7 +25402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 10K OHM 1% 1/4W 1206"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 185.42 113.03 0)
 			(effects
 				(font
@@ -25411,7 +25411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0710KL/728483"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-0710KL/727535"
 			(at 185.42 113.03 90)
 			(effects
 				(font
@@ -25492,7 +25492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC1206FR-0710KL"
+		(property "Manufacturer Part" "RC0805FR-0710KL"
 			(at 185.42 113.03 90)
 			(effects
 				(font
@@ -25519,7 +25519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-10.0KFRCT-ND"
+		(property "Supplier P/N" "311-10.0KCRCT-ND"
 			(at 185.42 113.03 90)
 			(effects
 				(font
@@ -25627,7 +25627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 185.42 113.03 90)
 			(effects
 				(font
@@ -25636,7 +25636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.1"
+		(property "Price" "0.14"
 			(at 185.42 113.03 90)
 			(effects
 				(font
@@ -25703,7 +25703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 168.91 140.462 90)
 			(effects
 				(font
@@ -25721,7 +25721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1.5K OHM 1% 1/4W 1206"
+		(property "Description" "RES 1.5K OHM 1% 1/8W 0805"
 			(at 168.91 142.24 0)
 			(effects
 				(font
@@ -25730,7 +25730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-071K5L/728441"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-071K5L/727496"
 			(at 168.91 142.24 90)
 			(effects
 				(font
@@ -25811,7 +25811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC1206FR-071K5L"
+		(property "Manufacturer Part" "RC0805FR-071K5L"
 			(at 168.91 142.24 90)
 			(effects
 				(font
@@ -25838,7 +25838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-1.50KFRCT-ND"
+		(property "Supplier P/N" "311-1.50KCRCT-ND"
 			(at 168.91 142.24 90)
 			(effects
 				(font
@@ -25946,7 +25946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 168.91 142.24 90)
 			(effects
 				(font
@@ -26025,7 +26025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 129.54 160.02 0)
 			(effects
 				(font
@@ -26034,7 +26034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://CL21B105KAFNNNE_Spec.pdf"
+		(property "Datasheet" "kicad-embed://UMK107AB7105KA-T_SS.pdf"
 			(at 129.54 160.02 0)
 			(effects
 				(font
@@ -26043,7 +26043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+		(property "Description" "CAP CER 1UF 50V X7R 0603"
 			(at 129.54 160.02 0)
 			(effects
 				(font
@@ -26071,7 +26071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21B105KAFNNNE/3886724"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/taiyo-yuden/UMK107AB7105KA-T/3660085"
 			(at 129.54 160.02 0)
 			(effects
 				(font
@@ -26098,7 +26098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Taiyo Yuden"
 			(at 129.54 160.02 0)
 			(effects
 				(font
@@ -26152,7 +26152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL21B105KAFNNNE"
+		(property "Manufacturer Part" "UMK107AB7105KA-T"
 			(at 129.54 160.02 0)
 			(effects
 				(font
@@ -26179,7 +26179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "1276-1066-1-ND"
+		(property "Supplier P/N" "587-3247-1-ND"
 			(at 129.54 160.02 0)
 			(effects
 				(font
@@ -26287,7 +26287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0805"
+		(property "Package" "0603"
 			(at 129.54 160.02 90)
 			(effects
 				(font
@@ -26363,7 +26363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 146.05 125.222 90)
 			(effects
 				(font
@@ -26381,7 +26381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1.5K OHM 1% 1/4W 1206"
+		(property "Description" "RES 1.5K OHM 1% 1/8W 0805"
 			(at 146.05 127 0)
 			(effects
 				(font
@@ -26390,7 +26390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-071K5L/728441"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-071K5L/727496"
 			(at 146.05 127 90)
 			(effects
 				(font
@@ -26471,7 +26471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC1206FR-071K5L"
+		(property "Manufacturer Part" "RC0805FR-071K5L"
 			(at 146.05 127 90)
 			(effects
 				(font
@@ -26498,7 +26498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-1.50KFRCT-ND"
+		(property "Supplier P/N" "311-1.50KCRCT-ND"
 			(at 146.05 127 90)
 			(effects
 				(font
@@ -26606,7 +26606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 146.05 127 90)
 			(effects
 				(font
@@ -26682,7 +26682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 166.878 49.53 90)
 			(effects
 				(font
@@ -26700,7 +26700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 30K OHM 1% 1/4W 1206"
+		(property "Description" "RES 30K OHM 1% 1/8W 0805"
 			(at 165.1 49.53 0)
 			(effects
 				(font
@@ -26709,7 +26709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0730KL/728799"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-1330KL/17020068"
 			(at 165.1 49.53 90)
 			(effects
 				(font
@@ -26790,7 +26790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC1206FR-0730KL"
+		(property "Manufacturer Part" "RC0805FR-1330KL"
 			(at 165.1 49.53 90)
 			(effects
 				(font
@@ -26817,7 +26817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-30.0KFRCT-ND"
+		(property "Supplier P/N" "13-RC0805FR-1330KLCT-ND"
 			(at 165.1 49.53 90)
 			(effects
 				(font
@@ -26925,7 +26925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 165.1 49.53 0)
 			(effects
 				(font
@@ -27474,7 +27474,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 77.978 107.061 0)
 			(effects
 				(font
@@ -27492,7 +27492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 76.8K OHM 1% 1/4W 1206"
+		(property "Description" "RES 76.8K OHM 1% 1/8W 0805"
 			(at 73.66 107.95 0)
 			(effects
 				(font
@@ -27501,7 +27501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-0776K8L/729100"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-0776K8L/728137"
 			(at 73.66 107.95 90)
 			(effects
 				(font
@@ -27519,7 +27519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC1206FR-0776K8L"
+		(property "Manufacturer Part" "RC0805FR-0776K8L"
 			(at 73.66 107.95 90)
 			(effects
 				(font
@@ -27528,7 +27528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 (3216 Metric)"
+		(property "Package" "0805"
 			(at 73.66 107.95 90)
 			(effects
 				(font
@@ -27555,7 +27555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-76.8KFRCT-ND"
+		(property "Supplier P/N" "311-76.8KCRCT-ND"
 			(at 73.66 107.95 90)
 			(effects
 				(font
@@ -27625,7 +27625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 43.18 33.02 0)
 			(effects
 				(font
@@ -27966,7 +27966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 53.34 106.68 0)
 			(effects
 				(font
@@ -27975,7 +27975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://CL31B226KPHNNNE_Spec.pdf"
+		(property "Datasheet" "kicad-embed://DataSheet_CL05Y105KP6VPN_20260228.pdf"
 			(at 53.34 106.68 0)
 			(effects
 				(font
@@ -27984,7 +27984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 10V X7R 1206"
+		(property "Description" "CAP CER 22UF 16V X7R 1210"
 			(at 53.34 106.68 0)
 			(effects
 				(font
@@ -28012,7 +28012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B226KPHNNNE/3888427?s=N4IgTCBcDaIMIBkDMBGAQmMA2A0gBQAkA5EgURAF0BfIA"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL32B226MOJNNNE/3889053"
 			(at 53.34 106.68 0)
 			(effects
 				(font
@@ -28093,7 +28093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL31B226KPHNNNE"
+		(property "Manufacturer Part" "CL32B226MOJNNNE"
 			(at 53.34 106.68 0)
 			(effects
 				(font
@@ -28120,7 +28120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "1276-2769-1-ND"
+		(property "Supplier P/N" "1276-3395-1-ND"
 			(at 53.34 106.68 0)
 			(effects
 				(font
@@ -28129,7 +28129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMD"
+		(property "Type" "SMD, MLCC"
 			(at 53.34 106.68 0)
 			(effects
 				(font
@@ -28228,7 +28228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 (3216 Metric)"
+		(property "Package" "1210 (3225 Metric)"
 			(at 53.34 106.68 0)
 			(effects
 				(font
@@ -28237,7 +28237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.39"
+		(property "Price" "0.41"
 			(at 53.34 106.68 0)
 			(effects
 				(font
@@ -28372,7 +28372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 157.48 88.9 0)
 			(effects
 				(font
@@ -28381,7 +28381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://CL21B105KAFNNNE_Spec.pdf"
+		(property "Datasheet" "kicad-embed://DataSheet_CL05Y105KP6VPN_20260228.pdf"
 			(at 157.48 88.9 0)
 			(effects
 				(font
@@ -28390,7 +28390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)"
+		(property "Description" "CAP CER 1UF 25V X7R 1206"
 			(at 157.48 88.9 0)
 			(effects
 				(font
@@ -28418,7 +28418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21B105KAFNNNE/3886724"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B105KAHNNNE/3886755"
 			(at 157.48 88.9 0)
 			(effects
 				(font
@@ -28499,7 +28499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL21B105KAFNNNE"
+		(property "Manufacturer Part" "CL31B105KAHNNNE"
 			(at 157.48 88.9 0)
 			(effects
 				(font
@@ -28526,7 +28526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "1276-1066-1-ND"
+		(property "Supplier P/N" "1276-1097-1-ND"
 			(at 157.48 88.9 0)
 			(effects
 				(font
@@ -28634,7 +28634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0805"
+		(property "Package" "1206 (3216 Metric)"
 			(at 157.48 88.9 90)
 			(effects
 				(font
@@ -28643,7 +28643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.08"
+		(property "Price" "0.13"
 			(at 157.48 88.9 90)
 			(effects
 				(font
@@ -28710,7 +28710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.73 163.322 90)
 			(effects
 				(font
@@ -29032,7 +29032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 205.74 43.18 0)
 			(effects
 				(font
@@ -29041,7 +29041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://CL31A226KAHNNNE_Spec.pdf"
+		(property "Datasheet" "kicad-embed://DataSheet_CL05Y105KP6VPN_20260228.pdf"
 			(at 205.74 43.18 0)
 			(effects
 				(font
@@ -29050,7 +29050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 25V X5R 1206"
+		(property "Description" "CAP CER 22UF 16V X7R 1210"
 			(at 205.74 43.18 0)
 			(effects
 				(font
@@ -29078,7 +29078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/cl31a226kahnnne/3888705"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL32B226MOJNNNE/3889053"
 			(at 205.74 43.18 0)
 			(effects
 				(font
@@ -29159,7 +29159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL31A226KAHNNNE"
+		(property "Manufacturer Part" "CL32B226MOJNNNE"
 			(at 205.74 43.18 0)
 			(effects
 				(font
@@ -29186,7 +29186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "1276-3047-1-ND"
+		(property "Supplier P/N" "1276-3395-1-ND"
 			(at 205.74 43.18 0)
 			(effects
 				(font
@@ -29195,7 +29195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Type" "SMD"
+		(property "Type" "SMD, MLCC"
 			(at 205.74 43.18 0)
 			(effects
 				(font
@@ -29294,7 +29294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 (3216 Metric)"
+		(property "Package" "1210 (3225 Metric)"
 			(at 205.74 43.18 0)
 			(effects
 				(font
@@ -29303,7 +29303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.08"
+		(property "Price" "0.41"
 			(at 205.74 43.18 0)
 			(effects
 				(font
@@ -29363,7 +29363,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "100k"
 			(at 80.264 38.608 0)
 			(effects
 				(font
@@ -29371,7 +29371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 74.422 36.83 90)
 			(effects
 				(font
@@ -29380,7 +29380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://PYU-RC_GROUP_51_ROHS_L (YAGEO resistors).pdf"
+		(property "Datasheet" "kicad-embed://RC0805FR-07100KL (100k ohm resistor).pdf"
 			(at 76.2 36.83 0)
 			(effects
 				(font
@@ -29389,7 +29389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 100K OHM 1% 1/4W 1206"
+		(property "Description" "RES 100K OHM 1% 1/8W 0805"
 			(at 76.2 36.83 0)
 			(effects
 				(font
@@ -29398,7 +29398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-07100KL/728492"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC0805FR-07100KL/727544"
 			(at 76.2 36.83 90)
 			(effects
 				(font
@@ -29479,7 +29479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC1206FR-07100KL"
+		(property "Manufacturer Part" "RC0805FR-07100KL"
 			(at 76.2 36.83 90)
 			(effects
 				(font
@@ -29506,7 +29506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "311-100KFRCT-ND"
+		(property "Supplier P/N" "311-100KCRCT-ND"
 			(at 76.2 36.83 90)
 			(effects
 				(font
@@ -29614,7 +29614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "1206"
+		(property "Package" "0805"
 			(at 76.2 36.83 0)
 			(effects
 				(font
@@ -29691,7 +29691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 32.258 118.11 90)
 			(effects
 				(font

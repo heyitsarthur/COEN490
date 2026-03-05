@@ -7575,7 +7575,7 @@
 	)
 	(text "This LED flashes when the CM4 is reading from or writing to the eMMC or SD card."
 		(exclude_from_sim no)
-		(at 59.944 45.974 0)
+		(at 44.704 49.276 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -13996,10 +13996,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1c240e1c-be59-46c4-ba5f-33933905bfee")
 		(property "Reference" "D16"
-			(at 87.63 46.0374 90)
+			(at 73.152 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14007,8 +14006,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 87.63 48.5774 90)
+		(property "Value" "LTST-C170GKT"
+			(at 68.072 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14477,7 +14476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 70.358 173.99 90)
 			(effects
 				(font
@@ -15887,7 +15886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 85.598 35.56 90)
 			(effects
 				(font
@@ -16711,7 +16710,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LTST-C170KRKT"
 			(at 72.39 187.0074 90)
 			(effects
 				(font
