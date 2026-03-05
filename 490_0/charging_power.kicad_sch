@@ -3443,6 +3443,12 @@
 		(uuid "17f6c1b4-484d-4411-aafe-1aee20a41a22")
 	)
 	(junction
+		(at 58.42 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b1ae094-caf9-46b8-9613-ee05c6760d64")
+	)
+	(junction
 		(at 180.34 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3695,6 +3701,12 @@
 		(uuid "e5ef7ee8-6d67-4da9-acd0-299bf385a871")
 	)
 	(junction
+		(at 73.66 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8ce46f9-7954-4c23-b967-d090272fac9b")
+	)
+	(junction
 		(at 193.04 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3725,20 +3737,12 @@
 		(uuid "fa954e77-84e2-43b2-830d-10cd599a4951")
 	)
 	(no_connect
-		(at 71.12 35.56)
-		(uuid "0efc01a9-26f5-42f8-954e-c31e30113f16")
-	)
-	(no_connect
 		(at 60.96 48.26)
-		(uuid "20a023bd-a866-4cf2-a956-b4cd2b187bb7")
+		(uuid "0bdd2bf1-689b-42d1-9872-2a5349a4e196")
 	)
 	(no_connect
-		(at 71.12 45.72)
-		(uuid "2124a3c4-1ca3-4a20-9e5f-dce0bc74e1f0")
-	)
-	(no_connect
-		(at 71.12 50.8)
-		(uuid "793810d2-1d44-4992-826b-79c12e31bc35")
+		(at 60.96 27.94)
+		(uuid "0efc01a9-26f5-42f8-954e-c31e30113f16")
 	)
 	(no_connect
 		(at 114.3 154.94)
@@ -3803,6 +3807,16 @@
 			(type default)
 		)
 		(uuid "0a1e1382-56a8-4b4f-b318-95f70ef7c3cf")
+	)
+	(wire
+		(pts
+			(xy 60.96 43.18) (xy 58.42 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c916594-b205-40ec-b576-3e14bae77bff")
 	)
 	(wire
 		(pts
@@ -4556,6 +4570,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 45.72) (xy 73.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ece2451-ce79-408e-b17f-a8124ed169b1")
+	)
+	(wire
+		(pts
 			(xy 114.3 121.92) (xy 119.38 121.92)
 		)
 		(stroke
@@ -4646,7 +4670,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 30.48) (xy 71.12 30.48)
+			(xy 76.2 30.48) (xy 73.66 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4816,6 +4840,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 45.72) (xy 73.66 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0877387-ce77-4ee5-8370-e0aaee32b965")
+	)
+	(wire
+		(pts
 			(xy 43.18 25.4) (xy 53.34 25.4)
 		)
 		(stroke
@@ -4933,6 +4967,16 @@
 			(type default)
 		)
 		(uuid "af0fdec5-c8da-47f0-b326-13ee31ac785f")
+	)
+	(wire
+		(pts
+			(xy 58.42 43.18) (xy 58.42 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b15ef378-b423-4ba6-bdd7-d1904a017977")
 	)
 	(wire
 		(pts
@@ -5313,6 +5357,16 @@
 			(type default)
 		)
 		(uuid "d726acfa-d553-475f-97e5-617ec557236d")
+	)
+	(wire
+		(pts
+			(xy 73.66 30.48) (xy 71.12 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7cb12f5-3136-40ea-8af4-984fd5cdc940")
 	)
 	(wire
 		(pts
@@ -22733,168 +22787,7 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:SW_DPDT_x2")
-		(at 66.04 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aec81dcf-fc5b-46e5-947d-47bff553cc1c")
-		(property "Reference" "SW1"
-			(at 66.04 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL2230EEF140"
-			(at 66.802 40.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "*CapStone*:SW_TL2230EEF140"
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/TL2230EEF140/4029358"
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "E-Switch"
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "TL2230EEF140"
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "Bulk"
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.85"
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "DigiKey"
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier P/N" "EG6031-ND"
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Through Hole"
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit" "pcs"
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b77dd5d1-0ff1-4025-93ce-31e7eef38e79")
-		)
-		(pin "6"
-			(uuid "f2c1294d-7bb6-4002-a747-a4830e0833a6")
-		)
-		(pin "5"
-			(uuid "fb7aa2b1-3b50-4832-bfa9-33c906637f3a")
-		)
-		(pin "1"
-			(uuid "f4eb6c6d-bde8-429f-9e21-42c4a12d9c03")
-		)
-		(pin "4"
-			(uuid "fdf9f36e-c752-4db0-94c5-235b22dadccf")
-		)
-		(pin "2"
-			(uuid "ca342e3b-026d-408e-8048-abbab232409c")
-		)
-		(instances
-			(project ""
-				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/9b56d3ca-82a9-4c6a-8125-2948d5100470"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "capstone_parts:SW_DPDT_x2")
-		(at 66.04 48.26 0)
-		(mirror x)
+		(at 66.04 45.72 180)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22902,14 +22795,6 @@
 		(dnp no)
 		(uuid "aec81dcf-fc5b-46e5-947d-47bff553cc1c")
 		(property "Reference" "SW1"
-			(at 66.04 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL2230EEF140"
 			(at 66.04 54.61 0)
 			(effects
 				(font
@@ -22917,8 +22802,16 @@
 				)
 			)
 		)
+		(property "Value" "TL2230EEF140"
+			(at 66.04 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "*CapStone*:SW_TL2230EEF140"
-			(at 66.04 48.26 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22927,7 +22820,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 48.26 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22936,7 +22829,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 66.04 48.26 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22945,7 +22838,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/TL2230EEF140/4029358"
-			(at 66.04 48.26 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22954,7 +22847,7 @@
 			)
 		)
 		(property "Manufacturer" "E-Switch"
-			(at 66.04 48.26 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22963,7 +22856,7 @@
 			)
 		)
 		(property "Manufacturer Part" "TL2230EEF140"
-			(at 66.04 48.26 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22972,7 +22865,7 @@
 			)
 		)
 		(property "Package" "Bulk"
-			(at 66.04 48.26 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22981,7 +22874,7 @@
 			)
 		)
 		(property "Price" "0.85"
-			(at 66.04 48.26 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22990,7 +22883,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 66.04 48.26 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22999,7 +22892,7 @@
 			)
 		)
 		(property "Supplier P/N" "EG6031-ND"
-			(at 66.04 48.26 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23008,7 +22901,7 @@
 			)
 		)
 		(property "Type" "Through Hole"
-			(at 66.04 48.26 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23017,7 +22910,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 66.04 48.26 0)
+			(at 66.04 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23048,6 +22941,167 @@
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/9b56d3ca-82a9-4c6a-8125-2948d5100470"
 					(reference "SW1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capstone_parts:SW_DPDT_x2")
+		(at 66.04 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aec81dcf-fc5b-46e5-947d-47bff553cc1c")
+		(property "Reference" "SW1"
+			(at 66.04 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL2230EEF140"
+			(at 66.294 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "*CapStone*:SW_TL2230EEF140"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/TL2230EEF140/4029358"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "E-Switch"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TL2230EEF140"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Bulk"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.85"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "EG6031-ND"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Through Hole"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b77dd5d1-0ff1-4025-93ce-31e7eef38e79")
+		)
+		(pin "6"
+			(uuid "f2c1294d-7bb6-4002-a747-a4830e0833a6")
+		)
+		(pin "5"
+			(uuid "fb7aa2b1-3b50-4832-bfa9-33c906637f3a")
+		)
+		(pin "1"
+			(uuid "f4eb6c6d-bde8-429f-9e21-42c4a12d9c03")
+		)
+		(pin "4"
+			(uuid "fdf9f36e-c752-4db0-94c5-235b22dadccf")
+		)
+		(pin "2"
+			(uuid "ca342e3b-026d-408e-8048-abbab232409c")
+		)
+		(instances
+			(project ""
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/f9f22bb2-829e-4ff5-89be-c4b5e2122135/9b56d3ca-82a9-4c6a-8125-2948d5100470"
+					(reference "SW1")
+					(unit 1)
 				)
 			)
 		)
