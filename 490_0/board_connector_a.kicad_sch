@@ -8273,6 +8273,10 @@
 		(uuid "640cfe2a-e79b-4816-8ca5-a994767b8359")
 	)
 	(no_connect
+		(at 124.46 59.69)
+		(uuid "672750ae-9bce-4c02-9297-4ffc387ffc12")
+	)
+	(no_connect
 		(at 218.44 40.64)
 		(uuid "6b887681-236a-4e49-a3bd-46a5f6af5058")
 	)
@@ -8593,16 +8597,6 @@
 			(type default)
 		)
 		(uuid "03aa6b22-e005-4344-ab17-d0f2e7a7c4bf")
-	)
-	(wire
-		(pts
-			(xy 142.24 59.69) (xy 124.46 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04ed5c50-3997-493b-9822-18be5607fd4b")
 	)
 	(wire
 		(pts
@@ -12210,17 +12204,6 @@
 			(justify right)
 		)
 		(uuid "c790b352-af09-40f9-bf20-8b57ba9762d1")
-	)
-	(hierarchical_label "GPIO13"
-		(shape output)
-		(at 142.24 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c9b39ec1-c5ce-41cb-9da1-96900c1d01de")
 	)
 	(hierarchical_label "HDMI0_CLK_N"
 		(shape output)

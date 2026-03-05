@@ -3524,6 +3524,12 @@
 		(uuid "313eadb1-c78a-4375-841c-cc3383d2a2d8")
 	)
 	(junction
+		(at 38.1 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44adf2e4-cf3a-46de-8bb2-7977e02c553f")
+	)
+	(junction
 		(at 48.26 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3534,12 +3540,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62b98248-7451-42e7-a147-f497a6dd571f")
-	)
-	(junction
-		(at 38.1 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70a30759-c329-4dfe-99a8-145c611b16d3")
 	)
 	(junction
 		(at 91.44 71.12)
@@ -4241,6 +4241,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 119.38) (xy 38.1 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cfdea2a-89a4-40bd-acba-5057caaac403")
+	)
+	(wire
+		(pts
 			(xy 33.02 157.48) (xy 33.02 160.02)
 		)
 		(stroke
@@ -4438,6 +4448,16 @@
 			(type default)
 		)
 		(uuid "778dd41e-314e-4751-a788-684ad9825d94")
+	)
+	(wire
+		(pts
+			(xy 38.1 134.62) (xy 38.1 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a03240a-eb5c-4945-b2eb-d753e86d3b0a")
 	)
 	(wire
 		(pts
@@ -4758,16 +4778,6 @@
 			(type default)
 		)
 		(uuid "a959c4b5-e9e7-4a56-a77d-f68f98bc15a8")
-	)
-	(wire
-		(pts
-			(xy 30.48 119.38) (xy 38.1 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac4b150f-86de-42df-ab41-dcc78f836a6c")
 	)
 	(wire
 		(pts
@@ -11637,17 +11647,6 @@
 		)
 		(uuid "e447edbe-d975-464a-8dde-e8c1564bd534")
 	)
-	(hierarchical_label "HUB_RESET_N"
-		(shape input)
-		(at 30.48 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21ca3154-b96e-40e5-a259-1e5082f48749")
-	)
 	(hierarchical_label "USB_N"
 		(shape bidirectional)
 		(at 91.44 111.76 180)
@@ -13747,6 +13746,175 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/068f11fb-720d-48b0-8797-6d8a5a01cc51"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capstone_parts:C")
+		(at 38.1 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ce260c3-b1f1-4fff-9ddc-2cffa8baa7b1")
+		(property "Reference" "C31"
+			(at 31.496 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 31.496 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Indicator" "+"
+			(at 39.37 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "V"
+			(at 38.735 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 (1608 Metric)"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.08"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier P/N" "311-1344-1-ND"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD, MLCC"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5fcff00-0c89-4684-b870-2d5e7681062d")
+		)
+		(pin "2"
+			(uuid "6dc857a6-a3d3-49ed-9967-f050783629df")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/068f11fb-720d-48b0-8797-6d8a5a01cc51"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -16591,6 +16759,71 @@
 			(project "490_0"
 				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/068f11fb-720d-48b0-8797-6d8a5a01cc51"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d5e4680-3d0a-43a8-9275-207e96488b27")
+		(property "Reference" "#PWR082"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_GLASSES"
+			(at 32.004 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8785f8b7-b3fc-48fd-aae7-011e9c1f2710")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f/068f11fb-720d-48b0-8797-6d8a5a01cc51"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
