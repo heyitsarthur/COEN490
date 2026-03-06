@@ -4963,25 +4963,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "006d1644-ea54-4112-9dfb-8ea6d7fd8066")
 		(property "Reference" "J8"
-			(at 33.02 77.47 0)
+			(at 24.638 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0522711579"
-			(at 33.02 80.01 0)
+		(property "Value" "0526101571"
+			(at 24.638 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "*CapStone*:CON_522711579_MOL"
+		(property "Footprint" "*CapStone*:CON_526101571_MOL"
 			(at 33.02 101.6 0)
 			(effects
 				(font
@@ -4990,7 +4989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://15pin connector.pdf"
+		(property "Datasheet" "kicad-embed://15 pin connector vertical.pdf"
 			(at 33.02 101.6 0)
 			(effects
 				(font
@@ -4999,7 +4998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN FPC BOTTOM 15POS 1MM R/A"
+		(property "Description" "CONN VERT 15POS 1MM SMD"
 			(at 33.02 101.6 0)
 			(effects
 				(font
@@ -5008,7 +5007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/molex/0522711579/3262879?s=N4IgTCBcDaILIHsA2BTAHgAgKxjAdgEYBaArPAThAF0BfIA"
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/molex/0526101571/2421827"
 			(at 33.02 101.6 0)
 			(effects
 				(font
@@ -5026,7 +5025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "0522711579"
+		(property "Manufacturer Part" "0526101571"
 			(at 33.02 101.6 0)
 			(effects
 				(font
@@ -5035,7 +5034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "1.7"
+		(property "Price" "1.32"
 			(at 33.02 101.6 0)
 			(effects
 				(font
@@ -5053,7 +5052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier P/N" "WM10967CT-ND"
+		(property "Supplier P/N" "900-0526101571CT-ND"
 			(at 33.02 101.6 0)
 			(effects
 				(font
