@@ -4956,17 +4956,15 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:Conn_01x15")
-		(at 33.02 101.6 0)
-		(mirror y)
+		(at 33.02 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "006d1644-ea54-4112-9dfb-8ea6d7fd8066")
 		(property "Reference" "J8"
-			(at 33.02 77.47 0)
+			(at 24.638 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +4972,7 @@
 			)
 		)
 		(property "Value" "0522711579"
-			(at 33.02 80.01 0)
+			(at 24.638 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
