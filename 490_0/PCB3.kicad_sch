@@ -5,7 +5,98 @@
 	(uuid "cc393aae-4351-48e0-9598-038cf445176f")
 	(paper "USLetter")
 	(lib_symbols
+<<<<<<< Updated upstream
 		(symbol "Connector:HDMI_A"
+=======
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "capstone_parts:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+>>>>>>> Stashed changes
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4637,14 +4728,20 @@
 		)
 		(uuid "ff727f8e-6dd5-4b8a-b39c-2b48d0a7aa3a")
 	)
+<<<<<<< Updated upstream
 	(label "D1+"
 		(at 85.09 160.02 180)
+=======
+	(label "D3-"
+		(at 97.79 182.88 180)
+>>>>>>> Stashed changes
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "05d1a417-a0de-44c9-aeff-3efb40ff852e")
 	)
 	(label "D1-"
@@ -4686,6 +4783,9 @@
 			(justify right bottom)
 		)
 		(uuid "54748aa7-e8a2-47c4-9581-3035d5db6519")
+=======
+		(uuid "14619059-ce1b-4609-8325-1a8ce47e86cb")
+>>>>>>> Stashed changes
 	)
 	(label "CK+"
 		(at 200.66 116.84 180)
@@ -4695,36 +4795,58 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "5606990c-e145-408a-89b4-c23fa8cc286f")
 	)
 	(label "D0-"
 		(at 200.66 93.98 180)
+=======
+		(uuid "23b60fb1-adaf-4ec8-b315-0983c8d5c3ec")
+	)
+	(label "D2-"
+		(at 97.79 172.72 180)
+>>>>>>> Stashed changes
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "622337cb-d453-4416-83a5-0fb4ffeb3de1")
 	)
 	(label "D2+"
 		(at 85.09 170.18 180)
+=======
+		(uuid "26241228-3ceb-491d-9c8b-58d663b1820b")
+	)
+	(label "D1+"
+		(at 200.66 106.68 180)
+>>>>>>> Stashed changes
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "78ecb51a-d987-4b0d-8511-21853239eb17")
 	)
 	(label "D0-"
 		(at 85.09 152.4 180)
+=======
+		(uuid "2c41ed70-cce1-401e-bbd8-6c58e4fa3214")
+	)
+	(label "D1+"
+		(at 97.79 160.02 180)
+>>>>>>> Stashed changes
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "81ee25c1-408e-4e30-bebf-7369a9ccb2cb")
 	)
 	(label "D1-"
@@ -4746,6 +4868,9 @@
 			(justify right bottom)
 		)
 		(uuid "e75880bb-8c74-4b28-8358-ff92e576c71a")
+=======
+		(uuid "390a65ea-f923-4c1e-b4bd-ccdd4ac3106a")
+>>>>>>> Stashed changes
 	)
 	(label "CK-"
 		(at 200.66 114.3 180)
@@ -4755,7 +4880,111 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "f72057c8-2b97-4f22-9cf8-d5dbe135a9bb")
+=======
+		(uuid "3bee419d-820d-4519-9517-d39182ed7133")
+	)
+	(label "D0-"
+		(at 200.66 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49459c54-db89-4f53-917e-a996da80b0c6")
+	)
+	(label "D3+"
+		(at 97.79 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ddae71e-bcf6-4f4a-a14b-3b9cc8e02bb2")
+	)
+	(label "D2+"
+		(at 97.79 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82fcbb7b-d16b-406b-bc71-e92650c60819")
+	)
+	(label "D0-"
+		(at 97.79 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95f19bbf-d76f-4f09-b8d3-f1111c8e1680")
+	)
+	(label "D2+"
+		(at 200.66 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9eececa0-de06-476b-9910-1a546c8799ee")
+	)
+	(label "D1-"
+		(at 97.79 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ff870ae-dc78-419a-9624-0c650b3949f8")
+	)
+	(label "D1-"
+		(at 200.66 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be0cfa2a-bc91-4cbb-b020-c815cc0d63f4")
+	)
+	(label "D0+"
+		(at 97.79 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da775002-7c47-4f80-ab0d-16b9dbd85af4")
+	)
+	(label "D0+"
+		(at 200.66 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dca3a757-76c1-41e1-94e7-a12cf3c1760c")
+	)
+	(label "D2-"
+		(at 200.66 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de7f65c8-bd55-4ca5-98c8-5f5f9e4fa112")
+>>>>>>> Stashed changes
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x15")
@@ -5754,6 +5983,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 248.92 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40c4fbba-98e3-47a5-ac3e-6ff0a3001915")
+		(property "Reference" "H3"
+			(at 251.46 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 251.46 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 248.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 248.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 143.51 147.32 0)
 		(mirror y)
@@ -6035,6 +6328,203 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
+=======
+		(lib_id "Mechanical:MountingHole")
+		(at 248.92 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c608aae-22f2-498e-9593-e4862677a860")
+		(property "Reference" "H4"
+			(at 251.46 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 251.46 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 248.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 248.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 248.92 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63b07e35-1de9-47d5-a93d-c0ba2424ac59")
+		(property "Reference" "H2"
+			(at 251.46 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 251.46 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 210.82 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fabb6eb-7e24-42c9-8bd6-795bfead68b9")
+		(property "Reference" "#FLG010"
+			(at 210.82 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 210.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6610eab-b170-43d4-a8ca-07993dce1fba")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f"
+					(reference "#FLG010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> Stashed changes
 		(lib_id "capstone_parts:TPD8S009DSMR")
 		(at 85.09 152.4 0)
 		(unit 1)
@@ -6962,7 +7452,140 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "PCM_Diode_TVS_AKL:SMF5.0A")
+=======
+		(lib_id "power:GND")
+		(at 40.64 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eca270f6-be85-4ef9-9f7f-bd2b50b15fad")
+		(property "Reference" "#PWR0134"
+			(at 40.64 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_GLASSES"
+			(at 34.544 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d2991b2-cf21-434c-809a-b3044ae5e69c")
+		)
+		(instances
+			(project "490_0"
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 248.92 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef3bd8e8-b1e3-41b4-9782-65d531cad4fc")
+		(property "Reference" "H1"
+			(at 251.46 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 251.46 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 248.92 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 248.92 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/365a82ed-827d-43e1-aa2f-b98221c4179c/a8971e06-9d2b-4df6-83ab-783791bb1c3f"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capstone_parts:SMF5.0A")
+>>>>>>> Stashed changes
 		(at 111.76 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
