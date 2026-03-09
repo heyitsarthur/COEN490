@@ -63085,13 +63085,14 @@
 		(embedded_fonts no)
 	)
 	(footprint "*CapStone*:HIROSE_DF40C-100DS-0.4V_51_"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "970b651f-9dbe-4836-9425-ca293d0b9b98")
-		(at 40.764337 21.748901)
+		(at 78 103)
 		(property "Reference" "J16"
 			(at -8.325 -2.925 0)
 			(layer "F.SilkS")
-			(uuid "bf7a298a-b12b-4d4e-abe5-26382daee64e")
+			(uuid "00789543-d973-4bc9-9d9c-25521d993eaf")
 			(effects
 				(font
 					(size 1 1)
@@ -63102,7 +63103,7 @@
 		(property "Value" "DF40HC(3.0)-100DS-0.4V(58)"
 			(at 5.645 2.865 0)
 			(layer "F.Fab")
-			(uuid "c5d85de5-ed8b-4c2e-9b3c-b1eae98c81c6")
+			(uuid "0e25df62-7ee3-49b9-b59e-6c64be2b70a3")
 			(effects
 				(font
 					(size 1 1)
@@ -63114,7 +63115,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bfe3775-9fe9-494d-b5f6-7970333bc616")
+			(uuid "988add9c-6092-4b7f-b293-828796dc2533")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63126,7 +63127,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a41c9e53-4436-4019-90a3-c9e0e111f93d")
+			(uuid "6bfe85ca-109a-4ea1-9f6b-63383cbc7560")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82157,13 +82158,14 @@
 		)
 	)
 	(footprint "*CapStone*:HIROSE_DF40C-100DS-0.4V_51_"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b9a82419-4022-4701-a72c-83ba4f5c3aa1")
-		(at 40.764337 27.593901)
+		(at 78 137)
 		(property "Reference" "J17"
 			(at -8.325 -2.925 0)
 			(layer "F.SilkS")
-			(uuid "64a78b26-6384-4952-8ad5-5452f836b968")
+			(uuid "97dcba88-494e-4109-b654-9a2137615600")
 			(effects
 				(font
 					(size 1 1)
@@ -82174,7 +82176,7 @@
 		(property "Value" "DF40HC(3.0)-100DS-0.4V(58)"
 			(at 5.645 2.865 0)
 			(layer "F.Fab")
-			(uuid "0e717faf-e63d-44d0-8d58-283196989b63")
+			(uuid "f62d646e-b4fa-4ab0-89e0-9b48deea3be1")
 			(effects
 				(font
 					(size 1 1)
@@ -82186,7 +82188,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6806460-f151-4207-bced-3d8f80a72014")
+			(uuid "f3bf3e4a-620b-4f68-a0ba-85acafbd4059")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82198,7 +82200,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c733ac6-6495-4190-8c8c-143cdeed41d3")
+			(uuid "7291984b-2150-4013-aca0-bbca057e7c57")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111795,6 +111797,17 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_rect
+		(start 50 100)
+		(end 105 140)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "53f1e4a5-587b-4f11-8b8f-430f748dc6bb")
 	)
 	(gr_rect
 		(start 120 20.2)
