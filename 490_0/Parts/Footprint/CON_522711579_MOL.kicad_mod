@@ -1,58 +1,612 @@
-(footprint "CON_522711579_MOL" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tags "522711579 ")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -7.62 unlocked) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value CON_522711579_MOL (at 0 -7.62 unlocked) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text user "${REFERENCE}" (at 0 -7.62 unlocked) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -12.269978 -4.97) (end -12.269978 4.97) (layer "F.CrtYd") (width 0.127))
-  (fp_line (start -12.269978 4.97) (end 12.269978 4.97) (layer "F.CrtYd") (width 0.127))
-  (fp_line (start 12.269978 4.97) (end 12.269978 -4.97) (layer "F.CrtYd") (width 0.127))
-  (fp_line (start 12.269978 -4.97) (end -12.269978 -4.97) (layer "F.CrtYd") (width 0.127))
-  (fp_line (start -7.824978 -6.478999) (end -6.046978 -6.478999) (layer "F.Fab") (width 0.127))
-  (fp_line (start -6.046978 -6.478999) (end -7.062978 -4.904199) (layer "F.Fab") (width 0.127))
-  (fp_line (start -7.824978 -6.478999) (end -7.062978 -4.904199) (layer "F.Fab") (width 0.127))
-  (fp_line (start -7.824978 -6.478999) (end -6.046978 -6.478999) (layer "F.SilkS") (width 0.1524))
-  (fp_line (start -6.046978 -6.478999) (end -7.062978 -4.904199) (layer "F.SilkS") (width 0.1524))
-  (fp_line (start -7.824978 -6.478999) (end -7.062978 -4.904199) (layer "F.SilkS") (width 0.1524))
-  (fp_line (start -10.999978 -3.7) (end -10.999978 -2.417498) (layer "F.SilkS") (width 0.1524))
-  (fp_line (start -10.999978 3.7) (end 10.999978 3.7) (layer "F.SilkS") (width 0.1524))
-  (fp_line (start 10.999978 3.7) (end 10.999978 1.017501) (layer "F.SilkS") (width 0.1524))
-  (fp_line (start 10.999978 -3.7) (end 7.617514 -3.7) (layer "F.SilkS") (width 0.1524))
-  (fp_text user "522711579" (at 0 -10.16 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text user "522711579" (at 0 -10.16 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -10.999978 3.7) (end 10.999978 3.7) (layer "F.Fab") (width 0.127))
-  (fp_line (start 10.999978 3.7) (end 10.999978 -3.7) (layer "F.Fab") (width 0.127))
-  (fp_line (start 10.999978 -3.7) (end -10.999978 -3.7) (layer "F.Fab") (width 0.127))
-  (fp_line (start -10.999978 -3.7) (end -10.999978 3.7) (layer "F.Fab") (width 0.127))
-  (fp_line (start -7.617486 -3.7) (end -10.999978 -3.7) (layer "F.SilkS") (width 0.1524))
-  (fp_line (start -10.999978 1.017501) (end -10.999978 3.7) (layer "F.SilkS") (width 0.1524))
-  (fp_line (start 10.999978 -2.417498) (end 10.999978 -3.7) (layer "F.SilkS") (width 0.1524))
-  (pad "1" smd rect (at -6.999986 -3.049999) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "2" smd rect (at -5.999985 -3.049999) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "3" smd rect (at -4.999985 -3.049999) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "4" smd rect (at -3.999987 -3.049999) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "5" smd rect (at -2.999986 -3.049999) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "6" smd rect (at -1.999986 -3.049999) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "7" smd rect (at -0.999985 -3.049999) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "8" smd rect (at 1.5E-05 -3.049999) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "9" smd rect (at 1.000013 -3.049999) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "10" smd rect (at 2.000014 -3.049999) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "11" smd rect (at 3.000014 -3.049999) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "12" smd rect (at 4.000015 -3.049999) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "13" smd rect (at 5.000015 -3.049999) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "14" smd rect (at 6.000013 -3.049999) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "15" smd rect (at 7.000014 -3.049999) (size 0.6 1.9) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "P1" smd rect (at -10.149986 -0.699999) (size 2.1 2.799999) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "P2" smd rect (at 10.149986 -0.699999) (size 2.1 2.799999) (layers "F.Cu" "F.Paste" "F.Mask"))
+(footprint "CON_522711579_MOL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "522711579 ")
+	(property "Reference" "REF**"
+		(at 0 -7.62 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+<<<<<<< Updated upstream
+		(uuid "ab58bfee-d89b-455c-ba80-49a157af814b")
+=======
+		(uuid "a8f18af6-e304-4b3d-9709-fe6f891203fb")
+>>>>>>> Stashed changes
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CON_522711579_MOL"
+		(at 0 -7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+<<<<<<< Updated upstream
+		(uuid "00c692a8-3510-4128-abb2-35cc0e74bee7")
+=======
+		(uuid "604d3e6a-5d4b-4e06-9435-67a18a972238")
+>>>>>>> Stashed changes
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+<<<<<<< Updated upstream
+		(uuid "3d2702e4-7d92-494a-9cad-3c4b2df28a23")
+=======
+		(uuid "0ffd6cdf-0c5c-4fee-93ae-b6f693ca7e56")
+>>>>>>> Stashed changes
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+<<<<<<< Updated upstream
+		(uuid "b0003f02-5e32-4e36-89a1-66c5584b731f")
+=======
+		(uuid "b8c403d4-e7e3-455c-8090-d5c79197aa98")
+>>>>>>> Stashed changes
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -10.999978 -3.7)
+		(end -10.999978 -2.417498)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+<<<<<<< Updated upstream
+		(uuid "39d8a2a1-94fc-463a-a3ba-e0204881bd59")
+=======
+		(uuid "50238b54-8561-4bae-80c5-9c0748f175c8")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start -10.999978 1.017501)
+		(end -10.999978 3.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+<<<<<<< Updated upstream
+		(uuid "6f98fa26-2fef-4f49-b73e-bad68953c522")
+=======
+		(uuid "393b1765-fa52-4b06-a973-bd18718f9897")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start -10.999978 3.7)
+		(end 10.999978 3.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+<<<<<<< Updated upstream
+		(uuid "eacd4f62-44ab-42c9-91ee-ed0c283c554d")
+=======
+		(uuid "4c1c24d6-2f3c-4dfb-b485-7959aefd414a")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start -7.824978 -6.478999)
+		(end -7.062978 -4.904199)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+<<<<<<< Updated upstream
+		(uuid "ac298776-cf55-4fef-9244-07e931d6e442")
+=======
+		(uuid "395b7b66-92d6-45e0-a894-f5f90329509c")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start -7.824978 -6.478999)
+		(end -6.046978 -6.478999)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+<<<<<<< Updated upstream
+		(uuid "7088744e-a342-487e-bc6d-2398b75db931")
+=======
+		(uuid "04de9e5d-2eb9-413d-89b4-74148360e356")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start -7.617486 -3.7)
+		(end -10.999978 -3.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+<<<<<<< Updated upstream
+		(uuid "53dd00c5-845a-4665-9747-ecf08551a083")
+=======
+		(uuid "09012293-3402-4a0c-a976-aa17c40e3d0f")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start -6.046978 -6.478999)
+		(end -7.062978 -4.904199)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+<<<<<<< Updated upstream
+		(uuid "81c3febc-8110-4605-ba6e-1a4840626f95")
+=======
+		(uuid "0bd9af1f-8763-4366-91f0-d5acda810bb8")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start 10.999978 -3.7)
+		(end 7.617514 -3.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+<<<<<<< Updated upstream
+		(uuid "0a6d1242-a5ef-4714-80db-f3d40e0cae00")
+=======
+		(uuid "4463ff40-a1e3-42d0-bef2-cedd464b24d9")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start 10.999978 -2.417498)
+		(end 10.999978 -3.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+<<<<<<< Updated upstream
+		(uuid "177185c7-dce0-4e29-a899-c99934d01c89")
+=======
+		(uuid "1b5f9b98-32b9-4c94-abcb-cd4648362574")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start 10.999978 3.7)
+		(end 10.999978 1.017501)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+<<<<<<< Updated upstream
+		(uuid "f6f0688c-f0de-4f35-9f4e-049bd0d658c8")
+=======
+		(uuid "25645ce6-13da-4ac3-a252-6fe11620dbf2")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start -12.269978 -4.97)
+		(end -12.269978 4.97)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+<<<<<<< Updated upstream
+		(uuid "5d93c963-e26d-45eb-84d0-a5c2f5fc341e")
+=======
+		(uuid "cfd6f5ce-6acd-4578-be36-ac66e09a4c5d")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start -12.269978 4.97)
+		(end 12.269978 4.97)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+<<<<<<< Updated upstream
+		(uuid "381971f6-b629-4b9e-aa5a-1192de60c772")
+=======
+		(uuid "d1b1b808-05ff-47b3-9933-1e07f9e05aeb")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start 12.269978 -4.97)
+		(end -12.269978 -4.97)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+<<<<<<< Updated upstream
+		(uuid "a1a57260-e906-4ca0-8bc6-6cfedbd9e6e5")
+=======
+		(uuid "208baa53-85e3-471a-90fa-23f4082f9c13")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start 12.269978 4.97)
+		(end 12.269978 -4.97)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+<<<<<<< Updated upstream
+		(uuid "1afac350-79d4-44aa-b874-9820dff52aeb")
+=======
+		(uuid "94d57031-3c8a-4f54-a57f-d92ea5793ff8")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start -10.999978 -3.7)
+		(end -10.999978 3.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+<<<<<<< Updated upstream
+		(uuid "4f750989-e1cc-4c23-9aea-a847320be206")
+=======
+		(uuid "2ce805c7-c1ab-4f91-ae85-e372780b6ad2")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start -10.999978 3.7)
+		(end 10.999978 3.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+<<<<<<< Updated upstream
+		(uuid "3852d04c-9d35-4a35-8752-3cbd5587cd6b")
+=======
+		(uuid "e042a6d4-d2ee-422b-953d-0d61b6d863ab")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start -7.824978 -6.478999)
+		(end -7.062978 -4.904199)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+<<<<<<< Updated upstream
+		(uuid "68ccb2fd-638f-41f2-8dfe-b6df8f3a7701")
+=======
+		(uuid "8f5ab641-c2ca-4a78-a507-62d602756f39")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start -7.824978 -6.478999)
+		(end -6.046978 -6.478999)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+<<<<<<< Updated upstream
+		(uuid "6b542cf4-96d8-48d3-bec2-d6eaa7700aa6")
+=======
+		(uuid "b74e5b5e-ae9f-4f2e-8809-9e5304a93303")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start -6.046978 -6.478999)
+		(end -7.062978 -4.904199)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+<<<<<<< Updated upstream
+		(uuid "0a65c6a5-2e52-4c2f-8eb0-c7938b54b893")
+=======
+		(uuid "c93f8edd-fd20-48b2-b795-33cbfabdfa0b")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start 10.999978 -3.7)
+		(end -10.999978 -3.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+<<<<<<< Updated upstream
+		(uuid "6312b4c0-6e7b-4df9-be1c-4bc58bf12c2d")
+=======
+		(uuid "0eda1867-43af-4ab5-8d81-9193a8c39b12")
+>>>>>>> Stashed changes
+	)
+	(fp_line
+		(start 10.999978 3.7)
+		(end 10.999978 -3.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+<<<<<<< Updated upstream
+		(uuid "1592215e-f359-48a5-af22-9cdfb708b173")
+=======
+		(uuid "4ff61dbd-ab4d-4e3e-b9fc-57668b7062a7")
+>>>>>>> Stashed changes
+	)
+	(fp_text user "522711579"
+		(at 0 -10.16 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+<<<<<<< Updated upstream
+		(uuid "01e913e8-01c2-4b49-92c4-46a627c2f34e")
+=======
+		(uuid "a2b27b1f-c5bb-462b-86f5-ee74adad71f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "522711579"
+		(at 0 -10.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c73e9bd6-19b5-4c0c-a538-215e4d76424b")
+>>>>>>> Stashed changes
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+<<<<<<< Updated upstream
+		(uuid "0142987d-7b55-4ce9-b6ad-68d2a94396ad")
+=======
+		(uuid "f7e5428b-3047-4697-a979-04429fe8626a")
+>>>>>>> Stashed changes
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+<<<<<<< Updated upstream
+	(fp_text user "522711579"
+		(at 0 -10.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6fe8f12f-c025-403b-bf3b-15df31348f2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+=======
+	(pad "" smd rect
+		(at -10.149986 -0.699999)
+		(size 2.1 2.799999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e41b901a-9ac3-4945-a64a-1d9d9165c179")
+	)
+	(pad "" smd rect
+		(at 10.149986 -0.699999)
+		(size 2.1 2.799999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7be64b23-52e1-47ae-a5af-ecc598c2812f")
+>>>>>>> Stashed changes
+	)
+	(pad "1" smd rect
+		(at -6.999986 -3.049999)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+		(uuid "504d0b0a-1a3d-490c-a203-c999b87ad091")
+=======
+		(uuid "0ea4fb5f-ab93-4499-b726-9970c7894ec3")
+>>>>>>> Stashed changes
+	)
+	(pad "2" smd rect
+		(at -5.999985 -3.049999)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+		(uuid "cce1ce41-fd5d-48b8-8a8a-118654d0100b")
+=======
+		(uuid "579f7b2e-ab61-4a2d-9a93-e59add9247e9")
+>>>>>>> Stashed changes
+	)
+	(pad "3" smd rect
+		(at -4.999985 -3.049999)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+		(uuid "dd7eb1ba-0837-4b7f-abae-7a0aecc3a732")
+=======
+		(uuid "a54c56c2-71f3-4edb-a42f-d16d28c0c0f6")
+>>>>>>> Stashed changes
+	)
+	(pad "4" smd rect
+		(at -3.999987 -3.049999)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+		(uuid "9a4da963-63eb-4330-8c96-8301e3396939")
+=======
+		(uuid "16acad3e-ab54-42ed-98cb-d32b13606d06")
+>>>>>>> Stashed changes
+	)
+	(pad "5" smd rect
+		(at -2.999986 -3.049999)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+		(uuid "690250e6-ed2c-4888-874e-2694bbb0b01a")
+=======
+		(uuid "1006e7d9-d211-4ea5-87c6-3f0a50911a5d")
+>>>>>>> Stashed changes
+	)
+	(pad "6" smd rect
+		(at -1.999986 -3.049999)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+		(uuid "520d23ce-855b-4fe9-8ba4-a6895633d73f")
+=======
+		(uuid "ae2bb406-d3c2-4b97-913a-b36ba134d03c")
+>>>>>>> Stashed changes
+	)
+	(pad "7" smd rect
+		(at -0.999985 -3.049999)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+		(uuid "4ad00610-f963-417a-b76a-3b709281da58")
+=======
+		(uuid "6a08a754-7729-4df3-a64b-6686f9549ead")
+>>>>>>> Stashed changes
+	)
+	(pad "8" smd rect
+		(at 0.000015 -3.049999)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+		(uuid "10ff5af2-9fae-437b-921d-4c02749290e3")
+=======
+		(uuid "85fd15fe-336d-47a9-919d-ef132e07f921")
+>>>>>>> Stashed changes
+	)
+	(pad "9" smd rect
+		(at 1.000013 -3.049999)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+		(uuid "86f37e31-9b7d-46f9-9406-953fa93ad032")
+=======
+		(uuid "33af351b-b863-4b8e-8a7a-90c371c350c5")
+>>>>>>> Stashed changes
+	)
+	(pad "10" smd rect
+		(at 2.000014 -3.049999)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+		(uuid "3a7e44f7-3475-47d1-b9c2-badb2ed86bd7")
+=======
+		(uuid "93340e9b-7b05-4476-bb60-4beb907a1861")
+>>>>>>> Stashed changes
+	)
+	(pad "11" smd rect
+		(at 3.000014 -3.049999)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+		(uuid "a979c2e1-913d-4a2e-b556-fe61fb93b120")
+=======
+		(uuid "ea9e5785-b672-4fad-9ac1-0b6638d0e017")
+>>>>>>> Stashed changes
+	)
+	(pad "12" smd rect
+		(at 4.000015 -3.049999)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+		(uuid "5631e1cf-e52b-4dbb-8a53-16aeedefc5c1")
+=======
+		(uuid "a1c4183f-03d4-4243-b558-0bb58edc333c")
+>>>>>>> Stashed changes
+	)
+	(pad "13" smd rect
+		(at 5.000015 -3.049999)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+		(uuid "689056e3-4578-435f-88cf-370889c5aae5")
+=======
+		(uuid "f859a911-0e4c-406f-be88-b470d8dae017")
+>>>>>>> Stashed changes
+	)
+	(pad "14" smd rect
+		(at 6.000013 -3.049999)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+		(uuid "7d451471-343d-43e6-9927-2ad3bd535ca4")
+=======
+		(uuid "9602a4e1-43a2-4ff2-aa0f-7a2eeaf63a5c")
+>>>>>>> Stashed changes
+	)
+	(pad "15" smd rect
+		(at 7.000014 -3.049999)
+		(size 0.6 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+<<<<<<< Updated upstream
+		(uuid "45908818-e039-4aae-8bf2-8e795cb18601")
+	)
+	(pad "P1" smd rect
+		(at -10.149986 -0.699999)
+		(size 2.1 2.799999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "16312016-a39a-4267-a1f4-75954e400a04")
+	)
+	(pad "P2" smd rect
+		(at 10.149986 -0.699999)
+		(size 2.1 2.799999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9bc15a28-e16c-4b15-b92c-978755fb38cb")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/ardal/Dropbox/- COEN 490 - CapStone Project/3D Models/522711579.stp"
+		(offset
+			(xyz 0 2 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 180)
+		)
+	)
+=======
+		(uuid "8ef875ef-c7a7-409c-aa44-92f472c2d55d")
+	)
+	(embedded_fonts no)
+>>>>>>> Stashed changes
 )
