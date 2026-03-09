@@ -7813,6 +7813,12 @@
 		(uuid "07bb302a-57a8-4631-a38f-75e2fd0c33d0")
 	)
 	(junction
+		(at 43.18 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0820bdb2-9889-44a8-89f9-759d9ce8344b")
+	)
+	(junction
 		(at 215.9 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7909,12 +7915,6 @@
 		(uuid "3bf6681f-c2eb-4c72-bd78-cf7e1fc7231d")
 	)
 	(junction
-		(at 30.48 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3df36045-ac86-4cab-a871-15e49559d97f")
-	)
-	(junction
 		(at 25.4 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7937,12 +7937,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44ed9b31-b1d1-46e3-9b1a-fcd899beece7")
-	)
-	(junction
-		(at 33.02 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44f50f0c-e76f-4ad4-8640-3e2ad53a424c")
 	)
 	(junction
 		(at 127 148.59)
@@ -7987,22 +7981,16 @@
 		(uuid "6a0ceda8-7586-4b2b-b307-3deeaf1808f8")
 	)
 	(junction
-		(at 185.42 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "716c764b-69c7-40d4-989e-9180f8e10bb4")
-	)
-	(junction
 		(at 96.52 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "747934e0-219a-4d4f-8f3d-e82cb7d07158")
 	)
 	(junction
-		(at 33.02 60.96)
+		(at 167.64 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "798b7945-d908-4c29-8e4f-26798d27a8ef")
+		(uuid "7893a531-9f6a-4be7-b6e2-0572522f8f9b")
 	)
 	(junction
 		(at 246.38 58.42)
@@ -8021,6 +8009,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84ddcdc6-f02e-4571-a778-baa6ccc17f50")
+	)
+	(junction
+		(at 55.88 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91a38c32-e0e1-48d7-baf4-f8feb73e09c9")
 	)
 	(junction
 		(at 127 52.07)
@@ -8107,10 +8101,10 @@
 		(uuid "c1a23f9b-2dd6-4db8-9c85-21da38f6c5c1")
 	)
 	(junction
-		(at 187.96 80.01)
+		(at 50.8 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c1f02b7a-31d2-48eb-ab2b-a98c962afa7b")
+		(uuid "c3925d7e-8c71-493d-89b3-115e0da5eb79")
 	)
 	(junction
 		(at 22.86 123.19)
@@ -8143,10 +8137,10 @@
 		(uuid "d0caaacd-3ff3-413f-9039-5846622108ff")
 	)
 	(junction
-		(at 185.42 132.08)
+		(at 165.1 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d3f2f73f-3a6f-49ff-bfcc-a8a22816e4c9")
+		(uuid "d2e088c8-2c74-4b02-9e2b-0c4c6fd25309")
 	)
 	(junction
 		(at 215.9 96.52)
@@ -8165,6 +8159,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9ee183d-54fd-482a-a8c9-46640516296c")
+	)
+	(junction
+		(at 167.64 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd28a771-f52d-4e0a-a73e-adc1b3d500c1")
 	)
 	(junction
 		(at 215.9 134.62)
@@ -8656,7 +8656,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 106.68) (xy 170.18 106.68)
+			(xy 160.02 106.68) (xy 167.64 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8666,7 +8666,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 73.66) (xy 33.02 71.12)
+			(xy 43.18 73.66) (xy 43.18 71.12)
 		)
 		(stroke
 			(width 0)
@@ -8716,16 +8716,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 82.55) (xy 38.1 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c69dc39-d0c9-4c52-bbd8-3405df0902ce")
-	)
-	(wire
-		(pts
 			(xy 124.46 148.59) (xy 127 148.59)
 		)
 		(stroke
@@ -8756,7 +8746,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 80.01) (xy 187.96 80.01)
+			(xy 187.96 80.01) (xy 195.58 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8806,7 +8796,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 60.96) (xy 33.02 60.96)
+			(xy 25.4 60.96) (xy 27.94 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8926,6 +8916,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 106.68) (xy 177.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2684a3e3-7613-4e08-9e36-009af6e7e645")
+	)
+	(wire
+		(pts
 			(xy 246.38 88.9) (xy 246.38 81.28)
 		)
 		(stroke
@@ -8936,23 +8936,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 132.08) (xy 170.18 132.08)
+			(xy 165.1 132.08) (xy 167.64 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "273cbf65-4588-4f45-9cf2-9a67432c2877")
-	)
-	(wire
-		(pts
-			(xy 187.96 91.44) (xy 187.96 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bce5c48-2768-4c14-99a4-fd8abc130632")
 	)
 	(wire
 		(pts
@@ -8986,17 +8976,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 101.6) (xy 40.64 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33d2bcaa-458e-4265-9d4e-0cc5b5aa86f3")
-	)
-	(wire
-		(pts
-			(xy 124.46 80.01) (xy 170.18 80.01)
+			(xy 124.46 80.01) (xy 165.1 80.01)
 		)
 		(stroke
 			(width 0)
@@ -9036,7 +9016,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 106.68) (xy 185.42 106.68)
+			(xy 187.96 106.68) (xy 195.58 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9083,6 +9063,16 @@
 			(type default)
 		)
 		(uuid "3f9b3688-2c70-4af3-af9f-bf4d9fff0b9c")
+	)
+	(wire
+		(pts
+			(xy 165.1 90.17) (xy 165.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408a3d21-85c0-4a5f-995d-916cc8ba82db")
 	)
 	(wire
 		(pts
@@ -9193,16 +9183,6 @@
 			(type default)
 		)
 		(uuid "4d4e8fef-153b-495a-ad5d-71288d7113dd")
-	)
-	(wire
-		(pts
-			(xy 185.42 106.68) (xy 195.58 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f9adc0a-fe06-40ff-bb2c-f5a6535564d6")
 	)
 	(wire
 		(pts
@@ -9456,7 +9436,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 101.6) (xy 60.96 101.6)
+			(xy 43.18 101.6) (xy 55.88 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9526,6 +9506,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 60.96) (xy 52.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6c4d2c-1ff9-4a3a-a451-d8b98e5f55b8")
+	)
+	(wire
+		(pts
 			(xy 243.84 149.86) (xy 246.38 149.86)
 		)
 		(stroke
@@ -9536,7 +9526,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 60.96) (xy 52.07 60.96)
+			(xy 38.1 60.96) (xy 43.18 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9626,13 +9616,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 144.78) (xy 185.42 142.24)
+			(xy 167.64 144.78) (xy 167.64 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "74d0d3cd-d231-4261-938a-37891af8fa79")
+	)
+	(wire
+		(pts
+			(xy 165.1 80.01) (xy 177.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "766b80a9-6a54-40f5-9fab-fd4974c6ee1d")
 	)
 	(wire
 		(pts
@@ -9736,16 +9736,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 80.01) (xy 195.58 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e721df8-65f2-4fa5-b8c1-85533d10070e")
-	)
-	(wire
-		(pts
 			(xy 215.9 43.18) (xy 215.9 50.8)
 		)
 		(stroke
@@ -9753,6 +9743,16 @@
 			(type default)
 		)
 		(uuid "81e0278a-5093-401e-ae11-14e69f1c28d0")
+	)
+	(wire
+		(pts
+			(xy 167.64 132.08) (xy 180.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "831d5e21-0252-495b-9dca-f2a7ec23261e")
 	)
 	(wire
 		(pts
@@ -9863,16 +9863,6 @@
 			(type default)
 		)
 		(uuid "90e98df7-aa1a-49c9-87c2-9e830efda692")
-	)
-	(wire
-		(pts
-			(xy 180.34 132.08) (xy 185.42 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9104ee6a-2661-45f8-b3de-a8c6433773d5")
 	)
 	(wire
 		(pts
@@ -10086,16 +10076,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 132.08) (xy 195.58 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a890c793-2485-445d-b18a-78b884892223")
-	)
-	(wire
-		(pts
 			(xy 22.86 133.35) (xy 99.06 133.35)
 		)
 		(stroke
@@ -10136,7 +10116,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 82.55) (xy 99.06 82.55)
+			(xy 38.1 82.55) (xy 50.8 82.55)
 		)
 		(stroke
 			(width 0)
@@ -10196,6 +10176,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 132.08) (xy 195.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c09c34f5-6663-46e9-9689-97f8e082a547")
+	)
+	(wire
+		(pts
 			(xy 127 148.59) (xy 127 153.67)
 		)
 		(stroke
@@ -10206,7 +10196,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 82.55) (xy 30.48 82.55)
+			(xy 25.4 82.55) (xy 27.94 82.55)
 		)
 		(stroke
 			(width 0)
@@ -10316,7 +10306,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 119.38) (xy 185.42 116.84)
+			(xy 167.64 119.38) (xy 167.64 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10506,6 +10496,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 82.55) (xy 99.06 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9109dbc-b4c0-4c9e-bde7-d1faab1ad448")
+	)
+	(wire
+		(pts
 			(xy 58.42 182.88) (xy 58.42 185.42)
 		)
 		(stroke
@@ -10586,16 +10586,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 60.96) (xy 40.64 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3c7afe8-14da-4f07-98cd-2bdc41f295d2")
-	)
-	(wire
-		(pts
 			(xy 215.9 66.04) (xy 215.9 73.66)
 		)
 		(stroke
@@ -10623,6 +10613,16 @@
 			(type default)
 		)
 		(uuid "f9ff0492-6406-46bf-98a8-5a770b16838e")
+	)
+	(wire
+		(pts
+			(xy 55.88 101.6) (xy 60.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab3ccda-803b-4992-aee7-a3f68c32e8ee")
 	)
 	(wire
 		(pts
@@ -14241,7 +14241,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 119.38 0)
+		(at 167.64 119.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14251,7 +14251,7 @@
 		(fields_autoplaced yes)
 		(uuid "168f2e6d-5cf0-42a4-b759-0b42edb2a521")
 		(property "Reference" "#PWR0152"
-			(at 185.42 125.73 0)
+			(at 167.64 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14260,7 +14260,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 124.46 0)
+			(at 167.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14268,7 +14268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 119.38 0)
+			(at 167.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14277,7 +14277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 119.38 0)
+			(at 167.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14286,7 +14286,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 119.38 0)
+			(at 167.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14308,7 +14308,7 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:SW_Push")
-		(at 45.72 101.6 0)
+		(at 38.1 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14316,7 +14316,7 @@
 		(dnp no)
 		(uuid "1a01100a-8c6c-4043-a837-5ff1477562d1")
 		(property "Reference" "SW6"
-			(at 43.18 94.996 0)
+			(at 35.56 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14325,7 +14325,7 @@
 			)
 		)
 		(property "Value" "TL1105LF160Q"
-			(at 38.862 97.028 0)
+			(at 31.242 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14334,7 +14334,7 @@
 			)
 		)
 		(property "Footprint" "*CapStone*:SW_TL1105LF160Q"
-			(at 45.72 96.52 0)
+			(at 38.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14343,7 +14343,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://TL1105 (BUTTONS).pdf"
-			(at 45.72 96.52 0)
+			(at 38.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14352,7 +14352,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
-			(at 45.72 101.6 0)
+			(at 38.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14361,7 +14361,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/tl1105lf160q/378971"
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14370,7 +14370,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14379,7 +14379,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14388,7 +14388,7 @@
 			)
 		)
 		(property "Manufacturer" "E-Switch"
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14397,7 +14397,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14406,7 +14406,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14415,7 +14415,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14424,7 +14424,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14433,7 +14433,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14442,7 +14442,7 @@
 			)
 		)
 		(property "Manufacturer Part" "TL1105LF160Q"
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14451,7 +14451,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14460,7 +14460,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14469,7 +14469,7 @@
 			)
 		)
 		(property "Supplier P/N" "EG2505-ND"
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14478,7 +14478,7 @@
 			)
 		)
 		(property "Type" "Through Hole, Right Angle"
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14487,7 +14487,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14496,7 +14496,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14505,7 +14505,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14514,7 +14514,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14523,7 +14523,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14532,7 +14532,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14541,7 +14541,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14550,7 +14550,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14559,7 +14559,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14568,7 +14568,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14577,7 +14577,7 @@
 			)
 		)
 		(property "Price" "0.33"
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14586,7 +14586,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14595,7 +14595,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 45.72 101.6 90)
+			(at 38.1 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14620,7 +14620,7 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:SW_Push")
-		(at 175.26 106.68 0)
+		(at 182.88 106.68 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14629,7 +14629,7 @@
 		(dnp no)
 		(uuid "1af95bba-9d34-47a4-924d-79129e4c4e34")
 		(property "Reference" "SW5"
-			(at 177.292 99.822 0)
+			(at 184.912 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14638,7 +14638,7 @@
 			)
 		)
 		(property "Value" "TL1105LF160Q"
-			(at 182.372 102.108 0)
+			(at 189.992 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14647,7 +14647,7 @@
 			)
 		)
 		(property "Footprint" "*CapStone*:SW_TL1105LF160Q"
-			(at 175.26 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14656,7 +14656,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://TL1105 (BUTTONS).pdf"
-			(at 175.26 101.6 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14665,7 +14665,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
-			(at 175.26 106.68 0)
+			(at 182.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14674,7 +14674,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/tl1105lf160q/378971"
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14683,7 +14683,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14692,7 +14692,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14701,7 +14701,7 @@
 			)
 		)
 		(property "Manufacturer" "E-Switch"
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14710,7 +14710,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14719,7 +14719,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14728,7 +14728,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14737,7 +14737,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14746,7 +14746,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14755,7 +14755,7 @@
 			)
 		)
 		(property "Manufacturer Part" "TL1105LF160Q"
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14764,7 +14764,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14773,7 +14773,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14782,7 +14782,7 @@
 			)
 		)
 		(property "Supplier P/N" "EG2505-ND"
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14791,7 +14791,7 @@
 			)
 		)
 		(property "Type" "Through Hole, Right Angle"
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14800,7 +14800,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14809,7 +14809,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14818,7 +14818,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14827,7 +14827,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14836,7 +14836,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14845,7 +14845,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14854,7 +14854,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14863,7 +14863,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14872,7 +14872,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14881,7 +14881,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14890,7 +14890,7 @@
 			)
 		)
 		(property "Price" "0.33"
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14899,7 +14899,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14908,7 +14908,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 175.26 106.68 90)
+			(at 182.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14933,7 +14933,7 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:SW_Push")
-		(at 175.26 80.01 0)
+		(at 182.88 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14942,7 +14942,7 @@
 		(dnp no)
 		(uuid "1bb316db-2dd2-4bb1-9b64-4ace6980a4ad")
 		(property "Reference" "SW3"
-			(at 177.038 72.898 0)
+			(at 184.658 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14951,7 +14951,7 @@
 			)
 		)
 		(property "Value" "TL1105LF160Q"
-			(at 181.61 74.93 0)
+			(at 189.23 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14960,7 +14960,7 @@
 			)
 		)
 		(property "Footprint" "*CapStone*:SW_TL1105LF160Q"
-			(at 175.26 74.93 0)
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14969,7 +14969,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://TL1105 (BUTTONS).pdf"
-			(at 175.26 74.93 0)
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14978,7 +14978,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
-			(at 175.26 80.01 0)
+			(at 182.88 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14987,7 +14987,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/tl1105lf160q/378971"
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14996,7 +14996,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15005,7 +15005,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15014,7 +15014,7 @@
 			)
 		)
 		(property "Manufacturer" "E-Switch"
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15023,7 +15023,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15032,7 +15032,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15041,7 +15041,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15050,7 +15050,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15059,7 +15059,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15068,7 +15068,7 @@
 			)
 		)
 		(property "Manufacturer Part" "TL1105LF160Q"
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15077,7 +15077,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15086,7 +15086,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15095,7 +15095,7 @@
 			)
 		)
 		(property "Supplier P/N" "EG2505-ND"
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15104,7 +15104,7 @@
 			)
 		)
 		(property "Type" "Through Hole, Right Angle"
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15113,7 +15113,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15122,7 +15122,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15131,7 +15131,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15140,7 +15140,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15149,7 +15149,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15158,7 +15158,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15167,7 +15167,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15176,7 +15176,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15185,7 +15185,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15194,7 +15194,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15203,7 +15203,7 @@
 			)
 		)
 		(property "Price" "0.33"
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15212,7 +15212,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15221,7 +15221,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 175.26 80.01 90)
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15576,7 +15576,7 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:C")
-		(at 185.42 137.16 180)
+		(at 167.64 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15584,7 +15584,7 @@
 		(dnp no)
 		(uuid "1f904c99-cc46-4ca2-8062-4e12cea356f1")
 		(property "Reference" "C25"
-			(at 188.976 139.192 90)
+			(at 171.196 139.192 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15593,7 +15593,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 191.77 139.192 90)
+			(at 173.99 139.192 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15602,7 +15602,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 185.42 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15611,7 +15611,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
-			(at 185.42 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15620,7 +15620,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 185.42 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15629,7 +15629,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 186.69 140.335 0)
+			(at 168.91 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15638,7 +15638,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 186.055 133.985 0)
+			(at 168.275 133.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15648,7 +15648,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
-			(at 185.42 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15657,7 +15657,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 185.42 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15666,7 +15666,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CC0603KRX7R9BB104"
-			(at 185.42 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15675,7 +15675,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 185.42 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15684,7 +15684,7 @@
 			)
 		)
 		(property "Price" "0.08"
-			(at 185.42 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15693,7 +15693,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 185.42 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15702,7 +15702,7 @@
 			)
 		)
 		(property "Supplier P/N" "311-1344-1-ND"
-			(at 185.42 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15711,7 +15711,7 @@
 			)
 		)
 		(property "Type" "SMD, MLCC"
-			(at 185.42 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15720,7 +15720,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 185.42 137.16 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15745,7 +15745,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 73.66 0)
+		(at 43.18 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15754,7 +15754,7 @@
 		(fields_autoplaced yes)
 		(uuid "27a45069-0933-43a8-aff2-b33b80c694f5")
 		(property "Reference" "#PWR0153"
-			(at 33.02 80.01 0)
+			(at 43.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15763,7 +15763,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 78.74 0)
+			(at 43.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15771,7 +15771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 73.66 0)
+			(at 43.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15780,7 +15780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 73.66 0)
+			(at 43.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15789,7 +15789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 73.66 0)
+			(at 43.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15877,7 +15877,7 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:C")
-		(at 185.42 111.76 180)
+		(at 167.64 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15885,7 +15885,7 @@
 		(dnp no)
 		(uuid "2d024a84-3a84-4b96-8c6d-91ffbb3159f3")
 		(property "Reference" "C26"
-			(at 188.976 113.792 90)
+			(at 171.196 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15894,7 +15894,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 191.77 113.792 90)
+			(at 173.99 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15903,7 +15903,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 185.42 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15912,7 +15912,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
-			(at 185.42 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15921,7 +15921,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 185.42 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15930,7 +15930,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 186.69 114.935 0)
+			(at 168.91 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15939,7 +15939,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 186.055 108.585 0)
+			(at 168.275 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15949,7 +15949,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
-			(at 185.42 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15958,7 +15958,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 185.42 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15967,7 +15967,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CC0603KRX7R9BB104"
-			(at 185.42 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15976,7 +15976,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 185.42 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15985,7 +15985,7 @@
 			)
 		)
 		(property "Price" "0.08"
-			(at 185.42 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15994,7 +15994,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 185.42 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16003,7 +16003,7 @@
 			)
 		)
 		(property "Supplier P/N" "311-1344-1-ND"
-			(at 185.42 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16012,7 +16012,7 @@
 			)
 		)
 		(property "Type" "SMD, MLCC"
-			(at 185.42 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16021,7 +16021,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 185.42 111.76 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16046,7 +16046,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 91.44 0)
+		(at 165.1 91.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16056,7 +16056,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f15733c-6cf0-41f3-8ab3-82f6414a729e")
 		(property "Reference" "#PWR083"
-			(at 187.96 97.79 0)
+			(at 165.1 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16065,7 +16065,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 96.52 0)
+			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16073,7 +16073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 91.44 0)
+			(at 165.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16082,7 +16082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 91.44 0)
+			(at 165.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16091,7 +16091,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 91.44 0)
+			(at 165.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16179,7 +16179,7 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:C")
-		(at 187.96 85.09 180)
+		(at 165.1 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16187,7 +16187,7 @@
 		(dnp no)
 		(uuid "472f7d7f-f559-4eb7-a39e-850d4685ed5c")
 		(property "Reference" "C27"
-			(at 191.516 87.122 90)
+			(at 168.656 87.122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16196,7 +16196,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 194.31 87.122 90)
+			(at 171.45 87.122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16205,7 +16205,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 187.96 85.09 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16214,7 +16214,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
-			(at 187.96 85.09 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16223,7 +16223,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 187.96 85.09 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16232,7 +16232,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 189.23 88.265 0)
+			(at 166.37 88.265 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16241,7 +16241,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 188.595 81.915 0)
+			(at 165.735 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16251,7 +16251,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
-			(at 187.96 85.09 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16260,7 +16260,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 187.96 85.09 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16269,7 +16269,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CC0603KRX7R9BB104"
-			(at 187.96 85.09 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16278,7 +16278,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 187.96 85.09 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16287,7 +16287,7 @@
 			)
 		)
 		(property "Price" "0.08"
-			(at 187.96 85.09 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16296,7 +16296,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 187.96 85.09 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16305,7 +16305,7 @@
 			)
 		)
 		(property "Supplier P/N" "311-1344-1-ND"
-			(at 187.96 85.09 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16314,7 +16314,7 @@
 			)
 		)
 		(property "Type" "SMD, MLCC"
-			(at 187.96 85.09 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16323,7 +16323,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 187.96 85.09 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17380,7 +17380,7 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:SW_Push")
-		(at 45.72 60.96 0)
+		(at 33.02 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17388,7 +17388,7 @@
 		(dnp no)
 		(uuid "6e20f20a-bcdd-447b-90cd-7fd105595a21")
 		(property "Reference" "SW2"
-			(at 43.942 53.848 0)
+			(at 31.242 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17397,7 +17397,7 @@
 			)
 		)
 		(property "Value" "TL1105LF160Q"
-			(at 39.37 55.88 0)
+			(at 26.67 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17406,7 +17406,7 @@
 			)
 		)
 		(property "Footprint" "*CapStone*:SW_TL1105LF160Q"
-			(at 45.72 55.88 0)
+			(at 33.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17415,7 +17415,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://TL1105 (BUTTONS).pdf"
-			(at 45.72 55.88 0)
+			(at 33.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17424,7 +17424,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
-			(at 45.72 60.96 0)
+			(at 33.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17433,7 +17433,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/tl1105lf160q/378971"
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17442,7 +17442,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17451,7 +17451,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17460,7 +17460,7 @@
 			)
 		)
 		(property "Manufacturer" "E-Switch"
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17469,7 +17469,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17478,7 +17478,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17487,7 +17487,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17496,7 +17496,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17505,7 +17505,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17514,7 +17514,7 @@
 			)
 		)
 		(property "Manufacturer Part" "TL1105LF160Q"
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17523,7 +17523,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17532,7 +17532,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17541,7 +17541,7 @@
 			)
 		)
 		(property "Supplier P/N" "EG2505-ND"
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17550,7 +17550,7 @@
 			)
 		)
 		(property "Type" "Through Hole, Right Angle"
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17559,7 +17559,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17568,7 +17568,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17577,7 +17577,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17586,7 +17586,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17595,7 +17595,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17604,7 +17604,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17613,7 +17613,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17622,7 +17622,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17631,7 +17631,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17640,7 +17640,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17649,7 +17649,7 @@
 			)
 		)
 		(property "Price" "0.33"
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17658,7 +17658,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17667,7 +17667,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 45.72 60.96 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18144,7 +18144,7 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:SW_Push")
-		(at 175.26 132.08 0)
+		(at 185.42 132.08 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18153,7 +18153,7 @@
 		(dnp no)
 		(uuid "8a306446-d341-43d9-a4ea-9994edd94004")
 		(property "Reference" "SW7"
-			(at 177.8 125.476 0)
+			(at 187.96 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18162,7 +18162,7 @@
 			)
 		)
 		(property "Value" "TL1105LF160Q"
-			(at 182.118 127.508 0)
+			(at 192.278 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18171,7 +18171,7 @@
 			)
 		)
 		(property "Footprint" "*CapStone*:SW_TL1105LF160Q"
-			(at 175.26 127 0)
+			(at 185.42 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18180,7 +18180,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://TL1105 (BUTTONS).pdf"
-			(at 175.26 127 0)
+			(at 185.42 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18189,7 +18189,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
-			(at 175.26 132.08 0)
+			(at 185.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18198,7 +18198,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/tl1105lf160q/378971"
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18207,7 +18207,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18216,7 +18216,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18225,7 +18225,7 @@
 			)
 		)
 		(property "Manufacturer" "E-Switch"
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18234,7 +18234,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18243,7 +18243,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18252,7 +18252,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18261,7 +18261,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18270,7 +18270,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18279,7 +18279,7 @@
 			)
 		)
 		(property "Manufacturer Part" "TL1105LF160Q"
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18288,7 +18288,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18297,7 +18297,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18306,7 +18306,7 @@
 			)
 		)
 		(property "Supplier P/N" "EG2505-ND"
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18315,7 +18315,7 @@
 			)
 		)
 		(property "Type" "Through Hole, Right Angle"
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18324,7 +18324,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18333,7 +18333,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18342,7 +18342,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18351,7 +18351,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18360,7 +18360,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18369,7 +18369,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18378,7 +18378,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18387,7 +18387,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18396,7 +18396,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18405,7 +18405,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18414,7 +18414,7 @@
 			)
 		)
 		(property "Price" "0.33"
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18423,7 +18423,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18432,7 +18432,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 175.26 132.08 90)
+			(at 185.42 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18523,7 +18523,7 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:C")
-		(at 30.48 87.63 180)
+		(at 50.8 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18531,7 +18531,7 @@
 		(dnp no)
 		(uuid "92eb5e69-41d6-4796-9fd0-32715d2f3a3b")
 		(property "Reference" "C29"
-			(at 34.036 89.662 90)
+			(at 54.356 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18540,7 +18540,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 36.83 89.662 90)
+			(at 57.15 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18549,7 +18549,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 30.48 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18558,7 +18558,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
-			(at 30.48 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18567,7 +18567,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 30.48 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18576,7 +18576,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 31.75 90.805 0)
+			(at 52.07 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18585,7 +18585,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 31.115 84.455 0)
+			(at 51.435 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18595,7 +18595,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
-			(at 30.48 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18604,7 +18604,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 30.48 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18613,7 +18613,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CC0603KRX7R9BB104"
-			(at 30.48 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18622,7 +18622,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 30.48 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18631,7 +18631,7 @@
 			)
 		)
 		(property "Price" "0.08"
-			(at 30.48 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18640,7 +18640,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 30.48 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18649,7 +18649,7 @@
 			)
 		)
 		(property "Supplier P/N" "311-1344-1-ND"
-			(at 30.48 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18658,7 +18658,7 @@
 			)
 		)
 		(property "Type" "SMD, MLCC"
-			(at 30.48 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18667,7 +18667,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 30.48 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18692,7 +18692,7 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:C")
-		(at 33.02 66.04 180)
+		(at 43.18 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18700,7 +18700,7 @@
 		(dnp no)
 		(uuid "963b3b97-6c33-42e5-9d58-82236f20d894")
 		(property "Reference" "C28"
-			(at 36.576 68.072 90)
+			(at 46.736 68.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18709,7 +18709,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 39.37 68.072 90)
+			(at 49.53 68.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18718,7 +18718,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 33.02 66.04 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18727,7 +18727,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
-			(at 33.02 66.04 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18736,7 +18736,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 33.02 66.04 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18745,7 +18745,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 34.29 69.215 0)
+			(at 44.45 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18754,7 +18754,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 33.655 62.865 0)
+			(at 43.815 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18764,7 +18764,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
-			(at 33.02 66.04 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18773,7 +18773,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 33.02 66.04 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18782,7 +18782,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CC0603KRX7R9BB104"
-			(at 33.02 66.04 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18791,7 +18791,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 33.02 66.04 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18800,7 +18800,7 @@
 			)
 		)
 		(property "Price" "0.08"
-			(at 33.02 66.04 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18809,7 +18809,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 33.02 66.04 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18818,7 +18818,7 @@
 			)
 		)
 		(property "Supplier P/N" "311-1344-1-ND"
-			(at 33.02 66.04 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18827,7 +18827,7 @@
 			)
 		)
 		(property "Type" "SMD, MLCC"
-			(at 33.02 66.04 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18836,7 +18836,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 33.02 66.04 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19486,7 +19486,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 92.71 0)
+		(at 50.8 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19495,7 +19495,7 @@
 		(fields_autoplaced yes)
 		(uuid "b92dae8c-3c6d-448e-85bd-b831d3b4aefc")
 		(property "Reference" "#PWR0154"
-			(at 30.48 99.06 0)
+			(at 50.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19504,7 +19504,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 97.79 0)
+			(at 50.8 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19512,7 +19512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 92.71 0)
+			(at 50.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19521,7 +19521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 92.71 0)
+			(at 50.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19530,7 +19530,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 92.71 0)
+			(at 50.8 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19552,7 +19552,7 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:SW_Push")
-		(at 43.18 82.55 0)
+		(at 33.02 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19560,7 +19560,7 @@
 		(dnp no)
 		(uuid "ba94a12f-310b-4889-a722-54dd090ef340")
 		(property "Reference" "SW4"
-			(at 41.148 75.692 0)
+			(at 30.988 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19569,7 +19569,7 @@
 			)
 		)
 		(property "Value" "TL1105LF160Q"
-			(at 36.068 77.978 0)
+			(at 25.908 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19578,7 +19578,7 @@
 			)
 		)
 		(property "Footprint" "*CapStone*:SW_TL1105LF160Q"
-			(at 43.18 77.47 0)
+			(at 33.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19587,7 +19587,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://TL1105 (BUTTONS).pdf"
-			(at 43.18 77.47 0)
+			(at 33.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19596,7 +19596,7 @@
 			)
 		)
 		(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
-			(at 43.18 82.55 0)
+			(at 33.02 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19605,7 +19605,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/tl1105lf160q/378971"
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19614,7 +19614,7 @@
 			)
 		)
 		(property "Display" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19623,7 +19623,7 @@
 			)
 		)
 		(property "JLCPCB ID" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19632,7 +19632,7 @@
 			)
 		)
 		(property "Manufacturer" "E-Switch"
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19641,7 +19641,7 @@
 			)
 		)
 		(property "Manufacturer NUMBER" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19650,7 +19650,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19659,7 +19659,7 @@
 			)
 		)
 		(property "Specifications" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19668,7 +19668,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19677,7 +19677,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19686,7 +19686,7 @@
 			)
 		)
 		(property "Manufacturer Part" "TL1105LF160Q"
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19695,7 +19695,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19704,7 +19704,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19713,7 +19713,7 @@
 			)
 		)
 		(property "Supplier P/N" "EG2505-ND"
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19722,7 +19722,7 @@
 			)
 		)
 		(property "Type" "Through Hole, Right Angle"
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19731,7 +19731,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19740,7 +19740,7 @@
 			)
 		)
 		(property "Current - Load" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19749,7 +19749,7 @@
 			)
 		)
 		(property "Current - Supply" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19758,7 +19758,7 @@
 			)
 		)
 		(property "Voltage - Load" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19767,7 +19767,7 @@
 			)
 		)
 		(property "Voltage - Supply" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19776,7 +19776,7 @@
 			)
 		)
 		(property "Load Capacitance" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19785,7 +19785,7 @@
 			)
 		)
 		(property "Shunt Capacitance" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19794,7 +19794,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19803,7 +19803,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19812,7 +19812,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19821,7 +19821,7 @@
 			)
 		)
 		(property "Price" "0.33"
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19830,7 +19830,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19839,7 +19839,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 43.18 82.55 90)
+			(at 33.02 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19929,7 +19929,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 144.78 0)
+		(at 167.64 144.78 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19939,7 +19939,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd776d44-1e6b-4bb9-975c-2bb3c01829b0")
 		(property "Reference" "#PWR0151"
-			(at 185.42 151.13 0)
+			(at 167.64 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19948,7 +19948,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 149.86 0)
+			(at 167.64 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19956,7 +19956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 144.78 0)
+			(at 167.64 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19965,7 +19965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 144.78 0)
+			(at 167.64 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19974,7 +19974,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 144.78 0)
+			(at 167.64 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19996,7 +19996,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 111.76 0)
+		(at 55.88 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20005,7 +20005,7 @@
 		(fields_autoplaced yes)
 		(uuid "e309f98f-14b5-4574-b5d1-e6cd74609fb8")
 		(property "Reference" "#PWR0155"
-			(at 33.02 118.11 0)
+			(at 55.88 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20014,7 +20014,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 116.84 0)
+			(at 55.88 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20022,7 +20022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 111.76 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20031,7 +20031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 111.76 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20040,7 +20040,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 111.76 0)
+			(at 55.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20062,7 +20062,7 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:C")
-		(at 33.02 106.68 180)
+		(at 55.88 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20070,7 +20070,7 @@
 		(dnp no)
 		(uuid "f2d6cacc-c64c-4758-b27c-efc20e0aba7e")
 		(property "Reference" "C30"
-			(at 36.576 108.712 90)
+			(at 59.436 108.712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20079,7 +20079,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 39.37 108.712 90)
+			(at 62.23 108.712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20088,7 +20088,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 33.02 106.68 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20097,7 +20097,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://UPY-GPHC_X7R_6_3V-TO-250V.pdf"
-			(at 33.02 106.68 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20106,7 +20106,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
-			(at 33.02 106.68 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20115,7 +20115,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 34.29 109.855 0)
+			(at 57.15 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20124,7 +20124,7 @@
 			)
 		)
 		(property "Rating" "V"
-			(at 33.655 103.505 0)
+			(at 56.515 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20134,7 +20134,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
-			(at 33.02 106.68 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20143,7 +20143,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 33.02 106.68 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20152,7 +20152,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CC0603KRX7R9BB104"
-			(at 33.02 106.68 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20161,7 +20161,7 @@
 			)
 		)
 		(property "Package" "0603 (1608 Metric)"
-			(at 33.02 106.68 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20170,7 +20170,7 @@
 			)
 		)
 		(property "Price" "0.08"
-			(at 33.02 106.68 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20179,7 +20179,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 33.02 106.68 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20188,7 +20188,7 @@
 			)
 		)
 		(property "Supplier P/N" "311-1344-1-ND"
-			(at 33.02 106.68 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20197,7 +20197,7 @@
 			)
 		)
 		(property "Type" "SMD, MLCC"
-			(at 33.02 106.68 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20206,7 +20206,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 33.02 106.68 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
