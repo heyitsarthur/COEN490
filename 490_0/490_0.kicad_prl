@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -302,7 +302,9 @@
       "Net-(J22-D0-)",
       "Net-(J22-D1-)",
       "/PCB2/PCB2-USB 2.0 Bridge/USB_N",
-      "Net-(J22-D1+)"
+      "Net-(J22-D1+)",
+      "Net-(J22-D0+)",
+      "/PCB2/PCB2-USB 2.0 Bridge/USB_P"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -324,7 +326,7 @@
       "pads": false,
       "text": false,
       "tracks": true,
-      "vias": true,
+      "vias": false,
       "zones": false
     },
     "visible_items": [
@@ -399,6 +401,8 @@
       136,
       136,
       98,
+      136,
+      136,
       136,
       136
     ],
