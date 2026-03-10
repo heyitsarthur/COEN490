@@ -255,15 +255,6 @@
       "/PCB1/PCB1-Board Connector A/HDMI0_TX1_N",
       "unconnected-(J17-Pad40)",
       "Net-(J18-Pin_2)",
-      "Net-(J19-TMDS_DATA_0-)",
-      "Net-(J19-TMDS_CLOCK+)",
-      "Net-(J19-TMDS_DATA_2+)",
-      "Net-(J19-TMDS_DATA_0+)",
-      "Net-(J19-TMDS_DATA_1-)",
-      "unconnected-(J19-UTILITY-Pad2)",
-      "Net-(J19-TMDS_CLOCK-)",
-      "Net-(J19-TMDS_DATA_1+)",
-      "Net-(J19-TMDS_DATA_2-)",
       "Net-(U7-SW)",
       "Net-(Q6-D)",
       "Net-(U1-~{SD_MODE})",
@@ -302,7 +293,9 @@
       "Net-(J22-D0-)",
       "Net-(J22-D1-)",
       "/PCB2/PCB2-USB 2.0 Bridge/USB_N",
-      "Net-(J22-D1+)"
+      "Net-(J22-D1+)",
+      "Net-(J22-D0+)",
+      "/PCB2/PCB2-USB 2.0 Bridge/USB_P"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -315,17 +308,17 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": false,
-      "footprints": false,
-      "graphics": false,
-      "keepouts": false,
-      "lockedItems": false,
-      "otherItems": false,
-      "pads": false,
-      "text": false,
+      "dimensions": true,
+      "footprints": true,
+      "graphics": true,
+      "keepouts": true,
+      "lockedItems": true,
+      "otherItems": true,
+      "pads": true,
+      "text": true,
       "tracks": true,
       "vias": true,
-      "zones": false
+      "zones": true
     },
     "visible_items": [
       "vias",
@@ -399,6 +392,8 @@
       136,
       136,
       98,
+      136,
+      136,
       136,
       136
     ],
