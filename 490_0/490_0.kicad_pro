@@ -61,6 +61,11 @@
           "gap": 0.1524,
           "via_gap": 0.0,
           "width": 0.179578
+        },
+        {
+          "gap": 0.1524,
+          "via_gap": 0.0,
+          "width": 0.242062
         }
       ],
       "drc_exclusions": [],
@@ -481,7 +486,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.179578,
@@ -496,6 +501,14 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.242062,
+        "name": "90R_USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -515,6 +528,10 @@
       {
         "netclass": "Z100",
         "pattern": "/PCB1/PCB1-Board Connector A/CAM1_C_P"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/PCB1/PCB1-Board Connector A/USB_P"
       }
     ]
   },
