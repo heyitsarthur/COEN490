@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -255,7 +255,6 @@
       "/PCB1/PCB1-Board Connector A/HDMI0_TX1_N",
       "unconnected-(J17-Pad40)",
       "Net-(J18-Pin_2)",
-      "unconnected-(J19-UTILITY-Pad2)",
       "Net-(U7-SW)",
       "Net-(Q6-D)",
       "Net-(U1-~{SD_MODE})",
@@ -313,7 +312,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
