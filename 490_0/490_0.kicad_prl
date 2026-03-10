@@ -288,14 +288,6 @@
       "Net-(J6-Pin_1)",
       "Net-(J9-Pin_1)",
       "Net-(J10-Pin_1)",
-      "Net-(J22-CK-)",
-      "Net-(J22-CK+)",
-      "Net-(J22-D0-)",
-      "Net-(J22-D1-)",
-      "/PCB2/PCB2-USB 2.0 Bridge/USB_N",
-      "Net-(J22-D1+)",
-      "Net-(J22-D0+)",
-      "/PCB2/PCB2-USB 2.0 Bridge/USB_P",
       "/PCB1/PCB1-HDMI/D0+",
       "/PCB1/PCB1-HDMI/D2+",
       "/PCB1/PCB1-HDMI/CLK-",
@@ -304,7 +296,13 @@
       "/PCB1/PCB1-HDMI/D0-",
       "/PCB1/PCB1-HDMI/D2-",
       "/PCB1/PCB1-HDMI/CLK+",
-      "unconnected-(J14-UTILITY-Pad14)"
+      "unconnected-(J14-UTILITY-Pad14)",
+      "/PCB2/CK-",
+      "/PCB2/CK+",
+      "/PCB2/D0-",
+      "/PCB2/D1-",
+      "/PCB2/D1+",
+      "/PCB2/D0+"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -351,7 +349,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00002a8a_aaaaaaff",
+    "visible_layers": "00000000_00000000_00002a8a_aaaaaaaf",
     "zone_display_mode": 0
   },
   "git": {

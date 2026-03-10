@@ -112,7 +112,7 @@
 				(type "copper")
 				(thickness 0.035)
 			)
-			(layer "dielectric 1"
+			(layer "dielectric 4"
 				(type "prepreg")
 				(thickness 0.2104)
 				(material "FR4")
@@ -123,7 +123,7 @@
 				(type "copper")
 				(thickness 0.0152)
 			)
-			(layer "dielectric 2"
+			(layer "dielectric 5"
 				(type "core")
 				(thickness 1.065)
 				(material "FR4")
@@ -134,7 +134,7 @@
 				(type "copper")
 				(thickness 0.0152)
 			)
-			(layer "dielectric 3"
+			(layer "dielectric 6"
 				(type "prepreg")
 				(thickness 0.2104)
 				(material "FR4")
@@ -111496,28 +111496,6 @@
 			(uuid "d851df17-7580-4b46-8ede-f16c038a53f2")
 		)
 		(embedded_fonts no)
-	)
-	(gr_rect
-		(start 253.805 -67.705)
-		(end 276.305 -59.705)
-		(stroke
-			(width 2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "1ec3b480-8760-4022-ab14-6f206084ca20")
-	)
-	(gr_circle
-		(center 319.875 -61.575)
-		(end 322.445 -64.145)
-		(stroke
-			(width 2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "ac39b510-2b2d-41ed-a849-156b9f640b09")
 	)
 	(gr_rect
 		(start 46.5 83)
