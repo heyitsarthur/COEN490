@@ -11498,7 +11498,7 @@
 		(uuid "0ff7dbcc-8acc-4f54-805c-e9ff364844ba")
 	)
 	(label "D2-"
-		(at 63.5 15.24 0)
+		(at 73.66 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11568,7 +11568,7 @@
 		(uuid "6b71570f-79e2-4d97-bc6c-007c5bd26685")
 	)
 	(label "D1+"
-		(at 30.48 15.24 0)
+		(at 20.32 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11588,7 +11588,7 @@
 		(uuid "768e4f2a-9a56-4929-9364-f0a927e322ce")
 	)
 	(label "D1-"
-		(at 20.32 15.24 0)
+		(at 30.48 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11638,7 +11638,7 @@
 		(uuid "bf281845-ec38-4e3a-9896-6f99b4441cea")
 	)
 	(label "D2+"
-		(at 73.66 15.24 0)
+		(at 63.5 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13016,16 +13016,16 @@
 	)
 	(symbol
 		(lib_id "capstone_parts:Conn_01x04_P2.54mm")
-		(at 231.14 144.78 0)
+		(at 231.14 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e5663fe-b2cb-4b52-a709-9ec014a1a75c")
 		(property "Reference" "J3"
-			(at 233.68 144.7799 0)
+			(at 233.68 147.3201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13034,7 +13034,7 @@
 			)
 		)
 		(property "Value" "PAD"
-			(at 233.68 147.3199 0)
+			(at 233.68 144.7801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13043,7 +13043,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
-			(at 231.14 154.94 0)
+			(at 231.14 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13052,7 +13052,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://ePA-F.pdf"
-			(at 231.14 157.48 0)
+			(at 231.14 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13061,7 +13061,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER SMD 4POS 2MM"
-			(at 231.14 160.02 0)
+			(at 231.14 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13070,7 +13070,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 231.14 144.78 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13079,7 +13079,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 231.14 144.78 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13088,7 +13088,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 231.14 144.78 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13097,7 +13097,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM04B-PASS-1-TFT/2773434"
-			(at 231.14 144.78 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13106,7 +13106,7 @@
 			)
 		)
 		(property "Manufacturer" "JST Sales America Inc."
-			(at 231.14 144.78 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13115,7 +13115,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BM04B-PASS-1-TFT"
-			(at 231.14 144.78 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13124,7 +13124,7 @@
 			)
 		)
 		(property "Price" "0.71"
-			(at 231.14 144.78 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13133,7 +13133,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 231.14 144.78 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13142,7 +13142,7 @@
 			)
 		)
 		(property "Supplier P/N" "455-BM04B-PASS-1-TFTCT-ND"
-			(at 231.14 144.78 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13151,7 +13151,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 231.14 144.78 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13160,7 +13160,7 @@
 			)
 		)
 		(property "Unit" "pcs"
-			(at 231.14 144.78 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13169,7 +13169,7 @@
 			)
 		)
 		(property "Voltage Raing" ""
-			(at 231.14 144.78 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13178,7 +13178,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 231.14 144.78 0)
+			(at 231.14 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16184,7 +16184,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7e9ef358-3c54-4df5-9a3e-b61be3b8a94b")
 		(property "Reference" "J2"
 			(at 233.68 114.2999 0)
