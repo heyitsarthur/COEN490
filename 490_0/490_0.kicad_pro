@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.1524,
+          "via_gap": 0.0,
+          "width": 0.179578
         }
       ],
       "drc_exclusions": [],
@@ -187,7 +192,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.1778
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -472,9 +478,9 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.179578,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -488,10 +494,10 @@
         "wire_width": 6
       },
       {
-        "diff_pair_gap": 0.071203,
-        "diff_pair_width": 0.167118,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.179578,
         "name": "Z100",
-        "pcb_color": "rgb(255, 255, 0)",
+        "pcb_color": "rgb(84, 243, 255)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
@@ -501,7 +507,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Z100",
+        "pattern": "/PCB1/PCB1-Board Connector A/CAM1_D0_N"
+      },
+      {
+        "netclass": "Z100",
+        "pattern": "/PCB1/PCB1-Board Connector A/CAM1_D1_P"
+      },
+      {
+        "netclass": "Z100",
+        "pattern": "/PCB1/PCB1-Board Connector A/CAM1_C_P"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -1572,7 +1591,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "D6",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
