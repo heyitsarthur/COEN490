@@ -109,8 +109,8 @@
       "/PCB1/PCB1-Board Connector A/Camera_GPIO",
       "Net-(J1-Pin_1)",
       "Net-(J1-Pin_2)",
-      "Net-(J7-D-)",
-      "Net-(J7-D+)",
+      "/PCB1/PCB1-Charging and Power Port + USB switch/MICROD-",
+      "/PCB1/PCB1-Charging and Power Port + USB switch/MICROD+",
       "unconnected-(J7-ID-Pad4)",
       "Net-(C28--)",
       "Net-(C29--)",
@@ -315,17 +315,17 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": false,
-      "footprints": false,
-      "graphics": false,
-      "keepouts": false,
-      "lockedItems": false,
-      "otherItems": false,
-      "pads": false,
-      "text": false,
+      "dimensions": true,
+      "footprints": true,
+      "graphics": true,
+      "keepouts": true,
+      "lockedItems": true,
+      "otherItems": true,
+      "pads": true,
+      "text": true,
       "tracks": true,
       "vias": true,
-      "zones": false
+      "zones": true
     },
     "visible_items": [
       "vias",
