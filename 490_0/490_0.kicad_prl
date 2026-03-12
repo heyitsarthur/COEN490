@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -109,8 +109,8 @@
       "/PCB1/PCB1-Board Connector A/Camera_GPIO",
       "Net-(J1-Pin_1)",
       "Net-(J1-Pin_2)",
-      "Net-(J7-D-)",
-      "Net-(J7-D+)",
+      "/PCB1/PCB1-Charging and Power Port + USB switch/MICROD-",
+      "/PCB1/PCB1-Charging and Power Port + USB switch/MICROD+",
       "unconnected-(J7-ID-Pad4)",
       "Net-(C28--)",
       "Net-(C29--)",
@@ -349,7 +349,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00002a8a_aaaaaaaf",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_ff7f5525",
     "zone_display_mode": 0
   },
   "git": {
