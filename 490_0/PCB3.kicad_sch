@@ -382,7 +382,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J12"
+			(property "Reference" "J22"
 				(at 11.43 1.2701 0)
 				(effects
 					(font
@@ -621,14 +621,14 @@
 				(pin passive line
 					(at -10.16 27.94 0)
 					(length 2.54)
-					(name "D2-"
+					(name "D0-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -639,14 +639,14 @@
 				(pin passive line
 					(at -10.16 25.4 0)
 					(length 2.54)
-					(name "D2+"
+					(name "D0+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -657,14 +657,14 @@
 				(pin power_in line
 					(at -10.16 22.86 0)
 					(length 2.54)
-					(name "D2S"
+					(name "D0S"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -693,14 +693,14 @@
 				(pin passive line
 					(at -10.16 12.7 0)
 					(length 2.54)
-					(name "D0-"
+					(name "D2-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -711,14 +711,14 @@
 				(pin passive line
 					(at -10.16 10.16 0)
 					(length 2.54)
-					(name "D0+"
+					(name "D2+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -729,14 +729,14 @@
 				(pin power_in line
 					(at -10.16 7.62 0)
 					(length 2.54)
-					(name "D0S"
+					(name "D2S"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
