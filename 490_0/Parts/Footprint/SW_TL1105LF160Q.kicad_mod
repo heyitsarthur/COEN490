@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at -0.635 -4.699 0)
 		(layer "F.SilkS")
-		(uuid "ad4cd0be-dda9-4f48-a514-10fff21032ad")
+		(uuid "dc083842-4567-4d7a-83ba-ef7c4a7f3c43")
 		(effects
 			(font
 				(size 1.4 1.4)
@@ -14,10 +14,10 @@
 			)
 		)
 	)
-	(property "Value" "SW_TL1105LF160Q"
+	(property "Value" "TL1105LF160Q"
 		(at 8.255 4.699 0)
 		(layer "F.Fab")
-		(uuid "ceef8f5b-aa2b-4c0a-bba9-0bf0ce4c3b6c")
+		(uuid "7c69471c-d9d0-470a-819b-40cb21727708")
 		(effects
 			(font
 				(size 1.4 1.4)
@@ -25,11 +25,11 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "kicad-embed://TL1105 (BUTTONS).pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "af76dc2a-5dd0-4cea-a23e-2cd97fe998cc")
+		(uuid "242876de-b8a2-46ce-b0ba-5f9b5a16a0b0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -37,14 +37,430 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7ea5e790-c034-4b97-ae54-545d17b4536e")
+		(uuid "50928422-39ed-4282-bb57-ed7241eee3e5")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/tl1105lf160q/378971"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81b8a22c-f5ed-472f-84ea-aa8507a8a13e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Display" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f22d26b3-542f-4792-be07-d1ec734fb9b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB ID" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68c1a6d1-c867-4488-bbbd-bfac60c2510c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "E-Switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d779a2de-782e-47a7-bdb8-18421333eaf8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer NUMBER" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b32bb80f-85f0-4eda-b762-fcccae915368")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1bb2c92-734b-48fe-a935-eb7b5c083e79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Specifications" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "302cd781-953d-461c-8811-e1ace558a0ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tolerance" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdf87f90-829b-4194-9d62-1bcf05e37f44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40d7fa41-9708-4067-9aef-81802f1c1d44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "TL1105LF160Q"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d0b5101-569c-4cfe-b3e3-698d7734a385")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Params" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2a31ddd-e1f5-4ef0-91a5-cf9d1eb2dd75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "DigiKey"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d71a8c92-6f09-4822-a05b-db64bcf8e075")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier P/N" "EG2505-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7604998-f9cd-418f-9b6a-a8e927654d0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "Through Hole, Right Angle"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ceb09f6-36cb-49dc-96d8-00eca2d2bdb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Unit" "pcs"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6586de7-f384-48a5-b8b5-799247d60e2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Current - Load" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bd14571-d6be-4fe9-83ba-d46268f92fca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Current - Supply" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1562b8f4-a6d5-4ab3-9d88-52a627fe1961")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage - Load" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2def6220-5b8e-462b-9713-da3bc485a79d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage - Supply" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af9a3483-9ab6-4b17-94ea-f861936bcf38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Load Capacitance" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57e7fd8b-6def-4480-ba10-cbbc7b1743d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Shunt Capacitance" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6518c099-a84a-44eb-9504-22f0bff4e8ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AVAILABILITY" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89d91103-bac0-4265-9fb0-240bb71256b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f9585d5-44e0-4d7e-9fc9-3385dff37891")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PRICE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f9c848a-df59-4337-ab03-7d56533aaf53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "0.33"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37ec6aeb-91ad-469a-b1de-50462d1b222b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage Raing" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "584832e4-6800-40eb-8ac8-0e26f376e2c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage Rating" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6eb470c3-43e7-47d1-97c4-fda080910aa9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d236599-31c2-4288-8784-76f3ebf39dab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17d669c9-4907-48a3-a7bb-4e5b5825d02a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "E-Switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9c8bf6d-3847-4817-a8a0-6ce4066a5cf6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e51021f-4c3f-4d3b-a87b-330258971846")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SNAPEDA_PN" "TL1105DF160Q"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16d82166-2f9f-4736-835e-05593e5e4c3e")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -58,7 +474,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "82653f5b-5f0b-472e-bca3-4707b4eea200")
+		(uuid "afbdef8e-8e9d-45bd-a00a-ea55e699cca6")
 	)
 	(fp_line
 		(start -2.1825 -3)
@@ -68,7 +484,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2f858d48-6c3b-4f78-be02-71c81bd65c81")
+		(uuid "4e510a04-edf5-4789-95fc-8d398c056c57")
 	)
 	(fp_line
 		(start -2.1825 3)
@@ -78,7 +494,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "dbfc17e1-5cf6-4a54-8301-4d0312698014")
+		(uuid "31752d97-7448-41a2-93eb-e19c9bfe5b78")
 	)
 	(fp_line
 		(start 3 -1.1825)
@@ -88,7 +504,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2a1b6a3f-2f98-443c-bd9e-ae6554736856")
+		(uuid "8cdc2018-f219-4e96-afda-9b24d2ee76c7")
 	)
 	(fp_circle
 		(center -4.75 2.25)
@@ -99,7 +515,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "5306f2b8-6bcf-46bd-8598-622b1ace81e2")
+		(uuid "66f025c1-25b4-4f98-9c56-c11cc53bee30")
 	)
 	(fp_line
 		(start -4.254 -3.254)
@@ -109,7 +525,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "cd91afe0-7643-4df4-bc0f-e574876fa922")
+		(uuid "aff39929-2057-4e7a-8d97-658207d627a6")
 	)
 	(fp_line
 		(start -4.254 3.254)
@@ -119,7 +535,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "518c0c44-6f4f-4951-b598-9a0bd1149c35")
+		(uuid "4b6b045f-2ffc-433a-95c4-d7ce5ac50dd2")
 	)
 	(fp_line
 		(start 4.254 -3.254)
@@ -129,7 +545,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f5fefa7c-4e44-4fb0-87d4-9d9e64fe1be8")
+		(uuid "cea97915-695f-4934-8f25-d456b6a84aeb")
 	)
 	(fp_line
 		(start 4.254 3.254)
@@ -139,7 +555,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f0b5bea7-858a-43e1-91ac-cfb0e82c874e")
+		(uuid "57be8261-bace-4271-bc05-c8e477145115")
 	)
 	(fp_line
 		(start -3 -3)
@@ -149,7 +565,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f07264ad-a9a5-4d0e-9c16-a6224ca6e9aa")
+		(uuid "a4146370-3dcd-49be-b6ac-9ff9df4bb2ea")
 	)
 	(fp_line
 		(start -3 3)
@@ -159,7 +575,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "13020ee4-86c9-49b8-a064-7db56b1a78d0")
+		(uuid "bc671a44-8bc7-47a9-9cae-d5df7290ac45")
 	)
 	(fp_line
 		(start 3 -3)
@@ -169,7 +585,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d1d02c5a-0dbf-49d1-8695-5456ac0f0bb1")
+		(uuid "d14319ef-ad1a-4190-bb26-63126f714f30")
 	)
 	(fp_line
 		(start 3 3)
@@ -179,7 +595,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0d4e8616-c29c-4898-8fad-f31c3753b0bc")
+		(uuid "b4296673-7cad-4889-b371-3e5a6364ed13")
 	)
 	(fp_circle
 		(center -4.75 2.25)
@@ -190,7 +606,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "45206e89-980b-4911-8ef0-69c92a032bfe")
+		(uuid "5ae38205-4eb1-4eb3-8928-d101ab63ab88")
 	)
 	(pad "1" thru_hole rect
 		(at -3.25 -2.25)
@@ -199,7 +615,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "40f67c4a-3a41-402f-aaf0-ffc79535bd11")
+		(uuid "0f3dccfa-64ba-4e8a-a0ff-64dc38abd007")
 	)
 	(pad "2" thru_hole circle
 		(at -3.25 2.25)
@@ -208,7 +624,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "d76128e8-0049-4555-a7b8-1fca2ed7d809")
+		(uuid "0858fb1e-2111-4196-85d7-303c61941ac3")
 	)
 	(pad "3" thru_hole circle
 		(at 3.25 -2.25)
@@ -217,7 +633,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "f4a40333-b627-4eea-bfc9-c59978f44d33")
+		(uuid "4b5c5e9e-7ea2-4b6f-8974-9e0a529ece67")
 	)
 	(pad "4" thru_hole circle
 		(at 3.25 2.25)
@@ -226,7 +642,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "0b0b8f73-9f64-4600-a5d8-90070b0e248a")
+		(uuid "d4abb68b-51a7-451e-8392-cefb093023dc")
 	)
 	(embedded_fonts no)
 )

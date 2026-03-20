@@ -3906,6 +3906,12 @@
 		(uuid "852e12e5-c7da-4ebc-a9dd-a8464b9ad8eb")
 	)
 	(junction
+		(at 104.14 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85cfed8c-9567-47ca-a515-27d9dd3aa31b")
+	)
+	(junction
 		(at 30.48 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4036,6 +4042,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f33dc145-9317-4285-8042-4951726a179b")
+	)
+	(junction
+		(at 99.06 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f54e3320-fa87-4c6f-a614-64a5cd0ea991")
 	)
 	(junction
 		(at 177.8 137.16)
@@ -4699,6 +4711,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 193.04) (xy 99.06 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64bc041e-c76f-4eb4-a16b-c1271dceb0d1")
+	)
+	(wire
+		(pts
 			(xy 116.84 91.44) (xy 116.84 88.9)
 		)
 		(stroke
@@ -4749,7 +4771,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 190.5) (xy 99.06 195.58)
+			(xy 99.06 190.5) (xy 99.06 193.04)
 		)
 		(stroke
 			(width 0)
@@ -5716,6 +5738,16 @@
 			(type default)
 		)
 		(uuid "dc5bfb05-d106-4e90-b6cd-7462ef0d3465")
+	)
+	(wire
+		(pts
+			(xy 99.06 193.04) (xy 104.14 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcaa0ad3-1956-4984-9cbf-d7883430b7ce")
 	)
 	(wire
 		(pts
@@ -12821,6 +12853,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 71.12 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "be012fbb-0f79-4dc7-a8f3-100e650440cf")
 		)
@@ -13140,6 +13181,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 125.73 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11198f95-fa99-4e7e-96ec-be74871a5589")
 		)
@@ -13220,6 +13270,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 20.32 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 20.32 162.56 0)
 			(effects
 				(font
@@ -13891,6 +13950,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "83c897c8-124c-4c2d-93bb-2821f697bd41")
 		)
@@ -14210,6 +14278,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 165.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50aef2d9-035a-4615-98eb-944d25e9a6b4")
 		)
@@ -14350,6 +14427,15 @@
 			)
 		)
 		(property "Unit" "pcs"
+			(at 123.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 123.19 91.44 0)
 			(effects
 				(font
@@ -14752,6 +14838,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 135.89 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "55711b25-93c8-4288-841d-7622d72d6499")
 		)
@@ -15093,6 +15188,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3556d689-b124-49de-a83a-594d6ad614ec")
 		)
@@ -15413,6 +15517,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 130.81 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 130.81 127 0)
 			(effects
 				(font
@@ -15828,6 +15941,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 180.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ab347cc8-45a2-4ce4-bc05-338d66e7e6e1")
 		)
@@ -15870,7 +15992,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "*CapStone*:IND_SRP6540-2R2M_BRN"
+		(property "Footprint" "capstone:IND_SRP6540-2R2M_BRN"
 			(at 142.24 90.17 0)
 			(effects
 				(font
@@ -16168,6 +16290,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1e13c9c-6191-4643-93d9-a4efd562b329")
 		)
@@ -16348,6 +16479,15 @@
 			)
 		)
 		(property "Voltage - Load" "250V"
+			(at 228.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 228.6 99.06 0)
 			(effects
 				(font
@@ -16765,6 +16905,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 218.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7dac53b0-bed1-4262-a97f-0506f3e42103")
 		)
@@ -17098,6 +17247,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 125.73 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 125.73 180.34 90)
 			(effects
 				(font
@@ -17492,6 +17650,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 123.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 123.19 121.92 0)
 			(effects
 				(font
@@ -17972,6 +18139,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 30.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "157e4184-343e-48e9-ba04-bd207a34e3e8")
 		)
@@ -18292,6 +18468,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 64.77 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2548acf7-d4e5-47c2-b2be-9922aab960e4")
 		)
@@ -18604,6 +18789,15 @@
 		)
 		(property "Voltage Rating" ""
 			(at 185.42 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
+			(at 185.42 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18952,6 +19146,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 124.46 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3c8ac198-0eec-4db0-9fca-02bc08142c2d")
 		)
@@ -19263,6 +19466,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 153.67 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 153.67 132.08 90)
 			(effects
 				(font
@@ -19612,6 +19824,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 53.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2e095694-a783-4ef7-b5b8-10a9f4a2a378")
 		)
@@ -19784,6 +20005,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 228.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fbb7843f-e12e-44e3-9a50-d29bf7aaec07")
 		)
@@ -19824,7 +20054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "*CapStone*:IC26_MP2632BGR-Z_MNP"
+		(property "Footprint" "capstone:IC26_MP2632BGR-Z_MNP"
 			(at 78.74 91.44 0)
 			(effects
 				(font
@@ -19960,6 +20190,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 78.74 91.44 0)
 			(effects
 				(font
@@ -20424,6 +20663,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 161.29 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f86a273-4525-4457-9030-02abebdb6bde")
 		)
@@ -20808,6 +21056,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 138.43 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5afa31d6-9efc-4a6b-a3e3-1e0c89cfc002")
 		)
@@ -20980,7 +21237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "*CapStone*:SW_TL1105LF160Q"
+		(property "Footprint" "capstone:SW_TL1105LF160Q"
 			(at 58.42 165.1 0)
 			(effects
 				(font
@@ -21243,6 +21500,15 @@
 		)
 		(property "Voltage Rating" ""
 			(at 58.42 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
+			(at 58.42 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21570,6 +21836,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 24.13 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc993d8b-5291-4671-8975-4c0947ef7718")
 		)
@@ -21676,7 +21951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "*CapStone*:SOT-5X3-6_DRL_TEX"
+		(property "Footprint" "capstone:SOT-5X3-6_DRL_TEX"
 			(at 83.82 25.4 0)
 			(effects
 				(font
@@ -21778,6 +22053,15 @@
 			)
 		)
 		(property "Unit" "pcs"
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 83.82 25.4 0)
 			(effects
 				(font
@@ -21940,6 +22224,15 @@
 			)
 		)
 		(property "Unit" "pcs"
+			(at 73.66 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 73.66 123.19 90)
 			(effects
 				(font
@@ -22268,6 +22561,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 152.4 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 152.4 142.24 0)
 			(effects
 				(font
@@ -22609,6 +22911,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 20.32 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 20.32 33.02 0)
 			(effects
 				(font
@@ -23219,6 +23530,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 193.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b3827ad8-8be8-43bd-b025-b986a08a6d8e")
 		)
@@ -23259,7 +23579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "*CapStone*:SW_TL2230EEF140"
+		(property "Footprint" "capstone:SW_TL2230EEF140"
 			(at 66.04 45.72 0)
 			(effects
 				(font
@@ -23359,6 +23679,15 @@
 			)
 		)
 		(property "Unit" "pcs"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 66.04 45.72 0)
 			(effects
 				(font
@@ -23420,7 +23749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "*CapStone*:SW_TL2230EEF140"
+		(property "Footprint" "capstone:SW_TL2230EEF140"
 			(at 66.04 30.48 0)
 			(effects
 				(font
@@ -23520,6 +23849,15 @@
 			)
 		)
 		(property "Unit" "pcs"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 66.04 30.48 0)
 			(effects
 				(font
@@ -23881,6 +24219,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 35.56 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c369f60c-7ed6-4e41-9bac-4f19a024d712")
 		)
@@ -24193,6 +24540,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 76.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 76.2 49.53 0)
 			(effects
 				(font
@@ -24541,6 +24897,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 40.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e49c37fd-244a-4d42-97b9-c3df291de201")
 		)
@@ -24861,6 +25226,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 143.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 143.51 137.16 0)
 			(effects
 				(font
@@ -25210,6 +25584,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 231.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "79603ab6-fe88-4822-a47a-480ec3f432fd")
 		)
@@ -25521,6 +25904,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 125.73 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 125.73 170.18 90)
 			(effects
 				(font
@@ -25869,6 +26261,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a947a8d-e07c-4f61-8176-650d6a7bf375")
 		)
@@ -26188,6 +26589,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14af651f-2590-4cd4-8cf1-98c6a53d74ea")
 		)
@@ -26499,6 +26909,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 168.91 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 168.91 142.24 90)
 			(effects
 				(font
@@ -26848,6 +27267,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 129.54 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5f2e7a47-e46e-43d7-a37f-ac41a45a7155")
 		)
@@ -27159,6 +27587,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 146.05 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 146.05 127 90)
 			(effects
 				(font
@@ -27486,6 +27923,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "813011fd-70db-4b5a-a125-b8dc2b1010c6")
 		)
@@ -27659,7 +28105,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "*CapStone*:IND_SRP6540-2R2M_BRN"
+		(property "Footprint" "capstone:IND_SRP6540-2R2M_BRN"
 			(at 137.16 31.75 0)
 			(effects
 				(font
@@ -27957,6 +28403,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 137.16 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e6ff754-f8d3-4580-b6fb-bf9066c8af41")
 		)
@@ -28107,6 +28562,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 73.66 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5f4955d-61f7-4b8b-babc-4c253a08beee")
 		)
@@ -28185,6 +28649,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 149.86 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 149.86 185.42 0)
 			(effects
 				(font
@@ -28534,6 +29007,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 43.18 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4bed7165-96b7-4d34-8e35-42ae7ebccdbc")
 		)
@@ -28867,6 +29349,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 53.34 106.68 0)
 			(effects
 				(font
@@ -29281,6 +29772,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 157.48 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0342f652-b566-45a2-9241-0409452b4bb9")
 		)
@@ -29592,6 +30092,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 125.73 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 125.73 165.1 90)
 			(effects
 				(font
@@ -29941,6 +30450,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 205.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "928b2f7a-69dd-4167-870a-1b377e1e284d")
 		)
@@ -30261,6 +30779,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bdad86f-fe6a-4ac2-a9f5-70875093fb49")
 		)
@@ -30573,6 +31100,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 30.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 30.48 118.11 0)
 			(effects
 				(font

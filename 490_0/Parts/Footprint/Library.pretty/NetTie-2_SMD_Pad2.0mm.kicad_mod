@@ -1,0 +1,111 @@
+(footprint "NetTie-2_SMD_Pad2.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Net tie, 2 pin, 2.0mm square SMD pads")
+	(tags "net tie")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9f95fbe3-269e-4c08-80bc-86cf33d3db63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NetTie_2"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1aac7b81-b3ed-4ba7-857a-c98487585700")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2441da31-9fd0-4c9f-9cea-4168f3b3087e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Net tie, 2 pins"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37d119bc-0c1e-4fdb-b537-567fdda57d78")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage Raing" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "894d8d1e-8de7-421c-b6ac-dba88face3cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage Rating" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea9ba2ef-fff9-49fd-ad14-be7fbf550871")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files allow_missing_courtyard)
+	(net_tie_pad_groups "1, 2")
+	(fp_poly
+		(pts
+			(xy -2 -1) (xy 2 -1) (xy 2 1) (xy -2 1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "26b2b561-970c-44c3-ab54-253b47a3199f")
+	)
+	(pad "1" smd circle
+		(at -2 0)
+		(size 2 2)
+		(layers "F.Cu")
+		(uuid "084f415d-fcca-4e0c-8c11-1b0793313bbe")
+	)
+	(pad "2" smd circle
+		(at 2 0)
+		(size 2 2)
+		(layers "F.Cu")
+		(uuid "0aed82da-e2cd-42a6-83c1-b171b47aa2fb")
+	)
+	(embedded_fonts no)
+)

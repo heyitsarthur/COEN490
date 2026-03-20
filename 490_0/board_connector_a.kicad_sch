@@ -3600,6 +3600,400 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SW_Push_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW2"
+				(at -1.778 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL1105LF160Q"
+				(at -6.35 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "*CapStone*:SW_TL1105LF160Q"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "kicad-embed://TL1105 (BUTTONS).pdf"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tactile Switch SPST-NO Top Actuated Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey Link" "https://www.digikey.ca/en/products/detail/e-switch/tl1105lf160q/378971"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Display" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB ID" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "E-Switch"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer NUMBER" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "TL1105LF160Q"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "DigiKey"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier P/N" "EG2505-ND"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Through Hole, Right Angle"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unit" "pcs"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Current - Load" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Current - Supply" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage - Load" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage - Supply" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Load Capacitance" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Shunt Capacitance" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PRICE" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.33"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage Raing" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_2_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "capstone_parts:C"
 			(pin_numbers
 				(hide yes)
@@ -13764,7 +14158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "*CapStone*:HIROSE_DF40C-100DS-0.4V_51_"
+		(property "Footprint" "capstone:HIROSE_DF40C-100DS-0.4V_51_"
 			(at 111.76 87.63 0)
 			(effects
 				(font
@@ -14067,6 +14461,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 111.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 111.76 87.63 0)
 			(effects
 				(font
@@ -14411,7 +14814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "*CapStone*:SOT95P240X120-3N"
+		(property "Footprint" "capstone:SOT95P240X120-3N"
 			(at 66.04 165.1 0)
 			(effects
 				(font
@@ -14538,6 +14941,15 @@
 			)
 		)
 		(property "Unit" "pcs"
+			(at 71.12 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 71.12 162.56 0)
 			(effects
 				(font
@@ -14946,6 +15358,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 83.82 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6672694e-0ab4-4f19-99ea-4f0fba67f600")
 		)
@@ -15108,6 +15529,15 @@
 		)
 		(property "Unit" "pcs"
 			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
+			(at 167.64 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15416,6 +15846,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 167.64 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f060e2c0-2b69-4fe0-b52e-2a664162dfa9")
 		)
@@ -15526,7 +15965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "*CapStone*:SW_TL1105LF160Q"
+		(property "Footprint" "capstone:SW_TL1105LF160Q"
 			(at 182.88 74.93 0)
 			(effects
 				(font
@@ -15796,6 +16235,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "64ac4549-5fa5-4df9-91fd-1ad7eb5c2a09")
 		)
@@ -15812,7 +16260,7 @@
 		)
 	)
 	(symbol
-		(lib_name "SW_Push_1")
+		(lib_name "SW_Push_2")
 		(lib_id "capstone_parts:SW_Push")
 		(at 33.02 82.55 0)
 		(unit 1)
@@ -15839,7 +16287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "*CapStone*:SW_TL1105LF160Q"
+		(property "Footprint" "capstone:SW_TL1105LF160Q"
 			(at 33.02 77.47 0)
 			(effects
 				(font
@@ -16109,6 +16557,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 33.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aba61bab-5b90-4c82-8c94-05a61a3fb7c4")
 		)
@@ -16337,6 +16794,15 @@
 		)
 		(property "Unit" "pcs"
 			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
+			(at 165.1 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16664,6 +17130,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 68.58 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bd42d700-18f4-4ea6-b674-b4665e9cb667")
 		)
@@ -16705,7 +17180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "*CapStone*:HIROSE_DF40C-100DS-0.4V_51_"
+		(property "Footprint" "capstone:HIROSE_DF40C-100DS-0.4V_51_"
 			(at 231.14 88.9 0)
 			(effects
 				(font
@@ -17008,6 +17483,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 231.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 231.14 88.9 0)
 			(effects
 				(font
@@ -17392,7 +17876,7 @@
 		)
 	)
 	(symbol
-		(lib_name "SW_Push_1")
+		(lib_name "SW_Push_2")
 		(lib_id "capstone_parts:SW_Push")
 		(at 182.88 106.68 0)
 		(unit 1)
@@ -17419,7 +17903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "*CapStone*:SW_TL1105LF160Q"
+		(property "Footprint" "capstone:SW_TL1105LF160Q"
 			(at 182.88 101.6 0)
 			(effects
 				(font
@@ -17689,6 +18173,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 182.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c3c91ec2-86a7-4211-af1c-2fe2a6194c09")
 		)
@@ -17732,7 +18225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "*CapStone*:SW_TL1105LF160Q"
+		(property "Footprint" "capstone:SW_TL1105LF160Q"
 			(at 33.02 55.88 0)
 			(effects
 				(font
@@ -18002,6 +18495,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 33.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3fad8286-ba50-4bc4-a61f-66e80e7cedbf")
 		)
@@ -18018,7 +18520,7 @@
 		)
 	)
 	(symbol
-		(lib_name "SW_Push_1")
+		(lib_name "SW_Push_2")
 		(lib_id "capstone_parts:SW_Push")
 		(at 38.1 101.6 0)
 		(unit 1)
@@ -18045,7 +18547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "*CapStone*:SW_TL1105LF160Q"
+		(property "Footprint" "capstone:SW_TL1105LF160Q"
 			(at 38.1 96.52 0)
 			(effects
 				(font
@@ -18308,6 +18810,15 @@
 		)
 		(property "Voltage Rating" ""
 			(at 38.1 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
+			(at 38.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18701,6 +19212,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 83.82 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "381e3d0c-a0a9-458c-a1d7-cde018393857")
 		)
@@ -19002,6 +19522,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 50.8 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6300031-570a-43ec-af95-d4e673efd35a")
 		)
@@ -19164,6 +19693,15 @@
 		)
 		(property "Unit" "pcs"
 			(at 43.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
+			(at 43.18 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19568,6 +20106,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 68.58 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2b869823-52b4-477c-bece-ccfe49a9542a")
 		)
@@ -19676,7 +20223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "*CapStone*:CON2_1X2_TU_HTS_SAI"
+		(property "Footprint" "capstone:CON2_1X2_TU_HTS_SAI"
 			(at 51.435 187.325 0)
 			(effects
 				(font
@@ -19796,6 +20343,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 50.8 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e6ddf7d0-8006-44bd-af7d-71cc38f165ee")
 		)
@@ -19878,7 +20434,7 @@
 		)
 	)
 	(symbol
-		(lib_name "SW_Push_1")
+		(lib_name "SW_Push_2")
 		(lib_id "capstone_parts:SW_Push")
 		(at 185.42 132.08 0)
 		(unit 1)
@@ -19905,7 +20461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "*CapStone*:SW_TL1105LF160Q"
+		(property "Footprint" "capstone:SW_TL1105LF160Q"
 			(at 185.42 127 0)
 			(effects
 				(font
@@ -20168,6 +20724,15 @@
 		)
 		(property "Voltage Rating" ""
 			(at 185.42 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
+			(at 185.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20535,6 +21100,15 @@
 		)
 		(property "Unit" "pcs"
 			(at 55.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
+			(at 55.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)

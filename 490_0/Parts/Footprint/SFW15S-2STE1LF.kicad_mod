@@ -1,0 +1,540 @@
+(footprint "SFW15S-2STE1LF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7.575 -3.885 0)
+		(layer "F.SilkS")
+		(uuid "dc1fd40d-7d9c-4212-908e-e04589fe6300")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SFW15S-2STE1LF"
+		(at 3.855 4.115 0)
+		(layer "F.Fab")
+		(uuid "ab83ee47-dc23-4ff1-ab70-c5235e01035b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "kicad-embed://SFW15S-2STE1LF.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53c87f17-ca36-4042-bb95-072313dc5e2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe8b61ed-1bc5-4f5a-8305-6a7195add824")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07715658-fa9a-48ed-bd33-b183e8df35ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55349d6d-d7f0-4b8d-860e-380eb3fa0737")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "6.80mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29612b73-1228-44b4-8b10-1ed9d560fdac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Amphenol"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "384d15fd-051e-4044-a04d-12bd306add6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Website" "https://www.digikey.ca/en/products/detail/amphenol-cs-fci/SFW15S-2STE1LF/1001462"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5ac6eba-11cd-4980-a075-44ea74fdcf8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Website 2" "https://www.amphenol-cs.com/product/sfw15s2ste1lf.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef1a4f84-90da-4d16-8664-fb5bf99e7d10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -10.7 -1.8)
+		(end -6.62 -1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0381bbb4-00b3-4d30-86a9-fb3dc84e518d")
+	)
+	(fp_line
+		(start -10.7 1.8)
+		(end -10.7 -1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "daae50ea-4d05-470a-9c87-a05a5d8ff471")
+	)
+	(fp_line
+		(start -7.62 1.8)
+		(end -10.7 1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c921eb0b-a26f-44e2-8bc0-23337d4a8fbc")
+	)
+	(fp_line
+		(start -5.62 1.8)
+		(end -6.38 1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5c02a1b-bb89-463c-b69b-bde402b3e975")
+	)
+	(fp_line
+		(start -5.38 -1.8)
+		(end -4.62 -1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18a33943-2062-4ea2-8622-c2af59cdca48")
+	)
+	(fp_line
+		(start -3.62 1.8)
+		(end -4.38 1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9b1e398-3f9a-41b0-9ad5-965961e97980")
+	)
+	(fp_line
+		(start -3.38 -1.8)
+		(end -2.62 -1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e70b7d8-2644-4815-b3dd-47f01aed0c64")
+	)
+	(fp_line
+		(start -1.62 1.8)
+		(end -2.38 1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "307820e1-db08-439c-8291-1ac2f67d8f50")
+	)
+	(fp_line
+		(start -1.38 -1.8)
+		(end -0.62 -1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "072a9eda-41a6-4cbc-a5e6-a564a17894db")
+	)
+	(fp_line
+		(start 0.38 1.8)
+		(end -0.38 1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76511c43-9aa6-44f4-b7f7-d49778b99be6")
+	)
+	(fp_line
+		(start 0.62 -1.8)
+		(end 1.38 -1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f37198c-ded1-4417-b2e3-09d425fd6144")
+	)
+	(fp_line
+		(start 2.38 1.8)
+		(end 1.62 1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bed085cf-20b9-488a-ba1c-7aaed00311dc")
+	)
+	(fp_line
+		(start 2.62 -1.8)
+		(end 3.38 -1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e03af6a9-6578-4365-9006-768c51296682")
+	)
+	(fp_line
+		(start 4.38 1.8)
+		(end 3.62 1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5c0a23d-9748-4a03-8f3a-851237ea2886")
+	)
+	(fp_line
+		(start 4.62 -1.8)
+		(end 5.38 -1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29365e70-881a-49a6-b307-92b1b6cef352")
+	)
+	(fp_line
+		(start 6.38 1.8)
+		(end 5.62 1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8983c083-5457-4fe8-928e-ec5ffe9d26cb")
+	)
+	(fp_line
+		(start 6.62 -1.8)
+		(end 10.7 -1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fae951c-d161-4940-a0cb-0c09ca927929")
+	)
+	(fp_line
+		(start 10.7 -1.8)
+		(end 10.7 1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb74c31a-f77d-49c3-9ef1-351eea300e4c")
+	)
+	(fp_line
+		(start 10.7 1.8)
+		(end 7.62 1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1239c4d9-db30-4837-8be9-cf04f18b5f83")
+	)
+	(fp_circle
+		(center -7 3.25)
+		(end -6.9 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6b8cf122-d1b5-4762-9471-a80525bd3f39")
+	)
+	(fp_line
+		(start -10.95 -3)
+		(end -10.95 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59a74563-9ea1-4c1a-b369-1332f60019c1")
+	)
+	(fp_line
+		(start -10.95 3)
+		(end 10.95 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95b7c023-8132-41d0-bf8d-35abfc37ab0b")
+	)
+	(fp_line
+		(start 10.95 -3)
+		(end -10.95 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f719b7fa-7460-4b9d-b2aa-c82edc0c49a6")
+	)
+	(fp_line
+		(start 10.95 3)
+		(end 10.95 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b0eee99-2ed6-4b47-9ead-fb71f4df920e")
+	)
+	(fp_line
+		(start -10.7 -1.8)
+		(end 10.7 -1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8bfcd834-7920-463a-a9f2-a2d2c074a3a3")
+	)
+	(fp_line
+		(start -10.7 1.8)
+		(end -10.7 -1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4492c51d-ffa0-4095-a45c-fe1cb8fa3569")
+	)
+	(fp_line
+		(start 10.7 -1.8)
+		(end 10.7 1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea0f0da4-945e-4393-af3e-6d79586ec8d2")
+	)
+	(fp_line
+		(start 10.7 1.8)
+		(end -10.7 1.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f639d7e9-3d0c-441a-a12c-e20fe1e36ac4")
+	)
+	(fp_circle
+		(center -7 3.25)
+		(end -6.9 3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "09164242-4ed4-4f6b-a63f-330b0da86f7d")
+	)
+	(pad "1" smd rect
+		(at -7 1.925)
+		(size 0.6 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "6ac62688-0073-49b7-b2b5-2b4abb825d42")
+	)
+	(pad "2" smd rect
+		(at -6 -1.825)
+		(size 0.6 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b9175a7f-146d-499f-a9db-c7a93933f72c")
+	)
+	(pad "3" smd rect
+		(at -5 1.925)
+		(size 0.6 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "ad54bc01-5881-4062-9582-88ae16a91c09")
+	)
+	(pad "4" smd rect
+		(at -4 -1.825)
+		(size 0.6 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "4ab03c7a-1768-48ea-91bd-ade70564e821")
+	)
+	(pad "5" smd rect
+		(at -3 1.925)
+		(size 0.6 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "01cd864b-a87e-4a52-ba12-d374c4faef60")
+	)
+	(pad "6" smd rect
+		(at -2 -1.825)
+		(size 0.6 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "2518264f-8696-47f7-8055-7237c2d7ca68")
+	)
+	(pad "7" smd rect
+		(at -1 1.925)
+		(size 0.6 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b8f2894a-b120-49ab-8dc4-b535f08934ac")
+	)
+	(pad "8" smd rect
+		(at 0 -1.825)
+		(size 0.6 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "430909b8-b12a-4f26-b8c6-cf4952814bbb")
+	)
+	(pad "9" smd rect
+		(at 1 1.925)
+		(size 0.6 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "998593d1-57ea-4b62-9724-0f054a34ff5b")
+	)
+	(pad "10" smd rect
+		(at 2 -1.825)
+		(size 0.6 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "15a102b6-884d-44fe-8ec4-9c559d6d6fc7")
+	)
+	(pad "11" smd rect
+		(at 3 1.925)
+		(size 0.6 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "5013d9a4-c3bf-442f-8042-1c88197e6ca0")
+	)
+	(pad "12" smd rect
+		(at 4 -1.825)
+		(size 0.6 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "34978d8b-d1e8-4d7a-be08-3b5385aac80b")
+	)
+	(pad "13" smd rect
+		(at 5 1.925)
+		(size 0.6 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e5a10b94-b547-40d7-9285-148593e5cf3e")
+	)
+	(pad "14" smd rect
+		(at 6 -1.825)
+		(size 0.6 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "0568b51d-1ca2-49c2-8da6-10691cd16ed1")
+	)
+	(pad "15" smd rect
+		(at 7 1.925)
+		(size 0.6 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "9836ed0c-a843-482b-912d-17b12672d1ae")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Parts/3D Models/SFW15S-2STE1LF.STEP"
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+)

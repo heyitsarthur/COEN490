@@ -2935,7 +2935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "*CapStone*:CON3_1X3_TU_HTS_SAI - 3POS Connector"
+		(property "Footprint" "capstone:CON3_1X3_TU_HTS_SAI - 3POS Connector"
 			(at 246.38 79.375 0)
 			(effects
 				(font
@@ -3047,6 +3047,15 @@
 			)
 		)
 		(property "Unit" "pcs"
+			(at 246.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 246.38 86.36 0)
 			(effects
 				(font
@@ -3529,6 +3538,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ab7d0b6d-0f5f-482c-a125-2428d25c6f31")
 		)
@@ -3714,7 +3732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "*CapStone*:RSE10"
+		(property "Footprint" "capstone:RSE10"
 			(at 165.1 83.82 0)
 			(effects
 				(font
@@ -3834,6 +3852,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 165.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 165.1 83.82 0)
 			(effects
 				(font
@@ -4207,6 +4234,15 @@
 				(hide yes)
 			)
 		)
+		(property "OPTION" ""
+			(at 109.22 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "281224a7-f460-4f77-b93b-515277d5dd0f")
 		)
@@ -4250,7 +4286,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "*CapStone*:SOT553_LTF_SP3003_02XTG"
+		(property "Footprint" "capstone:SOT553_LTF_SP3003_02XTG"
 			(at 137.16 119.38 0)
 			(effects
 				(font
@@ -4406,6 +4442,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 137.16 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 137.16 119.38 90)
 			(effects
 				(font

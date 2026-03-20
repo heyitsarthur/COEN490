@@ -1,0 +1,421 @@
+(footprint "CONN_S2B-ZR_JST"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "S2B-ZRLFSN ")
+	(property "Reference" "REF**"
+		(at -1.119399 -2.129599 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8133651a-c00f-486d-8eb3-1c2d8b9cd503")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "S2B-ZR"
+		(at 0.75 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ad7ce689-27c6-49d6-8389-5af44e68a991")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "kicad-embed://eZH.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6a9fe4c-647a-49a8-84e3-0717e7c1a9f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CONN HEADER R/A 2POS 1.5MM"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e478b2a8-4526-4a32-8897-e2e9487c695f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Specifications" "Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30afdac3-2467-4260-8882-261fce80edf1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "JST Sales America Inc."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f121e81-f248-46d0-bbd3-9aa417f5373b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "1-0201FBV0T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecbf1a7c-fd34-479f-a542-d74d828cbd41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Current - Load" "3A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d72b750-e366-4ffc-a45f-12f41bbfb580")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/s2b-zr/926576"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2be5d9e-28e8-4eb0-8a60-ce97218c8602")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "S2B-ZR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a012ec3-ed62-48a7-baa4-969cf263d775")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "Bulk"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6356ff18-0d30-4a46-a9b2-38ffa116abfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "0.11"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "baef1b34-a831-4152-8af8-41c99591c54b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "DigiKey"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c040a76-7b86-44c9-a53e-54c51d529e8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier P/N" "455-1669-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "375b3556-9f8e-4fdd-8c93-8bd2b7e02d63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "Through Hole, Right Angle"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "578dd3d4-bdc1-418f-940a-8b38e35506af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Unit" "pcs"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e366c1f1-ba03-4de7-914f-09d397f4022b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage - Load" "250V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64e05ac4-fdc0-4f10-be1c-21e455c0f546")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "OPTION" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91b259c3-9a0b-4579-a5fd-98792ffc85d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.6249 -1.527)
+		(end -1.6249 4.7214)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c620da4-2974-4e0b-b596-0b5cc1213935")
+	)
+	(fp_line
+		(start -1.6249 4.7214)
+		(end 3.1249 4.7214)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b824ee81-d9af-497f-b1f2-d6315f455906")
+	)
+	(fp_line
+		(start 3.1249 -1.527)
+		(end -1.6249 -1.527)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08cdf2bd-73d9-4465-a3a3-db1167b07596")
+	)
+	(fp_line
+		(start 3.1249 4.7214)
+		(end 3.1249 -1.527)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2da55ad-2a3a-4486-bfb9-94136e0327ca")
+	)
+	(fp_circle
+		(center -3.4029 0)
+		(end -3.0219 0)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "42ea2d4b-2511-45be-bb00-cdcb7efcc615")
+	)
+	(fp_circle
+		(center -3.4029 0)
+		(end -3.0219 0)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "b0efe5c2-af65-4f25-bbe7-1df4f31f487b")
+	)
+	(fp_line
+		(start -1.7519 -1.654)
+		(end -1.7519 4.8484)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8219d288-fb96-473d-bb77-7c0c9d3faba6")
+	)
+	(fp_line
+		(start -1.7519 4.8484)
+		(end 3.2519 4.8484)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e5fa9b5-64de-4ea5-bb9b-e230bedebdfe")
+	)
+	(fp_line
+		(start 3.2519 -1.654)
+		(end -1.7519 -1.654)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3f0ba75a-b2c3-492d-b82f-ae627e8f110e")
+	)
+	(fp_line
+		(start 3.2519 4.8484)
+		(end 3.2519 -1.654)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2fe1dbdf-24d0-471b-b711-a2c011dfb4c3")
+	)
+	(fp_line
+		(start -1.4979 -1.4)
+		(end -1.4979 4.5944)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5402a7d0-3e49-4ab3-be55-cc1d69650ec3")
+	)
+	(fp_line
+		(start -1.4979 4.5944)
+		(end 2.9979 4.5944)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eea6eabb-1caa-44d5-8f7c-1cdd8ba08dfc")
+	)
+	(fp_line
+		(start 2.9979 -1.4)
+		(end -1.4979 -1.4)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "afd7a85e-b4df-47c6-8e3f-6d4979a15661")
+	)
+	(fp_line
+		(start 2.9979 4.5944)
+		(end 2.9979 -1.4)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "697da6af-5309-4816-ae58-52eb5b91c14f")
+	)
+	(fp_circle
+		(center 0 -1.905)
+		(end 0.381 -1.905)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "783dc825-26fa-469f-82da-8d5b3479443c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.75 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "17ebe192-6e04-43e8-b103-aaf2fe997ff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.2446 1.2446)
+		(drill 0.7366)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94cf7f05-f9b7-4073-8ae4-314bf7c246da")
+	)
+	(pad "2" thru_hole circle
+		(at 1.500001 0)
+		(size 1.2446 1.2446)
+		(drill 0.7366)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "62e264ba-d72c-4992-bc49-4fc1f07725e7")
+	)
+	(embedded_fonts no)
+)

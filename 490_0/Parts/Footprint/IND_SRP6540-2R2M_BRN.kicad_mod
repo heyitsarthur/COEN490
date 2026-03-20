@@ -1,40 +1,713 @@
-(footprint "IND_SRP6540-2R2M_BRN" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tags "SRP6540-2R2M ")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 0 unlocked) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value IND_SRP6540-2R2M_BRN (at 0 0 unlocked) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -4.3053 1.8796) (end -4.3053 -1.8796) (layer "F.CrtYd") (width 0.1524))
-  (fp_line (start -4.3053 -1.8796) (end -4.0005 -1.8796) (layer "F.CrtYd") (width 0.1524))
-  (fp_line (start 4.3053 -1.8796) (end 4.0005 -1.8796) (layer "F.CrtYd") (width 0.1524))
-  (fp_line (start 4.3053 -1.8796) (end 4.3053 1.8796) (layer "F.CrtYd") (width 0.1524))
-  (fp_line (start 4.3053 1.8796) (end 4.0005 1.8796) (layer "F.CrtYd") (width 0.1524))
-  (fp_line (start -4.3053 1.8796) (end -4.0005 1.8796) (layer "F.CrtYd") (width 0.1524))
-  (fp_line (start -4.0005 3.6068) (end -4.0005 1.8796) (layer "F.CrtYd") (width 0.1524))
-  (fp_line (start -4.0005 -1.8796) (end -4.0005 -3.6068) (layer "F.CrtYd") (width 0.1524))
-  (fp_line (start -4.0005 -3.6068) (end 4.0005 -3.6068) (layer "F.CrtYd") (width 0.1524))
-  (fp_line (start 4.0005 -3.6068) (end 4.0005 -1.8796) (layer "F.CrtYd") (width 0.1524))
-  (fp_line (start 4.0005 1.8796) (end 4.0005 3.6068) (layer "F.CrtYd") (width 0.1524))
-  (fp_line (start 4.0005 3.6068) (end -4.0005 3.6068) (layer "F.CrtYd") (width 0.1524))
-  (fp_circle (center -1.5367 0) (end -1.5367 0) (layer "F.Fab") (width 0.1524) (fill none))
-  (fp_line (start -3.8735 3.4798) (end 3.8735 3.4798) (layer "F.SilkS") (width 0.1524))
-  (fp_line (start 3.8735 3.4798) (end 3.8735 1.95834) (layer "F.SilkS") (width 0.1524))
-  (fp_line (start 3.8735 -3.4798) (end -3.8735 -3.4798) (layer "F.SilkS") (width 0.1524))
-  (fp_line (start -3.8735 -3.4798) (end -3.8735 -1.95834) (layer "F.SilkS") (width 0.1524))
-  (fp_line (start -3.7465 3.3528) (end 3.7465 3.3528) (layer "F.Fab") (width 0.0254))
-  (fp_line (start 3.7465 3.3528) (end 3.7465 -3.3528) (layer "F.Fab") (width 0.0254))
-  (fp_line (start 3.7465 -3.3528) (end -3.7465 -3.3528) (layer "F.Fab") (width 0.0254))
-  (fp_line (start -3.7465 -3.3528) (end -3.7465 3.3528) (layer "F.Fab") (width 0.0254))
-  (fp_arc (start 0.3048 -3.3528) (mid 0 -3.048) (end -0.3048 -3.3528) (layer "F.Fab") (width 0.0254))
-  (fp_line (start -3.8735 1.95834) (end -3.8735 3.4798) (layer "F.SilkS") (width 0.1524))
-  (fp_line (start 3.8735 -1.95834) (end 3.8735 -3.4798) (layer "F.SilkS") (width 0.1524))
-  (pad "1" smd rect (at -2.794 0) (size 2.5146 3.2512) (layers "F.Cu" "F.Paste" "F.Mask"))
-  (pad "2" smd rect (at 2.794 0) (size 2.5146 3.2512) (layers "F.Cu" "F.Paste" "F.Mask"))
+(footprint "IND_SRP6540-2R2M_BRN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "SRP6540-2R2M ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b94d9395-e089-47f8-8763-672922e538b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2.2u"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e9e8c760-2274-47e5-812f-1bf94f3c9283")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "kicad-embed://srp6540 (2.2u inductor).pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e6320e8-3935-4145-b220-c9a8fdc9c44f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "FIXED IND 2.2UH 9A 15.5 MOHM SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "725e5ebb-e58e-462b-b44f-6f6f9e6410fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PROD_ID" "NDUC-14257"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "258f2156-0919-4875-85be-3a787c402cc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Current" "? A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa0569c9-2efc-4244-881e-32bd53e7aeab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey Link" "https://www.digikey.ca/en/products/detail/bourns-inc/srp6540-2r2m/3986093"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41a7e7b6-f35a-4a5a-b9b5-f78425170638")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Display" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7a746cd-56fd-4add-ab98-2265ee857f3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB ID" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a764a246-2cf8-4c45-9da8-b1aa8ef80dee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Bourns Inc."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0da63b4f-6f74-405e-8b98-7fbd9e9312bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer NUMBER" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "826729e6-224c-4984-95c6-1e02604de974")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "164dac73-1878-4c7f-9353-c745e60ff56d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Specifications" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db3daf20-fd22-4ce0-a273-48ebcf363c93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tolerance" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ab0ce87-6056-4684-a0cd-245d9dae773e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4f3de1e-eaae-4890-aeac-ddea93648ac8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "SRP6540-2R2M"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ed6d70e-09f4-4347-b81f-83f11b2171c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Params" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d70cd9db-b0d0-41e2-880b-d98d54231db3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "DigiKey"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4fcdf3a-8e2e-4297-99e7-dae4532a8c39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier P/N" "SRP6540-2R2MCT-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b6f2877-6d45-4b05-bae4-f254a9143e99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86d77918-8abc-409c-86e1-54d7dd239448")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Unit" "pcs"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a03e27cd-3a7c-49d1-a002-5246285e02e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Current - Load" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "224317f4-d9bb-4b33-a5ed-071584a8d8ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Current - Supply" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b622410a-136c-4a58-a77b-668c9f84db97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage - Load" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1da522e-52a1-407f-ae3d-e2b1c34b8ad7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage - Supply" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06881c36-3487-4909-871b-7b9eb988e77a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Load Capacitance" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "502e7ec2-031b-462e-a00d-43a097f56ea6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Shunt Capacitance" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d23f089c-027f-4d5f-b51a-4d84b7421d7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "AVAILABILITY" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbf02758-66f5-471f-825a-ca2a5995ae6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b294f498-6290-4f6a-b5f8-515fe1f91b8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PRICE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "101ad16e-39ab-4fa7-9daa-4f5d6b48de58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "Nonstandard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eac9785e-b0de-457f-912e-02c75e4bc714")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "1.11"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cadefab8-c553-4eb6-a6e3-3476f07a1a4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage Raing" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b5f8b37-d8b3-42ec-b5f3-94d641b17e9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage Rating" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "803b5708-9c4f-4a69-97aa-f3ebf7a75bad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.8735 -3.4798)
+		(end -3.8735 -1.95834)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ca03dd4-a12e-41db-80c5-7786297ac8da")
+	)
+	(fp_line
+		(start -3.8735 1.95834)
+		(end -3.8735 3.4798)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba92de3f-0d99-4954-b9e1-445fb06ccbc0")
+	)
+	(fp_line
+		(start -3.8735 3.4798)
+		(end 3.8735 3.4798)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5eb36e2-abd7-4419-be00-0f1f108dbdc2")
+	)
+	(fp_line
+		(start 3.8735 -3.4798)
+		(end -3.8735 -3.4798)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ccef167-517c-4f38-8cd6-5c1aaf7f06d3")
+	)
+	(fp_line
+		(start 3.8735 -1.95834)
+		(end 3.8735 -3.4798)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e282e9d-d1b6-48b5-95ab-864764605932")
+	)
+	(fp_line
+		(start 3.8735 3.4798)
+		(end 3.8735 1.95834)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c77071a9-037b-4f70-a283-c7de109b2d15")
+	)
+	(fp_line
+		(start -4.3053 -1.8796)
+		(end -4.0005 -1.8796)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d87d9d4-f28e-4539-b330-c11aff1cf976")
+	)
+	(fp_line
+		(start -4.3053 1.8796)
+		(end -4.3053 -1.8796)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b88efd2-61c4-49fe-bffe-92efdf7d5fd9")
+	)
+	(fp_line
+		(start -4.3053 1.8796)
+		(end -4.0005 1.8796)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6dca35f6-30d5-4cb5-90c9-85b4f650fe24")
+	)
+	(fp_line
+		(start -4.0005 -3.6068)
+		(end 4.0005 -3.6068)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8108a5f6-add4-4413-b9f5-7f539817d1d3")
+	)
+	(fp_line
+		(start -4.0005 -1.8796)
+		(end -4.0005 -3.6068)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c1744a3-f5dd-47ff-8744-b9094ee488be")
+	)
+	(fp_line
+		(start -4.0005 3.6068)
+		(end -4.0005 1.8796)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd57fc43-21d5-48a7-8bc7-460ec8924401")
+	)
+	(fp_line
+		(start 4.0005 -3.6068)
+		(end 4.0005 -1.8796)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4d1f509-513d-463f-9548-dcbf5397bb65")
+	)
+	(fp_line
+		(start 4.0005 1.8796)
+		(end 4.0005 3.6068)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d27ba02c-9898-4d25-9ec9-b73481965fd5")
+	)
+	(fp_line
+		(start 4.0005 3.6068)
+		(end -4.0005 3.6068)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e3349a0-6c51-45f3-97c2-9f7dbd9f5105")
+	)
+	(fp_line
+		(start 4.3053 -1.8796)
+		(end 4.0005 -1.8796)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7dbc6b1-db03-4d6a-8e50-e08854572180")
+	)
+	(fp_line
+		(start 4.3053 -1.8796)
+		(end 4.3053 1.8796)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d4ccff5-8810-4705-b3dc-918512f3f106")
+	)
+	(fp_line
+		(start 4.3053 1.8796)
+		(end 4.0005 1.8796)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8795a39c-ea98-44bd-abd5-81d6843980c4")
+	)
+	(fp_line
+		(start -3.7465 -3.3528)
+		(end -3.7465 3.3528)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7e00f67-aa6c-475e-b969-39c399e8f1d3")
+	)
+	(fp_line
+		(start -3.7465 3.3528)
+		(end 3.7465 3.3528)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4d0d50c-cf58-438a-86b3-721c2b39bf2e")
+	)
+	(fp_line
+		(start 3.7465 -3.3528)
+		(end -3.7465 -3.3528)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c3a1e92-c543-4762-8ffe-56abdc365f81")
+	)
+	(fp_line
+		(start 3.7465 3.3528)
+		(end 3.7465 -3.3528)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec8712b8-1983-47af-99d7-e8647ae9a9ab")
+	)
+	(fp_arc
+		(start 0.3048 -3.3528)
+		(mid 0 -3.048)
+		(end -0.3048 -3.3528)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08bd143c-147d-4665-b1f9-1c54b281239a")
+	)
+	(fp_circle
+		(center -1.5367 0)
+		(end -1.5367 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2ec978e3-a5c9-426b-aa17-ee1859e6e25e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "695c702e-ed0b-4ee6-8928-bf3219523068")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.794 0)
+		(size 2.5146 3.2512)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "18fccb1f-a528-4492-9293-035e7af6c3c2")
+	)
+	(pad "2" smd rect
+		(at 2.794 0)
+		(size 2.5146 3.2512)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "01fc782e-4552-4dec-bb6e-e190da61f219")
+	)
+	(embedded_fonts no)
 )

@@ -3630,7 +3630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "*CapStone*:CNCTECH_2000-1-1-20-00-BK"
+		(property "Footprint" "capstone:CNCTECH_2000-1-1-20-00-BK"
 			(at 80.645 81.28 0)
 			(effects
 				(font
@@ -3730,6 +3730,15 @@
 			)
 		)
 		(property "Unit" "pcs"
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 81.28 81.28 0)
 			(effects
 				(font
@@ -4041,7 +4050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "*CapStone*:TPD8S009DSMR"
+		(property "Footprint" "capstone:TPD8S009DSMR"
 			(at 175.26 127 0)
 			(effects
 				(font
@@ -4143,6 +4152,15 @@
 			)
 		)
 		(property "Unit" "pcs"
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 175.26 127 0)
 			(effects
 				(font
@@ -4333,6 +4351,15 @@
 			)
 		)
 		(property "Unit" "pcs"
+			(at 132.08 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 132.08 101.6 90)
 			(effects
 				(font
@@ -4582,7 +4609,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "*CapStone*:SOT553_LTF_SP3003_02XTG"
+		(property "Footprint" "capstone:SOT553_LTF_SP3003_02XTG"
 			(at 106.68 144.78 0)
 			(effects
 				(font
@@ -4738,6 +4765,15 @@
 			)
 		)
 		(property "Voltage Rating" ""
+			(at 106.68 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
 			(at 106.68 144.78 90)
 			(effects
 				(font
